@@ -234,15 +234,15 @@ var x2 = setInterval(function () {
     }
   }
   baseLinkReview = "https://androidshark.com/review/"
-  baseLinkImg = "https://androidshark.com/img/"
+  baseLinkImg = "https://uploads-ssl.webflow.com/"
   
 	//################################################################
 	// CASUAL TOP 8
 	//################################################################
-	casual1a = new addGame(baseLinkReview+"2-player-games", baseLinkImg+"2-player-games-icon.jpg", "2 Player Games")
-	casual2a = new addGame(baseLinkReview+"bee-brilliant", baseLinkImg+"bee-brilliant-icon.jpg", "Bee Brilliant")
-	casual3a = new addGame(baseLinkReview+"catapult-quest", baseLinkImg+"big-catapult-quest.jpg", "Catapult Quest")
-	casual4a = new addGame(baseLinkReview+"mousebusters", baseLinkImg+"big-mousebusters.jpg", "Mousebusters")
+	casual1a = new addGame(baseLinkReview+"2-player-games", baseLinkImg+"6262a56df551ed5332d9048e/62751dcdefef3199d6915147_2-player-games-icon.jpg", "2 Player Games")
+	casual2a = new addGame(baseLinkReview+"bee-brilliant", baseLinkImg+"6262a56df551ed5332d9048e/628266d23da26d3ce1eac273_bee-brilliant-icon.jpg", "Bee Brilliant")
+	casual3a = new addGame(baseLinkReview+"catapult-quest", baseLinkImg+"6262a56df551ed5332d9048e/62826830af2e2e4c24c1be2c_catapult-quest-icon.jpg", "Catapult Quest")
+	casual4a = new addGame(baseLinkReview+"mousebusters", baseLinkImg+"6262a56df551ed5332d9048e/627d39a58fdb8888d02ab807_mousebusters-icon.jpg", "Mousebusters")
 	casual5a = new addGame(baseLinkReview+"orbia", baseLinkImg+"orbia-tap-and-relax-icon.jpg", "Orbia")
 	casual6a = new addGame(baseLinkReview+"pinball-deluxe-reloaded", baseLinkImg+"big-pinball-deluxe-reloaded.jpg", "Pinball Deluxe Reloaded")
 
