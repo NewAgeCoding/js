@@ -3,18 +3,18 @@
 // ##################################################################
 games = ["among us", "archero", "ancient planet tower defense", "art of war 3 global conflict", "cardinal quest 2", "baseball9", "altos adventure", "forge of empires",
     "adventure beaks", "skullgirls", "alien isolation", "infinitode2", "nba 2k", "scary horror 2", "bloons td 6", "moonshades", "prison empire tycoon", "bloody bastards",
-    "badland", "battle of polytopia", "banana kong", "bee brilliant", "castle crush", "catapult quest", "city island5", "cooking fever", "dino bash", "exploding kittens", "raid shadow legends",
+    "badland", "battle of polytopia", "bee brilliant", "castle crush", "catapult quest", "city island5", "cooking fever", "dino bash", "exploding kittens", "raid shadow legends",
     "the walking zombie 2", "lara croft relic run", "block puzzle", "asphalt 9 legends", "guardian tales", "plant the world", "flip diving", "square fists boxing", "brawlhalla",
     "cube escape paradox", "eternium", "fishdom", "gardenscapes", "good pizza great pizza", "grimvalor", "hill climb racing 2", "hellrider 3", "oddmar",
     "hocus", "horizon chase world tour", "hot wheels race off", "hyperforma", "moto x3m bike race game", "mousebusters", "rooster defense", "botworld adventure",
     "mystery manor", "nihilumbra", "onebit adventure", "pinball deluxe reloaded", "pirates showdown", "power rangers legacy wars", "great conqueror",
     "magic survival", "legend of solgard", "metal soldiers 2", "sky children of the light", "wild castle td", "space expedition", "genshin impact",
     "quell", "roblox", "shadow fight arena", "sky force reloaded", "snowman story", "life is strange", "death park 2", "forgotton anne",
-    "stardew valley", "swamp attack", "tank battle heroes", "vampires fall origins", "cosmic challenge racing", "fin ancient mystery",
+    "stardew valley",  "tank battle heroes", "vampires fall origins", "cosmic challenge racing", "fin ancient mystery",
     "jurassic monster world", "pubg mobile", "traffic racer", "swordigo", "kingdom rush", "mars mars", "scrabble go", "toy defense 2",
     "call of duty mobile", "ea sports ufc", "day r survival", "snail bob 3", "shadow hunter lost world", "mega tower", "me is king",
     "candy crush soda saga", "space marshals 2", "1945 air force", "snow bros classic", "golf king world tour", "hockey all stars",
-    "geometry dash subzero", "rival gears racing", "tsuki adventure", "blackmoor 2", "grumpy dwarf", "hello yogurt", "air attack", "air attack 2", "age of magic", "basketball battle", "ancient bricks", "top fuel hot rod", "smashy road wanted 2", "g switch 3", "johnny trigger", "mrbean special delivery", "ski safari 2", "transmute galaxy battle", "demolition derby 3", "the witchs isle", "temple run 2", "sword of xolan", "sea invaders", "apple knight", "real racing 3", "constellation eleven", "xenowerk", "super cat tales 2", "lightning duru", "subway surfers", "godzilla defense force", "skiing yeti mountain", "orbia", "carx highway racing", "2 player games", "spongebob krusty cook off", "dragon mania legends", "cut the rope 2", "walk master", "okay", "endurance", "flaming-core", "simcity buildit", "snake arena", "leps world 3", "find a way", "megabots battle arena", "earn 2 die", "not not", "rail rush", "fancy pants adventures", "kung fu fight arena", "payback 2", "plank!", "sky fighters 3d", "stick war legacy", "the frostrune", "real boxing 2", "world of tennis roaring 20s", "bowmasters", "cats are liquid", "module td", "32 secs",
+    "geometry dash subzero", "rival gears racing", "tsuki adventure", "grumpy dwarf", "hello yogurt", "air attack", "air attack 2", "age of magic", "basketball battle", "ancient bricks", "top fuel hot rod", "smashy road wanted 2", "g switch 3", "johnny trigger", "mrbean special delivery", "ski safari 2", "transmute galaxy battle", "demolition derby 3", "the witchs isle", "temple run 2", "sword of xolan", "sea invaders", "apple knight", "real racing 3", "constellation eleven", "xenowerk", "super cat tales 2", "lightning duru", "subway surfers", "godzilla defense force", "orbia", "carx highway racing", "2 player games", "spongebob krusty cook off", "dragon mania legends", "cut the rope 2", "walk master", "okay", "endurance", "flaming-core", "simcity buildit", "snake arena", "leps world 3", "find a way", "megabots battle arena", "earn 2 die", "not not", "rail rush", "fancy pants adventures", "kung fu fight arena", "payback 2", "plank!", "sky fighters 3d", "stick war legacy", "the frostrune", "real boxing 2", "world of tennis roaring 20s", "bowmasters", "cats are liquid", "module td", "32 secs",
     "pba bowling challenge", "gunspell 2", "mortal crusade", "robot destroyer red siren", "angry birds 2", "election year knockout"
 ]
 
@@ -243,24 +243,24 @@ var x2 = setInterval(function () {
 	casual2a = new addGame(baseLinkReview+"bee-brilliant", baseLinkImg+"6262a56df551ed5332d9048e/628266d23da26d3ce1eac273_bee-brilliant-icon.jpg", "Bee Brilliant")
 	casual3a = new addGame(baseLinkReview+"catapult-quest", baseLinkImg+"6262a56df551ed5332d9048e/62826830af2e2e4c24c1be2c_catapult-quest-icon.jpg", "Catapult Quest")
 	casual4a = new addGame(baseLinkReview+"mousebusters", baseLinkImg+"6262a56df551ed5332d9048e/627d39a58fdb8888d02ab807_mousebusters-icon.jpg", "Mousebusters")
-	casual5a = new addGame(baseLinkReview+"orbia", baseLinkImg+"orbia-tap-and-relax-icon.jpg", "Orbia")
-	casual6a = new addGame(baseLinkReview+"pinball-deluxe-reloaded", baseLinkImg+"big-pinball-deluxe-reloaded.jpg", "Pinball Deluxe Reloaded")
+	casual5a = new addGame(baseLinkReview+"orbia", baseLinkImg+"6262a56df551ed5332d9048e/62826d03beebffbca0a683b8_orbia-icon.jpg", "Orbia")
+	casual6a = new addGame(baseLinkReview+"pinball-deluxe-reloaded", baseLinkImg+"6262a56df551ed5332d9048e/62826ee9e660e3d51ee093ee_pinball-deluxe-reloaded-icon.jpg", "Pinball Deluxe Reloaded")
 
 	// CASUAL TOP 7
-	casual1b = new addGame(baseLinkReview+"ancient-bricks", baseLinkImg+"big-ancient-bricks.jpg", "Ancient Bricks")
-	casual2b = new addGame(baseLinkReview+"candy-crush-soda-saga", baseLinkImg+"candy-crush-soda-saga-icon.jpg", "Candy Crush Soda Saga")
-	casual3b = new addGame(baseLinkReview+"okay", baseLinkImg+"okay-icon.jpg", "Okay")
-	casual4b = new addGame(baseLinkReview+"plank!", baseLinkImg+"plank!-icon.jpg", "plank!")
-	casual5b = new addGame(baseLinkReview+"snake-arena", baseLinkImg+"snake-arena-icon.jpg", "snake-arena")
-	casual6b = new addGame(baseLinkReview+"subway-surfers", baseLinkImg+"subway-surfers-icon.jpg", "Subway Surfers")
-	casual7b = new addGame(baseLinkReview+"temple-run-2", baseLinkImg+"temple-run-2-icon.jpg", "Temple Run 2")
-	casual8b = new addGame(baseLinkReview+"walk-master", baseLinkImg+"walk-master-icon.jpg", "Walk Master")
+	casual1b = new addGame(baseLinkReview+"ancient-bricks", baseLinkImg+"6262a56df551ed5332d9048e/62751ddcef962458ae10ebe7_ancient-bricks-icon.jpg", "Ancient Bricks")
+	casual2b = new addGame(baseLinkReview+"candy-crush-soda-saga", baseLinkImg+"6262a56df551ed5332d9048e/62826f5540bdbd76e8c9d9fb_candy-crush-soda-saga-icon.jpg", "Candy Crush Soda Saga")
+	casual3b = new addGame(baseLinkReview+"okay", baseLinkImg+"6262a56df551ed5332d9048e/62826f8036c579cd92b39aa8_okay-icon.jpg", "Okay")
+	casual4b = new addGame(baseLinkReview+"plank!", baseLinkImg+"6262a56df551ed5332d9048e/62826f9e0031d3872de6c14a_plank-icon.jpg", "plank!")
+	casual5b = new addGame(baseLinkReview+"snake-arena", baseLinkImg+"6262a56df551ed5332d9048e/62826fb5ca4d6970be5e9d70_snake-arena-icon.jpg", "snake-arena")
+	casual6b = new addGame(baseLinkReview+"subway-surfers", baseLinkImg+"6262a56df551ed5332d9048e/62826fcf8cd3e4d6a602fe56_subway-surfers-icon.jpg", "Subway Surfers")
+	casual7b = new addGame(baseLinkReview+"temple-run-2", baseLinkImg+"6262a56df551ed5332d9048e/62826ffebeebff4863a6940b_temple-run-2-icon.jpg", "Temple Run 2")
+	casual8b = new addGame(baseLinkReview+"walk-master", baseLinkImg+"6262a56df551ed5332d9048e/62827013ec9b21307b0c84d1_walk-master-icon.jpg", "Walk Master")
 
 
 	// CASUAL TOP 6
-	casual1c = new addGame(baseLinkReview+"angry-birds-2", baseLinkImg+"angry-birds-2-icon.jpg", "Angry Birds 2")
-	casual2c = new addGame(baseLinkReview+"snowman-story", baseLinkImg+"snowman-story-icon.jpg", "Snowman Story")
-	casual3c = new addGame(baseLinkReview+"tsuki-adventure", baseLinkImg+"tsuki-adventure-icon.jpg", "Tsuki Adventure")
+	casual1c = new addGame(baseLinkReview+"angry-birds-2", baseLinkImg+"6262a56df551ed5332d9048e/62751ddb8e918f05816bd828_angry-birds-2-icon.jpg", "Angry Birds 2")
+	casual2c = new addGame(baseLinkReview+"snowman-story", baseLinkImg+"6262a56df551ed5332d9048e/6282705467562c7de8c710db_snowman-story-icon.jpg", "Snowman Story")
+	casual3c = new addGame(baseLinkReview+"tsuki-adventure", baseLinkImg+"6262a56df551ed5332d9048e/6282706cc2bb1eb7adf3838c_tsuki-adventure-icon.jpg", "Tsuki Adventure")
 
 
 	// ADDING TO CASUAL ARRAY
@@ -272,67 +272,67 @@ var x2 = setInterval(function () {
 	//################################################################
 	// ACTION TOP 8
 	//################################################################
-	action1a = new addGame(baseLinkReview+"altos-adventure", baseLinkImg+"altos-adventure-icon.jpg", "Altos Adventure")
-	action2a = new addGame(baseLinkReview+"among-us", baseLinkImg+"among-us-icon.jpg", "Among Us")
-	action3a = new addGame(baseLinkReview+"archero", baseLinkImg+"archero-icon.jpg", "Archero")
-	action4a = new addGame(baseLinkReview+"bowmasters", baseLinkImg+"bowmasters-icon.jpg", "Bowmasters")
-	action5a = new addGame(baseLinkReview+"brawlhalla", baseLinkImg+"brawlhalla-icon.jpg", "Brawlhalla")
-	action7a = new addGame(baseLinkReview+"endurance", baseLinkImg+"endurance-icon.jpg", "Endurance")
-	action8a = new addGame(baseLinkReview+"grimvalor", baseLinkImg+"grimvalor-icon.jpg", "Grimvalor")
-	action9a = new addGame(baseLinkReview+"johnny-trigger", baseLinkImg+"johnny-trigger-icon.jpg", "Johnny Trigger")
-	action10a = new addGame(baseLinkReview+"robot-destroyer-red-siren", baseLinkImg+"robot-destroyer-red-siren-icon.jpg", "Robot Destroyer Red Siren")
-	action11a = new addGame(baseLinkReview+"shadow-hunter-lost-world", baseLinkImg+"shadow-hunter-lost-world-icon.jpg", "Shadow Hunter Lost World")
-	action12a = new addGame(baseLinkReview+"sky-force-reloaded", baseLinkImg+"sky-force-reloaded-icon.jpg", "Sky Force Reloaded")
-	action13a = new addGame(baseLinkReview+"space-marshals-2", baseLinkImg+"space-marshals-2-icon.jpg", "Space Marshals 2")
-	action14a = new addGame(baseLinkReview+"swamp-attack", baseLinkImg+"swamp-attack-icon.jpg", "Swamp Attack")
-	action15a = new addGame(baseLinkReview+"tank-battle-heroes", baseLinkImg+"tank-battle-heroes-icon.jpg", "Tank Battle Heroes")
-	action16a = new addGame(baseLinkReview+"the-walking-zombie-2", baseLinkImg+"the-walking-zombie-2-icon.jpg", "The Walking Zombie 2")
-	action17a = new addGame(baseLinkReview+"badland", baseLinkImg+"badland-icon.jpg", "Badland")
+	action1a = new addGame(baseLinkReview+"altos-adventure", baseLinkImg+"6262a56df551ed5332d9048e/62751dd579f96081482e1d83_altos-icon.jpg", "Altos Adventure")
+	action2a = new addGame(baseLinkReview+"among-us", baseLinkImg+"6262a56df551ed5332d9048e/62751ddaf2602e65d605c7eb_among-us-icon.jpg", "Among Us")
+	action3a = new addGame(baseLinkReview+"archero", baseLinkImg+"6262a56df551ed5332d9048e/628270e6b18b7d83064dfbf0_archero-icon.jpg", "Archero")
+	action4a = new addGame(baseLinkReview+"bowmasters", baseLinkImg+"6262a56df551ed5332d9048e/6282710308cf60f9b368ce43_bowmasters-icon.jpg", "Bowmasters")
+	action5a = new addGame(baseLinkReview+"brawlhalla", baseLinkImg+"6262a56df551ed5332d9048e/6280fc7249d8f3f9fea9a520_brawlhalla-icon.jpg", "Brawlhalla")
+	action7a = new addGame(baseLinkReview+"endurance", baseLinkImg+"6262a56df551ed5332d9048e/628271329a967729bc7b83bf_endurance-icon.jpg", "Endurance")
+	action8a = new addGame(baseLinkReview+"grimvalor", baseLinkImg+"6262a56df551ed5332d9048e/6282758aaf33b4e30eacda6b_grim-valor-icon.jpg", "Grimvalor")
+	action9a = new addGame(baseLinkReview+"johnny-trigger", baseLinkImg+"6262a56df551ed5332d9048e/628275acca4d6948975ec9b3_johnny-trigger-icon.jpg", "Johnny Trigger")
+	action10a = new addGame(baseLinkReview+"robot-destroyer-red-siren", baseLinkImg+"6262a56df551ed5332d9048e/62827a2fbeadf904433aaed8_robot-destroyer-icon.jpg", "Robot Destroyer Red Siren")
+	action11a = new addGame(baseLinkReview+"shadow-hunter-lost-world", baseLinkImg+"6262a56df551ed5332d9048e/62827a7d6ef765a60bbacd16_shadow-hunter-icon.jpg", "Shadow Hunter Lost World")
+	action12a = new addGame(baseLinkReview+"sky-force-reloaded", baseLinkImg+"6262a56df551ed5332d9048e/62827add67562c85b0c75205_sky-force-reloaded-icon.jpg", "Sky Force Reloaded")
+	action13a = new addGame(baseLinkReview+"space-marshals-2", baseLinkImg+"6262a56df551ed5332d9048e/62827b97b18b7d56544e4f3b_space-marshals-2-icon.jpg", "Space Marshals 2")
+	//action14a = new addGame(baseLinkReview+"swamp-attack", baseLinkImg+"swamp-attack-icon.jpg", "Swamp Attack")
+	action15a = new addGame(baseLinkReview+"tank-battle-heroes", baseLinkImg+"6262a56df551ed5332d9048e/62827c083fa4d076eca30d76_tank-battle-heroes-icon.jpg", "Tank Battle Heroes")
+	action16a = new addGame(baseLinkReview+"the-walking-zombie-2", baseLinkImg+"6262a56df551ed5332d9048e/62827c439b63e6e406ed5b42_the-walking-zombie-2-icon.jpg", "The Walking Zombie 2")
+	action17a = new addGame(baseLinkReview+"badland", baseLinkImg+"6262a56df551ed5332d9048e/62827c8329c884b819e8d2c0_badland-icon.jpg", "Badland")
 
 	// ACTION TOP 7
-	action1b = new addGame(baseLinkReview+"air-attack-2", baseLinkImg+"air-attack-2-icon.jpg", "Air Attack 2")
-	action2b = new addGame(baseLinkReview+"banana-kong", baseLinkImg+"banana-kong-icon.jpg", "Banana Kong")
-	action3b = new addGame(baseLinkReview+"jurassic-monster-world", baseLinkImg+"jurassic-monster-world-icon.jpg", "Jurassic Monster World")
-	action4b = new addGame(baseLinkReview+"lara-croft-relic-run", baseLinkImg+"lara-croft-relic-run-icon.jpg", "Lara Croft Relic Run")
-	action5b = new addGame(baseLinkReview+"magic-survival", baseLinkImg+"magic-survival-icon.jpg", "Magic Survival")
+	action1b = new addGame(baseLinkReview+"air-attack-2", baseLinkImg+"6262a56df551ed5332d9048e/62751dd1fcd2a7300716c2e7_air-attack-2-icon.jpg", "Air Attack 2")
+	//action2b = new addGame(baseLinkReview+"banana-kong", baseLinkImg+"banana-kong-icon.jpg", "Banana Kong")
+	action3b = new addGame(baseLinkReview+"jurassic-monster-world", baseLinkImg+"6262a56df551ed5332d9048e/62827d61c5982f625619907e_jurassic-monster-world-icon.jpg", "Jurassic Monster World")
+	action4b = new addGame(baseLinkReview+"lara-croft-relic-run", baseLinkImg+"6262a56df551ed5332d9048e/62827dad9b8456c3e03a642e_lara-icon.jpg", "Lara Croft Relic Run")
+	action5b = new addGame(baseLinkReview+"magic-survival", baseLinkImg+"6262a56df551ed5332d9048e/62827e109b09ef78011fdd90_magic-survival-icon.jpg", "Magic Survival")
 
-	action7b = new addGame(baseLinkReview+"payback-2", baseLinkImg+"payback-2-icon.jpg", "Payback 2")
-	action8b = new addGame(baseLinkReview+"sea-invaders", baseLinkImg+"sea-invaders-icon.jpg", "Sea Invaders")
-	action9b = new addGame(baseLinkReview+"ski-safari-2", baseLinkImg+"ski-safari-2-icon.jpg", "Ski Safari 2")
-	action10b = new addGame(baseLinkReview+"sky-fighters-3d", baseLinkImg+"sky-fighters-3d-icon.jpg", "Sky Fighters 3D")
-	action11b = new addGame(baseLinkReview+"xenowerk", baseLinkImg+"xenowerk-icon.jpg", "Xenowerk")
+	action7b = new addGame(baseLinkReview+"payback-2", baseLinkImg+"6262a56df551ed5332d9048e/62827e66ec9b211d150cec1a_payback-2-icon.jpg", "Payback 2")
+	action8b = new addGame(baseLinkReview+"sea-invaders", baseLinkImg+"6262a56df551ed5332d9048e/62827e98964b595799e383c3_sea-invaders-icon.jpg", "Sea Invaders")
+	action9b = new addGame(baseLinkReview+"ski-safari-2", baseLinkImg+"6262a56df551ed5332d9048e/62827eda6fa522e5ffdb385a_ski-safari-2-icon.jpg", "Ski Safari 2")
+	action10b = new addGame(baseLinkReview+"sky-fighters-3d", baseLinkImg+"6262a56df551ed5332d9048e/62827f27ad54fa03ed44bef8_sky-fighters-icon.jpg", "Sky Fighters 3D")
+	action11b = new addGame(baseLinkReview+"xenowerk", baseLinkImg+"https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62827f485ad7580f4aad5817_xenowerk-icon.jpg", "Xenowerk")
 
 	// ACTION TOP 6
-	action1c = new addGame(baseLinkReview+"1945-air-force", baseLinkImg+"1945-air-force-icon.jpg", "1945 Air Force")
-	action2c = new addGame(baseLinkReview+"air-attack", baseLinkImg+"air-attack-icon.jpg", "Air Attack")
-	action3c = new addGame(baseLinkReview+"lightning-duru", baseLinkImg+"lightning-duru-icon.jpg", "Lightning Duru")
-	action4c = new addGame(baseLinkReview+"metal-soldiers-2", baseLinkImg+"metal-soldiers-2-icon.jpg", "Metal Soldiers 2")
-	action5c = new addGame(baseLinkReview+"rail-rush", baseLinkImg+"rail-rush-icon.jpg", "Rail Rush")
-	action6c = new addGame(baseLinkReview+"skiing-yeti-mountain", baseLinkImg+"skiing-yeti-mountain-icon.jpg", "Skiing Yeti Mountain")
-	action7c = new addGame(baseLinkReview+"transmute-galaxy-battle", baseLinkImg+"transmute-galaxy-battle-icon.jpg", "Transmute Galaxy Battle")
+	action1c = new addGame(baseLinkReview+"1945-air-force", baseLinkImg+"6262a56df551ed5332d9048e/62751dcf528a36b6dfea999c_1945-icon.jpg", "1945 Air Force")
+	action2c = new addGame(baseLinkReview+"air-attack", baseLinkImg+"6262a56df551ed5332d9048e/62751dda343133c02f466f0e_air-attack-icon.jpg", "Air Attack")
+	action3c = new addGame(baseLinkReview+"lightning-duru", baseLinkImg+"6262a56df551ed5332d9048e/6282822e9d08b52c15ea873f_lightduru-icon.jpg", "Lightning Duru")
+	action4c = new addGame(baseLinkReview+"metal-soldiers-2", baseLinkImg+"6262a56df551ed5332d9048e/6282826ca403efb20c87b450_metal-icon.jpg", "Metal Soldiers 2")
+	action5c = new addGame(baseLinkReview+"rail-rush", baseLinkImg+"6262a56df551ed5332d9048e/6282828de3c51ae7621c1330_rail-rush-icon.jpg", "Rail Rush")
+	//action6c = new addGame(baseLinkReview+"skiing-yeti-mountain", baseLinkImg+"skiing-yeti-mountain-icon.jpg", "Skiing Yeti Mountain")
+	action7c = new addGame(baseLinkReview+"transmute-galaxy-battle", baseLinkImg+"6262a56df551ed5332d9048e/628283243fa4d08577a33ee9_transmute-galaxy-battle-icon.jpg", "Transmute Galaxy Battle")
 
 	// ADDING TO ACTION ARRAY
 	actionTop8 = [action1a, action2a, action3a, action4a, action5a, action7a, action8a, 
-			   action9a, action10a, action11a, action12a, action13a, action14a, action15a, action16a, action17a]
+			   action9a, action10a, action11a, action12a, action13a,  action15a, action16a, action17a]
 
-	actionTop7 = [action1b, action2b, action3b, action4b, action5b, 
+	actionTop7 = [action1b, action3b, action4b, action5b, 
 				action7b, action8b, action9b, action10b, action11b]
 
-	actionTop6 = [action1c, action2c, action3c, action4c, action5c, action6c, action7c]
+	actionTop6 = [action1c, action2c, action3c, action4c, action5c, action7c]
 
 	//################################################################
 	// FIGHTING TOP 8
 	//################################################################
-	fight1a = new addGame(baseLinkReview+"bloody-bastards", baseLinkImg+"bloody-bastards-icon.jpg", "Bloody Bastards", "multi")
-	fight2a = new addGame(baseLinkReview+"power-rangers-legacy-wars", baseLinkImg+"power-rangers-legacy-wars-icon.jpg", "Power Rangers Legacy Wars", "multi")
-	fight3a = new addGame(baseLinkReview+"shadow-fight-arena", baseLinkImg+"shadow-fight-arena-icon.jpg", "Shadow Fight Arena", "multi")
-	fight4a = new addGame(baseLinkReview+"skullgirls", baseLinkImg+"skullgirls-icon.jpg", "Skullgirls", "multi")
+	fight1a = new addGame(baseLinkReview+"bloody-bastards", baseLinkImg+"6262a56df551ed5332d9048e/627d3a2e8fdb881f032ab99d_bloody-bastards-icon.jpg", "Bloody Bastards", "multi")
+	fight2a = new addGame(baseLinkReview+"power-rangers-legacy-wars", baseLinkImg+"6262a56df551ed5332d9048e/628283780e573c02bfa4593b_power-rangers-icon.jpg", "Power Rangers Legacy Wars", "multi")
+	fight3a = new addGame(baseLinkReview+"shadow-fight-arena", baseLinkImg+"6262a56df551ed5332d9048e/62828398b18b7d210d4ec8f9_shadow-fight-arena-icon.jpg", "Shadow Fight Arena", "multi")
+	fight4a = new addGame(baseLinkReview+"skullgirls", baseLinkImg+"6262a56df551ed5332d9048e/628283c036c579d5e9b40bf2_skullgirls-icon.jpg", "Skullgirls", "multi")
 
 	// FIGHTING TOP 7
 
 	// FIGHTING TOP 6
-	fight1c = new addGame(baseLinkReview+"kung-fu-fight-arena", baseLinkImg+"kung-fu-fight-arena-icon.jpg", "Kung Fu Fight Arena")
-	fight2c = new addGame(baseLinkReview+"megabots-battle-arena", baseLinkImg+"megabots-battle-arena-icon.jpg", "Megabots Battle Arena", "multi")
+	fight1c = new addGame(baseLinkReview+"kung-fu-fight-arena", baseLinkImg+"6262a56df551ed5332d9048e/628283e3964b592197e3c43b_kung-fu-fight-arena-icon.jpg", "Kung Fu Fight Arena")
+	fight2c = new addGame(baseLinkReview+"megabots-battle-arena", baseLinkImg+"6262a56df551ed5332d9048e/628283fea542c7e3988c6314_megabots-battle-arena-icon.jpg", "Megabots Battle Arena", "multi")
 
 	// ADDING TO ACTION ARRAY
 	fightTop8 = [fight1a, fight2a, fight3a, fight4a]
@@ -343,19 +343,19 @@ var x2 = setInterval(function () {
 	//################################################################
 	// ADVENTURE TOP 8       3D
 	//################################################################
-	adventure1a = new addGame(baseLinkReview+"alien-isolation", baseLinkImg+"alien-isolation-icon.jpg", "alien-isolation")
+	adventure1a = new addGame(baseLinkReview+"alien-isolation", baseLinkImg+"6262a56df551ed5332d9048e/62751dda085d1721590269bb_alien-isolation-icon.jpg", "alien-isolation")
 
-	adventure2a = new addGame(baseLinkReview+"call-of-duty-mobile", baseLinkImg+"call-of-duty-mobile-icon.jpg", "Call Of Duty Mobile")
-	adventure6a = new addGame(baseLinkReview+"roblox", baseLinkImg+"roblox-icon.jpg", "Roblox")
+	adventure2a = new addGame(baseLinkReview+"call-of-duty-mobile", baseLinkImg+"6262a56df551ed5332d9048e/6282844da403ef624b87db94_call-of-duty-mobile-icon.jpg", "Call Of Duty Mobile")
+	adventure6a = new addGame(baseLinkReview+"roblox", baseLinkImg+"6262a56df551ed5332d9048e/6282847c4cd02402b7464eac_roblox-icon.jpg", "Roblox")
 
-	adventure8a = new addGame(baseLinkReview+"the-frostrune", baseLinkImg+"the-frostrune-icon.jpg", "The Frostrune")
+	adventure8a = new addGame(baseLinkReview+"the-frostrune", baseLinkImg+"6262a56df551ed5332d9048e/628284a14cd0247d3f464f1b_the-frostrune-icon.jpg", "The Frostrune")
 	
-	adventure1b = new addGame(baseLinkReview+"pubg-mobile", baseLinkImg+"pubg-mobile-icon.jpg", "Pubg Mobile")
+	adventure1b = new addGame(baseLinkReview+"pubg-mobile", baseLinkImg+"6262a56df551ed5332d9048e/6274d17a0487d30f2ea38c32_pubg-icon.jpg", "Pubg Mobile")
 		
 
 	// ADVENTURE TOP 6
-	adventure1c = new addGame(baseLinkReview+"death-park-2", baseLinkImg+"death-park-2-icon.jpg", "Death Park 2")
-	adventure2c = new addGame(baseLinkReview+"scary-horror-2", baseLinkImg+"scary-horror-2-icon.jpg", "Scary Horror 2")
+	adventure1c = new addGame(baseLinkReview+"death-park-2", baseLinkImg+"6262a56df551ed5332d9048e/628284dea542c782ba8c6baa_death-park-2-icon.jpg", "Death Park 2")
+	adventure2c = new addGame(baseLinkReview+"scary-horror-2", baseLinkImg+"6262a56df551ed5332d9048e/62828508008abe300ba585e0_scary-horror-2-icon.jpg", "Scary Horror 2")
 
 
 	// ADDING TO ADVENTURE ARRAY
@@ -367,25 +367,25 @@ var x2 = setInterval(function () {
 	//################################################################
 	// RPG TOP 8
 	//################################################################
-	rpg1a = new addGame(baseLinkReview+"botworld-adventure", baseLinkImg+"botworld-adventure-icon.jpg", "Botworld Adventure", "multi")
-	rpg2a = new addGame(baseLinkReview+"cardinal-quest-2", baseLinkImg+"cardinal-quest-2-icon.jpg", "Cardinal Quest 2")
-	rpg3a = new addGame(baseLinkReview+"day-r-survival", baseLinkImg+"day-r-survival-icon.jpg", "Day R Survival")
-	rpg4a = new addGame(baseLinkReview+"eternium", baseLinkImg+"eternium-icon.jpg", "Eternium", "multi")
-	rpg5a = new addGame(baseLinkReview+"guardian-tales", baseLinkImg+"guardian-tales-icon.jpg", "Guardian Tales")
-	rpg6a = new addGame(baseLinkReview+"moonshades", baseLinkImg+"moonshades-icon.jpg", "Moonshades")
-	rpg7a = new addGame(baseLinkReview+"onebit-adventure", baseLinkImg+"onebit-adventure-icon.jpg", "Onebit Adventure")
-	rpg8a = new addGame(baseLinkReview+"sky-children-of-the-light", baseLinkImg+"sky-children-of-the-light-icon.jpg", "Sky Children of the Light", "multi")
-	rpg9a = new addGame(baseLinkReview+"genshin-impact", baseLinkImg+"genshin-impact-icon.jpg", "Genshin Impact")
+	rpg1a = new addGame(baseLinkReview+"botworld-adventure", baseLinkImg+"6262a56df551ed5332d9048e/62828625b18b7d701d4ee0d5_botworld-icon.jpg", "Botworld Adventure", "multi")
+	rpg2a = new addGame(baseLinkReview+"cardinal-quest-2", baseLinkImg+"6262a56df551ed5332d9048e/628286489a96770c8b7c30a1_cardinal-icon.jpg", "Cardinal Quest 2")
+	rpg3a = new addGame(baseLinkReview+"day-r-survival", baseLinkImg+"6262a56df551ed5332d9048e/6282866976ab3d2c6f2111e7_day-r-survival-icon.jpg", "Day R Survival")
+	rpg4a = new addGame(baseLinkReview+"eternium", baseLinkImg+"6262a56df551ed5332d9048e/62651dbc45767b4516533e65_eternium-icon.jpg", "Eternium", "multi")
+	rpg5a = new addGame(baseLinkReview+"guardian-tales", baseLinkImg+"6262a56df551ed5332d9048e/628286bf97d4ec21f8429556_guardian-tales-icon.jpg", "Guardian Tales")
+	rpg6a = new addGame(baseLinkReview+"moonshades", baseLinkImg+"6262a56df551ed5332d9048e/627d3bee7922144c5878b34a_moonshades-icon.jpg", "Moonshades")
+	rpg7a = new addGame(baseLinkReview+"onebit-adventure", baseLinkImg+"6262a56df551ed5332d9048e/62828710e3c51a845b1c32c3_onebit-adventure-icon.jpg", "Onebit Adventure")
+	rpg8a = new addGame(baseLinkReview+"sky-children-of-the-light", baseLinkImg+"6262a56df551ed5332d9048e/6282877329c88434b4e924fd_sky-icon.jpg", "Sky Children of the Light", "multi")
+	rpg9a = new addGame(baseLinkReview+"genshin-impact", baseLinkImg+"6262a56df551ed5332d9048e/628287a1ec9b21a1220d3cee_genshin-impact-icon.jpg", "Genshin Impact")
 
 	// RPG TOP 7
-	rpg1b = new addGame(baseLinkReview+"constellation-eleven", baseLinkImg+"constellation-eleven-icon.jpg", "Constellation Eleven")
-	rpg2b = new addGame(baseLinkReview+"legend-of-solgard", baseLinkImg+"legend-of-solgard-icon.jpg", "Legend of Solgard")
-	rpg3b = new addGame(baseLinkReview+"the-witchs-isle", baseLinkImg+"the-witchs-isle-icon.jpg", "The Witchs Isle")
-	rpg4b = new addGame(baseLinkReview+"vampires-fall-origins", baseLinkImg+"vampires-fall-origins-icon.jpg", "Vampires Fall Origins")
+	rpg1b = new addGame(baseLinkReview+"constellation-eleven", baseLinkImg+"6262a56df551ed5332d9048e/628287c49d78f502b379d7da_constellation-eleven-icon.jpg", "Constellation Eleven")
+	rpg2b = new addGame(baseLinkReview+"legend-of-solgard", baseLinkImg+"6262a56df551ed5332d9048e/628287eba542c7c7e18c8d31_legend-of-solgard-icon.jpg", "Legend of Solgard")
+	rpg3b = new addGame(baseLinkReview+"the-witchs-isle", baseLinkImg+"6262a56df551ed5332d9048e/6282880cc2447d72c3b798e7_the-witch-icon.jpg", "The Witchs Isle")
+	rpg4b = new addGame(baseLinkReview+"vampires-fall-origins", baseLinkImg+"6262a56df551ed5332d9048e/6282882a30f3f3392158244e_vampire-fall-icon.jpg", "Vampires Fall Origins")
 
 	// RPG TOP 6
-	rpg1c = new addGame(baseLinkReview+"age-of-magic", baseLinkImg+"age-of-magic-icon.jpg", "Age of Magic")
-	rpg2c = new addGame(baseLinkReview+"raid-shadow-legends", baseLinkImg+"raid-shadow-legends-icon.jpg", "Raid Shadow Legends", "multi")
+	rpg1c = new addGame(baseLinkReview+"age-of-magic", baseLinkImg+"6262a56df551ed5332d9048e/62751dd38e918f6fe46bd816_age-of-magic-icon.jpg", "Age of Magic")
+	rpg2c = new addGame(baseLinkReview+"raid-shadow-legends", baseLinkImg+"6262a56df551ed5332d9048e/62828881f19d97e7f9bf2209_raid-shadow-legends-icon.jpg", "Raid Shadow Legends", "multi")
 
 
 	// ADDING TO RPG ARRAY
@@ -396,54 +396,54 @@ var x2 = setInterval(function () {
 	//################################################################
 	// PLATFORM TOP 8
 	//################################################################
-	platform1a = new addGame(baseLinkReview+"fancy-pants-adventures", baseLinkImg+"fancy-pants-adventures-icon.jpg", "Fancy Pants Adventures")
-	platform2a = new addGame(baseLinkReview+"hello-yogurt", baseLinkImg+"hello-yogurt-icon.jpg", "Hello Yogurt")
-	platform3a = new addGame(baseLinkReview+"nihilumbra", baseLinkImg+"nihilumbra-icon.jpg", "Nihilumbra")
-	platform4a = new addGame(baseLinkReview+"oddmar", baseLinkImg+"oddmar-icon.jpg", "Oddmar")
-	platform5a = new addGame(baseLinkReview+"super-cat-tales-2", baseLinkImg+"super-cat-tales2-icon.jpg", "Super Cat Tales 2")
-	platform6a = new addGame(baseLinkReview+"sword-of-xolan", baseLinkImg+"sword-of-xolan-icon.jpg", "Sword of Xolan")
-	platform7a = new addGame(baseLinkReview+"swordigo", baseLinkImg+"swordigo-icon.jpg", "Swordigo")
-	platform8a = new addGame(baseLinkReview+"forgotton-anne", baseLinkImg+"forgotton-anne-icon.jpg", "Forgotton Anne")
-	platform9a = new addGame(baseLinkReview+"space-expedition", baseLinkImg+"space-expedition-icon.jpg", "Space Expedition")
+	platform1a = new addGame(baseLinkReview+"fancy-pants-adventures", baseLinkImg+"6262a56df551ed5332d9048e/628288f99a967748b47c4b60_fancy-icon.jpg", "Fancy Pants Adventures")
+	platform2a = new addGame(baseLinkReview+"hello-yogurt", baseLinkImg+"6262a56df551ed5332d9048e/6282891cad54fadc3b44f980_hello-yogurt-icon.jpg", "Hello Yogurt")
+	platform3a = new addGame(baseLinkReview+"nihilumbra", baseLinkImg+"6262a56df551ed5332d9048e/628125441c9a9c774dd7725e_saleIcon.jpg", "Nihilumbra")
+	platform4a = new addGame(baseLinkReview+"oddmar", baseLinkImg+"6262a56df551ed5332d9048e/6280fb4c25b65e9dbffd436b_oddmar-icon.jpg", "Oddmar")
+	platform5a = new addGame(baseLinkReview+"super-cat-tales-2", baseLinkImg+"6262a56df551ed5332d9048e/628289c919b77991038311b5_super-cat-tales-2.jpg", "Super Cat Tales 2")
+	platform6a = new addGame(baseLinkReview+"sword-of-xolan", baseLinkImg+"6262a56df551ed5332d9048e/6267cbf884517a580566cb41_sword-of-xolan-icon.jpg", "Sword of Xolan")
+	platform7a = new addGame(baseLinkReview+"swordigo", baseLinkImg+"6262a56df551ed5332d9048e/62828ab47c430853d973006f_sword-icon.jpg", "Swordigo")
+	platform8a = new addGame(baseLinkReview+"forgotton-anne", baseLinkImg+"6262a56df551ed5332d9048e/6265439956a98b7409e0ea96_forgotten-anne-icon.jpg", "Forgotton Anne")
+	platform9a = new addGame(baseLinkReview+"space-expedition", baseLinkImg+"6262a56df551ed5332d9048e/62828b496078b72db84a142c_space-expedition-icon.jpg", "Space Expedition")
 
 	// PLATFORM TOP 7
-	platform1b = new addGame(baseLinkReview+"blackmoor-2", baseLinkImg+"blackmoor2-icon.jpg", "blackmoor-2", "multi")
-	platform2b = new addGame(baseLinkReview+"cats-are-liquid", baseLinkImg+"cats-are-liquid-icon.jpg", "Cats are Liquid")
-	platform3b = new addGame(baseLinkReview+"fin-ancient-mystery", baseLinkImg+"fin-ancient-mystery-icon.jpg", "Fin Ancient Mystery")
-	platform4b = new addGame(baseLinkReview+"g-switch-3", baseLinkImg+"g-switch3-icon.jpg", "G Switch 3")
-	platform5b = new addGame(baseLinkReview+"geometry-dash-subzero", baseLinkImg+"geometry-dash-subzero-icon.jpg", "Geometry Dash Subzero")
-	platform6b = new addGame(baseLinkReview+"snail-bob-3", baseLinkImg+"snail-bob-3-icon.jpg", "Snail Bob 3")
+	//platform1b = new addGame(baseLinkReview+"blackmoor-2", baseLinkImg+"blackmoor2-icon.jpg", "blackmoor-2", "multi")
+	platform2b = new addGame(baseLinkReview+"cats-are-liquid", baseLinkImg+"6262a56df551ed5332d9048e/62828ba644fcfb78ecb493e8_cats-are-liquid-icon.jpg", "Cats are Liquid")
+	platform3b = new addGame(baseLinkReview+"fin-ancient-mystery", baseLinkImg+"6262a56df551ed5332d9048e/627d4d065b3d5d6f76b55a35_gg.jpg", "Fin Ancient Mystery")
+	platform4b = new addGame(baseLinkReview+"g-switch-3", baseLinkImg+"6262a56df551ed5332d9048e/62828c7f08eb9426729922e6_g-icon.jpg", "G Switch 3")
+	platform5b = new addGame(baseLinkReview+"geometry-dash-subzero", baseLinkImg+"6262a56df551ed5332d9048e/62828cd77cbd4371675ef0cd_geo-icon.jpg", "Geometry Dash Subzero")
+	platform6b = new addGame(baseLinkReview+"snail-bob-3", baseLinkImg+"6262a56df551ed5332d9048e/62828d6755ea9933d6a4eb29_snail-bob3-icon.jpg", "Snail Bob 3")
 
 	// PLATFORM TOP 6
-	platform1c = new addGame(baseLinkReview+"adventure-beaks", baseLinkImg+"adventure-beaks-icon.jpg", "adventure-beaks")
-	platform2c = new addGame(baseLinkReview+"apple-knight", baseLinkImg+"apple-knight-icon.jpg", "Apple Knight")
-	platform3c = new addGame(baseLinkReview+"grumpy-dwarf", baseLinkImg+"grumpy-dwarf-icon.jpg", "Grumpy Dwarf")
-	platform4c = new addGame(baseLinkReview+"leps-world-3", baseLinkImg+"leps-world3-icon.jpg", "Leps World 3")
-	platform5c = new addGame(baseLinkReview+"mortal-crusade", baseLinkImg+"mortal-crusade-icon.jpg", "Mortal Crusade")
-	platform6c = new addGame(baseLinkReview+"snow-bros-classic", baseLinkImg+"snow-bros-classic-icon.jpg", "Snow Bros Classic")
+	platform1c = new addGame(baseLinkReview+"adventure-beaks", baseLinkImg+"6262a56df551ed5332d9048e/62828ddf3bf647c41d72dc2e_beak-icon.jpg", "adventure-beaks")
+	platform2c = new addGame(baseLinkReview+"apple-knight", baseLinkImg+"6262a56df551ed5332d9048e/628389003aea71ccea7674fa_apple-knight-icon.jpg", "Apple Knight")
+	platform3c = new addGame(baseLinkReview+"grumpy-dwarf", baseLinkImg+"6262a56df551ed5332d9048e/62751dcecf197f1046a06e54_a1.jpg", "Grumpy Dwarf")
+	platform4c = new addGame(baseLinkReview+"leps-world-3", baseLinkImg+"6262a56df551ed5332d9048e/6283896757e13d40631e9c1d_leps-icon.jpg", "Leps World 3")
+	platform5c = new addGame(baseLinkReview+"mortal-crusade", baseLinkImg+"6262a56df551ed5332d9048e/628389a5f081de80fe62a8ce_mortal-crusade-icon.jpg", "Mortal Crusade")
+	platform6c = new addGame(baseLinkReview+"snow-bros-classic", baseLinkImg+"6262a56df551ed5332d9048e/628389ebaef9690cefbb1df6_snow-bros-classic-icon.jpg", "Snow Bros Classic")
 
 	// ADDING TO PLATFORM ARRAY
 	platformTop8 = [platform1a, platform2a, platform3a, platform4a, platform5a, platform6a, platform7a, platform8a, platform9a]
-	platformTop7 = [platform1b, platform2b, platform3b, platform4b, platform5b, platform6b]
+	platformTop7 = [platform2b, platform3b, platform4b, platform5b, platform6b]
 	platformTop6 = [platform1c, platform2c, platform3c, platform4c, platform5c, platform6c]
 
 
 	//################################################################
 	// STRATEGY TOP 8
 	//################################################################
-	strategy1a = new addGame(baseLinkReview+"art-of-war-3-global-conflict", baseLinkImg+"art-of-war3-global-conflict-icon.jpg", "Art of War 3", "multi")
-	strategy2a = new addGame(baseLinkReview+"battle-of-polytopia", baseLinkImg+"battle-of-polytopia-icon.jpg", "Battle of Polytopia", "multi")
-	strategy3a = new addGame(baseLinkReview+"castle-crush", baseLinkImg+"castle-crush-icon.jpg", "Castle Crush", "multi")
-	strategy4a = new addGame(baseLinkReview+"exploding-kittens", baseLinkImg+"exploding-kittens-icon.jpg", "Exploding Kittens", "multi")
+	strategy1a = new addGame(baseLinkReview+"art-of-war-3-global-conflict", baseLinkImg+"6262a56df551ed5332d9048e/62838a2db431864eb562e5cc_art-of-war-3-icon.jpg", "Art of War 3", "multi")
+	strategy2a = new addGame(baseLinkReview+"battle-of-polytopia", baseLinkImg+"6262a56df551ed5332d9048e/62838a8d536a00be771042a7_battle-of-polytopia-icon.jpg", "Battle of Polytopia", "multi")
+	strategy3a = new addGame(baseLinkReview+"castle-crush", baseLinkImg+"6262a56df551ed5332d9048e/62838aab436cdeb7901b56e6_castle-crush-icon.jpg", "Castle Crush", "multi")
+	strategy4a = new addGame(baseLinkReview+"exploding-kittens", baseLinkImg+"6262a56df551ed5332d9048e/627d335b114425d7fd4cf180_exploding-kittens-icon.jpg", "Exploding Kittens", "multi")
   
 	// STRATEGY TOP 7
-	strategy1b = new addGame(baseLinkReview+"pirates-showdown", baseLinkImg+"pirates-showdown-icon.jpg", "Pirates Showdown")
-	strategy2b = new addGame(baseLinkReview+"plant-the-world", baseLinkImg+"plant-the-world-icon.jpg", "Plant the World")
-	strategy3b = new addGame(baseLinkReview+"stick-war-legacy", baseLinkImg+"stick-war-legacy-icon.jpg", "Stick War Legacy")
+	strategy1b = new addGame(baseLinkReview+"pirates-showdown", baseLinkImg+"6262a56df551ed5332d9048e/62838b5b3485262c634c1bcb_pirates-showdown-icon.jpg", "Pirates Showdown")
+	strategy2b = new addGame(baseLinkReview+"plant-the-world", baseLinkImg+"6262a56df551ed5332d9048e/62838c523cc4dc558a8a41bb_plant-the-world-icon.jpg", "Plant the World")
+	strategy3b = new addGame(baseLinkReview+"stick-war-legacy", baseLinkImg+"6262a56df551ed5332d9048e/62838c692f3b9a2f50c1ce02_stick-war-legacy-icon.jpg", "Stick War Legacy")
 	
 	// STRATEGY TOP 6
-	strategy1c = new addGame(baseLinkReview+"forge-of-empires", baseLinkImg+"forge-of-empires-icon.jpg", "forge-of-empires")
-	strategy2c = new addGame(baseLinkReview+"great-conqueror", baseLinkImg+"great-conqueror-icon.jpg", "Great Conqueror")
+	strategy1c = new addGame(baseLinkReview+"forge-of-empires", baseLinkImg+"6262a56df551ed5332d9048e/627d3ab9dff929a68ccebc18_forge-of-empires-icon.jpg", "forge-of-empires")
+	strategy2c = new addGame(baseLinkReview+"great-conqueror", baseLinkImg+"6262a56df551ed5332d9048e/62838cc964d42c33c9c6da3c_great-conqueror-icon.jpg", "Great Conqueror")
 	
 	// ADDING TO STRATEGY ARRAY
 	strategyTop8 = [strategy1a, strategy2a, strategy3a, strategy4a]
@@ -454,23 +454,23 @@ var x2 = setInterval(function () {
 	//################################################################
 	// PUZZLE TOP 8
 	//################################################################
-	puzzle1a = new addGame(baseLinkReview+"cube-escape-paradox", baseLinkImg+"cube-escape-paradox-icon.jpg", "cube-escape-paradox")
-	puzzle2a = new addGame(baseLinkReview+"fishdom", baseLinkImg+"fishdom-icon.jpg", "Fishdom")
-	puzzle3a = new addGame(baseLinkReview+"flaming-core", baseLinkImg+"flaming-core-icon.jpg", "Flaming Core")
-	puzzle4a = new addGame(baseLinkReview+"hocus", baseLinkImg+"hocus-icon.jpg", "Hocus")
-	puzzle5a = new addGame(baseLinkReview+"hyperforma", baseLinkImg+"hyperforma-icon.jpg", "Hyperforma")
-	puzzle6a = new addGame(baseLinkReview+"mystery-manor", baseLinkImg+"mystery-manor-icon.jpg", "Mystery Manor")
-	puzzle7a = new addGame(baseLinkReview+"not-not", baseLinkImg+"not-not-icon.jpg", "Not Not")
-	puzzle8a = new addGame(baseLinkReview+"quell", baseLinkImg+"quell-icon.jpg", "Quell")
+	puzzle1a = new addGame(baseLinkReview+"cube-escape-paradox", baseLinkImg+"6262a56df551ed5332d9048e/62838ce5f8e3335adae62d16_cube-escape-paradox-icon.jpg", "cube-escape-paradox")
+	puzzle2a = new addGame(baseLinkReview+"fishdom", baseLinkImg+"6262a56df551ed5332d9048e/62838d237d0cb74d4f310518_fishdom-icon.jpg", "Fishdom")
+	puzzle3a = new addGame(baseLinkReview+"flaming-core", baseLinkImg+"6262a56df551ed5332d9048e/62838d3bf081dea20362c327_flaming-core-icon.jpg", "Flaming Core")
+	puzzle4a = new addGame(baseLinkReview+"hocus", baseLinkImg+"6262a56df551ed5332d9048e/62838d8699bfd3613f07d7d1_hocus-icon.jpg", "Hocus")
+	puzzle5a = new addGame(baseLinkReview+"hyperforma", baseLinkImg+"6262a56df551ed5332d9048e/6267ca1d69d7b47502281625_hyperforma-icon.png", "Hyperforma")
+	puzzle6a = new addGame(baseLinkReview+"mystery-manor", baseLinkImg+"6262a56df551ed5332d9048e/62838edd7b9edd06ed966f36_myster-manor-icon.jpg", "Mystery Manor")
+	puzzle7a = new addGame(baseLinkReview+"not-not", baseLinkImg+"6262a56df551ed5332d9048e/62838f1d977bb3ecf7efcc55_not-not-icon.jpg", "Not Not")
+	puzzle8a = new addGame(baseLinkReview+"quell", baseLinkImg+"6262a56df551ed5332d9048e/62839013aef9692ddfbb5502_quell.jpg", "Quell")
 	
 	// PUZZLE TOP 7
-	puzzle1b = new addGame(baseLinkReview+"cut-the-rope-2", baseLinkImg+"cut-the-rope2-icon.jpg", "Cut the Rope 2")
-	puzzle2b = new addGame(baseLinkReview+"find-a-way", baseLinkImg+"find-a-way-icon.jpg", "Find a Way")
-	puzzle3b = new addGame(baseLinkReview+"scrabble-go", baseLinkImg+"scrabble-go-icon.jpg", "Scrabble Go", "multi")
+	puzzle1b = new addGame(baseLinkReview+"cut-the-rope-2", baseLinkImg+"6262a56df551ed5332d9048e/6283904b34852655fb4c3e6d_cut-the-rope-2-icon.jpg", "Cut the Rope 2")
+	puzzle2b = new addGame(baseLinkReview+"find-a-way", baseLinkImg+"6262a56df551ed5332d9048e/628390d6536a00d669106ee5_find-a-way-icon.jpg", "Find a Way")
+	puzzle3b = new addGame(baseLinkReview+"scrabble-go", baseLinkImg+"6262a56df551ed5332d9048e/6283910d0e893c66658eafe9_scrabble-go-icon.jpg", "Scrabble Go", "multi")
 	
 	// PUZZLE TOP 6
-	puzzle1c = new addGame(baseLinkReview+"block-puzzle", baseLinkImg+"block-puzzle-icon.jpg", "Block Puzzle")
-	puzzle2c = new addGame(baseLinkReview+"gunspell-2", baseLinkImg+"gunspell2-icon.jpg", "Gunspell 2", "multi")
+	puzzle1c = new addGame(baseLinkReview+"block-puzzle", baseLinkImg+"6262a56df551ed5332d9048e/6283913e436cde172c1b8c10_block-puzzle-icon.jpg", "Block Puzzle")
+	puzzle2c = new addGame(baseLinkReview+"gunspell-2", baseLinkImg+"6262a56df551ed5332d9048e/6283918557e13d851b1edba5_gunspell2-icon.jpg", "Gunspell 2", "multi")
 
 	// ADDING TO PUZZLE ARRAY
 	puzzleTop8 = [puzzle1a, puzzle2a, puzzle3a, puzzle4a, puzzle5a, puzzle6a, puzzle7a, puzzle8a]
@@ -481,28 +481,28 @@ var x2 = setInterval(function () {
 	//################################################################
 	// RACING TOP 8
 	//################################################################
-	racing1a = new addGame(baseLinkReview+"asphalt-9-legends", baseLinkImg+"asphalt9-legends-icon.jpg", "Asphalt 9 Legends", "multi")
-	racing2a = new addGame(baseLinkReview+"cosmic-challenge-racing", baseLinkImg+"cosmic-challenge-racing-icon.jpg", "Cosmic Challenge Racing")
-	racing3a = new addGame(baseLinkReview+"hellrider-3", baseLinkImg+"hellrider3-icon.jpg", "Hellrider 3")
-	racing4a = new addGame(baseLinkReview+"hill-climb-racing-2", baseLinkImg+"hill-climb-racing2-icon.jpg", "Hill Climb Racing 2", "multi")
-	racing5a = new addGame(baseLinkReview+"horizon-chase-world-tour", baseLinkImg+"horizon-chase-world-tour-icon.jpg", "Horizon Chase World Tour")
-	racing6a = new addGame(baseLinkReview+"moto-x3m-bike-race-game", baseLinkImg+"moto-x3m-bike-race-game-icon.jpg", "Moto x3m Bike")
-	racing7a = new addGame(baseLinkReview+"real-racing-3", baseLinkImg+"real-racing3-icon.jpg", "Real Racing 3", "multi")
+	racing1a = new addGame(baseLinkReview+"asphalt-9-legends", baseLinkImg+"6262a56df551ed5332d9048e/628391bd8bbce39fa56aba2f_asphalt-9-legends.jpg", "Asphalt 9 Legends", "multi")
+	racing2a = new addGame(baseLinkReview+"cosmic-challenge-racing", baseLinkImg+"6262a56df551ed5332d9048e/6283920600792f94572224a9_cosmic-icon.jpg", "Cosmic Challenge Racing")
+	racing3a = new addGame(baseLinkReview+"hellrider-3", baseLinkImg+"6262a56df551ed5332d9048e/6283922c3aea71573576d1ea_hellrider3.jpg", "Hellrider 3")
+	racing4a = new addGame(baseLinkReview+"hill-climb-racing-2", baseLinkImg+"6262a56df551ed5332d9048e/6283924e64d42c63bbc707ee_hill-climb-racing-2.jpg", "Hill Climb Racing 2", "multi")
+	racing5a = new addGame(baseLinkReview+"horizon-chase-world-tour", baseLinkImg+"6262a56df551ed5332d9048e/628392822f3b9ab1afc1f84b_horizon.jpg", "Horizon Chase World Tour")
+	racing6a = new addGame(baseLinkReview+"moto-x3m-bike-race-game", baseLinkImg+"6262a56df551ed5332d9048e/628392ab0e893c5a3d8ebda8_moto.jpg", "Moto x3m Bike")
+	racing7a = new addGame(baseLinkReview+"real-racing-3", baseLinkImg+"6262a56df551ed5332d9048e/62839343f06d201947e8a8ba_realracing3.jpg", "Real Racing 3", "multi")
 
 	
 	// RACING TOP 7
-	racing1b = new addGame(baseLinkReview+"earn-2-die", baseLinkImg+"earn2-die-icon.jpg", "Earn 2 Die")
-	racing2b = new addGame(baseLinkReview+"mrbean-special-delivery", baseLinkImg+"mrbean-special-delivery-icon.jpg", "Mrbean Special Delivery")
-	racing3b = new addGame(baseLinkReview+"rival-gears-racing", baseLinkImg+"rival-gears-racing-icon.jpg", "Rival Gears Racing", "multi")
-	racing4b = new addGame(baseLinkReview+"traffic-racer", baseLinkImg+"traffic-racer-icon.jpg", "Traffic Racer")
+	racing1b = new addGame(baseLinkReview+"earn-2-die", baseLinkImg+"6262a56df551ed5332d9048e/6283935e8bbce3baff6abf02_earn2-die-icon.jpg", "Earn 2 Die")
+	racing2b = new addGame(baseLinkReview+"mrbean-special-delivery", baseLinkImg+"6262a56df551ed5332d9048e/62839398378ef56b25be871c_mrbeanicon.jpg", "Mrbean Special Delivery")
+	racing3b = new addGame(baseLinkReview+"rival-gears-racing", baseLinkImg+"6262a56df551ed5332d9048e/628393bae5cc597969f9da01_rival.jpg", "Rival Gears Racing", "multi")
+	racing4b = new addGame(baseLinkReview+"traffic-racer", baseLinkImg+"6262a56df551ed5332d9048e/628393d9536a007e86108122_trafficRacer.jpg", "Traffic Racer")
 	
 	// RACING TOP 6
-	racing1c = new addGame(baseLinkReview+"32-secs", baseLinkImg+"32-secs-icon.jpg", "32 Secs")
-	racing2c = new addGame(baseLinkReview+"carx-highway-racing", baseLinkImg+"carx-highway-racing-icon.jpg", "CarX Highway Racing", "multi")
-	racing3c = new addGame(baseLinkReview+"demolition-derby-3", baseLinkImg+"demolition-derby3-icon.jpg", "Demolition Derby 3", "multi")
-	racing4c = new addGame(baseLinkReview+"hot-wheels-race-off", baseLinkImg+"hot-wheels-race-off-icon.jpg", "Hot Wheels Race Off")	
-	racing5c = new addGame(baseLinkReview+"smashy-road-wanted-2", baseLinkImg+"smashy-road-wanted2-icon.jpg", "Smashy Road Wanted 2")
-	racing6c = new addGame(baseLinkReview+"top-fuel-hot-rod", baseLinkImg+"top-fuel-hot-rod-icon.jpg", "Top Fuel Hot Rod")
+	racing1c = new addGame(baseLinkReview+"32-secs", baseLinkImg+"6262a56df551ed5332d9048e/62751dcda5258880acb790e9_32-secs-icon.jpg", "32 Secs")
+	racing2c = new addGame(baseLinkReview+"carx-highway-racing", baseLinkImg+"6262a56df551ed5332d9048e/628394137e9764ffbc168259_carx.jpg", "CarX Highway Racing", "multi")
+	racing3c = new addGame(baseLinkReview+"demolition-derby-3", baseLinkImg+"6262a56df551ed5332d9048e/6283942d0e893c79048ec6d3_demo-icon.jpg", "Demolition Derby 3", "multi")
+	racing4c = new addGame(baseLinkReview+"hot-wheels-race-off", baseLinkImg+"6262a56df551ed5332d9048e/6283945364d42cd22bc71d90_hot-wheels.jpg", "Hot Wheels Race Off")	
+	racing5c = new addGame(baseLinkReview+"smashy-road-wanted-2", baseLinkImg+"6262a56df551ed5332d9048e/6283946cdfdba3e6dd28e38b_smashy.jpg", "Smashy Road Wanted 2")
+	racing6c = new addGame(baseLinkReview+"top-fuel-hot-rod", baseLinkImg+"6262a56df551ed5332d9048e/6283948a378ef590eabe92ad_topfuel.jpg", "Top Fuel Hot Rod")
 	
 	// ADDING TO racing ARRAY
 	racingTop8 = [racing1a, racing2a, racing3a, racing4a, racing5a, racing6a, racing7a]
@@ -514,22 +514,22 @@ var x2 = setInterval(function () {
 	//################################################################
 	// SIMULATION TOP 8
 	//################################################################
-	simulation1a = new addGame(baseLinkReview+"cooking-fever", baseLinkImg+"cooking-fever-icon.jpg", "Cooking Fever")
-	simulation2a = new addGame(baseLinkReview+"good-pizza-great-pizza", baseLinkImg+"good-pizza-great-pizza-icon.jpg", "Good Pizza Great Pizza")
-	simulation3a = new addGame(baseLinkReview+"stardew-valley", baseLinkImg+"stardew-valley-icon.jpg", "Stardew Valley")
-	simulation4a = new addGame(baseLinkReview+"life-is-strange", baseLinkImg+"life-is-strange-icon.jpg", "Life is Strange")
+	simulation1a = new addGame(baseLinkReview+"cooking-fever", baseLinkImg+"6262a56df551ed5332d9048e/628394ad27cc99f1647ac765_cooking-fever-icon.jpg", "Cooking Fever")
+	simulation2a = new addGame(baseLinkReview+"good-pizza-great-pizza", baseLinkImg+"6262a56df551ed5332d9048e/628394c93aea7120be76e6f8_good-pizza-great-pizza-icon.jpg", "Good Pizza Great Pizza")
+	simulation3a = new addGame(baseLinkReview+"stardew-valley", baseLinkImg+"6262a56df551ed5332d9048e/6283979cabd6226c66aa6369_stardew-valley.jpg", "Stardew Valley")
+	simulation4a = new addGame(baseLinkReview+"life-is-strange", baseLinkImg+"6262a56df551ed5332d9048e/6283ae90b912beaff0f4bc7f_life-is-strange-icon.jpg", "Life is Strange")
 	
 	// SIMULATION TOP 7
-	simulation1b = new addGame(baseLinkReview+"gardenscapes", baseLinkImg+"gardenscapes-icon.jpg", "Gardenscapes")
-	simulation2b = new addGame(baseLinkReview+"me-is-king", baseLinkImg+"me-is-king-icon.jpg", "Me is King")
-	simulation3b = new addGame(baseLinkReview+"simcity-buildit", baseLinkImg+"simcity-buildit-icon.jpg", "Simcity Buildit")
-	simulation4b = new addGame(baseLinkReview+"spongebob-krusty-cook-off", baseLinkImg+"spongebob-krusty-cook-off-icon.jpg", "Spongebob Krusty Cook Off")
+	simulation1b = new addGame(baseLinkReview+"gardenscapes", baseLinkImg+"6262a56df551ed5332d9048e/6283aea7d28fe17715cf9aab_garden-icon.jpg", "Gardenscapes")
+	simulation2b = new addGame(baseLinkReview+"me-is-king", baseLinkImg+"6262a56df551ed5332d9048e/6283bbd7d7eb2d5d6c0cbc11_me-is-king-icon.jpg", "Me is King")
+	simulation3b = new addGame(baseLinkReview+"simcity-buildit", baseLinkImg+"6262a56df551ed5332d9048e/6283bc1824aa899503b87766_simcity-buildit-icon.jpg", "Simcity Buildit")
+	simulation4b = new addGame(baseLinkReview+"spongebob-krusty-cook-off", baseLinkImg+"6262a56df551ed5332d9048e/6283bc313470f333cad2e001_spongebob-icon.jpg", "Spongebob Krusty Cook Off")
 	
 	// SIMULATION TOP 6
-	simulation1c = new addGame(baseLinkReview+"city-island-5", baseLinkImg+"city-island5-icon.jpg", "City Island 5")
-	simulation2c = new addGame(baseLinkReview+"dragon-mania-legends", baseLinkImg+"dragon-mania-legends-icon.jpg", "Dragon Mania Legends")
-	simulation3c = new addGame(baseLinkReview+"godzilla-defense-force", baseLinkImg+"godzilla-defense-force-icon.jpg", "Godzilla Defense Force")
-	simulation4c = new addGame(baseLinkReview+"prison-empire-tycoon", baseLinkImg+"prison-empire-tycoon-icon.jpg", "Prison Empire Tycoon")	
+	simulation1c = new addGame(baseLinkReview+"city-island-5", baseLinkImg+"6262a56df551ed5332d9048e/6283bc5225d9757523939e80_city-island-5.jpg", "City Island 5")
+	simulation2c = new addGame(baseLinkReview+"dragon-mania-legends", baseLinkImg+"6262a56df551ed5332d9048e/6283bc6a22b836199233258c_dragon-mania-legends-icon.jpg", "Dragon Mania Legends")
+	simulation3c = new addGame(baseLinkReview+"godzilla-defense-force", baseLinkImg+"6262a56df551ed5332d9048e/6283bc85114918d0c14e5935_godzilla-defense-force-icon.jpg", "Godzilla Defense Force")
+	simulation4c = new addGame(baseLinkReview+"prison-empire-tycoon", baseLinkImg+"6262a56df551ed5332d9048e/62810bf97ec5796e5343a48f_prison-empire-tycoon-icon.jpg", "Prison Empire Tycoon")	
 
 	
 	// ADDING TO simulation ARRAY
@@ -542,22 +542,22 @@ var x2 = setInterval(function () {
 	//################################################################
 	// SPORTS TOP 8
 	//################################################################
-	sports1a = new addGame(baseLinkReview+"baseball-9", baseLinkImg+"baseball9-icon.jpg", "Baseball 9")
-	sports2a = new addGame(baseLinkReview+"election-year-knockout", baseLinkImg+"election-year-knockout-icon.jpg", "Election Year Knockout")
-	sports3a = new addGame(baseLinkReview+"square-fists-boxing", baseLinkImg+"square-fists-boxing-icon.jpg", "Square Fists Boxing")
-	sports4a = new addGame(baseLinkReview+"world-of-tennis-roaring-20s", baseLinkImg+"world-of-tennis-roaring-20s-icon.jpg", "World of Tennis")
+	sports1a = new addGame(baseLinkReview+"baseball-9", baseLinkImg+"6262a56df551ed5332d9048e/6283bcc77cd6ba9b10af1b39_baseball-9.jpg", "Baseball 9")
+	sports2a = new addGame(baseLinkReview+"election-year-knockout", baseLinkImg+"6262a56df551ed5332d9048e/6283bce3a975a16257ab9af7_election-year-knockout-icon.jpg", "Election Year Knockout")
+	sports3a = new addGame(baseLinkReview+"square-fists-boxing", baseLinkImg+"6262a56df551ed5332d9048e/6283bd0ee40fd03ffb3e05f1_square-fists-boxing-icon.jpg", "Square Fists Boxing")
+	sports4a = new addGame(baseLinkReview+"world-of-tennis-roaring-20s", baseLinkImg+"6262a56df551ed5332d9048e/6283bd2c0675a5f4cf3c2413_world-of-tennis-roaring-20s-icon.jpg", "World of Tennis")
 	
 	// SPORTS TOP 7
-	sports1b = new addGame(baseLinkReview+"basketball-battle", baseLinkImg+"basketball-battle-icon.jpg", "Basketball Battle")
-	sports2b = new addGame(baseLinkReview+"flip-diving", baseLinkImg+"flip-diving-icon.jpg", "Flip Diving")
-	sports3b = new addGame(baseLinkReview+"nba-2k", baseLinkImg+"nba2k-icon.jpg", "NBA 2K")
-	sports4b = new addGame(baseLinkReview+"pba-bowling-challenge", baseLinkImg+"pba-bowling-challenge-icon.jpg", "PBA Bowling Challenge")
+	sports1b = new addGame(baseLinkReview+"basketball-battle", baseLinkImg+"6262a56df551ed5332d9048e/6283bd493dc4c62ea623dffb_basketball-battle-icon.jpg", "Basketball Battle")
+	sports2b = new addGame(baseLinkReview+"flip-diving", baseLinkImg+"6262a56df551ed5332d9048e/6283bd683dc4c6643523e030_flip-diving-icon.jpg", "Flip Diving")
+	sports3b = new addGame(baseLinkReview+"nba-2k", baseLinkImg+"6262a56df551ed5332d9048e/6283bd940aac182cc7389eb3_nba2k-icon.jpg", "NBA 2K")
+	sports4b = new addGame(baseLinkReview+"pba-bowling-challenge", baseLinkImg+"6262a56df551ed5332d9048e/6283bdb2d1fb8c58ea7ec947_pba-icon.jpg", "PBA Bowling Challenge")
 	
 	// SPORTS TOP 6
-	sports1c = new addGame(baseLinkReview+"ea-sports-ufc", baseLinkImg+"ea-sports-ufc-icon.jpg", "EA Sports UFC")
-	sports2c = new addGame(baseLinkReview+"golf-king-world-tour", baseLinkImg+"golf-king-world-tour-icon.jpg", "Golf King World Tour")
-	sports3c = new addGame(baseLinkReview+"hockey-all-stars", baseLinkImg+"hockey-all-stars-icon.jpg", "Hockey All Stars", "multi")
-	sports4c = new addGame(baseLinkReview+"real-boxing-2", baseLinkImg+"real-boxing2-icon.jpg", "Real Boxing 2")	
+	sports1c = new addGame(baseLinkReview+"ea-sports-ufc", baseLinkImg+"6262a56df551ed5332d9048e/6283bdd524aa8985f4b8817a_ea-sports-ufc.jpg", "EA Sports UFC")
+	sports2c = new addGame(baseLinkReview+"golf-king-world-tour", baseLinkImg+"6262a56df551ed5332d9048e/6283bdf1738920593ed15a7d_golf-king-world-tour-icon.jpg", "Golf King World Tour")
+	sports3c = new addGame(baseLinkReview+"hockey-all-stars", baseLinkImg+"6262a56df551ed5332d9048e/6283be1d226ac70cf5a4507d_hockey-all-stars-icon.jpg", "Hockey All Stars", "multi")
+	sports4c = new addGame(baseLinkReview+"real-boxing-2", baseLinkImg+"6262a56df551ed5332d9048e/6283be3d0675a521533c27a3_real-boxing-2.jpg", "Real Boxing 2")	
 
 	
 	// ADDING TO sports ARRAY
@@ -570,19 +570,19 @@ var x2 = setInterval(function () {
 	//################################################################
 	// td TOP 8
 	//################################################################
-	td1a = new addGame(baseLinkReview+"ancient-planet-tower-defense", baseLinkImg+"ancient-planet-tower-defense-icon.jpg", "Ancient Planet")
-	td2a = new addGame(baseLinkReview+"bloons-td-6", baseLinkImg+"bloons-td6-icon.jpg", "Bloons TD 6", "multi")
-	td3a = new addGame(baseLinkReview+"infinitode-2", baseLinkImg+"infinitode2-icon.jpg", "Infinitode 2")
-	td4a = new addGame(baseLinkReview+"kingdom-rush", baseLinkImg+"kingdom-rush-icon.jpg", "Kingdom Rush")
+	td1a = new addGame(baseLinkReview+"ancient-planet-tower-defense", baseLinkImg+"6262a56df551ed5332d9048e/62652222a9da5b9f522c7e20_ancient-planet-tower-defense-icon.jpg", "Ancient Planet")
+	td2a = new addGame(baseLinkReview+"bloons-td-6", baseLinkImg+"6262a56df551ed5332d9048e/627d4dc51442f66a54182e10_bloons-td6-icon.jpg", "Bloons TD 6", "multi")
+	td3a = new addGame(baseLinkReview+"infinitode-2", baseLinkImg+"6262a56df551ed5332d9048e/6283bea37cd6ba3f51af203c_infinitode-2-icon.jpg", "Infinitode 2")
+	td4a = new addGame(baseLinkReview+"kingdom-rush", baseLinkImg+"6262a56df551ed5332d9048e/6283bf271fab6d840192fdd5_kingdom-rush-icon.jpg", "Kingdom Rush")
 	
 	// td TOP 7
-	td1b = new addGame(baseLinkReview+"mega-tower", baseLinkImg+"mega-tower-icon.jpg", "Mega Tower")
+	td1b = new addGame(baseLinkReview+"mega-tower", baseLinkImg+"6262a56df551ed5332d9048e/6283bf62e70b1bfe6eec0366_mega-tower-icon.jpg", "Mega Tower")
 
 	// td TOP 6
-	td1c = new addGame(baseLinkReview+"module-td", baseLinkImg+"module-td-icon.jpg", "Module TD")
-	td2c = new addGame(baseLinkReview+"rooster-defense", baseLinkImg+"rooster-defense-icon.jpg", "Rooster Defense")
-	td3c = new addGame(baseLinkReview+"toy-defense-2", baseLinkImg+"toy-defense2-icon.jpg", "Toy Defense 2")
-	td4c = new addGame(baseLinkReview+"wild-castle-td", baseLinkImg+"wild-castle-td-icon.jpg", "wild-castle-td-icon.jpg")	
+	td1c = new addGame(baseLinkReview+"module-td", baseLinkImg+"6262a56df551ed5332d9048e/6283bf851d2ab2848411aaf6_module-td-icon.jpg", "Module TD")
+	td2c = new addGame(baseLinkReview+"rooster-defense", baseLinkImg+"6262a56df551ed5332d9048e/6283bff63470f36176d2fa79_rooster-icon.jpg", "Rooster Defense")
+	td3c = new addGame(baseLinkReview+"toy-defense-2", baseLinkImg+"6262a56df551ed5332d9048e/6283c0347389209b87d165bd_toy-defense2-icon.jpg", "Toy Defense 2")
+	td4c = new addGame(baseLinkReview+"wild-castle-td", baseLinkImg+"6262a56df551ed5332d9048e/6283c04f3e9081d10deb3660_wild-castle-td-icon.jpg", "wild-castle-td-icon.jpg")	
 
 	
 	// ADDING TO td ARRAY
