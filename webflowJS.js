@@ -882,14 +882,14 @@ class randomGame {
 }
 
 // Casual Games
-randomGame1 = new randomGame("https://androidshark.com/img/orbia-tap-and-relax-icon.jpg",
+randomGame1 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62826d03beebffbca0a683b8_orbia-icon.jpg",
 "Orbia",
 "Casual",
 "https://androidshark.com/mobile/casual-games",
 "https://androidshark.com/review/orbia"
 )
 
-randomGame2 = new randomGame("https://androidshark.com/img/mousebusters-icon.jpg",
+randomGame2 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/627d39a58fdb8888d02ab807_mousebusters-icon.jpg",
 "Mousebusters",
 "Casual",
 "https://androidshark.com/mobile/casual-games",
@@ -898,14 +898,14 @@ randomGame2 = new randomGame("https://androidshark.com/img/mousebusters-icon.jpg
 
 
 // Action Games
-randomGame3 = new randomGame("https://androidshark.com/img/altos-adventure-icon.jpg",
+randomGame3 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62751dd579f96081482e1d83_altos-icon.jpg",
 "Alto's Adventure",
 "Action",
 "https://androidshark.com/mobile/action-games",
 "https://androidshark.com/review/altos-adventure"
 )
 
-randomGame4 = new randomGame("https://androidshark.com/img/among-us-icon.jpg",
+randomGame4 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62751ddaf2602e65d605c7eb_among-us-icon.jpg",
 "Among Us",
 "Action",
 "https://androidshark.com/mobile/action-games",
@@ -913,14 +913,14 @@ randomGame4 = new randomGame("https://androidshark.com/img/among-us-icon.jpg",
 )
 
 // Fight Games
-randomGame5 = new randomGame("https://androidshark.com/img/power-rangers-legacy-wars-icon.jpg",
+randomGame5 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/628283780e573c02bfa4593b_power-rangers-icon.jpg",
 "Power Rangers: Legacy",
 "Fighting",
 "https://androidshark.com/mobile/fighting-games",
 "https://androidshark.com/review/power-rangers-legacy-wars"
 )
 
-randomGame6 = new randomGame("https://androidshark.com/img/skullgirls-icon.jpg",
+randomGame6 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/628283c036c579d5e9b40bf2_skullgirls-icon.jpg",
 "Skullgirls",
 "Fighting",
 "https://androidshark.com/mobile/fighting-games",
@@ -929,14 +929,14 @@ randomGame6 = new randomGame("https://androidshark.com/img/skullgirls-icon.jpg",
 
 
 // Adventure Games
-randomGame7 = new randomGame("https://androidshark.com/img/alien-isolation-icon.jpg",
+randomGame7 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62751dda085d1721590269bb_alien-isolation-icon.jpg",
 "Alien Isolation",
 "Adventure",
 "https://androidshark.com/mobile/adventure-games",
 "https://androidshark.com/review/alien-isolation"
 )
 
-randomGame8 = new randomGame("https://androidshark.com/img/forgotton-anne-icon.jpg",
+randomGame8 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6265439956a98b7409e0ea96_forgotten-anne-icon.jpg",
 "Forgotton Anne",
 "Adventure",
 "https://androidshark.com/mobile/adventure-games",
@@ -944,14 +944,14 @@ randomGame8 = new randomGame("https://androidshark.com/img/forgotton-anne-icon.j
 )
 
 // Rpg Games
-randomGame9 = new randomGame("https://androidshark.com/img/eternium-icon.jpg",
+randomGame9 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62651dbc45767b4516533e65_eternium-icon.jpg",
 "Eternium",
 "Rpg",
 "https://androidshark.com/mobile/rpg-games",
 "https://androidshark.com/review/eternium"
 )
 
-randomGame10 = new randomGame("https://androidshark.com/img/sky-children-of-the-light-icon.jpg",
+randomGame10 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6282877329c88434b4e924fd_sky-icon.jpg",
 "Sky Children",
 "Rpg",
 "https://androidshark.com/mobile/rpg-games",
@@ -959,14 +959,14 @@ randomGame10 = new randomGame("https://androidshark.com/img/sky-children-of-the-
 )
 
 // Platform Games
-randomGame11 = new randomGame("https://androidshark.com/img/oddmar-icon.jpg",
+randomGame11 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6280fb4c25b65e9dbffd436b_oddmar-icon.jpg",
 "Oddmar",
 "Platform",
 "https://androidshark.com/mobile/platform-games",
 "https://androidshark.com/review/oddmar"
 )
 
-randomGame12 = new randomGame("https://androidshark.com/img/super-cat-tales2-icon.jpg",
+randomGame12 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/628289c919b77991038311b5_super-cat-tales-2.jpg",
 "Super Cat Tales",
 "Platform",
 "https://androidshark.com/mobile/platform-games",
@@ -974,14 +974,14 @@ randomGame12 = new randomGame("https://androidshark.com/img/super-cat-tales2-ico
 )
 
 // Strategy Games
-randomGame13 = new randomGame("https://androidshark.com/img/castle-crush-icon.jpg",
+randomGame13 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62838aab436cdeb7901b56e6_castle-crush-icon.jpg",
 "Castle Crush",
 "Strategy",
 "https://androidshark.com/mobile/strategy-games",
 "https://androidshark.com/review/castle-crush"
 )
 
-randomGame14 = new randomGame("https://androidshark.com/img/battle-of-polytopia-icon.jpg",
+randomGame14 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62838a8d536a00be771042a7_battle-of-polytopia-icon.jpg",
 "Battle of Polytopia",
 "Strategy",
 "https://androidshark.com/mobile/strategy-games",
@@ -989,14 +989,14 @@ randomGame14 = new randomGame("https://androidshark.com/img/battle-of-polytopia-
 )
 
 // Puzzle Games
-randomGame15 = new randomGame("https://androidshark.com/img/hyperforma-icon.jpg",
+randomGame15 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6267ca1d69d7b47502281625_hyperforma-icon.png",
 "Hyperforma",
 "Puzzle",
 "https://androidshark.com/mobile/puzzle-games",
 "https://androidshark.com/review/hyperforma"
 )
 
-randomGame16 = new randomGame("https://androidshark.com/img/quell-icon.jpg",
+randomGame16 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62839013aef9692ddfbb5502_quell.jpg",
 "Quell",
 "Puzzle",
 "https://androidshark.com/mobile/puzzle-games",
@@ -1004,7 +1004,7 @@ randomGame16 = new randomGame("https://androidshark.com/img/quell-icon.jpg",
 )
 
 // Racing Games
-randomGame17 = new randomGame("https://androidshark.com/img/hellrider3-icon.jpg",
+randomGame17 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6283922c3aea71573576d1ea_hellrider3.jpg",
 "Hellrider 3",
 "Racing",
 "https://androidshark.com/mobile/racing-games",
@@ -1012,7 +1012,7 @@ randomGame17 = new randomGame("https://androidshark.com/img/hellrider3-icon.jpg"
 )
 
 // Simulation Games
-randomGame18 = new randomGame("https://androidshark.com/img/good-pizza-great-pizza-icon.jpg",
+randomGame18 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/628394c93aea7120be76e6f8_good-pizza-great-pizza-icon.jpg",
 "Good Pizza",
 "Simulation",
 "https://androidshark.com/mobile/simulation-games",
@@ -1020,7 +1020,7 @@ randomGame18 = new randomGame("https://androidshark.com/img/good-pizza-great-piz
 )
 
 // Simulation Games
-randomGame19 = new randomGame("https://androidshark.com/img/election-year-knockout-icon.jpg",
+randomGame19 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6283bce3a975a16257ab9af7_election-year-knockout-icon.jpg",
 "Election Year",
 "Sports",
 "https://androidshark.com/mobile/sports-games",
@@ -1028,7 +1028,7 @@ randomGame19 = new randomGame("https://androidshark.com/img/election-year-knocko
 )
 
 // TD Games
-randomGame20 = new randomGame("https://androidshark.com/img/infinitode2-icon.jpg",
+randomGame20 = new randomGame("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6283bea37cd6ba3f51af203c_infinitode-2-icon.jpg",
 "Infinitode 2",
 "Tower Defense",
 "https://androidshark.com/mobile/tower-defense-games",
