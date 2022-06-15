@@ -27,5 +27,6 @@ $(document).on("click", ".indiez", function(){
     gaimName2 = gaimName.replaceAll(/\s/g,'')
     gaimName2 = gaimName2.toLowerCase();
     finalName = gaimName2["namez"]
+    console.log(gaimName2)
     console.log(finalName)
 })
