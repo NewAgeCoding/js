@@ -131,5 +131,5 @@ $(document).on("click", ".indiez", function(){
     $("#indieGenre").text(genre)
     $("#indieDes").html(des)
     $(".bb2").css("display", "none")
-    $("#"+View).css("display", "block")
+    $("#"+view).css("display", "block")
 })
