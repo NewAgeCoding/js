@@ -140,7 +140,7 @@ $(document).on("click", ".indiez", function(){
     dasLink = window[gaimName].linkz
     view = gaimName + "View"
     view2 = gaimName + "View2"
-    console.log("view>", view)
+    console.log("dasLink>", dasLink)
     $("#indieName").text(name)
     $("#indieGenre").text(genre)
     $("#indieDes").html(des)
