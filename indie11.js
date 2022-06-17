@@ -126,10 +126,10 @@ $(document).on("click", ".indiez", function(){
     genre = window[gaimName].genre
     des = window[gaimName].des
     view = gaimName + "View"
-    view2 = window[view]
+    console.log("view>", view)
     $("#indieName").text(name)
     $("#indieGenre").text(genre)
     $("#indieDes").html(des)
     $(".bb2").css("display", "none")
-    $("#"+view2).css("display", "block")
+    $("#"+view).css("display", "block")
 })
