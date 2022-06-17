@@ -125,7 +125,11 @@ $(document).on("click", ".indiez", function(){
     name = window[gaimName].namez
     genre = window[gaimName].genre
     des = window[gaimName].des
+    view = gaimName + "View"
+    view2 = window[view]
     $("#indieName").text(name)
     $("#indieGenre").text(genre)
     $("#indieDes").html(des)
+    $(".bb2").css("display", "none")
+    $("#"+view2).css("display", "block")
 })
