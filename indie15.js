@@ -1,9 +1,10 @@
 class Indie {
-  constructor(namez, genre, des, votes, video) {
+  constructor(namez, genre, des, votes, video, linkz) {
     this.namez = namez
     this.genre = genre
     this.des = des
     this.video = video
+    this.linkz = linkz
 
   }
 }
@@ -19,7 +20,8 @@ plantdown = new Indie("Plant Down",
 • Plant Down uses an elegant two-button input system designed for mobile
 <BR>
 • The game contains little to no text`,
- vidUrl+"plantDown.mp4");
+ vidUrl+"plantDown.mp4",
+ "https://play.google.com/store/apps/details?id=com.rouli.plantdown");
 
 
 thelastplanets = new Indie("The Last Planets", 
@@ -29,7 +31,8 @@ thelastplanets = new Indie("The Last Planets",
 💸 No P2W (Pay To Win)<BR>
 💳 No Microtransactions based<BR>
 ⌚ No Advertising`,
- vidUrl+"lastP.mp4");
+ vidUrl+"lastP.mp4",
+ "https://play.google.com/store/apps/details?id=com.TronusGames.TheLastPlanets");
 
 
 frytheegg = new Indie("Fry The Egg", 
@@ -43,18 +46,21 @@ You will be able to practice your egg flipping skills like a professional breakf
 1) Cook on both sides until white<BR>
 2) Toss onto the plate sunny-side up<BR>
 How hard can it be?`,
- vidUrl+"fry.mp4");
+ vidUrl+"fry.mp4",
+"https://play.google.com/store/apps/details?id=com.thejeremiah.eggfry");
  
 forkliftextreme3d = new Indie("Fork Lift Extreme 3D", 
 "Simulation", 
 `Forklift driver is made using 😍 ragdoll 😍 giving you the best possible feeling of the physics forklift driving. Many objects in the game are physical so watch out for your forklift not to destroy anything if not needed. In this extreme forklift 3D game you can not only drive your lifter but also customize it and your driver as well, choose from many available skins, colors and types. Unlock new forklift types by completing challenges and achievements and search for hidden treasures on the levels to unlock new skins`,
- "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62a9ef3952089d6e47b9e4f9_forkG.png");
+ "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62a9ef3952089d6e47b9e4f9_forkG.png",
+"https://play.google.com/store/apps/details?id=com.lastmangaming.forkliftextreme3d");   
 
 
 diagonalchess = new Indie("Diagonal Chess", 
 "Board", 
 `In this variant pieces are placed in two corners of a chessboard. Both sides have 7 pawns each, which have different movement rules than in orthodox chess. Also promotion of a pawn occurs on different fields. This chess variant was invented by Zbigniew Kokosiński professor of Cracow University of Technology in April 2020. Detailed rules of the game are described in the application as well as on the website https://www.chessvariants.com/rules/diagonal-chess-well-balanced.`,
- "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62a9f01583d2d80a42433b34_chess2.jpg");
+ "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62a9f01583d2d80a42433b34_chess2.jpg",
+ "https://play.google.com/store/apps/details?id=com.ForestfGames.DiagonalChess");                           
 
 
 mazedefenders = new Indie("Maze Defenders", 
@@ -64,7 +70,8 @@ mazedefenders = new Indie("Maze Defenders",
 During the each game, enemies will try to break your defenses, your task is to defend the kingdom at all cost. Upgrade your towers with talent trees, craft powerful runes and combine tower effects for the best firepower!
 <BR><BR>
 The most powerful tool is mazing, create long mazes for your enemies to travel. Utilise the best strategy in this tower clash an defend the kingdom from the raging tower wars!`,
- vidUrl+"maze.mp4");
+ vidUrl+"maze.mp4",
+ "https://play.google.com/store/apps/details?id=com.mobile.defense.gears");                               
 
 
 mixnmatch = new Indie("Mix 'n Match", 
@@ -74,7 +81,8 @@ mixnmatch = new Indie("Mix 'n Match",
 During the each game, enemies will try to break your defenses, your task is to defend the kingdom at all cost. Upgrade your towers with talent trees, craft powerful runes and combine tower effects for the best firepower!
 <BR><BR>
 The most powerful tool is mazing, create long mazes for your enemies to travel. Utilise the best strategy in this tower clash an defend the kingdom from the raging tower wars!`,
- vidUrl+"mix.mp4");
+ vidUrl+"mix.mp4",
+ "https://play.google.com/store/apps/details?id=com.vit.mixnmatch");                        
  
  
 untoldadventure = new Indie("Untold Adventure", 
@@ -86,7 +94,8 @@ Follow the challenging journey of your heroes as they conquer the fantasy dungeo
 Untold Adventure: Shop Master is a casual store tycoon simulator, rpg clicker game with great graphics and addictive gameplay.
 <BR><BR>
 Develop your own blacksmith shop - as you progress you can create more valuable items and satisfy the needs of more heroes. Become a powerful blacksmith and lead your squad to victory in a series of epic quests!`,
- vidUrl+"untold.mp4");
+ vidUrl+"untold.mp4",
+ "https://play.google.com/store/apps/details?id=com.UserUnknownStudios.ShopMaster&hl=en_ZA&gl=US");                              
 
 
 taphealer = new Indie("Tap Healer", 
@@ -96,7 +105,8 @@ taphealer = new Indie("Tap Healer",
 In this fantasy world, you take the role of a magical healer, trying to keep a group of heroes alive in their battle against evil monsters.
 <BR><BR>
 If you want to help me making the game better, join my new discord channel and get early updates!`,
- "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62aa006c60a9d3611ea4ebaa_tap.jpg");
+ "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62aa006c60a9d3611ea4ebaa_tap.jpg",
+  "https://play.google.com/store/apps/details?id=de.hoelzenbein.healingtouch");                        
 
 
 cowardlyheroes = new Indie("Cowardly Heroes", 
@@ -106,7 +116,8 @@ cowardlyheroes = new Indie("Cowardly Heroes",
 Start a fun and challenging run. Collect coins to increase your score and unlock new heroes and bonuses, grab random risky powerups, dodge and overcome enemies, and progress to new challenging levels!
 <BR><BR>
 Deadly lasers, threatening skeletons, angry minotaurs, fragile barrels, and many more creative obstacles are waiting to ruin your high score!`,
- vidUrl+"coward.mp4");
+ vidUrl+"coward.mp4",
+   "https://play.google.com/store/apps/details?id=com.IrisEdgeStudios.CowardlyHeroes&hl=en_ZA&gl=US");                               
 
 guesstheenigma = new Indie("Guess the Enigma", 
 "Puzzle", 
@@ -117,7 +128,8 @@ guesstheenigma = new Indie("Guess the Enigma",
 ❷ At each round, two icons will be presented for you to choose the one that is most related to the level enigma<BR>
 ❸ Collect the bonus when it is presented by tapping only the enigma icons<BR>
 ❹ Dodge Dragoo's attacks by tapping the swords icon`,
- vidUrl+"guess.mp4");
+ vidUrl+"guess.mp4",
+"https://play.google.com/store/apps/details?id=com.Khrysller.OOAY");                               
 
 
 $(document).on("click", ".indiez", function(){
@@ -125,6 +137,7 @@ $(document).on("click", ".indiez", function(){
     name = window[gaimName].namez
     genre = window[gaimName].genre
     des = window[gaimName].des
+    dasLink = window[gaimName].linkz
     view = gaimName + "View"
     view2 = gaimName + "View2"
     console.log("view>", view)
@@ -134,4 +147,5 @@ $(document).on("click", ".indiez", function(){
     $(".bb2").css("display", "none")
     $("#"+view).css("display", "block")
     $("#"+view2).css("display", "block")
+    $("#indieLink").attr("href", dasLink)
 })
