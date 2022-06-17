@@ -1,5 +1,5 @@
 class Indie {
-  constructor(namez, genre, des, votes, video, linkz) {
+  constructor(namez, genre, des, video, linkz) {
     this.namez = namez
     this.genre = genre
     this.des = des
@@ -9,7 +9,7 @@ class Indie {
   }
 }
 
-vidUrl = "http://103.204.129.121:4500/videos/"
+
 
 plantdown = new Indie("Plant Down", 
 "Arcade", 
