@@ -183,10 +183,10 @@ $(document).on("click", "#clickcommunity", function(){
   $(".indiegames").css("display", "none")
   stringz = `
   <div style="height: 50px;">
-    <div style="float:left; position:relative; top: -25px;"><h3>${game_name}</h3></div>
+    <div style="float:left; position:relative; top: -25px; display:none;"><h3>${game_name}</h3></div>
     <div style="float:right;"><p>comment pending<p></div>      
 	</div>
-	<div> <p>${game_msg}</p></div>
+	<div style="display:none;"> <p>${game_msg}</p></div>
 	`
     $(".mecomment").html('')
   $(".mecomment").append(stringz)
