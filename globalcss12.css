@@ -22,6 +22,14 @@
     height: 472px;
 }
 
+.zigzag-right {
+    position: absolute;
+    top: -1px;
+    z-index: 14;
+    left: 904px;
+    height: 472px;
+}
+
 .border2 {
   display: inline-flex;
   border: 20px solid white;
