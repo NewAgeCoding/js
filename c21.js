@@ -1348,6 +1348,7 @@ function showGames(genre, thisb){
     $(".pregaimz").css("display", "none")
 	$(".profile").css("display", "none")
 	$(".news-dropdown").css("display", "none")
+	$("#mobileMenuBar222").css("overflow-y", "auto")
 
 	if ($(window).width() < 1100) {
 		$("html").css("overflow-y", "hidden")
@@ -1408,6 +1409,7 @@ function showGames(genre, thisb){
 
 
     if(genre == "pre"){
+		$("#mobileMenuBar222").css("overflow-y", "hidden")
 		$(".bigX").css("right", "4px")
 		//###########################################
 		// If mobile dropdown is up or down 
@@ -1423,7 +1425,7 @@ function showGames(genre, thisb){
 			return
 		} else {
 			mobileRemoveDropDown = 1
-			$("html").css("overflow-y", "hidden")
+			
 		}
 	
 
