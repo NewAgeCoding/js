@@ -5,6 +5,15 @@
     top: 3px;
 }
 
+.zigzag-top {
+     width: 1020px !important;
+    position: absolute;
+    top: -368px;
+    z-index: 14;
+    left: -86px;
+    height: 331px;      
+}
+
 .zigzag-left {
     position: absolute;
     top: -1px;
