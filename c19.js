@@ -1129,7 +1129,7 @@ countdownlatestgames()
 		<div class="starzy">
 			<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63145337482ba73547779521_starz.png">
 		</div>
-		
+
 		</div>
           </a>
         <div class="menuGamesBoxP">
@@ -4540,7 +4540,8 @@ $(".latest-gamez").hover(function(){
 
 
 $(document).on("click", ".open-vid", function(){
-	console.log("YAYAAAAY")
 	$(".vid-be").css("display", "none")
+	$(".open-vid").find("h3").css("font-weight", "normal")
 	$(this).find(".vid-be").slideDown(250);
+	$(this).find("h3").css("font-weight", "bold")
 })
