@@ -1,0 +1,17 @@
+.starzy{
+    position: absolute;
+    width: 21px;
+    left: -40px;
+    top: 3px;
+}
+
+@media only screen and (max-width: 991px) {
+  .starzy {
+    width: 13px;
+    left: -28px;
+
+  }
+}
+
+
+
