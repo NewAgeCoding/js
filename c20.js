@@ -1423,6 +1423,7 @@ function showGames(genre, thisb){
 			return
 		} else {
 			mobileRemoveDropDown = 1
+			$("html").css("overflow-y", "hidden")
 		}
 	
 
