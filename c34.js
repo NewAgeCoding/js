@@ -4361,6 +4361,7 @@ function changesplash(get_texty, divy) {
 		$("#createVid").css("height", "461px")
 		$("#createVid").css("width", "925px")
 		$("#createVid").css("margin-top", "-35px")
+		$("#createVid").css("border", "none")
 
 		
 	}
