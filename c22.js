@@ -4469,6 +4469,7 @@ $(document).on("click", ".latest-gamez", function(){
 		divy = $(this)
 		get_texty = $(this).find(".special1").text()
 		$('.phase-btn').css("display", "none")
+		$(".backzy").css("display", "block")
 		$(".gp-btn").css("display", "none")
 		changesplash(get_texty, divy)		
 		setTimeout(function(){
