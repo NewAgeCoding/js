@@ -4459,6 +4459,17 @@ function changesplash(get_texty, divy) {
 		// Score
 		changeScore('#7716ff', 'Platform')
 
+	} else {
+
+
+		$("#createVid").html(`
+		<div data-poster-url="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/629768c75d83f86e3e33187d_finalLoop-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/629768c75d83f86e3e33187d_finalLoop-transcode.mp4,https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/629768c75d83f86e3e33187d_finalLoop-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-beta-bgvideo-upgrade="false" class="background-video w-background-video w-background-video-atom"><video id="a88f3842-3814-d6fc-eaf5-5a3019f9e76c-video" autoplay="" loop="" style="background-image: url(&quot;https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/629768c75d83f86e3e33187d_finalLoop-poster-00001.jpg&quot;); width: 90%; height: 90%; right: -90%; border: 3px solid black;" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/629768c75d83f86e3e33187d_finalLoop-transcode.mp4" data-wf-ignore="true"><source src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/629768c75d83f86e3e33187d_finalLoop-transcode.webm" data-wf-ignore="true"></video></div>
+		`)
+
+		$('.cta').attr("href", "https://www.androidshark.com")
+
+		// Score
+		changeScore('#7716ff', 'Platform')
 	}
 }
 
@@ -4478,7 +4489,17 @@ $(document).on("click", ".latest-gamez", function(){
 	} 
 
 })
+//#######################################
+//	click back button to go to splash video
+//#######################################
+$(document).on("click", ".backzy", function(){
 
+		$('.phase-btn').css("display", "block")
+		$(".backzy").css("display", "none")
+		$(".gp-btn").css("display", "block")
+		changesplash("splashy", "none")		
+
+})
 
 
 //#######################################
