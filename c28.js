@@ -4498,6 +4498,7 @@ $(document).on("click", ".backzy", function(){
 		$('.phase-btn').css("display", "block")
 		$(".backzy").css("display", "none")
 		$(".gp-btn").css("display", "block")
+		$('.bluearrow').css("display", "none")
 		changesplash("splashy", "none")		
 
 })
