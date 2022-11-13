@@ -4495,11 +4495,12 @@ $(document).on("click", ".latest-gamez", function(){
 //#######################################
 $(document).on("click", ".backzy", function(){
 
+		get_texty = "splashy"
 		$('.phase-btn').css("display", "block")
 		$(".backzy").css("display", "none")
 		$(".gp-btn").css("display", "block")
 		$('.bluearrow').css("display", "none")
-		changesplash("splashy", "none")		
+		changesplash(get_texty, "none")		
 
 })
 
