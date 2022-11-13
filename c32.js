@@ -4356,6 +4356,13 @@ function changesplash(get_texty, divy) {
 		$(divy).find(".special1").css("font-weight", "bold")
 		$(divy).find(".pp99").css("font-weight", "normal")
 		$(divy).find(".paragraph-40").css("font-weight", "normal")
+	} else {
+		console.log("splash stuff...")
+		$("#createVid").css("height", "461px")
+		$("#createVid").css("width", "925px")
+		$("#createVid").css("margin-top", "-35px")
+
+		
 	}
 
 
