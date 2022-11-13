@@ -46,7 +46,14 @@
  border-bottom: 2px solid blue;   
 }
 
+.special222, #lathour, #latmin, #latsec {
+    font-size: 14px !important;
+}
 
+
+
+
+/* MOBILE */
 @media only screen and (max-width: 991px) {
   .starzy img{
     width: 13px;
