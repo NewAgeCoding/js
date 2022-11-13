@@ -424,7 +424,7 @@ $("input.fname-mobile[type='text']").on('input', function () {
 
 function countdownTimeStart(){
 
-var countDownDate = new Date("October 27, 2022 21:00:00").getTime();
+var countDownDate = new Date("November 30, 2022 21:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
