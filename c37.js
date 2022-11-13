@@ -4348,10 +4348,6 @@ function changesplash(get_texty, divy) {
 			marginLeft: '+=590px'
 		}, 500);
 	
-	
-	
-	
-	
 		// Change font bold
 		$(divy).find(".special1").css("font-weight", "bold")
 		$(divy).find(".pp99").css("font-weight", "normal")
@@ -4364,7 +4360,7 @@ function changesplash(get_texty, divy) {
 		$("#createVid").css("border", "none")
 		$("._3blockzz1").css("margin-top", "25px")
 		$(".special1").css("font-weight", "normal")
-
+		$(".thecurrentdate").css("display", "block")
 	}
 
 
