@@ -4318,45 +4318,46 @@ function changeScore(colorz, numberz){
 
 function changesplash(get_texty, divy) {
 	// Rest their spots to left side 
-	$('.bluearrow').css("margin-left", "-465px")
+	if(get_texty != "splashy") {
+		$('.bluearrow').css("margin-left", "-465px")
+		// Change its height to match original
+		$("#createVid").css("height", "448px")
+		$("#createVid").css("border", "2px solid black")
+		$("#createVid").css("width", "913px")
+		$("#createVid").css("margin-top", "10px")
+		$("._3blockzz1").css("margin-top", "13px")
+	
+	
+		// Remove the date left side bot
+		$(".thecurrentdate").css("display", "none")
+	
+		// Reset font colors to black and background
+		$(".leBorder3").css("display", "none")
+		$(".leBorder3").remove();
+		$(".golong1").css("background", "transparent")
+		$(".special1").css("background", "transparent")
+	
+		$(".special1").css("font-weight", "normal")
+		$(".pp99").css("font-weight", "normal")
+		$(".paragraph-40").css("font-weight", "normal")
+	
+	
+		// Display blue arrow >>>
+		$('.bluearrow').css("display", "block")
+		$(".bluearrow").animate({
+			marginLeft: '+=590px'
+		}, 500);
+	
+	
+	
+	
+	
+		// Change font bold
+		$(divy).find(".special1").css("font-weight", "bold")
+		$(divy).find(".pp99").css("font-weight", "normal")
+		$(divy).find(".paragraph-40").css("font-weight", "normal")
+	}
 
-
-	// Change its height to match original
-	$("#createVid").css("height", "448px")
-	$("#createVid").css("border", "2px solid black")
-	$("#createVid").css("width", "913px")
-	$("#createVid").css("margin-top", "10px")
-	$("._3blockzz1").css("margin-top", "13px")
-
-
-	// Remove the date left side bot
-	$(".thecurrentdate").css("display", "none")
-
-	// Reset font colors to black and background
-	$(".leBorder3").css("display", "none")
-	$(".leBorder3").remove();
-	$(".golong1").css("background", "transparent")
-	$(".special1").css("background", "transparent")
-
-	$(".special1").css("font-weight", "normal")
-	$(".pp99").css("font-weight", "normal")
-	$(".paragraph-40").css("font-weight", "normal")
-
-
-	// Display blue arrow >>>
-	$('.bluearrow').css("display", "block")
-	$(".bluearrow").animate({
-		marginLeft: '+=590px'
-	}, 500);
-
-
-
-
-
-	// Change font bold
-	$(divy).find(".special1").css("font-weight", "bold")
-	$(divy).find(".pp99").css("font-weight", "normal")
-	$(divy).find(".paragraph-40").css("font-weight", "normal")
 
 	// $(divy).append('<div class="leBorder3"> <img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6364cf94037f1354c036742d_invis-block-2.png"> </div>');
 
