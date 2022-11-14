@@ -1347,6 +1347,7 @@ function showGames(genre, thisb){
     $(".ratingblock").css("display", "none")
     $(".pregaimz").css("display", "none")
 	$(".profile").css("display", "none")
+	$('.latest-games-drop').css("display", "none")
 	$(".news-dropdown").css("display", "none")
 	$("#mobileMenuBar222").css("overflow-y", "auto")
 
@@ -1370,6 +1371,41 @@ function showGames(genre, thisb){
 	//   addGamesAll(genre)
 	//   $("#all-pop-up-genre").css("display", "block")
 
+
+
+	if(genre == "latestz") {
+		$(".bigX").css("right", "4px")
+		//###########################################
+		// If mobile dropdown is up or down 
+		//###########################################
+		if(mobileRemoveDropDown == 1){
+			$(".pcgenregames").css("display", "none")
+			$(".dropdowngames").css("display", "none")
+			mobileRemoveDropDown = 0
+			if($(".dropdowngames").css("display") == "none"){
+				$("html").css("overflow-y", "visible")
+			}
+			$(".bigX").remove();
+			return
+		} else {
+			mobileRemoveDropDown = 1
+		}
+
+		$(".latest-games-drop").css("display", "block")
+		$(".dropdowngames").css("display", "block")
+		if($(".dropdowngames").css("display") == "none"){
+			$(".horibar").find("a").removeClass("blueFontz")
+			$(".horibar a").removeClass("blueFontz")
+			$(".bigX").remove();
+		} else {
+			$(".horibar").find("a").removeClass("blueFontz")
+			aa = $(thisb).attr("class").split(/\s+/);
+			$(thisb).prepend("<div class='bigX'>X</div>")
+			$(thisb).find("a").addClass("blueFontz")
+		}
+
+		return
+	}
 
 
 	// open community tab on mobile
@@ -1936,7 +1972,11 @@ function addIntro(theGamez) {
 //############################################
 // Open Mobile Menu Genre
 //############################################
-
+function clearallz() {
+	$('.newmobile2quick').css("display", "none")
+	$('.genrestuff').css("display", "none")
+	$('.communitytabz').css("display", "none")
+}
 
 $(document).on("click", "#communitylink", function(){
 	$('.dropdowngames').css('display', "block")
@@ -2064,22 +2104,31 @@ $(document).on("click", ".tdlink", function(){
 })
 
 $(document).on("click", ".pre-reg", function(){
-	$('.newmobile2quick').css("display", "none")
+	clearallz()
 	$('.genrestuff').css("display", "block")
-	$('.communitytabz').css("display", "none")
 	showGames("pre", this)
     addIntro("pre")
 })
 
 $(document).on("click", ".profile-page", function(){
-	$('.newmobile2quick').css("display", "none")
+	clearallz()
 	$('.genrestuff').css("display", "block")
-	$('.communitytabz').css("display", "none")
 	showGames("pro", this)
     addIntro("pro")
 })
 
 
+$(document).on("click", ".click-latest", function(){
+	clearallz()
+	$('.genrestuff').css("display", "block")
+	showGames("latestz", this)
+    addIntro("latestz")
+})
+
+
+
+
+latest-games-drop
 //############################################
 // Get URL
 //############################################
