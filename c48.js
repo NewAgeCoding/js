@@ -4366,6 +4366,7 @@ function changeScore(colorz, numberz){
 
 
 function changesplash(get_texty, divy) {
+	$(".dark-description").css("display", "none")
 	// Rest their spots to left side 
 	if(get_texty != "splashy") {
 		$('.bluearrow').css("margin-left", "-465px")
@@ -4442,9 +4443,10 @@ function changesplash(get_texty, divy) {
 
 		$(".dark-description").html(`
 			<h1 class="darkh1">Diablo Immortal</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
+			<p class="darkp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
 		
 		`)
+		$(".dark-description").css("display", "block")
 
 		// Score
 		changeScore('red', 'Rpg')
@@ -4473,9 +4475,11 @@ function changesplash(get_texty, divy) {
 
 		$(".dark-description").html(`
 		<h1 class="darkh1">Sonic the Hedgehog</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
+		<p class="darkp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
 	
 		`)
+
+		$(".dark-description").css("display", "block")
 
 		// Score
 		changeScore('#7716ff', 'Platform')
@@ -4503,9 +4507,11 @@ function changesplash(get_texty, divy) {
 
 		$(".dark-description").html(`
 		<h1 class="darkh1">Plague Inc</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
+		<p class="darkp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
 	
 		`)
+
+		$(".dark-description").css("display", "block")
 
 		// Score
 		changeScore('#7716ff', 'Rts')
@@ -4531,9 +4537,11 @@ function changesplash(get_texty, divy) {
 
 		$(".dark-description").html(`
 		<h1 class="darkh1">Oddmar</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
+		<p class="darkp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
 	
 		`)
+
+		$(".dark-description").css("display", "block")
 
 		// Score
 		changeScore('#7716ff', 'Platform')
