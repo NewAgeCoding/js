@@ -4366,7 +4366,7 @@ function changeScore(colorz, numberz){
 
 
 function changesplash(get_texty, divy) {
-	$(".dark-description").css("display", "none")
+	
 	// Rest their spots to left side 
 	if(get_texty != "splashy") {
 		$('.bluearrow').css("margin-left", "-465px")
@@ -4440,7 +4440,7 @@ function changesplash(get_texty, divy) {
 	
 		$('.cta').attr("href", "https://www.androidshark.com/review/diablo-immortal")
 
-
+		$(".dark-description").css("display", "block")
 		$(".dark-description").html(`
 			<h1 class="darkh1">Diablo Immortal</h1>
 			<p class="darkp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
@@ -4472,7 +4472,7 @@ function changesplash(get_texty, divy) {
 	
 		$('.cta').attr("href", "https://www.androidshark.com/review/sonic-the-hedgehog-2-classic")
 
-
+		$(".dark-description").css("display", "block")
 		$(".dark-description").html(`
 		<h1 class="darkh1">Sonic the Hedgehog</h1>
 		<p class="darkp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
@@ -4505,6 +4505,7 @@ function changesplash(get_texty, divy) {
 	
 		$('.cta').attr("href", "https://www.androidshark.com/review/plague-inc")
 
+		$(".dark-description").css("display", "block")
 		$(".dark-description").html(`
 		<h1 class="darkh1">Plague Inc</h1>
 		<p class="darkp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
@@ -4535,12 +4536,13 @@ function changesplash(get_texty, divy) {
 
 		$('.cta').attr("href", "https://www.androidshark.com/review/oddmar")
 
+		$(".dark-description").css("display", "block")
 		$(".dark-description").html(`
 		<h1 class="darkh1">Oddmar</h1>
 		<p class="darkp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
 	
 		`)
-
+	
 		$(".dark-description").css("display", "block")
 
 		// Score
@@ -4587,7 +4589,7 @@ $(document).on("click", ".latest-gamez", function(){
 //	click back button to go to splash video
 //#######################################
 $(document).on("click", ".backzy", function(){
-
+		$(".dark-description").css("display", "none")
 		get_texty = "splashy"
 		$('.phase-btn').css("display", "block")
 		$(".backzy").css("display", "none")
