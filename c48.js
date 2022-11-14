@@ -4440,6 +4440,11 @@ function changesplash(get_texty, divy) {
 		$('.cta').attr("href", "https://www.androidshark.com/review/diablo-immortal")
 
 
+		$(".dark-description").html(`
+			<h1 class="darkh1">Diablo Immortal</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
+		
+		`)
 
 		// Score
 		changeScore('red', 'Rpg')
@@ -4465,10 +4470,17 @@ function changesplash(get_texty, divy) {
 	
 		$('.cta').attr("href", "https://www.androidshark.com/review/sonic-the-hedgehog-2-classic")
 
+
+		$(".dark-description").html(`
+		<h1 class="darkh1">Sonic the Hedgehog</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
+	
+		`)
+
 		// Score
 		changeScore('#7716ff', 'Platform')
 
-	} else if(get_texty == "Plauge Inc"){
+	} else if(get_texty == "Plague Inc"){
 
 		// Change background color depending on score
 		$(divy).find(".special1").css("background", "transparent")
@@ -4488,6 +4500,12 @@ function changesplash(get_texty, divy) {
 
 	
 		$('.cta').attr("href", "https://www.androidshark.com/review/plague-inc")
+
+		$(".dark-description").html(`
+		<h1 class="darkh1">Plague Inc</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
+	
+		`)
 
 		// Score
 		changeScore('#7716ff', 'Rts')
@@ -4510,6 +4528,12 @@ function changesplash(get_texty, divy) {
 		`)
 
 		$('.cta').attr("href", "https://www.androidshark.com/review/oddmar")
+
+		$(".dark-description").html(`
+		<h1 class="darkh1">Oddmar</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
+	
+		`)
 
 		// Score
 		changeScore('#7716ff', 'Platform')
