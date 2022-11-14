@@ -4402,7 +4402,7 @@ function changesplash(get_texty, divy) {
 		}, 500);
 
 		$(".dark-description").animate({
-			marginLeft: '+=25px'
+			marginLeft: '+=15px'
 		}, 500);
 	
 		// Change font bold
