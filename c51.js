@@ -4370,6 +4370,7 @@ function changesplash(get_texty, divy) {
 	// Rest their spots to left side 
 	if(get_texty != "splashy") {
 		$('.bluearrow').css("margin-left", "-465px")
+		$('.dark-description').css("margin-left", "-465px")
 		// Change its height to match original
 		$("#createVid").css("height", "448px")
 		$("#createVid").css("border", "2px solid black")
@@ -4394,8 +4395,14 @@ function changesplash(get_texty, divy) {
 	
 		// Display blue arrow >>>
 		$('.bluearrow').css("display", "block")
+		$('.dark-description').css("display", "block")
+		
 		$(".bluearrow").animate({
 			marginLeft: '+=590px'
+		}, 500);
+
+		$(".dark-description").animate({
+			marginLeft: '+=190px'
 		}, 500);
 	
 		// Change font bold
