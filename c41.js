@@ -445,9 +445,9 @@ var x = setInterval(function() {
     // + minutes + "m " + seconds + "s ";
     
 
-	$("#hourzzz").text(hours)
-	$("#minzzz").text(minutes)
-	$("#sec1").text(seconds)
+	$("#hourzzz99").text(hours)
+	$("#minzzz99").text(minutes)
+	$("#sec199").text(seconds)
     
     // If the count down is over, write some text 
     if (distance < 0) {
