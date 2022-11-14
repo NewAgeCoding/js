@@ -950,7 +950,7 @@ countdownlatestgames()
 	// NEWGAMES
 	touchgrindbmx2 = new addGame(baseLinkReview+"touchgrind-bmx-2", baseLinkImg+"6262a56df551ed5332d9048e/6332c64498ccb963653eaa40_touchgrind-icon.jpg", "Touchgrind BMX 2", "")	
     dislyte = new addGame(baseLinkReview+"dislyte", baseLinkImg+"6262a56df551ed5332d9048e/6332c6512bf13f66ef6b4cff_dislyte-icon.jpg", "Dislyte", "")	
-    farmville3 = new addGame(baseLinkReview+"farmville3", baseLinkImg+"6262a56df551ed5332d9048e/6332c65a736553850917f54a_farmville3-icon.jpg", "Farmville 3", "Simulation")	
+    farmville3 = new addGame(baseLinkReview+"farmville-3", baseLinkImg+"6262a56df551ed5332d9048e/6332c65a736553850917f54a_farmville3-icon.jpg", "Farmville 3", "Simulation")	
     enyo = new addGame(baseLinkReview+"enyo", baseLinkImg+"6262a56df551ed5332d9048e/6332c6624fdc3709a492a823_enyo-icon.jpg", "Enyo", "")	
     pipelineshexa = new addGame(baseLinkReview+"pipe-lines-hexa", baseLinkImg+"6262a56df551ed5332d9048e/633c0a587cc74c353b3894ff_pipe-lines-icon.png", "Pipe Lines Hexa", "")	
     powerrangers = new addGame(baseLinkReview+"power-rangers-legacy-wars", baseLinkImg+"6262a56df551ed5332d9048e/628283780e573c02bfa4593b_power-rangers-icon.jpg", "Power Rangers Legacy Wars", "")	
