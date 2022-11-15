@@ -87,7 +87,7 @@ function add_all_games(gaimz){
       // if block 1
       if(start == 1) {
         // Append the new created div to the main body
-        $(".all-gamez").append(new_block)
+        $(".flexy").append(new_block)
 
         // Append the game to the new div
         $("."+div_name).append(blocky)
