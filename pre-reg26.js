@@ -45,30 +45,63 @@ function add_description(titlez, genrez, para){
   `)
 }
 
-
+//  <div>
+// <div class="itemz1 flexy-item">asdasd</div>
+// <div class="itemz1 flexy-item">bbbb</div>
+// </div> 
 //###########################################################
 //  Part 3 - all the games
 //###########################################################
+start = 1
+random_div_name = 0
 function add_all_games(gaimz){
   $.each(gaimz, function(i, v){
-      blocky = `
-          <div class="click-gamez" style="margin-bottom:15px;">
+
+        if(start >= 3){
+            start = 1
+        }
+
+        // The actual game name and its genre
+        blocky = `
+            <div class="click-gamez" style="margin-bottom:15px;">
+            
+                <div class="myname">
+                    ${v.name}
+                </div>
+            
+                <div style="
+                color: grey;
+                font-size: 10px;
+                font-family: exo;
+                width: 130px;
+                ">
+                    ${v.genre}
+                </div>
+            </div>
+        `
+
+      // Random div class name
+      div_name = "divy"+random_div_name
+      new_block = `<div class=${div_name}></div>`
+
+      // if block 1
+      if(start == 1) {
+        // Append the new created div to the main body
+        $(".all-gamez").append(new_block)
+
+        // Append the game to the new div
+        $("."+div_name).append(blocky)
+      } else if (start == 2){
+          // minus 1 to get previous div
+          previous_div_class = random_div_name - 1
+          $("."+previous_div_class).append(blocky)
           
-              <div class="myname">
-                  ${v.name}
-              </div>
-          
-              <div style="
-              color: grey;
-              font-size: 10px;
-              font-family: exo;
-              width: 130px;
-              ">
-                  ${v.genre}
-              </div>
-          </div>
-      `
-      $(".all-gamez").append(blocky)
+      }
+
+
+      // Increment stats
+      start = start + 1
+      random_div_name 
   })
 }
 
