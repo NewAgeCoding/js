@@ -102,7 +102,7 @@ function add_all_games(gaimz){
 
       // Increment stats
       start = start + 1
-      random_div_name 
+      random_div_name =  random_div_name  + 1
   })
 }
 
