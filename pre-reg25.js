@@ -52,7 +52,7 @@ function add_description(titlez, genrez, para){
 function add_all_games(gaimz){
   $.each(gaimz, function(i, v){
       blocky = `
-          <div class="click-gamez" style="float:left; width:160px; margin-bottom:15px;">
+          <div class="click-gamez" style="margin-bottom:15px;">
           
               <div class="myname">
                   ${v.name}
