@@ -97,7 +97,8 @@ function add_all_games(gaimz){
       } else if (start == 2){
           // minus 1 to get previous div
           previous_div_class = random_div_name - 1
-          $("."+previous_div_class).append(blocky)
+          div_name = "divy"+previous_div_class
+          $("."+div_name).append(blocky)
           
       }
 
