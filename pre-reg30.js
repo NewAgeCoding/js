@@ -57,7 +57,9 @@ start = 1
 random_div_name = 0
 function add_all_games(gaimz){
   $.each(gaimz, function(i, v){
-
+        console.log(v.name)
+        console.log("place in div:", random_div_name)
+       
         if(start >= 3){
             start = 1
         }
