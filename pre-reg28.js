@@ -49,6 +49,7 @@ function add_description(titlez, genrez, para){
 // <div class="itemz1 flexy-item">asdasd</div>
 // <div class="itemz1 flexy-item">bbbb</div>
 // </div> 
+
 //###########################################################
 //  Part 3 - all the games
 //###########################################################
@@ -63,7 +64,7 @@ function add_all_games(gaimz){
 
         // The actual game name and its genre
         blocky = `
-            <div class="click-gamez" style="margin-bottom:15px;">
+            <div class="click-gamez itemz1 flexy-item" style="margin-bottom:15px;">
             
                 <div class="myname">
                     ${v.name}
