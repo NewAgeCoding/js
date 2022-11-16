@@ -2132,6 +2132,7 @@ $(document).on("click", "#open-profile", function(){
 	clearallz()
 	$('.open-profile-page').css("display", "block")
 	$(".profile").css("display", "block")
+	$("html").css("overflow-y", "hidden")
 })
 
 
