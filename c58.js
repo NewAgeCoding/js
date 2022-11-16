@@ -4675,3 +4675,12 @@ $(document).on("click", ".open-vid", function(){
 	$(this).find(".vid-be").slideDown(250);
 	$(this).find("h3").css("font-weight", "bold")
 })
+
+//########################################################
+//	Hover over splash to change color of youtube button
+//########################################################
+$("#createVid").hover(function(){
+	$('.wrapper455').css("background", "#cd201f");
+	}, function(){
+	$('.wrapper455').css("background", "rgba(0,0,0,0.55)");
+  });
