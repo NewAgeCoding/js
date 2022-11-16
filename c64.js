@@ -4574,7 +4574,7 @@ $(document).on("click", ".latest-gamez", function(){
 		stoper = 1
 		divy = $(this)
 		get_texty = $(this).find(".special1").text()
-		$('.phase-btn').css("display", "none")
+		$('.phase-btn').css("display", "block")
 		$(".backzy").css("display", "block")
 		$(".gp-btn").css("display", "none")
 		$('.hovereffect').css("display", "none")
