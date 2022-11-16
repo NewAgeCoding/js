@@ -2128,7 +2128,7 @@ $(document).on("click", ".click-latest", function(){
 })
 
 
-$(document).on("click", ".open-profile", function(){
+$(document).on("click", "#open-profile", function(){
 	clearallz()
 	$('.open-profile-page').css("display", "block")
 })
