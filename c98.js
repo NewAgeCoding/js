@@ -1343,20 +1343,7 @@ countdownlatestgames()
 //############################################
 mobileRemoveDropDown = 0 //div-block-305
 function showGames(genre, thisb){
-	console.log("1)", mobileRemoveDropDown)
-	if($('.dropdowngames').css('display') == 'block') {
-		console.log("2)", mobileRemoveDropDown)
-		$('.newmobile2quick').css("display", "none")
-		$('.genrestuff').css("display", "none")
-		$('.communitytabz').css("display", "none")
-		$('.open-profile-page').css("display", "none")
-		$('.dropdowngames').css('display', "none")
-		$('.bigX').css('display', "none")
-		$("a").removeClass("blueFontz")
-		mobileRemoveDropDown = 0
-		console.log("3)", mobileRemoveDropDown)
-		return
-	}
+
 	console.log("4)", mobileRemoveDropDown)
     $(".ratingblock").css("display", "none")
     $(".pregaimz").css("display", "none")
@@ -1982,6 +1969,21 @@ function addIntro(theGamez) {
 //############################################
 tabz_open = "no"
 function clearallz() {
+
+	console.log("1)", mobileRemoveDropDown)
+	console.log("2)", mobileRemoveDropDown)
+	$('.newmobile2quick').css("display", "none")
+	$('.genrestuff').css("display", "none")
+	$('.communitytabz').css("display", "none")
+	$('.open-profile-page').css("display", "none")
+	$('.dropdowngames').css('display', "none")
+	$('.bigX').css('display', "none")
+	$("a").removeClass("blueFontz")
+	mobileRemoveDropDown = 0
+	console.log("3)", mobileRemoveDropDown)
+	
+	
+
 	
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "none")
@@ -1991,9 +1993,9 @@ function clearallz() {
 	$('.bigX').css('display', "none")
 	$("a").removeClass("blueFontz")
 	tabz_open = "no"
-	if(mobileRemoveDropDown == 1) {
-		mobileRemoveDropDown = 0
-	}
+	// if(mobileRemoveDropDown == 1) {
+	// 	mobileRemoveDropDown = 0
+	// }
 	
 }
 
