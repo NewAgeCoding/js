@@ -4483,8 +4483,6 @@ $(".hovereffect").hover(function(){
 //########################################################
 //	login page
 //########################################################
-
-
 // See if user logged in
 getID = localStorage.getItem("idz")
 if(getID){
@@ -4704,3 +4702,69 @@ function myFunction() {
     console.log("REFER:", refer_link)
     $(".sharebox").css("display", "block")
 }  
+
+
+
+//########################################################
+//	Disqus on home page for pc and mobile
+//########################################################
+if ($(window).width() > 1000) {
+	$('.pc-disc').html(`
+	<div id="disqus_thread"></div>
+	<script>
+    var PAGE_URL = window.location.href; 
+    var disqus_config = function () {
+    this.page.url = PAGE_URL; 
+    this.page.identifier = PAGE_URL 
+    };   
+  
+    
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        
+        // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        s.src = 'https://https-www-androidshark-com.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view the 
+    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+        comments powered by Disqus.
+    </a>
+</noscript>
+	
+	`)
+
+} else {
+	$('.mobile-disc').html(`
+	<div id="disqus_thread"></div>
+<script>
+    var PAGE_URL = window.location.href; 
+    var disqus_config = function () {
+    this.page.url = PAGE_URL; 
+    this.page.identifier = PAGE_URL 
+    };   
+  
+    
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        
+        // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        s.src = 'https://https-www-androidshark-com.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view the 
+    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+        comments powered by Disqus.
+    </a>
+</noscript>
+	
+	`)
+}
