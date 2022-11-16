@@ -1984,6 +1984,7 @@ function clearallz() {
 	$('.bigX').css('display', "none")
 	$("a").removeClass("blueFontz")
 	tabz_open = "no"
+	mobileRemoveDropDown = 0
 }
 
 $(document).on("click", "#communitylink", function(){
