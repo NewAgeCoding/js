@@ -1974,10 +1974,12 @@ function addIntro(theGamez) {
 //############################################
 // Open Mobile Menu Genre
 //############################################
+tabz_open = "no"
 function clearallz() {
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "none")
 	$('.communitytabz').css("display", "none")
+	$('.open-profile-page').css("display", "none")
 }
 
 $(document).on("click", "#communitylink", function(){
@@ -2129,10 +2131,18 @@ $(document).on("click", ".click-latest", function(){
 
 
 $(document).on("click", "#open-profile", function(){
-	clearallz()
-	$('.open-profile-page').css("display", "block")
-	$(".profile").css("display", "block")
-	$("html").css("overflow-y", "hidden")
+	if(tabz_open == "no") {
+		clearallz()
+		$('.open-profile-page').css("display", "block")
+		$(".profile").css("display", "block")
+		$("html").css("overflow-y", "hidden")
+		tabz_open = "yes"
+	} else {
+		$('.open-profile-page').css("display", "none")
+		$(".profile").css("display", "block")
+		$("html").css("overflow-y", "auto")
+	}
+
 })
 
 
