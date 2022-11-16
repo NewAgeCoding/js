@@ -2131,6 +2131,7 @@ $(document).on("click", ".click-latest", function(){
 $(document).on("click", "#open-profile", function(){
 	clearallz()
 	$('.open-profile-page').css("display", "block")
+	$(".profile").css("display", "block")
 })
 
 
@@ -4590,8 +4591,8 @@ $.get("https://jawsomegames.com/validate/"+getID, function(data, status){
 //#################################
 //  Das Login
 //#################################
-$(".profile").css("display", "none")
-$(".the-profile-page").html(`
+$(".profile").css("display", "block")
+$(".profile").html(`
 
 <a href='https://jawsomegames.com/login/no_referal'>
 <button type="button" class="login-with-google-btn" >
