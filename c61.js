@@ -4449,9 +4449,7 @@ function changesplash(get_texty, divy) {
 
 		$(".dark-description").css("display", "block")
 		$(".dark-description").html(`
-			<h1 class="darkh1">Diablo Immortal</h1>
-			<p class="darkp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
-		
+			<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/630bb164b123fbae90c35759_diabloimmortal1.jpg">
 		`)
 		$(".dark-description").css("display", "block")
 
@@ -4481,9 +4479,7 @@ function changesplash(get_texty, divy) {
 
 		$(".dark-description").css("display", "block")
 		$(".dark-description").html(`
-		<h1 class="darkh1">Sonic the Hedgehog</h1>
-		<p class="darkp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
-	
+			<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/635142753f2a3cd1988b8de8_sonic-g1.jpg">
 		`)
 
 		$(".dark-description").css("display", "block")
@@ -4514,9 +4510,7 @@ function changesplash(get_texty, divy) {
 
 		$(".dark-description").css("display", "block")
 		$(".dark-description").html(`
-		<h1 class="darkh1">Plague Inc</h1>
-		<p class="darkp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
-	
+			<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/62a1d7b1bd16fe33d8a1f8ee_plague-g1.jpg">
 		`)
 
 		$(".dark-description").css("display", "block")
@@ -4545,9 +4539,7 @@ function changesplash(get_texty, divy) {
 
 		$(".dark-description").css("display", "block")
 		$(".dark-description").html(`
-		<h1 class="darkh1">Oddmar</h1>
-		<p class="darkp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo </p>
-	
+			<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/628515761cbbbe79cc2865c4_oddmar-g2.jpg">
 		`)
 	
 		$(".dark-description").css("display", "block")
