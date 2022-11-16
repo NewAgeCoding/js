@@ -63,4 +63,9 @@
     left: -28px;
 
   }
+    
+    .profile {
+    top: 80px !important;
+    display: block;
+}
 }
