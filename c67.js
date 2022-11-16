@@ -1347,6 +1347,8 @@ function showGames(genre, thisb){
     $(".ratingblock").css("display", "none")
     $(".pregaimz").css("display", "none")
 	$(".profile").css("display", "none")
+	$(".the-profile-page").css("display", "none")
+	
 	$('.latest-games-drop').css("display", "none")
 	$(".news-dropdown").css("display", "none")
 	$("#mobileMenuBar222").css("overflow-y", "auto")
@@ -2125,6 +2127,11 @@ $(document).on("click", ".click-latest", function(){
     addIntro("latestz")
 })
 
+
+$(document).on("click", ".open-profile", function(){
+	clearallz()
+	$('.open-profile-page').css("display", "block")
+})
 
 
 
@@ -3193,225 +3200,7 @@ var game_msg = ""
 function getStats99() {
 
 }
-// See if user logged in
-getID = localStorage.getItem("idz")
-if(getID){
-$.get("https://jawsomegames.com/validate/"+getID, function(data, status){
-   if(data == 'err'){
-    console.log("Please Login")
-  } else {
-      console.log(data)
-      $.each( data, function( key, value ) {
-        name = value[1]
-        points = value[5]
-        refer_link = refer_link + value[4]
-        localStorage.setItem("refer_link", refer_link)
-        peepsRef = value[6]
-        pic = value[9]
-        localStorage.setItem("daspic", pic)
-        le_daat = value[10]
-        game_name  = value[12]
-        game_msg = value[13]
-        if(pic == 0) {
-          pic = `<img style="width:110px;" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63492ac01067816221319567_dolphin-p-500.png">`
-        } else if (pic == 1) {
-          pic = `<img style="width:110px;" src='https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62b067cecb2d9a517f6cf19f_Spike.png'>`
-        }
-        $(".mypic").html(pic)
 
-
-
-        
-      var dateObj = new Date();
-      var month = dateObj.getUTCMonth() + 1; //months from 1-12
-      var day = dateObj.getUTCDate();
-      var year = dateObj.getUTCFullYear();
-
-      gg = year + "-" + month + "-" + day;
-
-      function compareDatez(oldDate, gg) {
-          oldz = oldDate.split("-")
-          oldyear = oldz[0]
-          oldmonth = oldz[1]
-          oldday = oldz[2]
-
-          newz = gg.split("-")
-          newzyear = newz[0]
-          newzmonth = newz[1]
-          newzday = newz[2]
-
-          totalyear = newzyear - oldyear
-          totalmonth = newzmonth - oldmonth
-          totalday = newzday - oldday
-
-          yearstring = ""
-          monthstring = ""
-          daystring = ""
-
-          if(totalyear == 1) {
-              yearstring = totalyear + " year "
-          } else if (totalyear >= 2) {
-              yearstring = totalyear + " years "
-          }
-
-          if(totalmonth == 1) {
-              monthstring = totalmonth + " month "
-          } else if (totalmonth >= 2) {
-              monthstring = totalmonth + " months "
-          }
-
-          if(totalday == 1) {
-              daystring = totalday + " day "
-          }  else if (totalday >= 2) {
-              daystring = totalday + " days "
-          }
-
-          return yearstring + monthstring  + daystring 
-      }
-
-      le_daat = compareDatez(le_daat, gg)
-
-
-	  	get_read_gamez = localStorage.getItem('readgames')
-		total_len_read_games = 0
-		if(get_read_gamez){
-			t = JSON.parse(get_read_gamez)
-			total_len_read_games = t.length
-		} else {
-			total_len_read_games = 0
-		}
-
-	  	//#4598
-        $(".mystats").html(
-          `
-           <h2 style="font-size: 18px; margin: 0;">Welcome Back</h2>  
-           ${name} <BR>
-           Member for: ${le_daat} <BR>
-           Power level: ${points} <BR>
-
-     
-          `
-        )  
-      });    
-    $(".posty").css("display", "block")
-  } 
-});
-} else {
-//#################################
-//  Das Login
-//#################################
-$(".profile").css("display", "none")
-$(".profile").html(`
-
-<a href='https://jawsomegames.com/login/no_referal'>
-<button type="button" class="login-with-google-btn" >
-  Sign in with Google
-</button>
-</a>
-
-<BR><BR>
-
-<a href='https://jawsomegames.com/twitter'>
-<button type="button" class="login-with-twitter-btn">
-Sign in with Twitter
-</button>
-</a>
-
-<BR><BR>
-
-<a href='#'>
-<button type="button" class="login-with-google-btn" style="background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/2048px-Facebook_f_logo_%282021%29.svg.png)">
-</button>
-</a>
-<BR><BR>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v15.0&appId=720158586198378&autoLogAppEvents=1" nonce="sAWyMvRm"></script>
-
-
-<div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
-`)
-$(".makesugg").css("display", "none")
-$(".mecomment").css("display", "none")
-}
-
-
-function statusChangeCallback(response) {
-	console.log('statusChangeCallback');
-	console.log(response);
-
-	// The response object is returned with a status field that lets the
-	// app know the current login status of the person.
-	// Full docs on the response object can be found in the documentation
-	// for FB.getLoginStatus().
-	
-	if (response.status === 'connected') {
-		getIDz = response['authResponse'].userID
-		// Logged into your app and Facebook.
-		console.log('Welcome!  Fetching your information.... ');
-		FB.api('/me', function (response) {
-			le_name = response.name
-			console.log('Successful login for: ' + le_name);
-			get_id = localStorage.getItem("idz")
-			if(get_id){
-				console.log("already logged")
-			} else {
-				$.post("https://jawsomegames.com/fblogin",  {getID: getIDz, naam: le_name}, function(data, status){
-					if(data == "dun"){
-						localStorage.setItem("idz", getIDz)
-						location.reload();
-					}
-				
-				})	
-				
-			}
-			
-	
-		});
-	} else {
-		// The person is not logged into your app or we are unable to tell.
-		console.log('Please log ' + 'into this app.' + response.name);
-		
-	}
-}
-
-
-window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '720158586198378',
-      cookie     : true,
-      xfbml      : true,
-      version    : 'v3.2'
-    });
-      
-    FB.AppEvents.logPageView();   
-
-    FB.getLoginStatus(function(response) {
-      statusChangeCallback(response);
-    });
-      
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-
-
-var clicky = 0
-function myFunction() {  
-    if(clicky == 0) {
-        $(".put").html(
-        `<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5fccc288214d880019f2178e&product=sticky-share-buttons-buttons' async='async'></script`+">"+
-         `<div class="sharethis-inline-share-buttons" data-url="${refer_link}" data-title="Join this 	great site so we can both earn points!"></div> `
-        )
-        clicky = 1
-    }
-    console.log("REFER:", refer_link)
-    $(".sharebox").css("display", "block")
-}  
 
 // invite function #123
 
@@ -4682,3 +4471,234 @@ $(".hovereffect").hover(function(){
 	}, function(){
 	$('.wrapper455').css("background", "rgba(0,0,0,0.55)");
   });
+
+
+
+
+
+
+
+//########################################################
+//	login page
+//########################################################
+
+
+// See if user logged in
+getID = localStorage.getItem("idz")
+if(getID){
+$.get("https://jawsomegames.com/validate/"+getID, function(data, status){
+   if(data == 'err'){
+    console.log("Please Login")
+  } else {
+      console.log(data)
+      $.each( data, function( key, value ) {
+        name = value[1]
+        points = value[5]
+        refer_link = refer_link + value[4]
+        localStorage.setItem("refer_link", refer_link)
+        peepsRef = value[6]
+        pic = value[9]
+        localStorage.setItem("daspic", pic)
+        le_daat = value[10]
+        game_name  = value[12]
+        game_msg = value[13]
+        if(pic == 0) {
+          pic = `<img style="width:110px;" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63492ac01067816221319567_dolphin-p-500.png">`
+        } else if (pic == 1) {
+          pic = `<img style="width:110px;" src='https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62b067cecb2d9a517f6cf19f_Spike.png'>`
+        }
+        $(".mypic").html(pic)
+
+
+
+        
+      var dateObj = new Date();
+      var month = dateObj.getUTCMonth() + 1; //months from 1-12
+      var day = dateObj.getUTCDate();
+      var year = dateObj.getUTCFullYear();
+
+      gg = year + "-" + month + "-" + day;
+
+      function compareDatez(oldDate, gg) {
+          oldz = oldDate.split("-")
+          oldyear = oldz[0]
+          oldmonth = oldz[1]
+          oldday = oldz[2]
+
+          newz = gg.split("-")
+          newzyear = newz[0]
+          newzmonth = newz[1]
+          newzday = newz[2]
+
+          totalyear = newzyear - oldyear
+          totalmonth = newzmonth - oldmonth
+          totalday = newzday - oldday
+
+          yearstring = ""
+          monthstring = ""
+          daystring = ""
+
+          if(totalyear == 1) {
+              yearstring = totalyear + " year "
+          } else if (totalyear >= 2) {
+              yearstring = totalyear + " years "
+          }
+
+          if(totalmonth == 1) {
+              monthstring = totalmonth + " month "
+          } else if (totalmonth >= 2) {
+              monthstring = totalmonth + " months "
+          }
+
+          if(totalday == 1) {
+              daystring = totalday + " day "
+          }  else if (totalday >= 2) {
+              daystring = totalday + " days "
+          }
+
+          return yearstring + monthstring  + daystring 
+      }
+
+      le_daat = compareDatez(le_daat, gg)
+
+
+	  	get_read_gamez = localStorage.getItem('readgames')
+		total_len_read_games = 0
+		if(get_read_gamez){
+			t = JSON.parse(get_read_gamez)
+			total_len_read_games = t.length
+		} else {
+			total_len_read_games = 0
+		}
+
+	  	//#4598
+        $(".mystats").html(
+          `
+           <h2 style="font-size: 18px; margin: 0;">Welcome Back</h2>  
+           ${name} <BR>
+           Member for: ${le_daat} <BR>
+           Power level: ${points} <BR>
+
+     
+          `
+        )  
+      });    
+    $(".posty").css("display", "block")
+  } 
+});
+} else {
+//#################################
+//  Das Login
+//#################################
+$(".profile").css("display", "none")
+$(".the-profile-page").html(`
+
+<a href='https://jawsomegames.com/login/no_referal'>
+<button type="button" class="login-with-google-btn" >
+  Sign in with Google
+</button>
+</a>
+
+<BR><BR>
+
+<a href='https://jawsomegames.com/twitter'>
+<button type="button" class="login-with-twitter-btn">
+Sign in with Twitter
+</button>
+</a>
+
+<BR><BR>
+
+<a href='#'>
+<button type="button" class="login-with-google-btn" style="background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/2048px-Facebook_f_logo_%282021%29.svg.png)">
+</button>
+</a>
+<BR><BR>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v15.0&appId=720158586198378&autoLogAppEvents=1" nonce="sAWyMvRm"></script>
+
+
+<div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
+`)
+$(".makesugg").css("display", "none")
+$(".mecomment").css("display", "none")
+}
+
+
+function statusChangeCallback(response) {
+	console.log('statusChangeCallback');
+	console.log(response);
+
+	// The response object is returned with a status field that lets the
+	// app know the current login status of the person.
+	// Full docs on the response object can be found in the documentation
+	// for FB.getLoginStatus().
+	
+	if (response.status === 'connected') {
+		getIDz = response['authResponse'].userID
+		// Logged into your app and Facebook.
+		console.log('Welcome!  Fetching your information.... ');
+		FB.api('/me', function (response) {
+			le_name = response.name
+			console.log('Successful login for: ' + le_name);
+			get_id = localStorage.getItem("idz")
+			if(get_id){
+				console.log("already logged")
+			} else {
+				$.post("https://jawsomegames.com/fblogin",  {getID: getIDz, naam: le_name}, function(data, status){
+					if(data == "dun"){
+						localStorage.setItem("idz", getIDz)
+						location.reload();
+					}
+				
+				})	
+				
+			}
+			
+	
+		});
+	} else {
+		// The person is not logged into your app or we are unable to tell.
+		console.log('Please log ' + 'into this app.' + response.name);
+		
+	}
+}
+
+
+window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '720158586198378',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v3.2'
+    });
+      
+    FB.AppEvents.logPageView();   
+
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+
+var clicky = 0
+function myFunction() {  
+    if(clicky == 0) {
+        $(".put").html(
+        `<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5fccc288214d880019f2178e&product=sticky-share-buttons-buttons' async='async'></script`+">"+
+         `<div class="sharethis-inline-share-buttons" data-url="${refer_link}" data-title="Join this 	great site so we can both earn points!"></div> `
+        )
+        clicky = 1
+    }
+    console.log("REFER:", refer_link)
+    $(".sharebox").css("display", "block")
+}  
