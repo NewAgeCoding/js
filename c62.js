@@ -4476,10 +4476,10 @@ function changesplash(get_texty, divy) {
 
 	
 		$('.cta').attr("href", "https://www.androidshark.com/review/sonic-the-hedgehog-2-classic")
-
+		
 		$(".dark-description").css("display", "block")
 		$(".dark-description").html(`
-			<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/635142753f2a3cd1988b8de8_sonic-g1.jpg">
+			<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6360c54b6855c98bba5e2c08_sonic-splash.jpg">
 		`)
 
 		$(".dark-description").css("display", "block")
@@ -4507,10 +4507,10 @@ function changesplash(get_texty, divy) {
 
 	
 		$('.cta').attr("href", "https://www.androidshark.com/review/plague-inc")
-
+		
 		$(".dark-description").css("display", "block")
 		$(".dark-description").html(`
-			<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/62a1d7b1bd16fe33d8a1f8ee_plague-g1.jpg">
+			<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/636e5fe70ab43e42a382df5b_plague12.jpg">
 		`)
 
 		$(".dark-description").css("display", "block")
@@ -4536,10 +4536,10 @@ function changesplash(get_texty, divy) {
 		`)
 
 		$('.cta').attr("href", "https://www.androidshark.com/review/oddmar")
-
+		
 		$(".dark-description").css("display", "block")
 		$(".dark-description").html(`
-			<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/628515761cbbbe79cc2865c4_oddmar-g2.jpg">
+			<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6374df5614e95677d336950b_oddmar-splash-big.jpg">
 		`)
 	
 		$(".dark-description").css("display", "block")
