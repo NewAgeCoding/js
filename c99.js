@@ -1972,15 +1972,19 @@ function clearallz() {
 
 	console.log("1)", mobileRemoveDropDown)
 	console.log("2)", mobileRemoveDropDown)
-	$('.newmobile2quick').css("display", "none")
-	$('.genrestuff').css("display", "none")
-	$('.communitytabz').css("display", "none")
-	$('.open-profile-page').css("display", "none")
-	$('.dropdowngames').css('display', "none")
-	$('.bigX').css('display', "none")
-	$("a").removeClass("blueFontz")
-	mobileRemoveDropDown = 0
-	console.log("3)", mobileRemoveDropDown)
+	if(mobileRemoveDropDown == 1){
+		console.log("STOP!")
+		return
+	}
+	// $('.newmobile2quick').css("display", "none")
+	// $('.genrestuff').css("display", "none")
+	// $('.communitytabz').css("display", "none")
+	// $('.open-profile-page').css("display", "none")
+	// $('.dropdowngames').css('display', "none")
+	// $('.bigX').css('display', "none")
+	// $("a").removeClass("blueFontz")
+	// mobileRemoveDropDown = 0
+	// console.log("3)", mobileRemoveDropDown)
 	
 	
 
@@ -2036,6 +2040,7 @@ $(document).on("click", ".casuallink", function(){
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
+	console.log("2/3)", mobileRemoveDropDown)
 	showGames("casual", this)
     addIntro("casual")
 })
