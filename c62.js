@@ -4449,7 +4449,7 @@ function changesplash(get_texty, divy) {
 
 		$(".dark-description").css("display", "block")
 		$(".dark-description").html(`
-			<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/630bb164b123fbae90c35759_diabloimmortal1.jpg">
+			<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62658be9bbfa236eac0dc446_diablo-immortal-1.jpg">
 		`)
 		$(".dark-description").css("display", "block")
 
