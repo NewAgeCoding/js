@@ -1983,6 +1983,7 @@ function clearallz() {
 }
 
 $(document).on("click", "#communitylink", function(){
+	clearallz()
 	$('.dropdowngames').css('display', "block")
 	$('.newmobile2quick').css("display", "none")
 	$('.community1').css('display', "none")
@@ -1992,6 +1993,7 @@ $(document).on("click", "#communitylink", function(){
 })
 
 $(document).on("click", ".revz", function(){
+	clearallz()
 	$('.dropdowngames').css('display', "block")
 	$('.newmobile2quick').css("display", "none")
 	$(".newzzz").css("display", "none")
@@ -2005,6 +2007,7 @@ $(document).on("click", ".revz", function(){
 
 
 $(document).on("click", "#newsLink", function(){
+	clearallz()
 	$('.dropdowngames').css('display', "block")
 	$('.newmobile2quick').css("display", "block")
 	$('.communitytabz').css("display", "none")
@@ -2012,6 +2015,7 @@ $(document).on("click", "#newsLink", function(){
 })
 
 $(document).on("click", ".casuallink", function(){
+	clearallz()
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
@@ -2020,6 +2024,7 @@ $(document).on("click", ".casuallink", function(){
 })
 
 $(document).on("click", ".actionlink", function(){
+	clearallz()
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
@@ -2028,6 +2033,7 @@ $(document).on("click", ".actionlink", function(){
 })
 
 $(document).on("click", ".fightlink", function(){
+	clearallz()
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
@@ -2036,6 +2042,7 @@ $(document).on("click", ".fightlink", function(){
 })
 
 $(document).on("click", ".adventurelink", function(){
+	clearallz()
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
@@ -2044,6 +2051,7 @@ $(document).on("click", ".adventurelink", function(){
 })
 
 $(document).on("click", ".rpglink", function(){
+	clearallz()
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
@@ -2053,6 +2061,7 @@ $(document).on("click", ".rpglink", function(){
 })
 
 $(document).on("click", ".platformlink", function(){
+	clearallz()
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
@@ -2061,6 +2070,7 @@ $(document).on("click", ".platformlink", function(){
 })
 
 $(document).on("click", ".strategylink", function(){
+	clearallz()
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
@@ -2069,6 +2079,7 @@ $(document).on("click", ".strategylink", function(){
 })
 
 $(document).on("click", ".puzzlelink", function(){
+	clearallz()
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
@@ -2077,6 +2088,7 @@ $(document).on("click", ".puzzlelink", function(){
 })
 
 $(document).on("click", ".racinglink", function(){
+	clearallz()
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
@@ -2085,6 +2097,7 @@ $(document).on("click", ".racinglink", function(){
 })
 
 $(document).on("click", ".simulationlink", function(){
+	clearallz()
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
@@ -2093,6 +2106,7 @@ $(document).on("click", ".simulationlink", function(){
 })
 
 $(document).on("click", ".sportslink", function(){
+	clearallz()
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
@@ -2100,6 +2114,7 @@ $(document).on("click", ".sportslink", function(){
     addIntro("sports")
 })
 $(document).on("click", ".tdlink", function(){
+	clearallz()
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
