@@ -1980,6 +1980,9 @@ function clearallz() {
 	$('.genrestuff').css("display", "none")
 	$('.communitytabz').css("display", "none")
 	$('.open-profile-page').css("display", "none")
+	$('.dropdowngames').css('display', "none")
+	$('.bigX').css('display', "none")
+	$("a").removeClass("blueFontz")
 }
 
 $(document).on("click", "#communitylink", function(){
