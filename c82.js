@@ -1983,6 +1983,7 @@ function clearallz() {
 	$('.dropdowngames').css('display', "none")
 	$('.bigX').css('display', "none")
 	$("a").removeClass("blueFontz")
+	tabz_open = "no"
 }
 
 $(document).on("click", "#communitylink", function(){
