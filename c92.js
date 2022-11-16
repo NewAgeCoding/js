@@ -1343,7 +1343,9 @@ countdownlatestgames()
 //############################################
 mobileRemoveDropDown = 0 //div-block-305
 function showGames(genre, thisb){
+	console.log("1)", mobileRemoveDropDown)
 	if(mobileRemoveDropDown == 1) {
+		console.log("2)", mobileRemoveDropDown)
 		$('.newmobile2quick').css("display", "none")
 		$('.genrestuff').css("display", "none")
 		$('.communitytabz').css("display", "none")
@@ -1352,9 +1354,10 @@ function showGames(genre, thisb){
 		$('.bigX').css('display', "none")
 		$("a").removeClass("blueFontz")
 		mobileRemoveDropDown = 0
+		console.log("3)", mobileRemoveDropDown)
 		return
 	}
-	
+	console.log("4)", mobileRemoveDropDown)
     $(".ratingblock").css("display", "none")
     $(".pregaimz").css("display", "none")
 	$(".profile").css("display", "none")
@@ -1524,7 +1527,7 @@ function showGames(genre, thisb){
 		}
 		return
 	}
-
+	console.log("5)", mobileRemoveDropDown)
     $(".ratingblock").css("display", "block")
 
 	
@@ -1624,8 +1627,9 @@ function showGames(genre, thisb){
 				margin-bottom: 20px; display:inline-block;"></div>
 			</div>
 		`
-
+		console.log("6)", mobileRemoveDropDown)
 		if(mobileRemoveDropDown == 0){
+			console.log("7)", mobileRemoveDropDown)
 			$(".pcgenregames").css("display", "block")
 			$(".dropdowngames").css("display", "block")
 			$(".ratingblock").append(markasread + mobileTop8 + mobileTop7 + mobileTop6)
@@ -1646,9 +1650,9 @@ function showGames(genre, thisb){
 				//$("html").css("overflow-y", "hidden")
 				console.log("open")
 			}
-			
+			console.log("8)", mobileRemoveDropDown)
 		} else {
-	
+				console.log("9)", mobileRemoveDropDown)
 				$(".pcgenregames").css("display", "none")
 				$(".dropdowngames").css("display", "none")
 				mobileRemoveDropDown = 0
@@ -1659,6 +1663,7 @@ function showGames(genre, thisb){
 		
 		
 			// alert("ZZZZ")
+			console.log("10)", mobileRemoveDropDown)
 			cc = $(thisb).attr("class").split(/\s+/);
 			if($.inArray("pcdropdown", cc) != -1) {
 				$(".div-block-199").removeClass("blueUnder")
