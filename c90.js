@@ -11,7 +11,7 @@
 	} else {
 		str1  = window.location.href; 
 	}
-	console.log("STR111111111111111111", str1)
+
 	var str2 = 'review'
 	if(str1.indexOf(str2) != -1){
 		get_last = localStorage.getItem("recently")
@@ -55,8 +55,7 @@
 			pathname = pathname.replace('/review/','');
 			obj[pathname] = url + "," + getImg
 			stringz = JSON.stringify(obj)
-			console.log("777777777", obj)
-			console.log("99999999", stringz)
+
 			localStorage.setItem("recently", stringz)
 		}
 	}
@@ -115,7 +114,7 @@ function titleCase(str) {
 
 turnOn2 = 0
 $(document).on("click", ".link-22", function(){
-	console.log("PC CLICK GENRE1")
+	
 			
 	$('.ff1').attr('style', 'top: 47px !important');
 	$(".ff1").css("width", "96px")
@@ -129,7 +128,7 @@ $(document).on("click", ".link-22", function(){
 	$(".r2").text("Good 7+")
 	$(".r3").text("Avg ≤ 6")
 
-	console.log("PC CLICK GENRE2")
+	
    $(".purpleRating8").text("")
    $(".purpleRating8").css("width", "90px")
    $(".purpleGames").prepend(`<div style="color: grey;
@@ -170,10 +169,10 @@ $(document).on("click", ".link-22", function(){
      turnOn2 = 1
   }
   
-  console.log("ALERTTT")
+
     $(".menuGameBoxes").hover(function () {
       $(this).find("img").css("transform", "scale(1.05)")
-    console.log("YO1111")
+
     theImg ="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62862e4ac81b7f141c19e118_radius-block.png"
     $(this).append('<div class="leBorder" style="position: absolute; top: -7px; left: -5px; width: 101px;"> <img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62862e4ac81b7f141c19e118_radius-block.png"> </div>');
   }, 
@@ -1093,7 +1092,7 @@ countdownlatestgames()
       theGameName7 = theGameName + "Top7"
     $(eval(theGameName7)).each(function(index, value) {
 
-		console.log(index, value)
+	
 		if($.inArray( value.name, alltop8s) != -1) {
 
 
@@ -1142,7 +1141,7 @@ countdownlatestgames()
 
 
 		} else {
-			console.log("is NOT in array", value.name);
+
 
       // Is it a read game
       if($.inArray( value.aLink, listy2) != -1) {
@@ -1344,6 +1343,18 @@ countdownlatestgames()
 //############################################
 mobileRemoveDropDown = 0 //div-block-305
 function showGames(genre, thisb){
+	if(mobileRemoveDropDown == 1) {
+		$('.newmobile2quick').css("display", "none")
+		$('.genrestuff').css("display", "none")
+		$('.communitytabz').css("display", "none")
+		$('.open-profile-page').css("display", "none")
+		$('.dropdowngames').css('display', "none")
+		$('.bigX').css('display', "none")
+		$("a").removeClass("blueFontz")
+		mobileRemoveDropDown = 0
+		return
+	}
+	
     $(".ratingblock").css("display", "none")
     $(".pregaimz").css("display", "none")
 	$(".profile").css("display", "none")
@@ -1517,9 +1528,6 @@ function showGames(genre, thisb){
     $(".ratingblock").css("display", "block")
 
 	
-
-
-		console.log("SHOW MOBILE")
 		$(".ratingblock").html("")
 		$(".bigX").css("right", "-6px")
     markasread = `
@@ -1624,10 +1632,9 @@ function showGames(genre, thisb){
 			addGamesAll(genre)
 
 			aa = $(thisb).attr("class").split(/\s+/);
-			console.log("AAAAAAAAA>>>>>>>>>", aa)
-
+	
 			if($.inArray("pcdropdown", aa) != -1) {
-				console.log("PC DROP DOWN HERE DONT REMOVE STUFF")
+	
 				//$(".navbar-pc").css("padding-right", "17px")
 				mobileRemoveDropDown = 0
 			} else {
@@ -1641,7 +1648,7 @@ function showGames(genre, thisb){
 			}
 			
 		} else {
-				console.log("MBOILE CLEAR")
+	
 				$(".pcgenregames").css("display", "none")
 				$(".dropdowngames").css("display", "none")
 				mobileRemoveDropDown = 0
@@ -1690,7 +1697,6 @@ $(document).on("click", ".menuGameBoxes a", function(e){
     get_link = $(this).attr('href');
 	get_imgz = $(this).find("img").attr("src")
     e.preventDefault();
-    console.log("click")
 
 	// add 1 to completed games on stats page
 	get_readzz = $('.total_len_read').text()
@@ -1704,16 +1710,13 @@ $(document).on("click", ".menuGameBoxes a", function(e){
 
     // Does it exist?
     if(get_read_games){
-      console.log("part1")
       obj = JSON.parse(get_read_games)
       obj.push(get_link + "," + get_imgz)
       stringzz = JSON.stringify(obj)
       localStorage.setItem('readgames', stringzz)
     } else {
-      console.log("part2")
       arr = []
       arr.push(get_link + "," + get_imgz)
-      console.log(arr, get_link + "," + get_imgz)
       stringzz = JSON.stringify(arr)
       localStorage.setItem('readgames', stringzz)
     }
@@ -1750,7 +1753,7 @@ $(document).on("click", ".menuGameBoxes a", function(e){
 	
 	// remove green tick over image
 	if($(this).find(".greent2")[0]){
-		console.log("FOUND IT!")
+
 		$(this).find(".greent1").remove()
 		$(this).find(".greent2").remove()
 
@@ -1911,7 +1914,6 @@ $(document).on("click", "#closeGenre", function(){
 
 
 $(".menuGameBoxes").hover(function () {
-    console.log("YO1111")
     theImg ="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62862e4ac81b7f141c19e118_radius-block.png"
     $(this).append('<div class="leBorder" style="position: relative; top: -137px; left: -5px; width: 101px;"> <img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62862e4ac81b7f141c19e118_radius-block.png"> </div>');
   }, 
@@ -1922,7 +1924,6 @@ $(".menuGameBoxes").hover(function () {
   
 
 function addIntro(theGamez) {
-    console.log(">>>", theGamez)
     if(theGamez == "casual"){
         $(".introimg11").html("<img src='https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/626645080215f64486126e72_heartz.png'>")
         $(".introheading11").text("Casual Mobile Games")
@@ -1976,6 +1977,7 @@ function addIntro(theGamez) {
 //############################################
 tabz_open = "no"
 function clearallz() {
+	
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "none")
 	$('.communitytabz').css("display", "none")
@@ -2684,7 +2686,6 @@ if (dayz == 0) {
 	  listy2 = []
 	  $.each(listy, function(i, v){
 		justLink = v.split(",")
-		console.log("PUSHED", justLink[0])
 		listy2.push(justLink[0])
 	  })
 
@@ -2695,7 +2696,7 @@ if (dayz == 0) {
       // Does game name exist in listy array of read games
 
       if(jQuery.inArray(value.aLink, listy2) != -1) {
-        console.log("IS IN ARRAY", value.aLink)
+       
         // Is in Array
         $("#load-all-images").html(`
         <div class="menuGameBoxes">
@@ -3114,7 +3115,7 @@ $(document).on("click", ".sharez", function(){
 	if(str1 == "https://www.androidshark.com/latest-mobile-game-reviews" || str1 == "https://www.androidshark.com/latest-test") {
 		str1 = "blahblah"
 	}
-	console.log(">>>>>>>>>>>>>>>", str1)
+
 	var str2 = 'review'
 	if(str1.indexOf(str2) != -1){
 		get_last = localStorage.getItem("recently")
@@ -3157,8 +3158,7 @@ $(document).on("click", ".sharez", function(){
 			pathname = pathname.replace('/review/','');
 			obj[pathname] = url + "," + getImg
 			stringz = JSON.stringify(obj)
-			console.log("777777777", obj)
-			console.log("99999999", stringz)
+	
 			localStorage.setItem("recently", stringz)
 		}
 	}
@@ -3172,10 +3172,10 @@ $(document).on("click", ".sharez", function(){
     suggest = $("#suggest").val()
     suggestarea = $("#suggestarea").val()
     scorez = $("#score").val()
-    console.log("SEND ITTTTT1")
+   
   	$.post("https://jawsomegames.com/suggest",  {getID: getID, suggest: suggest, suggestarea: suggestarea, score: scorez}, function(data, status){
        if(data == 'dun') {
-        console.log("SEND ITTTTT2")
+    
        	$(".suggestbox").css("display", "none")
         	$(".mecomment").html("")
             daspic = localStorage.getItem("daspic")
@@ -3198,7 +3198,7 @@ $(document).on("click", ".sharez", function(){
             // Set item comment pending
             stringzzzz = JSON.stringify(storeitemz)
             localStorage.setItem('commentPending', stringzzzz)
-            console.log(stringzzzz)
+       
             $(".mecomment").html(stringz)
        }
     });
@@ -3210,7 +3210,6 @@ $(document).on("click", ".sharez", function(){
 $('.para-name').each(function(){
   new_str = $(this).find('p')
   new_str = new_str.subtstr(0, 200); 
-  console.log(new_str)
   $(this).find('p').text(new_str)
 });
 
@@ -3293,7 +3292,6 @@ $("#clicknewz").addClass("whitez")
 
 $.get("https://jawsomegames.com/get-indie/1", function(data, status){
   $.each( data, function( key, value ) {
-      console.log(key, value)
       name = value[0]
       pic = value[1]
       desc = value[2]
@@ -3317,16 +3315,12 @@ $(document).on("click", ".heartvote", function(){
   scorez = $(this).parent().find(".votesscore").text()
   currentDiv = $(this).parent().find(".votesscore")
   scorez = parseInt(scorez) + 1
-  console.log(scorez, dagaim)
   $(this).parent().find(".votesscore").text(scorez)
   $.post("https://jawsomegames.com/like", {options: dagaim}, function(data, status){
-     console.log(data)
     if(data == "You already voted!") {
       scorez = currentDiv.text()
-      console.log('TTTTTTTTTTTTTT', scorez)
       scorez = parseInt(scorez) - 1
       currentDiv.text(scorez)
-      console.log('xxxxxxxxxxxxxxx', scorez)
     } else {
     console.log("dun")
     }     
@@ -3428,11 +3422,11 @@ $("#clicknewz").addClass("whitez")
 
 isandroid = localStorage.getItem("android")
 if(isandroid == "on") {
-  console.log("activate android")
+
   $('.android-section').attr('style', 'display: block !important');
   $('.ios-section').attr('style', 'display: none !important');
 } else {
-  console.log("activate ios")
+
   $('.android-section').attr('style', 'display: none !important');
   $('.ios-section').attr('style', 'display: block !important');
 }
@@ -3477,11 +3471,11 @@ $(document).on("click", "#clicknewz", function(){
   
   isandroid = localStorage.getItem("android")
   if(isandroid == "on") {
-    console.log("activate android")
+
     $('.android-section').attr('style', 'display: block !important');
     $('.ios-section').attr('style', 'display: none !important');
   } else {
-    console.log("activate ios")
+
     $('.android-section').attr('style', 'display: none !important');
     $('.ios-section').attr('style', 'display: block !important');
   }
@@ -3624,12 +3618,12 @@ $.post("https://jawsomegames.com/likecomment", {id: get_id, like: numz}, functio
 
 // GET like for helpful button
 $.get("https://jawsomegames.com/getcomments", function(data, status){		
-      console.log("GET community likes:", data)
+
     $.each( data, function( key, value ) {
       idz = value[0]
       votez = value[1]
       starvalue = value[2]
-      console.log(idz, votez, starvalue)
+
       $(".likedtext"+idz).html("("+votez+")")
     })
 });
@@ -3647,8 +3641,7 @@ if(get_recent_games) {
 	  firstChar = firstChar.toUpperCase();
 	  tail = game_name.substring( 1 ); // == "heeseburger"
       game_name2 = firstChar + tail; // myString == "Cheeseburger"
-	  console.log("CAPS", game_name2)
-
+	
       fully = `
         <div style="width:75px; float:left; text-align: center; margin-right: 25px;">
         <img src="${imgz}" style="width:100%; border-radius:6px;">
@@ -3837,7 +3830,7 @@ if(get_bookmarks) {
 
 
 $(document).on("click", ".mysuggestion", function(){
-    console.log("show")
+
    // $(".suggestbox").css("display", "block")
 	$(".suggestbox").slideDown();
 	//$(".dropdowngames").css("overflow-y", "hidden")
@@ -3846,10 +3839,10 @@ $(document).on("click", ".mysuggestion", function(){
 
 var today = new Date(); 
 if(today.getDay() == 6) { 
-  console.log("IS SUN", today.getDay())
+
   $('.makesugg').css("display", "block") 
 } else {
-  console.log("NOT SUN", today.getDay())
+
 $('.makesugg').css("display", "block")
 }
 
@@ -3874,7 +3867,7 @@ $('.para-name').each(function(){
 
 getComm = localStorage.getItem("commentPending")
 if(getComm){
-  console.log("found com")
+ 
   $('.makesugg').css("display", "block")
   $('.mecomment').html("")
 }
@@ -3912,7 +3905,7 @@ $.get("https://jawsomegames.com/latest-poll", function(data, status){
   did_vote = localStorage.getItem("ivote")
   did_vote2 = parseInt(did_vote)
   if(did_vote2 == current_poll_number) {
-    console.log("MATCH")
+  
     $(".submit-poll").css("display", "none")
     $(".questionz").css("display", "none")
 	percentage_q1 = Math.round(percentage_q1)
@@ -3925,7 +3918,7 @@ $.get("https://jawsomegames.com/latest-poll", function(data, status){
 
     $(".answerz").html(barz)
   } else {
-    console.log("NO MATCH")
+
     $(".submit-poll").css("display", "block")
   }
 });
@@ -3976,7 +3969,7 @@ $(document).on("click", ".submit-poll", function(){
 	did_vote = localStorage.getItem("ivote")
 	did_vote2 = parseInt(did_vote)
 	if(did_vote2 == current_poll_number) {
-		console.log("MATCH")
+	
 		$(".submit-poll").css("display", "none")
 		$(".questionz").css("display", "none")
 		percentage_q1 = Math.round(percentage_q1)
@@ -3989,7 +3982,7 @@ $(document).on("click", ".submit-poll", function(){
 
 		$(".answerz").html(barz)
 	} else {
-		console.log("NO MATCH")
+
 		$(".submit-poll").css("display", "block")
 	}
 	});
@@ -4052,7 +4045,7 @@ for (let i = 0; i < 20; i++) {
 	does_it_exist = localStorage.getItem(vote_id)
 	if(does_it_exist){
 		if(does_it_exist == "1"){
-			console.log("CHANGE IMAGE FOR", vote_id, does_it_exist)
+		
 			$("#"+vote_id).find(".heart").toggleClass("is_animating");
 			$("#"+vote_id).find(".heart").addClass("no-click");
 		}
@@ -4105,11 +4098,11 @@ $(document).on('click', ".votingz", function(){
 		if(player_round == voting_round){
 			if(game_voted_for == "1"){
 				$(this).find("h4").text(the_num)
-				console.log("already voted for it...")
+	
 				return
 			}
 		} else {
-			console.log("Set voting rounds...")
+
 			localStorage.setItem("voting_round", voting_round)
 			resetvotes()
 			
@@ -4119,7 +4112,6 @@ $(document).on('click', ".votingz", function(){
 	}
  
 
-	console.log("click")
 	if(getID){
 		$.post("https://jawsomegames.com/communityvote",  {getID: getID, divid: div_id}, function(data, status){
 			if(data == "dun"){
@@ -4154,10 +4146,10 @@ $(document).on("click", ".heart", function(){
 	console.log(allClass[1])
 	//$(this).addClass("no-click")
 	if(allClass[1] == 'no-click' || allClass[1] == 'is_animating'){
-		console.log('stop animation')
+		
 		return
 	} else {
-		console.log('go animation')
+	
 		$(this).toggleClass('is_animating');
 		//$(this).toggleClass("is-active");
 	}
@@ -4235,7 +4227,7 @@ function changesplash(get_texty, divy) {
 		$(divy).find(".pp99").css("font-weight", "normal")
 		$(divy).find(".paragraph-40").css("font-weight", "normal")
 	} else {
-		console.log("splash stuff...")
+	
 		$("#createVid").css("height", "461px")
 		$("#createVid").css("width", "925px")
 		$("#createVid").css("margin-top", "-35px")
@@ -4733,7 +4725,7 @@ function myFunction() {
         )
         clicky = 1
     }
-    console.log("REFER:", refer_link)
+  
     $(".sharebox").css("display", "block")
 }  
 
