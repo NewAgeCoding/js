@@ -1348,7 +1348,7 @@ function showGames(genre, thisb){
     $(".pregaimz").css("display", "none")
 	$(".profile").css("display", "none")
 	$(".the-profile-page").css("display", "none")
-	
+	$('.dropdowngames').css('display', "none")
 	$('.latest-games-drop').css("display", "none")
 	$(".news-dropdown").css("display", "none")
 	$("#mobileMenuBar222").css("overflow-y", "auto")
