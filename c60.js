@@ -4585,6 +4585,8 @@ $(document).on("click", ".latest-gamez", function(){
 		$('.phase-btn').css("display", "none")
 		$(".backzy").css("display", "block")
 		$(".gp-btn").css("display", "none")
+		$('.hovereffect').css("display", "none")
+		$('.ytubebtn').css("display", "none")
 		changesplash(get_texty, divy)		
 		setTimeout(function(){
 			stoper = 0
@@ -4602,6 +4604,8 @@ $(document).on("click", ".backzy", function(){
 		$(".backzy").css("display", "none")
 		$(".gp-btn").css("display", "block")
 		$('.bluearrow').css("display", "none")
+		$('.hovereffect').css("display", "block")
+		$('.ytubebtn').css("display", "block")
 		changesplash(get_texty, "none")		
 
 })
