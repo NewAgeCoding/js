@@ -4575,6 +4575,7 @@ $(document).on("click", ".latest-gamez", function(){
 		divy = $(this)
 		get_texty = $(this).find(".special1").text()
 		$('.phase-btn').css("display", "block")
+		$(".phase-btn").css("bottom", "-73px")
 		$(".backzy").css("display", "block")
 		$(".gp-btn").css("display", "none")
 		$('.hovereffect').css("display", "none")
@@ -4593,6 +4594,7 @@ $(document).on("click", ".backzy", function(){
 		$(".dark-description").css("display", "none")
 		get_texty = "splashy"
 		$('.phase-btn').css("display", "block")
+		$(".phase-btn").css("bottom", "-85px")
 		$(".backzy").css("display", "none")
 		$(".gp-btn").css("display", "block")
 		$('.bluearrow').css("display", "none")
