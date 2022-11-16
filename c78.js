@@ -2141,6 +2141,7 @@ $(document).on("click", "#open-profile", function(){
 		$('.open-profile-page').css("display", "none")
 		$(".profile").css("display", "block")
 		$("html").css("overflow-y", "auto")
+		tabz_open = "no"
 	}
 
 })
