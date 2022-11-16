@@ -1344,7 +1344,7 @@ countdownlatestgames()
 mobileRemoveDropDown = 0 //div-block-305
 function showGames(genre, thisb){
 	console.log("1)", mobileRemoveDropDown)
-	if(mobileRemoveDropDown == 1) {
+	if(mobileRemoveDropDown == 0 && $('.dropdowngames').css('display') == 'block') {
 		console.log("2)", mobileRemoveDropDown)
 		$('.newmobile2quick').css("display", "none")
 		$('.genrestuff').css("display", "none")
