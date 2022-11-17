@@ -2,24 +2,24 @@
 
 var pre_reg_pc = "off"
 
-function pre_reg_nav_bar(gogo) {
-	console.log("WHAT:", gogo)
-	if(gogo == "true"){
-		if(pre_reg_pc == "off"){
-			console.log("TURN ON")
-			$('.pre-gaimz-pc').css("display", "block")
-			pre_reg_pc = "on"
-		} else {
-			console.log("TURN OFF")
-			$('.pre-gaimz-pc').css("display", "none")
-			pre_reg_pc = "off"
-		}
-	} else {
-		console.log("Not source")
-		$('.pre-gaimz-pc').css("display", "none")
-		pre_reg_pc = "off"
-	}
-}
+// function pre_reg_nav_bar(gogo) {
+// 	console.log("WHAT:", gogo)
+// 	if(gogo == "true"){
+// 		if(pre_reg_pc == "off"){
+// 			console.log("TURN ON")
+// 			$('.pre-gaimz-pc').css("display", "block")
+// 			pre_reg_pc = "on"
+// 		} else {
+// 			console.log("TURN OFF")
+// 			$('.pre-gaimz-pc').css("display", "none")
+// 			pre_reg_pc = "off"
+// 		}
+// 	} else {
+// 		console.log("Not source")
+// 		$('.pre-gaimz-pc').css("display", "none")
+// 		pre_reg_pc = "off"
+// 	}
+// }
 
 
 //##################################################
@@ -4852,9 +4852,9 @@ $(document).on("click", "#suggest-game", function(){
 //########################################################
 //	pre-reg-pc
 //########################################################
-
 $(document).on("click", "#pre-reg-pc", function(){
 	//pre_reg_nav_bar("true")
+	console.log("YO")
 	if(pre_reg_pc == "off"){
 		console.log("TURN ON")
 		$('.pre-gaimz-pc').css("display", "block")
