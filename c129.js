@@ -4859,6 +4859,7 @@ $(document).on("click", "#pre-reg-pc", function(){
 	console.log("YO")
 	if(pre_reg_pc == "off"){
 		console.log("TURN ON")
+		$(".div-block-199").removeClass("blueUnder")
 		$(".pcgenregames").css("display", "none")
 		$('.pre-gaimz-pc').css("display", "block")
 		$('.pregaimz').css("display", 'block')
