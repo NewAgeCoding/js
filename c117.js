@@ -1,5 +1,21 @@
 // MAJOR JS
 
+var pre_reg_pc = "off"
+
+function pre_reg_nav_bar(gogo) {
+	if(gogo == "true"){
+		if(pre_reg_pc == "off"){
+			$('.pre-gaimz-pc').css("display", "block")
+			pre_reg_pc = "on"
+		} else {
+			$('.pre-gaimz-pc').css("display", "none")
+			pre_reg_pc = "off"
+		}
+	} else {
+		$('.pre-gaimz-pc').css("display", "none")
+		pre_reg_pc = "off"
+	}
+}
 
 
 //##################################################
@@ -4461,6 +4477,7 @@ function removeall_top(){
 
 is_genre = 'false'
 $(document).on('click', ".div-block-199", function(){
+	pre_reg_nav_bar("false")
 	removeall_top()
 })
 
@@ -4831,8 +4848,8 @@ $(document).on("click", "#suggest-game", function(){
 //########################################################
 //	pre-reg-pc
 //########################################################
+
 $(document).on("click", "#pre-reg-pc", function(){
-	removeall_top()
-	$('.pre-gaimz-pc').css("display", "block")
+	pre_reg_nav_bar("true")
 })
 
