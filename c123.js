@@ -4852,14 +4852,17 @@ $(document).on("click", "#suggest-game", function(){
 //########################################################
 //	pre-reg-pc
 //########################################################
-clickout = 0
+
 $(document).on("click", "#pre-reg-pc", function(){
-	if(clickout == 0 ){
-		pre_reg_nav_bar("true")
-		clickout = 1
-		setTimeout(function(){
-			clickout = 0
-		}, 1000);
+	//pre_reg_nav_bar("true")
+	if(pre_reg_pc == "off"){
+		console.log("TURN ON")
+		$('.pre-gaimz-pc').css("display", "block")
+		pre_reg_pc = "on"
+	} else {
+		console.log("TURN OFF")
+		$('.pre-gaimz-pc').css("display", "none")
+		pre_reg_pc = "off"
 	}
 })
 
