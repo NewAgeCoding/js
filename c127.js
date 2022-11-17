@@ -4461,6 +4461,8 @@ $(document).on("click", ".backzy", function(){
 //#######################################
 function removeall_top(){
 	$(".closegenre999").css("visibility", "hidden")
+	pre_reg_pc = "off"
+	$('.pre-gaimz-pc').css("display", "none")
 	if(is_genre == 'false'){
 		is_genre = 'true'
 	} else {
@@ -4468,7 +4470,6 @@ function removeall_top(){
 		$(".pcgenregames").css("display", "none")
 		$(".dropdowngames").css("display", "none")
 		$(".news-dropdown").css("display", "none")
-		$('.pre-gaimz-pc').css("display", "none")
 		$(".div-block-199").removeClass("blueUnder")
 		$(".navbar-pc").css("padding-right", "0px")
 		mobileRemoveDropDown = 0
