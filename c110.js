@@ -4818,9 +4818,9 @@ $(document).on("click", "#suggest-game", function(){
 	if(tabz_open == 0) {
 		clearallz()
 		$('.suggest-pop-up-page').css('display', "block")
-		tabz_open = 1
+		tabz_open = "yes"
 	} else {
 		clearallz()
-		tabz_open = 0
+		tabz_open = "no"
 	}
 })
