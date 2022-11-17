@@ -1972,6 +1972,7 @@ function clearallz() {
 
 	console.log("1)", mobileRemoveDropDown)
 	console.log("2)", mobileRemoveDropDown)
+	$('.suggest-pop-up-page').css('display', "none")
 	if(mobileRemoveDropDown == 1){
 		console.log("STOP!")
 		return
