@@ -1994,6 +1994,7 @@ function clearallz() {
 	$('.communitytabz').css("display", "none")
 	$('.open-profile-page').css("display", "none")
 	$('.dropdowngames').css('display', "none")
+	$('.suggest-pop-up-page').css('display', "none")
 	$('.bigX').css('display', "none")
 	$("a").removeClass("blueFontz")
 	tabz_open = "no"
@@ -4807,3 +4808,13 @@ if ($(window).width() > 1000) {
 	
 	`)
 }
+
+
+
+//########################################################
+//	Suggest Game
+//########################################################
+$(document).on("click", "#suggest-game", function(){
+	clearallz()
+	$('.suggest-pop-up-page').css('display', "block")
+})
