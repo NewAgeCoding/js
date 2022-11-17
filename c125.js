@@ -4481,7 +4481,7 @@ function removeall_top(){
 
 is_genre = 'false'
 $(document).on('click', ".div-block-199", function(){
-	pre_reg_nav_bar("false")
+	//pre_reg_nav_bar("false")
 	removeall_top()
 })
 
