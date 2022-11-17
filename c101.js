@@ -4523,7 +4523,7 @@ $(".hovereffect").hover(function(){
 //########################################################
 // See if user logged in
 getID = localStorage.getItem("idz")
-if(getID){
+if(getID_not_now){
 $.get("https://jawsomegames.com/validate/"+getID, function(data, status){
    if(data == 'err'){
     console.log("Please Login")
@@ -4625,6 +4625,8 @@ $.get("https://jawsomegames.com/validate/"+getID, function(data, status){
   } 
 });
 } else {
+
+	return
 //#################################
 //  Das Login
 //#################################
