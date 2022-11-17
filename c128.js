@@ -1366,6 +1366,7 @@ function showGames(genre, thisb){
 
 	console.log("4)", mobileRemoveDropDown)
     $(".ratingblock").css("display", "none")
+	$("#pre-reg-pc").removeClass("blueUnder")
     $(".pregaimz").css("display", "none")
 	$(".profile").css("display", "none")
 	$(".the-profile-page").css("display", "none")
@@ -4858,12 +4859,17 @@ $(document).on("click", "#pre-reg-pc", function(){
 	console.log("YO")
 	if(pre_reg_pc == "off"){
 		console.log("TURN ON")
+		$(".pcgenregames").css("display", "none")
 		$('.pre-gaimz-pc').css("display", "block")
+		$('.pregaimz').css("display", 'block')
 		pre_reg_pc = "on"
+		$(this).addClass("blueUnder")
 	} else {
 		console.log("TURN OFF")
 		$('.pre-gaimz-pc').css("display", "none")
+		$('.pregaimz').css("display", 'none')
 		pre_reg_pc = "off"
+		$(this).removeClass("blueUnder")
 	}
 })
 
