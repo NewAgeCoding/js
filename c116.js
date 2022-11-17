@@ -4832,8 +4832,7 @@ $(document).on("click", "#suggest-game", function(){
 //	pre-reg-pc
 //########################################################
 $(document).on("click", "#pre-reg-pc", function(){
-	$('.pre-gaimz-pc').css("display", "block")
 	removeall_top()
-
+	$('.pre-gaimz-pc').css("display", "block")
 })
 
