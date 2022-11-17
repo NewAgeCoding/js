@@ -3,7 +3,9 @@
 var pre_reg_pc = "off"
 
 function pre_reg_nav_bar(gogo) {
+	console.log("WHAT:", gogo)
 	if(gogo == "true"){
+		console.log("IS SOURCE:", gogo)
 		if(pre_reg_pc == "off"){
 			console.log("TURN ON")
 			$('.pre-gaimz-pc').css("display", "block")
