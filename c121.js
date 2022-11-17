@@ -5,7 +5,6 @@ var pre_reg_pc = "off"
 function pre_reg_nav_bar(gogo) {
 	console.log("WHAT:", gogo)
 	if(gogo == "true"){
-		console.log("IS SOURCE:", gogo)
 		if(pre_reg_pc == "off"){
 			console.log("TURN ON")
 			$('.pre-gaimz-pc').css("display", "block")
@@ -4853,8 +4852,14 @@ $(document).on("click", "#suggest-game", function(){
 //########################################################
 //	pre-reg-pc
 //########################################################
-
+clickout = 0
 $(document).on("click", "#pre-reg-pc", function(){
-	pre_reg_nav_bar("true")
+	if(clickout == 0 ){
+		pre_reg_nav_bar("true")
+		clickout = 1
+		setTimeout(function(){
+			clickout = 0
+		}, 1000);
+	}
 })
 
