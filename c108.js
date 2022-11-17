@@ -4815,6 +4815,12 @@ if ($(window).width() > 1000) {
 //	Suggest Game
 //########################################################
 $(document).on("click", "#suggest-game", function(){
-	clearallz()
-	$('.suggest-pop-up-page').css('display', "block")
+	if(tabz_open == 0) {
+		clearallz()
+		$('.suggest-pop-up-page').css('display', "block")
+		tabz_open = 1
+	} else {
+		clearallz()
+		tabz_open = 0
+	}
 })
