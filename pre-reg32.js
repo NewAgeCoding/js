@@ -328,7 +328,7 @@ g21 = new AllGames(
 g22 = new AllGames(
   'b22',
   'glitchimg22', 
-  'Summoners War: Chronicles', 
+  'Summoners War', 
   'Puzzle',
   "An Action RPG based in the Summoners War Universe. Infinite Monster compositions to choose from based on your playstyle.", 
   'https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63355e734fa11542f1cbd488_merge-stories-icon.png', 
@@ -338,7 +338,7 @@ g22 = new AllGames(
 g23 = new AllGames(
   'b23',
   'glitchimg23', 
-  'Design Blast - Match & Home', 
+  'Design Blast', 
   'Puzzle',
   "Design Blast is a new matching puzzle game for free. Solve matching puzzles and design a home at your fingertips!", 
   'https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63355e734fa11542f1cbd488_merge-stories-icon.png', 
@@ -368,7 +368,7 @@ g25 = new AllGames(
 g26 = new AllGames(
   'b26',
   'glitchimg26', 
-  'Bear Bakery - Merge Tycoon', 
+  'Bear Bakery', 
   'Puzzle',
   "What is that smell? Welcome! The hot tycoon game you ordered has arrived! From now on, start a delightful day with adorable animal friends.", 
   'https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63355e734fa11542f1cbd488_merge-stories-icon.png', 
@@ -378,7 +378,7 @@ g26 = new AllGames(
 g27 = new AllGames(
   'b27',
   'glitchimg27', 
-  'MementoMori: AFKRPG', 
+  'MementoMori', 
   'Puzzle',
   "Boasting an epic soundtrack that can turn the world of gaming on its head, and some of the most stunning designs ever seen in a game.", 
   'https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63355e734fa11542f1cbd488_merge-stories-icon.png', 
@@ -398,7 +398,7 @@ g28 = new AllGames(
 g29 = new AllGames(
   'b29',
   'glitchimg29', 
-  'Last War: Shelter Heroes', 
+  'Last War', 
   'Puzzle',
   "Post Apocalyptic Saga of Survival. Take command on Last Shelter. Rebuild the Bunker. Save survivors. Explore & conquer the World.", 
   'https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63355e734fa11542f1cbd488_merge-stories-icon.png', 
