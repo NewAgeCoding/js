@@ -4448,6 +4448,7 @@ function removeall_top(){
 		$(".pcgenregames").css("display", "none")
 		$(".dropdowngames").css("display", "none")
 		$(".news-dropdown").css("display", "none")
+		$('.pre-gaimz-pc').css("display", "none")
 		$(".div-block-199").removeClass("blueUnder")
 		$(".navbar-pc").css("padding-right", "0px")
 		mobileRemoveDropDown = 0
@@ -4815,7 +4816,6 @@ if ($(window).width() > 1000) {
 //########################################################
 //	Suggest Game
 //########################################################
-sugg="off"
 $(document).on("click", "#suggest-game", function(){
 	if(tabz_open == "no") {
 		clearallz()
@@ -4826,3 +4826,14 @@ $(document).on("click", "#suggest-game", function(){
 		tabz_open = "no"
 	}
 })
+
+
+//########################################################
+//	pre-reg-pc
+//########################################################
+$(document).on("click", "#pre-reg-pc", function(){
+	$('.pre-gaimz-pc').css("display", "block")
+	removeall_top()
+
+})
+
