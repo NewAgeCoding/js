@@ -4814,8 +4814,9 @@ if ($(window).width() > 1000) {
 //########################################################
 //	Suggest Game
 //########################################################
+sugg="off"
 $(document).on("click", "#suggest-game", function(){
-	if(tabz_open == 0) {
+	if(tabz_open == "no") {
 		clearallz()
 		$('.suggest-pop-up-page').css('display', "block")
 		tabz_open = "yes"
