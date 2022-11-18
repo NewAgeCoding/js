@@ -4873,3 +4873,19 @@ $(document).on("click", "#pre-reg-pc", function(){
 		$(this).removeClass("blueUnder")
 	}
 })
+
+
+//########################################################
+//	News hover
+//########################################################
+$(".news-announcements").hover(function(){
+	goz = $(this).find(".lfeed").hasClass( "blueUnder" )
+	if(goz == false){
+		$(this).find(".lfeed").addClass("blueUnder")
+	}
+	}, function(){
+	$(this).find(".lfeed").removeClass("blueUnder")
+  });
+
+
+
