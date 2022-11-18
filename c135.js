@@ -1363,7 +1363,7 @@ countdownlatestgames()
 //############################################
 mobileRemoveDropDown = 0 //div-block-305
 function showGames(genre, thisb){
-
+	$("#click-news12").removeClass("blueUnder")
 	console.log("4)", mobileRemoveDropDown)
     $(".ratingblock").css("display", "none")
 	$("#pre-reg-pc").removeClass("blueUnder")
@@ -1908,9 +1908,10 @@ $(document).on("click", ".android-tabz", function(){
 $(document).on("click", "#click-news12", function(){
 	$('.news-dropdown').css('display','block')
 	$(".pcgenregames").css("display", "none")
-$(".dropdowngames").css("display", "none")
-$(".div-block-199").removeClass("blueUnder")
-$(".navbar-pc").css("padding-right", "0px")
+	$(".dropdowngames").css("display", "none")
+	$(".div-block-199").removeClass("blueUnder")
+	$(".navbar-pc").css("padding-right", "0px")
+	$(this).addClass("blueUnder")
 })
 
 
@@ -4865,6 +4866,7 @@ $(document).on("click", "#pre-reg-pc", function(){
 		$('.pregaimz').css("display", 'block')
 		pre_reg_pc = "on"
 		$(this).addClass("blueUnder")
+		$("#click-news12").removeClass("blueUnder")
 	} else {
 		console.log("TURN OFF")
 		$('.pre-gaimz-pc').css("display", "none")
@@ -4887,5 +4889,15 @@ $(".news-announcements").hover(function(){
 	$(this).find(".lfeed").removeClass("blueUnder")
   });
 
-
+//########################################################
+//	Div-block-199
+//########################################################
+  $(".div-block-199").hover(function(){
+	goz = $(this).hasClass( "blueUnder" )
+	if(goz == false){
+		$(this).addClass("blueUnder")
+	}
+	}, function(){
+	$(this).removeClass("blueUnder")
+  });
 
