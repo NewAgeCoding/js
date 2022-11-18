@@ -4886,8 +4886,18 @@ $(".news-announcements").hover(function(){
 		$(this).find(".lfeed").addClass("blueUnder")
 	}
 	}, function(){
-	$(this).find(".lfeed").removeClass("blueUnder")
+		goz3 = $(this).hasClass( "dont-blue" )
+		if(goz3 == false) {
+			$(this).find(".lfeed").removeClass("blueUnder")
+		}
+	
   });
+
+
+  $(document).on("click", ".news-announcements", function(){
+	$(".news-announcements").removeClass("dont-blue2")
+	$(this).addClass("dont-blue2")
+  })
 
 //########################################################
 //	div-block-199
