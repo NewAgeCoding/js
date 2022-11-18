@@ -1,5 +1,3 @@
-<script id="dsq-count-scr" src="//https-www-androidshark-com.disqus.com/count.js" async></script>
-<script>
 
 $(".div-block-196").hover(function(){
   num4 = $(this).find("h5").offset()
@@ -248,4 +246,4 @@ imageUrl4 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637643199e
  });
 //$(".newmobile").addClass("animate__animated")
 //$(".newmobile").addClass("animate__slideInRight")
-</script>
+
