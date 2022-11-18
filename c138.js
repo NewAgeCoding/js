@@ -1675,7 +1675,11 @@ function showGames(genre, thisb){
 			cc = $(thisb).attr("class").split(/\s+/);
 			if($.inArray("pcdropdown", cc) != -1) {
 				$(".div-block-199").removeClass("blueUnder")
-				$(thisb).addClass("blueUnder")
+				goz = $(thisb).hasClass( "blueUnder" )
+				if(goz == false){					
+					$(thisb).addClass("blueUnder")
+				}
+
 			} else {
 
 				if($(".dropdowngames").css("display") == "none"){
@@ -4888,15 +4892,4 @@ $(".news-announcements").hover(function(){
 	}, function(){
 	$(this).find(".lfeed").removeClass("blueUnder")
   });
-
-//########################################################
-//	Div-block-199
-//########################################################
-  $(".div-block-199").hover(function(){
-	goz = $(this).hasClass( "blueUnder" )
-	if(goz == true){
-		$(this).removeClass("blueUnder")
-		$(this).addClass("blueUnder")
-	}
-	})
 
