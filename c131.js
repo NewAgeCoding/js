@@ -4253,9 +4253,9 @@ function changesplash(get_texty, divy) {
 			marginLeft: '+=590px'
 		}, 500);
 
-		$(".dark-description").animate({
-			marginLeft: '+=15px'
-		}, 500);
+		// $(".dark-description").animate({
+		// 	marginLeft: '+=15px'
+		// }, 500);
 	
 		// Change font bold
 		$(divy).find(".special1").css("font-weight", "bold")
@@ -4873,4 +4873,3 @@ $(document).on("click", "#pre-reg-pc", function(){
 		$(this).removeClass("blueUnder")
 	}
 })
-
