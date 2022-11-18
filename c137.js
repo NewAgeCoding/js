@@ -4894,10 +4894,9 @@ $(".news-announcements").hover(function(){
 //########################################################
   $(".div-block-199").hover(function(){
 	goz = $(this).hasClass( "blueUnder" )
-	if(goz == false){
+	if(goz == true){
+		$(this).removeClass("blueUnder")
 		$(this).addClass("blueUnder")
 	}
-	}, function(){
-	$(this).removeClass("blueUnder")
-  });
+	})
 
