@@ -4898,6 +4898,15 @@ $(".news-announcements").hover(function(){
 		$(this).addClass("blueUnder")
 	}
 	}, function(){
-	$(this).removeClass("blueUnder")
+	goz2 = $(this).hasClass( "dont-blue" )
+	if(goz2 == false) {
+		$(this).removeClass("blueUnder")
+	}
+	
   });
+
+  $(document).on("click", ".div-block-199", function(){
+	$(".div-block-199").removeClass("dont-blue")
+	$(this).addClass("dont-blue")
+  })
 
