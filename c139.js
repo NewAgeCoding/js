@@ -1676,6 +1676,7 @@ function showGames(genre, thisb){
 			if($.inArray("pcdropdown", cc) != -1) {
 				$(".div-block-199").removeClass("blueUnder")
 				goz = $(thisb).hasClass( "blueUnder" )
+				console.log("WHAT IS GOZ:", goz)
 				if(goz == false){					
 					$(thisb).addClass("blueUnder")
 				}
