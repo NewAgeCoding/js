@@ -4956,9 +4956,9 @@ total_match = 0
 // Go through localstorage to see whats new with the news
 if(array_of_news_items){
 	obj = JSON.parse(array_of_news_items)
-	$.each(obj, function(i, v){
-		if(jQuery.inArray(v, current_news_items) != -1) {
-			console.log(".")
+	$.each(current_news_items, function(i, v){
+		if(jQuery.inArray(v, obj) != -1) {
+			console.log("found == ", v)
 		} else {
 			console.log("Lets add:", v)
 			total_match = total_match + 1
