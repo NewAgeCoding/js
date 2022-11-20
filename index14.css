@@ -211,3 +211,7 @@ box-shadow: rgb(0 0 0) -4px 4px, rgb(255 255 255) -10px 10px, rgb(255 255 255) -
 #createVid {
  border: none !important; 
 }
+
+.w-background-video {
+    height: 493px !important;
+}
