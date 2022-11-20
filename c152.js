@@ -4971,3 +4971,24 @@ if(array_of_news_items){
 	$(".noti-text").text(current_news_items_len)
 }
 
+
+
+//########################################################
+//	News-announcements
+//########################################################
+$(document).on("click", ".news-announcements", function(){
+	a = localStorage.getItem("latest-news-items")
+	obj = JSON.parse(a)
+
+	$.each(current_news_items, function(i, v){
+		if(jQuery.inArray(v, obj) != -1) {
+			console.log(".")
+		} else {
+			obj.push(v)
+		} 
+	})
+
+	stringz = localStorage.stringify(obj)
+	localStorage.setItem(stringz)
+	$(".noti-circle").css("display", "none")
+})
