@@ -4965,9 +4965,13 @@ if(array_of_news_items){
 	})
 
 	// Set the notification number 
-	$(".noti-text").text(total_match)
+	if(total_match >= 1){
+		$(".noti-circle").css('display', "block")
+		$(".noti-text").text(total_match)
+	}
 } else {
 	// Set the notification number 
+	$(".noti-circle").css('display', "block")
 	$(".noti-text").text(current_news_items_len)
 }
 
