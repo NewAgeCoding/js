@@ -4936,3 +4936,38 @@ $(".news-announcements").hover(function(){
 	$(this).addClass("dont-blue")
   })
 
+
+//########################################################
+//	Notifications for news and updates
+//########################################################
+array_of_news_items = localStorage.getItem("latest-news-items")
+
+// Get current news item in div box and place it in array
+current_news_items = []
+$(".news-blocky").each(function(){
+	headlinez = $(this).find(".left-side-1111").find("h2").text()
+	current_news_items.push(headlinez)
+});
+
+// Get lenght of array
+current_news_items_len = current_news_items.length
+total_match = 0
+
+// Go through localstorage to see whats new with the news
+if(array_of_news_items){
+	obj = JSON.parse(array_of_news_items)
+	$.each(obj, function(i, v){
+		if(jQuery.inArray(v, current_news_items) != -1) {
+			console.log(".")
+		} else {
+			total_match = total_match + 1
+		} 
+	})
+
+	// Set the notification number 
+	$(".noti-text").text(total_match)
+} else {
+	// Set the notification number 
+	$(".noti-text").text(current_news_items_len)
+}
+
