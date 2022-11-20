@@ -100,7 +100,7 @@ element45.classList.add('animate__animated', 'animate__zoomInDown');
 $(".w-background-video>video").css("width", "90%")
 $(".w-background-video>video").css("height", "90%")
 $(".w-background-video>video").css("right", "-90%")
-$(".w-background-video>video").css("border", "3px solid black")
+
 $(".toy").hover(function(){
   $(this).css("filter", "brightness(105%)");
   }, function(){
