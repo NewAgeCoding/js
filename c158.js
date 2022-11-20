@@ -5000,11 +5000,11 @@ $(document).on("click", ".news-announcements", function(){
 	})
 
 	if(obj){
-		stringz = localStorage.stringify(obj)
+		stringz = JSON.stringify(obj)
 		localStorage.setItem("latest-news-items", stringz)
 		$(".noti-circle").css("display", "none")
 	} else {
-		stringz = localStorage.stringify(first_array)
+		stringz = JSON.stringify(first_array)
 		localStorage.setItem("latest-news-items", stringz)
 		$(".noti-circle").css("display", "none")
 	}
