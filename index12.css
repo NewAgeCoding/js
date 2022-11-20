@@ -207,3 +207,7 @@ path.two {
 .w-background-video>video {
 box-shadow: rgb(0 0 0) -4px 4px, rgb(255 255 255) -10px 10px, rgb(255 255 255) -15px 15px, rgb(255 255 255) -20px 20px, rgb(255 255 255) -25px 25px;
 }
+
+#createVid {
+ border: none !important; 
+}
