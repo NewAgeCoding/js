@@ -4984,15 +4984,29 @@ $(document).on("click", ".news-announcements", function(){
 	a = localStorage.getItem("latest-news-items")
 	obj = JSON.parse(a)
 
+	first_array = []
+
 	$.each(current_news_items, function(i, v){
 		if(jQuery.inArray(v, obj) != -1) {
 			console.log(".")
 		} else {
-			obj.push(v)
+			if(obj){
+				obj.push(v)
+			} else {
+				first_array.push(v)
+			}
+			
 		} 
 	})
 
-	stringz = localStorage.stringify(obj)
-	localStorage.setItem(stringz)
-	$(".noti-circle").css("display", "none")
+	if(obj){
+		stringz = localStorage.stringify(obj)
+		localStorage.setItem("latest-news-items", stringz)
+		$(".noti-circle").css("display", "none")
+	} else {
+		stringz = localStorage.stringify(first_array)
+		localStorage.setItem("latest-news-items", stringz)
+		$(".noti-circle").css("display", "none")
+	}
+
 })
