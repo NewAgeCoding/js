@@ -91,11 +91,11 @@ piccc = {
     1: "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62b067cecb2d9a517f6cf19f_Spike.png"
   }
 
-games = ["among us", "archero", "ancient planet tower defense", "art of war 3 global conflict", "cardinal quest 2", "baseball9", "altos adventure", "forge of empires", "mobile legends bang bang", "mushroom wars 2",
+games = ["among us", "archero", "ancient planet tower defense", "art of war 3 global conflict", "cardinal quest 2", "baseball9", "altos adventure", "forge of empires", "mobile legends bang bang", "mushroom wars 2", "zhed",
 "skullgirls", "alien isolation", "infinitode2", "nba 2k", "scary horror 2", "bloons td 6", "moonshades", "prison empire tycoon", "bloody bastards", "plague inc", "mini td 2", "defense legend 4", 'grand mountain adventure', "sonic the hedgehog 2 classic", "state of survival", "the girl in the window", "smash legends", "race the sun challenge edition", "mekorama",
     "badland", "battle of polytopia", "bee brilliant", "castle crush",  "exploding kittens", "raid shadow legends", "another eden", "naval storm", "rts siege up", "uniwar", "galaxy reavers", "dadish 3", "huntdown", "overdrive 2", "merge fables",
-    "the walking zombie 2", "lara croft relic run", "asphalt 9 legends", "guardian tales", "plant the world", "square fists boxing", "brawlhalla", "mech arena robot showdown", "lost in blue", "life in adventure",
-     "eternium", "fishdom", "gardenscapes", "good pizza great pizza", "grimvalor", "hellrider 3", "the king of fighters allstar", "plants vs zombies 2", "need for speed no limits ",
+    "the walking zombie 2", "lara croft relic run", "asphalt 9 legends", "guardian tales", "plant the world", "square fists boxing", "brawlhalla", "mech arena robot showdown", "lost in blue", "life in adventure", "iron marines",
+     "eternium", "fishdom", "gardenscapes", "good pizza great pizza", "grimvalor", "hellrider 3", "the king of fighters allstar", "plants vs zombies 2", "need for speed no limits ", "hexio", "hangman",
     "hocus",  "moto x3m bike race game", "rooster defense", "botworld adventure", "street fighter iv champion edition", "mindustry", "adventure escape mysteries",
      "nihilumbra",  "pirates showdown", "power rangers legacy wars", "great conqueror rome", 'cosmic challenge racing', "apex legends mobile", "pipe lines hexa",
     "magic survival", "legend of solgard", "metal soldiers 2", "sky children of the light",  "genshin impact", "cover fire", "gordon ramsay chef blast", "dislyte", "farmville 3", "enyo",
@@ -994,16 +994,27 @@ countdownlatestgames()
 	merge_fables = new addGame(baseLinkReview+"merge-fables", baseLinkImg+"6262a56df551ed5332d9048e/637b7d00969da54315389dfb_merge-fables-icon.png", "Merge Fables", "")
 
 	NeedforSpeedNoLimits = new addGame(baseLinkReview+"need-for-speed-no-limits", baseLinkImg+"6262a56df551ed5332d9048e/637b7f27f4c1a37ff269a42d_need-for-speed-no-limit-icon.png", "Need for Speed No Limits", "")
+
+	zhed = new addGame(baseLinkReview+"zhed", baseLinkImg+"6262a56df551ed5332d9048e/637ba6c67ca84d35fb4c5c9b_zhed-icon.png", "Zhed", "")
+
+	MagicRampage  = new addGame(baseLinkReview+"magic-rampage", baseLinkImg+"6262a56df551ed5332d9048e/637ba7d5fbe922a1b667f7f1_magic-rampage-icon.png", "Magic Rampage", "")
+
+	IronMarines = new addGame(baseLinkReview+"iron-marines", baseLinkImg+"6262a56df551ed5332d9048e/637bac29d5e3ca335d74087d_iron-marines-icon.png", "Iron Marines", "")
+
+	hexio = new addGame(baseLinkReview+"hexio", baseLinkImg+"6262a56df551ed5332d9048e/637bae6ff30552157fc43e03_hexio-icon.png", "Hexio", "")
+
+	hangman = new addGame(baseLinkReview+"hangman", baseLinkImg+"6262a56df551ed5332d9048e/637bb2daabca8e43fadfb7b8_hangman-icon.png", "Hangman", "")
+	
 	// ######################################################################
     // All game arrays 
 	// ######################################################################
-	alltop8s = ["Sonic 2 Classic", "Huntdown", "Dadish", "Orbia", "Archero", "Grimvalor" , "Brawlhalla", "Alien Isolation", "Eternium", "Guardian Tales", "Sky Children", "Another Eden", "Nihilumbra", "Oddmar", "Sword of Xolan", "Forgotton Anne", "Teamfight Tactics", "Mekorama",
+	alltop8s = ["Sonic 2 Classic", "Huntdown", "Dadish", "Orbia", "Archero", "Grimvalor" , "Brawlhalla", "Alien Isolation", "Eternium", "Guardian Tales", "Sky Children", "Another Eden", "Nihilumbra", "Oddmar", "Sword of Xolan", "Forgotton Anne", "Teamfight Tactics", "Mekorama", "Magic Rampage",
 	"Mobile Legends", "Art of War 3", "Battle of Polytopia", "Not Not", "Real Racing 3", "Good Pizza", "Stardew Valley", "World of Tennis", "Kingdom Rush", "Ancient Planet", "Bloons TD 6", "Mindustry", "Sonic 2 Classic"]
 
 	// ADDING TO CASUAL ARRAY
 	casualTop8 = [casual5a, casual2a, simulation2a]
 	casualTop7 = [casual5a, casual8b, casual2a, casual5b, simulation2a, casual12b, casual2b, puzzle2a, casual4b, casual6b]
-	casualTop6 = [merge_fables, farmville3, gordonramsaychefblast, simulation5c, casual5c, casual1c, casual2c, casual3c]
+	casualTop6 = [hangman, merge_fables, farmville3, gordonramsaychefblast, simulation5c, casual5c, casual1c, casual2c, casual3c]
 
 
 	// ADDING TO ACTION ARRAY
@@ -1036,8 +1047,8 @@ countdownlatestgames()
 
 		
 	// ADDING TO PLATFORM ARRAY
-	platformTop8 = [sonicthehedgehog2classic, huntdown, dadish3, platform3a, platform4a, platform6a, platform8a]
-	platformTop7 = [sonicthehedgehog2classic, huntdown, dadish3, platform5a, platform3a, platform2a, platform1a, platform4a, platform6a, platform8a, platform4b, platform6b]
+	platformTop8 = [MagicRampage, sonicthehedgehog2classic, huntdown, dadish3, platform3a, platform4a, platform6a, platform8a]
+	platformTop7 = [MagicRampage, sonicthehedgehog2classic, huntdown, dadish3, platform5a, platform3a, platform2a, platform1a, platform4a, platform6a, platform8a, platform4b, platform6b]
 	platformTop6 = [platform7c, platform2c, platform3c, platform4c, platform5c, platform6c, platform3b]
 
 	// ADDING TO STRATEGY ARRAY
@@ -1049,8 +1060,8 @@ countdownlatestgames()
 	
 	// ADDING TO PUZZLE ARRAY
 	simulationTop8 = [mekorama, puzzle4a, puzzle7a, puzzle4a]
-	simulationTop7 = [mekorama, thegirlinthewindow, pipelineshexa, puzzle1a, casual9b, casual10b, puzzle7a, puzzle4a ]
-	simulationTop6 = [adventureescapemysteries, casual4c]
+	simulationTop7 = [hexio, mekorama, thegirlinthewindow, pipelineshexa, puzzle1a, casual9b, casual10b, puzzle7a, puzzle4a ]
+	simulationTop6 = [zhed, adventureescapemysteries, casual4c]
 
 
 	// ADDING TO racing ARRAY
