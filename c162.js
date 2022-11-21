@@ -92,10 +92,10 @@ piccc = {
   }
 
 games = ["among us", "archero", "ancient planet tower defense", "art of war 3 global conflict", "cardinal quest 2", "baseball9", "altos adventure", "forge of empires", "mobile legends bang bang", "mushroom wars 2",
-"skullgirls", "alien isolation", "infinitode2", "nba 2k", "scary horror 2", "bloons td 6", "moonshades", "prison empire tycoon", "bloody bastards", "plague inc", "mini td 2", "defense legend 4", 'grand mountain adventure', "sonic the hedgehog 2 classic", "state of survival", "the girl in the window",
-    "badland", "battle of polytopia", "bee brilliant", "castle crush",  "exploding kittens", "raid shadow legends", "another eden", "naval storm", "rts siege up", "uniwar", "galaxy reavers", "dadish 3", "huntdown", "overdrive 2",
+"skullgirls", "alien isolation", "infinitode2", "nba 2k", "scary horror 2", "bloons td 6", "moonshades", "prison empire tycoon", "bloody bastards", "plague inc", "mini td 2", "defense legend 4", 'grand mountain adventure', "sonic the hedgehog 2 classic", "state of survival", "the girl in the window", "smash legends", "race the sun challenge edition", "mekorama",
+    "badland", "battle of polytopia", "bee brilliant", "castle crush",  "exploding kittens", "raid shadow legends", "another eden", "naval storm", "rts siege up", "uniwar", "galaxy reavers", "dadish 3", "huntdown", "overdrive 2", "merge fables",
     "the walking zombie 2", "lara croft relic run", "asphalt 9 legends", "guardian tales", "plant the world", "square fists boxing", "brawlhalla", "mech arena robot showdown", "lost in blue", "life in adventure",
-     "eternium", "fishdom", "gardenscapes", "good pizza great pizza", "grimvalor", "hellrider 3", "the king of fighters allstar", "plants vs zombies 2",
+     "eternium", "fishdom", "gardenscapes", "good pizza great pizza", "grimvalor", "hellrider 3", "the king of fighters allstar", "plants vs zombies 2", "need for speed no limits ",
     "hocus",  "moto x3m bike race game", "rooster defense", "botworld adventure", "street fighter iv champion edition", "mindustry", "adventure escape mysteries",
      "nihilumbra",  "pirates showdown", "power rangers legacy wars", "great conqueror rome", 'cosmic challenge racing', "apex legends mobile", "pipe lines hexa",
     "magic survival", "legend of solgard", "metal soldiers 2", "sky children of the light",  "genshin impact", "cover fire", "gordon ramsay chef blast", "dislyte", "farmville 3", "enyo",
@@ -983,18 +983,27 @@ countdownlatestgames()
 
 	defensezone3 = new addGame(baseLinkReview+"defense-zone-3", baseLinkImg+"6262a56df551ed5332d9048e/6352caa035e7545b9b114339_defense-zone-3-icon.png", "Defense Zone 3", "")
 
-	thegirlinthewindow = new addGame(baseLinkReview+"the-girl-in-the-window", baseLinkImg+"6262a56df551ed5332d9048e/6352caa035e7545b9b114339_defense-zone-3-icon.png", "The Girl in the Window", "")
+	thegirlinthewindow = new addGame(baseLinkReview+"the-girl-in-the-window", baseLinkImg+"6262a56df551ed5332d9048e/637b6186e3a0df83f9ff7940_the-girl-in-the-window-icon.jpg", "The Girl in the Window", "")
+
+	racethesunchallengeedition = new addGame(baseLinkReview+"race-the-sun-challenge-edition", baseLinkImg+"6262a56df551ed5332d9048e/637b6194059ccf3d3cfa158d_race-the-sun-icon.png", "Race the Sun Challenge Edition", "")
 	
+	smashlegends = new addGame(baseLinkReview+"smash-legends", baseLinkImg+"6262a56df551ed5332d9048e/637b61a44d6ce0857f9686db_smash-legends-icon.png", "Smash Legends", "")
+
+	mekorama = new addGame(baseLinkReview+"mekorama", baseLinkImg+"6262a56df551ed5332d9048e/637b63436f8fe00b79360cd0_mekorama.png", "Mekorama", "")
+
+	merge_fables = new addGame(baseLinkReview+"merge-fables", baseLinkImg+"6262a56df551ed5332d9048e/637b7d00969da54315389dfb_merge-fables-icon.png", "Merge Fables", "")
+
+	NeedforSpeedNoLimits = new addGame(baseLinkReview+"need-for-speed-no-limits", baseLinkImg+"6262a56df551ed5332d9048e/637b7f27f4c1a37ff269a42d_need-for-speed-no-limit-icon.png", "Need for Speed No Limits", "")
 	// ######################################################################
     // All game arrays 
 	// ######################################################################
-	alltop8s = ["Sonic 2 Classic", "Huntdown", "Dadish", "Orbia", "Archero", "Grimvalor" , "Brawlhalla", "Alien Isolation", "Eternium", "Guardian Tales", "Sky Children", "Another Eden", "Nihilumbra", "Oddmar", "Sword of Xolan", "Forgotton Anne", "Teamfight Tactics",
+	alltop8s = ["Sonic 2 Classic", "Huntdown", "Dadish", "Orbia", "Archero", "Grimvalor" , "Brawlhalla", "Alien Isolation", "Eternium", "Guardian Tales", "Sky Children", "Another Eden", "Nihilumbra", "Oddmar", "Sword of Xolan", "Forgotton Anne", "Teamfight Tactics", "Mekorama",
 	"Mobile Legends", "Art of War 3", "Battle of Polytopia", "Not Not", "Real Racing 3", "Good Pizza", "Stardew Valley", "World of Tennis", "Kingdom Rush", "Ancient Planet", "Bloons TD 6", "Mindustry", "Sonic 2 Classic"]
 
 	// ADDING TO CASUAL ARRAY
 	casualTop8 = [casual5a, casual2a, simulation2a]
 	casualTop7 = [casual5a, casual8b, casual2a, casual5b, simulation2a, casual12b, casual2b, puzzle2a, casual4b, casual6b]
-	casualTop6 = [farmville3, gordonramsaychefblast, simulation5c, casual5c, casual1c, casual2c, casual3c]
+	casualTop6 = [merge_fables, farmville3, gordonramsaychefblast, simulation5c, casual5c, casual1c, casual2c, casual3c]
 
 
 	// ADDING TO ACTION ARRAY
@@ -1002,13 +1011,13 @@ countdownlatestgames()
 
 	actionTop7 = [smashhit, action9b, action12a, action9a, action11a, action3a, action17a, action8a, action13a, action1a, action7a, puzzle3a, action2a, action4a, action1b, action4b, action5b, action8b, action11b, action15a]
 
-	actionTop6 = [overdrive2, action1c, action2c, action3c, action4c, action5c, action7c, puzzle2c]
+	actionTop6 = [racethesunchallengeedition, overdrive2, action1c, action2c, action3c, action4c, action5c, action7c, puzzle2c]
 
 
 	// ADDING TO FIGHTING ARRAY
 	fightTop8 = [fight3a, action5a, action18a]
 	fightTop7 = [powerrangers, fight3c, fight1a, action5a, fight3a, fight4a]
-	fightTop6 = [fight1c, fight2c, fight4c]
+	fightTop6 = [smashlegends, fight1c, fight2c, fight4c]
 
 
 	
@@ -1039,15 +1048,15 @@ countdownlatestgames()
 
 	
 	// ADDING TO PUZZLE ARRAY
-	simulationTop8 = [puzzle4a, puzzle7a, puzzle4a]
-	simulationTop7 = [thegirlinthewindow, pipelineshexa, puzzle1a, casual9b, casual10b, puzzle7a, puzzle4a ]
+	simulationTop8 = [mekorama, puzzle4a, puzzle7a, puzzle4a]
+	simulationTop7 = [mekorama, thegirlinthewindow, pipelineshexa, puzzle1a, casual9b, casual10b, puzzle7a, puzzle4a ]
 	simulationTop6 = [adventureescapemysteries, casual4c]
 
 
 	// ADDING TO racing ARRAY
 	racingTop8 = [racing2a, racing7a]
 	racingTop7 = [racing2b, racing4a, racing2a, racing6a, racing1a, racing3a, racing1b, racing7a, racing3b, racing4b]
-	racingTop6 = [racing1c, racing2c, racing3c]
+	racingTop6 = [NeedforSpeedNoLimits, racing1c, racing2c, racing3c]
 
 
 	
