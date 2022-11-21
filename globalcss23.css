@@ -46,7 +46,7 @@
 
 .special222, #lathour, #latmin, #latsec {
     font-size: 18px !important;
-    color: white;
+    color: black;
     font-family: 'Exo';
     font-weight: bold;
 }
