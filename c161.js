@@ -92,7 +92,7 @@ piccc = {
   }
 
 games = ["among us", "archero", "ancient planet tower defense", "art of war 3 global conflict", "cardinal quest 2", "baseball9", "altos adventure", "forge of empires", "mobile legends bang bang", "mushroom wars 2",
-"skullgirls", "alien isolation", "infinitode2", "nba 2k", "scary horror 2", "bloons td 6", "moonshades", "prison empire tycoon", "bloody bastards", "plague inc", "mini td 2", "defense legend 4", 'grand mountain adventure', "sonic the hedgehog 2 classic", "state of survival",
+"skullgirls", "alien isolation", "infinitode2", "nba 2k", "scary horror 2", "bloons td 6", "moonshades", "prison empire tycoon", "bloody bastards", "plague inc", "mini td 2", "defense legend 4", 'grand mountain adventure', "sonic the hedgehog 2 classic", "state of survival", "the girl in the window",
     "badland", "battle of polytopia", "bee brilliant", "castle crush",  "exploding kittens", "raid shadow legends", "another eden", "naval storm", "rts siege up", "uniwar", "galaxy reavers", "dadish 3", "huntdown", "overdrive 2",
     "the walking zombie 2", "lara croft relic run", "asphalt 9 legends", "guardian tales", "plant the world", "square fists boxing", "brawlhalla", "mech arena robot showdown", "lost in blue", "life in adventure",
      "eternium", "fishdom", "gardenscapes", "good pizza great pizza", "grimvalor", "hellrider 3", "the king of fighters allstar", "plants vs zombies 2",
@@ -982,6 +982,8 @@ countdownlatestgames()
 	stateofsurvival = new addGame(baseLinkReview+"state-of-survival", baseLinkImg+"6262a56df551ed5332d9048e/635150da3885ea41c34f7726_state-of-survival-icon.png", "State of Survival", "RPG elements")
 
 	defensezone3 = new addGame(baseLinkReview+"defense-zone-3", baseLinkImg+"6262a56df551ed5332d9048e/6352caa035e7545b9b114339_defense-zone-3-icon.png", "Defense Zone 3", "")
+
+	thegirlinthewindow = new addGame(baseLinkReview+"the-girl-in-the-window", baseLinkImg+"6262a56df551ed5332d9048e/6352caa035e7545b9b114339_defense-zone-3-icon.png", "The Girl in the Window", "")
 	
 	// ######################################################################
     // All game arrays 
@@ -1038,7 +1040,7 @@ countdownlatestgames()
 	
 	// ADDING TO PUZZLE ARRAY
 	simulationTop8 = [puzzle4a, puzzle7a, puzzle4a]
-	simulationTop7 = [pipelineshexa, puzzle1a, casual9b, casual10b, puzzle7a, puzzle4a ]
+	simulationTop7 = [thegirlinthewindow, pipelineshexa, puzzle1a, casual9b, casual10b, puzzle7a, puzzle4a ]
 	simulationTop6 = [adventureescapemysteries, casual4c]
 
 
