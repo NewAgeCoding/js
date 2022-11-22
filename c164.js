@@ -1022,7 +1022,7 @@ countdownlatestgames()
 
 	actionTop7 = [smashhit, action9b, action12a, action9a, action11a, action3a, action17a, action8a, action13a, action1a, action7a, puzzle3a, action2a, action4a, action1b, action4b, action5b, action8b, action11b, action15a]
 
-	actionTop6 = [racethesunchallengeedition, overdrive2, action1c, action2c, action3c, action4c, action5c, action7c, puzzle2c]
+	actionTop6 = [overdrive2, action1c, action2c, action3c, action4c, action5c, action7c, puzzle2c]
 
 
 	// ADDING TO FIGHTING ARRAY
@@ -1067,7 +1067,7 @@ countdownlatestgames()
 	// ADDING TO racing ARRAY
 	racingTop8 = [racing2a, racing7a]
 	racingTop7 = [racing2b, racing4a, racing2a, racing6a, racing1a, racing3a, racing1b, racing7a, racing3b, racing4b]
-	racingTop6 = [NeedforSpeedNoLimits, racing1c, racing2c, racing3c]
+	racingTop6 = [racethesunchallengeedition, NeedforSpeedNoLimits, racing1c, racing2c, racing3c]
 
 
 	
@@ -4305,7 +4305,7 @@ function changesplash(get_texty, divy) {
 		// Change background color depending on score
 		$(divy).find(".special1").css("background", "transparent")
 		$(divy).find(".golong1").css("background", "transparent")
-
+		$("#createVid").html("");
 		$("#createVid").html(`
 		<div class="glitch33 dasSize">
 			<div class="glitch33__item abc1"></div>
@@ -4316,7 +4316,7 @@ function changesplash(get_texty, divy) {
 		</div>
 		
 		`)
-
+		$("#createVid").fadeIn();
 
 
 	
