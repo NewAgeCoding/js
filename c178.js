@@ -22,7 +22,7 @@ var pre_reg_pc = "off"
 // }
 $( window ).ready(function() {
 	setTimeout(function(){
-		$(".thecurrentdate").fadeOut(50).fadeIn(50).fadeOut(50).fadeIn(50).fadeOut(50).fadeIn(50).fadeOut(50).fadeIn(50).fadeOut(50).fadeIn(50);
+		$(".thecurrentdate").fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1);
 	}, 1200);
 
 
