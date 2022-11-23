@@ -21,9 +21,10 @@ var pre_reg_pc = "off"
 // 	}
 // }
 $( window ).ready(function() {
-	// setTimeout(function(){
-	// 	$(".thecurrentdate").fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1);
-	// }, 1200);
+	setTimeout(function(){
+		// $(".thecurrentdate").fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1);
+		$(".thecurrentdate").addClass("blinky1")
+	}, 1200);
 
 
 });
