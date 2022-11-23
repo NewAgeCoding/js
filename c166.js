@@ -4463,6 +4463,7 @@ $(document).on("click", ".latest-gamez", function(){
 	if(stoper == 0) {
 		stoper = 1
 		$(".gominus").css("margin-top", "-12px")
+		$("._3blockzz1").css("margin-top", "-33px")
 		divy = $(this)
 		get_texty = $(this).find(".special1").text()
 		$('.phase-btn').css("display", "block")
@@ -4491,6 +4492,10 @@ $(document).on("click", ".backzy", function(){
 		$('.bluearrow').css("display", "none")
 		$('.hovereffect').css("display", "block")
 		$('.ytubebtn').css("display", "block")
+
+		$(".gominus").css("margin-top", "0px")
+		$("._3blockzz1").css("margin-top", "0px")
+
 		changesplash(get_texty, "none")		
 
 })
