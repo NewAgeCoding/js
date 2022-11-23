@@ -4260,8 +4260,8 @@ function changesplash(get_texty, divy) {
 		// Reset font colors to black and background
 		$(".leBorder3").css("display", "none")
 		$(".leBorder3").remove();
-		$(".golong1").css("background", "transparent")
-		$(".special1").css("background", "transparent")
+		$(".golong1").css("background", "white")
+		$(".special1").css("background", "white")
 	
 		$(".special1").css("font-weight", "normal")
 		$(".pp99").css("font-weight", "normal")
@@ -4302,8 +4302,8 @@ function changesplash(get_texty, divy) {
 	if(get_texty == "Diablo Immortal"){
 
 		// Change background color depending on score
-		$(divy).find(".special1").css("background", "transparent")
-		$(divy).find(".golong1").css("background", "transparent")
+		$(divy).find(".special1").css("background", "white")
+		$(divy).find(".golong1").css("background", "white")
 		$("#createVid").html("");
 		$("#createVid").html(`
 		<div class="glitch33 dasSize">
@@ -4333,8 +4333,8 @@ function changesplash(get_texty, divy) {
 	} else if(get_texty == "Sonic"){
 
 		// Change background color depending on score
-		$(divy).find(".special1").css("background", "transparent")
-		$(divy).find(".golong1").css("background", "transparent")
+		$(divy).find(".special1").css("background", "white")
+		$(divy).find(".golong1").css("background", "white")
 
 		$("#createVid").html(`
 		<div class="glitch33 dasSize">
@@ -4364,8 +4364,8 @@ function changesplash(get_texty, divy) {
 	} else if(get_texty == "Plague Inc"){
 
 		// Change background color depending on score
-		$(divy).find(".special1").css("background", "transparent")
-		$(divy).find(".golong1").css("background", "transparent")
+		$(divy).find(".special1").css("background", "white")
+		$(divy).find(".golong1").css("background", "white")
 
 		$("#createVid").html(`
 		<div class="glitch33 dasSize">
@@ -4395,8 +4395,8 @@ function changesplash(get_texty, divy) {
 	} else if(get_texty == "Oddmar"){
 
 		// Change background color depending on score
-		$(divy).find(".special1").css("background", "transparent")
-		$(divy).find(".golong1").css("background", "transparent")
+		$(divy).find(".special1").css("background", "white")
+		$(divy).find(".golong1").css("background", "white")
 
 		$("#createVid").html(`
 		<div class="glitch33 dasSize">
