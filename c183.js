@@ -25,7 +25,7 @@ $( window ).ready(function() {
 		// $(".thecurrentdate").fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1);
 		$(".thecurrentdate").addClass("blinky1")
 	}, 1200);
-	$(".thecurrentdate").removeClass("blinky1")
+	
 });
 
 //##################################################
@@ -4504,7 +4504,7 @@ $(document).on("click", ".backzy", function(){
 		$('.bluearrow').css("display", "none")
 		$('.hovereffect').css("display", "block")
 		$('.ytubebtn').css("display", "block")
-
+		$(".thecurrentdate").removeClass("blinky1")
 		$(".gominus").css("margin-top", "0px")
 		$("._3blockzz1").attr('style', 'margin-top: -33px !important');
 
