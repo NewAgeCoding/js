@@ -20,8 +20,10 @@ var pre_reg_pc = "off"
 // 		pre_reg_pc = "off"
 // 	}
 // }
+$( window ).ready(function() {
+    $(".thecurrentdate").fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
+});
 
-$(".thecurrentdate").fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
 //##################################################
 	// Recently viewed
 	//##################################################
