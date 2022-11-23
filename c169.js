@@ -4493,7 +4493,7 @@ $(document).on("click", ".backzy", function(){
 		$('.ytubebtn').css("display", "block")
 
 		$(".gominus").css("margin-top", "0px")
-		$("._3blockzz1").attr('style', 'margin-top: 0px !important');
+		$("._3blockzz1").attr('style', 'margin-top: -33px !important');
 
 		changesplash(get_texty, "none")		
 
