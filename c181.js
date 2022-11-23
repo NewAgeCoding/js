@@ -25,8 +25,7 @@ $( window ).ready(function() {
 		// $(".thecurrentdate").fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1);
 		$(".thecurrentdate").addClass("blinky1")
 	}, 1200);
-
-
+	$(".thecurrentdate").removeClass("blinky1")
 });
 
 //##################################################
