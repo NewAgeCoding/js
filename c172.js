@@ -1616,10 +1616,12 @@ function showGames(genre, thisb){
 			text-align: left;
 			align-items: left;">
 
-				<h4 style="    position: absolute;s
+				<h4 style="    position: absolute;
 				right: 105px;
+				font-size:12px;
 				color: grey;
 				top: 46px;">*Newly added games appear first</h4>
+
 				<h4 class= "ff1 r2">Worth Playing</h4>
 
 				<div class="greenRating8" style="width: 165px;
