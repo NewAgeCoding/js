@@ -4251,7 +4251,7 @@ function changesplash(get_texty, divy) {
 		$("#createVid").css("border", "2px solid black")
 		$("#createVid").css("width", "913px")
 		$("#createVid").css("margin-top", "10px")
-		$("._3blockzz1").css("margin-top", "13px")
+		
 	
 	
 		// Remove the date left side bot
@@ -4463,7 +4463,7 @@ $(document).on("click", ".latest-gamez", function(){
 	if(stoper == 0) {
 		stoper = 1
 		$(".gominus").css("margin-top", "-12px")
-		$("._3blockzz1").css("margin-top", "-33px")
+		$("._3blockzz1").attr('style', 'margin-top: -33px !important');
 		divy = $(this)
 		get_texty = $(this).find(".special1").text()
 		$('.phase-btn').css("display", "block")
@@ -4494,7 +4494,7 @@ $(document).on("click", ".backzy", function(){
 		$('.ytubebtn').css("display", "block")
 
 		$(".gominus").css("margin-top", "0px")
-		$("._3blockzz1").css("margin-top", "0px")
+		$("._3blockzz1").attr('style', 'margin-top: 0px !important');
 
 		changesplash(get_texty, "none")		
 
