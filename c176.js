@@ -21,7 +21,11 @@ var pre_reg_pc = "off"
 // 	}
 // }
 $( window ).ready(function() {
-    $(".thecurrentdate").fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
+	setTimeout(function(){
+		$(".thecurrentdate").fadeOut(50).fadeIn(50).fadeOut(50).fadeIn(50).fadeOut(50).fadeIn(50).fadeOut(50).fadeIn(50);
+	}, 1200);
+
+
 });
 
 //##################################################
