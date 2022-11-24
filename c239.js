@@ -5095,10 +5095,16 @@ function newsAndAnnouncementsReveal(){
 //########################################################
 is_nav_bar_up = false
 $(document).on("click", ".nav-linkz", function(){
+
+	// If nav bar is showing like genre or pre reg or news close
+	// it all display all to none
 	if(is_nav_bar_up == true) {
+		is_nav_bar_up = false
 		$(".pcdropdown45").css("display", "none")
 		return
 	}
+
+	is_nav_bar_up = true
 	$(".pcdropdown45").css("display", "none")
 	namez = $(this).text()
 
