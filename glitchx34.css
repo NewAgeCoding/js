@@ -406,7 +406,7 @@ visibility: hidden;
 }
 
 @keyframes myfirst {
-  0%   {left: -500px; display:none;}
+  0%   {left: -500px; visibility: hidden;}
   80%   {visibility:visible !important;}
   100% {left: 0px; visibility:visible !important;}
 }
@@ -421,7 +421,7 @@ visibility: hidden;
 }
 
 @keyframes myfirst2 {
-  0%   {left: 500px; display:none;}
+  0%   {left: 500px; visibility: hidden;}
   80%   {visibility:visible !important;}
   100% {left: 0px; visibility:visible !important;}
 }
