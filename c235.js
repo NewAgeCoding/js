@@ -5094,13 +5094,13 @@ function newsAndAnnouncementsReveal(){
 //	Click Nav bar for pc
 //########################################################
 $(document).on("click", ".nav-linkz", function(){
-	$(".pcdropdown").css("display", "none")
+	$(".pcdropdown45").css("display", "none")
 	namez = $(this).text()
 
 	if(namez == "News and Announcements") {
 		$('.news-dropdown').css('display','block')
 	} else if(namez == "Pre-Reg") {
-		console.log("PRE REG CLICKED")
+		$('.pre-gaimz').css("display", "block")
 	} else {
 		console.log("GENREZ")
 	}
