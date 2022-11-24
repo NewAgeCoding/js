@@ -4508,7 +4508,7 @@ $(document).on("click", ".backzy", function(){
 		$('.ytubebtn').css("display", "block")
 		$(".thecurrentdate").removeClass("blinky1")
 		$(".gominus").css("margin-top", "0px")
-		$("._3blockzz1").attr('style', 'margin-top: -33px !important');
+		$("._3blockzz1").attr('style', 'margin-top: 0px !important');
 
 		changesplash(get_texty, "none")		
 
