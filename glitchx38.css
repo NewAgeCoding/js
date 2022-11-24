@@ -421,14 +421,19 @@ opacity: 0;
   left:500px;
   animation: myfirst2 2s 1;
   animation-fill-mode: forwards;
-visibility: hidden;
+opacity: 0;
 
 }
 
 @keyframes myfirst2 {
-  0%   {left: 500px; visibility: hidden;}
-  80%   {visibility:visible !important;}
-  100% {left: 0px; visibility:visible !important;}
+  0%   {left: 500px; opacity: 0;}
+  10%   {opacity: 0;}
+  20%   { opacity: 0;}
+  30%   {opacity: 0;}
+  40%   { opacity: 0;}
+  50%   {opacity: 0;}
+  80%   {opacity: 1;}
+  100% {left: 0px; opacity: 1;}
 }
 
 .welcome111 {
