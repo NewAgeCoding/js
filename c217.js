@@ -30,7 +30,7 @@ $( window ).ready(function() {
 	// }, 300);
 	
 });
-
+dontgo = 0
 //##################################################
 	// Recently viewed
 	//##################################################
@@ -4937,18 +4937,21 @@ $(document).on("click", "#pre-reg-pc", function(){
 //########################################################
 //	News hover
 //########################################################
-// $(".news-announcements").hover(function(){
-// 	goz = $(this).find(".lfeed").hasClass( "blueUnder" )
-// 	if(goz == false){
-// 		$(this).find(".lfeed").addClass("blueUnder")
-// 	}
-// 	}, function(){
-// 		goz3 = $(this).hasClass( "dont-blue" )
-// 		if(goz3 == false) {
-// 			$(this).find(".lfeed").removeClass("blueUnder")
-// 		}
+$(".news-announcements").hover(function(){
+	if(dontgo == 1) {
+		return
+	}
+	goz = $(this).find(".lfeed").hasClass( "blueUnder" )
+	if(goz == false){
+		$(this).find(".lfeed").addClass("blueUnder")
+	}
+	}, function(){
+		goz3 = $(this).hasClass( "dont-blue" )
+		if(goz3 == false) {
+			$(this).find(".lfeed").removeClass("blueUnder")
+	}
 	
-//   });
+  });
 
 
  
@@ -5054,6 +5057,7 @@ $(document).on("click", ".news-announcements", function(){
 	$(".div-block-199").removeClass("blueUnder")
 	$(".navbar-pc").css("padding-right", "0px")
 	console.log("ADD BLUEUNDER")
+	dontgo = 1
 	$(".news-announcements").find(".lfeed").addClass("blueUnder")
 
 })
