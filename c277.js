@@ -5081,17 +5081,44 @@ function addPcGames(gaim) {
 	genre_type = genre_type + "Top7"
 
 	$(eval(genre_type)).each(function(index, value){
-		$(".greenz").append(
-			`
+		// Check to see if star exists
+		if(jQuery.inArray(value.name, alltop8s) != -1) {
+			$(".greenz").append(
+				`
 			<div class="menuGameBoxes">
-				<a href=${value.aLink}  style="position:relative; z-index:5">
-					<div><img src=${value.img}></div>
-				</a>
-				<div class="menuGamesBoxP">${value.name}</div>
-				<div class="menuGamesBoxP" style="color:grey; margin-top: -10px;">${value.mini}</div>
+			<a href=${value.aLink}  style="position:relative; z-index:5">
+			<div>
+			<img src=${value.img} loading="lazy">
+	
+			<div class="starzy">
+				<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63145337482ba73547779521_starz.png">
 			</div>
-			`
-		)
+	
+			</div>
+			  </a>
+			<div class="menuGamesBoxP">
+			<span style="color:black;">${value.name}</span>
+			 <div class="menuGamesBoxP" style="color:grey;">${value.mini}</div>
+			</div>
+			  </div>
+			  `
+			)
+		} else {
+			$(".greenz").append(
+				`
+				<div class="menuGameBoxes">
+					<a href=${value.aLink}  style="position:relative; z-index:5">
+						<div><img src=${value.img}></div>
+					</a>
+					<div class="menuGamesBoxP">${value.name}</div>
+					<div class="menuGamesBoxP" style="color:grey; margin-top: -10px;">${value.mini}</div>
+				</div>
+				`					
+			)
+		}
+
+		
+
 	})
 
 	// Append red games
