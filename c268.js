@@ -5072,76 +5072,16 @@ function newsAndAnnouncementsReveal(){
 //	Latest Pc drop down showing all games 
 //########################################################
 function addPcGames(gaim) {
-
-
-	mobileTop7 = `
-	<div class="greenBlock777" style="width: 100%;
-	margin-top: -65px;
-	text-align: left;
-	align-items: left;">
-
-		<h4 style="    position: absolute;
-		right: 105px;
-		font-size:12px;
-		font-weight: normal;
-		color: grey;
-		top: 37px;">*Newly added games appear first</h4>
-
-		<h4 class= "ff1 r2">Worth Playing</h4>
-
-		<div class="greenRating8" style="width: 165px;
-		border-radius: 1px;
-		background-color: #03d303;
-		color: #fff;
-		font-size: 13px;
-		position: relative;
-		height: 20px;
-		transform: skew(344deg, 360deg);
-		text-align: center;
-		font-family: 'Lato';"></div>
-
-		<div class="greenGames" style="margin-top: 10px;
-		margin-bottom: 20px; display:inline-block;"></div>
-	</div>
-`
-
-mobileTop6 = `
-	<div class="redBlock777" style="width: 100%;
-	margin-top: -65px;
-	text-align: left;
-	align-items: left;">
-
-	<h4 class= "ff1 r3">Frustrating</h4>
-
-		<div class="redRating8" style="width: 165px;
-		border-radius: 1px;
-		background-color: red;
-		color: #fff;
-		font-size: 13px;
-		height: 20px;
-		position: relative;
-		transform: skew(344deg, 360deg);
-		text-align: center;
-		font-family: 'Lato';"></div>
-
-		<div class="redGames" style="margin-top: 10px;
-		margin-bottom: 20px; display:inline-block;"></div>
-	</div>
-`
-
-
-
-	$(".ratingblock").append(mobileTop8 + mobileTop7 )
-
-	$(".greenGames").html(``)
-	$(".redGames").html(``)
+	$(".greenz").html(``)
+	$(".redz").html(``)
+	console.log(">>>", gaim)
 
 	// Append green games
 	genre_type = gaim.toLowerCase();
 	genre_type = genre_type + "Top7"
 
 	$(eval(genre_type)).each(function(index, value){
-		$(".greenGames").append(
+		$(".greenz").append(
 			`
 			<div class="menuGameBoxes">
 				<a href=${value.aLink}  style="position:relative; z-index:5">
@@ -5151,7 +5091,6 @@ mobileTop6 = `
 			</div>
 			`
 		)
-
 	})
 
 	// Append red games
@@ -5159,7 +5098,7 @@ mobileTop6 = `
 	genre_type_low = genre_type_low + "Top6"
 
 	$(eval(genre_type_low)).each(function(index, value){
-		$(".redGames").append(
+		$(".redz").append(
 			`
 			<div class="menuGameBoxes">
 				<a href=${value.aLink}  style="position:relative; z-index:5">
