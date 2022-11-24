@@ -5083,6 +5083,7 @@ $(document).on("click", ".nav-linkz", function(){
 		is_nav_bar_up = false
 		$(".pcdropdown45").css("display", "none")
 		$(".nav-linkz").removeClass( "dont-remove-blue" )
+		$(".nav-linkz").removeClass( "blueUnder" )
 		return
 	}
 
