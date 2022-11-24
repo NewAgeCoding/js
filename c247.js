@@ -5115,9 +5115,8 @@ $(".nav-linkz").hover(function(){
 	}
 	}, function(){
 	goz2 = $(this).hasClass( "dont-remove-blue" )
-	console.log(goz2)
 	if(goz2 == false) {
-		// $(this).removeClass("blueUnder")
+		 $(this).removeClass("blueUnder")
 	}
 	
   });
