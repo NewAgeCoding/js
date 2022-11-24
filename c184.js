@@ -4484,6 +4484,8 @@ $(document).on("click", ".latest-gamez", function(){
 		$(".gp-btn").css("display", "none")
 		$('.hovereffect').css("display", "none")
 		$('.ytubebtn').css("display", "none")
+		$(".blackshadow1").css("display", "block")
+		$(".blackshadow1").fadeOut();
 		changesplash(get_texty, divy)		
 		setTimeout(function(){
 			stoper = 0
