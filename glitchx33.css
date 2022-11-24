@@ -401,14 +401,14 @@
   left:-500px;
   animation: myfirst 2s 1;
   animation-fill-mode: forwards;
-display:none;
+visibility: hidden;
 
 }
 
 @keyframes myfirst {
   0%   {left: -500px; display:none;}
-  80%   {display:block !important;}
-  100% {left: 0px; display:block !important;}
+  80%   {visibility:visible !important;}
+  100% {left: 0px; visibility:visible !important;}
 }
 
 .flyin2 {
@@ -416,14 +416,14 @@ display:none;
   left:500px;
   animation: myfirst2 2s 1;
   animation-fill-mode: forwards;
-display:none;
+visibility: hidden;
 
 }
 
 @keyframes myfirst2 {
   0%   {left: 500px; display:none;}
-  80%   {display:block !important;}
-  100% {left: 0px; display:block !important;}
+  80%   {visibility:visible !important;}
+  100% {left: 0px; visibility:visible !important;}
 }
 
 .welcome111 {
