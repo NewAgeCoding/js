@@ -97,7 +97,10 @@
     box-shadow: rgb(0 0 0) 0px 0px, rgb(245 245 245) -5px 5px, rgb(255 255 255) -15px 15px, rgb(255 255 255) -20px 20px, rgb(255 255 255) -25px 25px;
 }
 
-
+.greenz {   
+    margin-top: 22px;
+    display: inline-block;
+}
 
 /* MOBILE */
 @media only screen and (max-width: 991px) {
