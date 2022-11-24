@@ -1395,11 +1395,11 @@ countdownlatestgames()
 //############################################
 mobileRemoveDropDown = 0 //div-block-305
 function showGames(genre, thisb){
-	$("#click-news12").removeClass("blueUnder")
+
 	console.log("4)", mobileRemoveDropDown)
     $(".ratingblock").css("display", "none")
-	$("#pre-reg-pc").removeClass("blueUnder")
-    $(".pregaimz").css("display", "none")
+
+    // $(".pregaimz").css("display", "none")
 	$(".profile").css("display", "none")
 	$(".the-profile-page").css("display", "none")
 	$('.dropdowngames').css('display', "none")
@@ -1713,8 +1713,7 @@ function showGames(genre, thisb){
 			console.log("10)", mobileRemoveDropDown)
 			cc = $(thisb).attr("class").split(/\s+/);
 			if($.inArray("pcdropdown", cc) != -1) {
-				$(".div-block-199").removeClass("blueUnder")
-				$(thisb).addClass("blueUnder")
+
 			} else {
 
 				if($(".dropdowngames").css("display") == "none"){
@@ -2252,73 +2251,73 @@ if(pathname == "/mobile/casual-games") {
 		addGamesAllPC("casual")
 		totalAction = casualTop8.length + casualTop7.length + casualTop6.length
 		$("#totalAction").text(totalAction)
-		$("#cLink").addClass("blueUnder")
+	
 		$("#cLink").removeClass("hover-underline-animation")
 } else if (pathname == "/mobile/arcade-games") {
 		addGamesAllPC("action")
 		totalAction = actionTop8.length + actionTop7.length + actionTop6.length
 		$("#totalAction").text(totalAction)
-		$("#aLink").addClass("blueUnder")
+
 		$("#aLink").removeClass("hover-underline-animation")
 } else if (pathname == "/mobile/fighting-games") {
 		addGamesAllPC("fight")
 		totalAction = fightTop8.length + fightTop7.length  + fightTop6.length
 		$("#totalAction").text(totalAction)
-		$("#fLink").addClass("blueUnder")
+	
 		$("#fLink").removeClass("hover-underline-animation")
 } else if (pathname == "/mobile/3d-games") {
 		addGamesAllPC("adventure")
 		totalAction =  adventureTop8.length + adventureTop7.length + adventureTop6.length
 		$("#totalAction").text(totalAction)
-		$("#dLink").addClass("blueUnder")
+	
 		$("#dLink").removeClass("hover-underline-animation")
 } else if (pathname == "/mobile/rpg-games") {
 		addGamesAllPC("rpg")
 		totalAction = rpgTop8.length + rpgTop7.length + rpgTop6.length
 		$("#totalAction").text(totalAction)
-		$("#rLink").addClass("blueUnder")
+		
 		$("#rLink").removeClass("hover-underline-animation")
 } else if (pathname == "/mobile/platform-games") {
 		addGamesAllPC("platform")
 		totalAction = platformTop8.length + platformTop7.length + platformTop6.length
 		$("#totalAction").text(totalAction)
-		$("#pLink").addClass("blueUnder")
+		
 		$("#pLink").removeClass("hover-underline-animation")
 } else if (pathname == "/mobile/strategy-games") {
 		addGamesAllPC("strategy")
 		totalAction = strategyTop8.length + strategyTop7.length + strategyTop6.length
 		$("#totalAction").text(totalAction)
-		$("#sLink").addClass("blueUnder")
+		
 		$("#sLink").removeClass("hover-underline-animation")
 } else if (pathname == "/mobile/puzzle-games") {
 		addGamesAllPC("puzzle")
 		totalAction = puzzleTop8.length + puzzleTop7.length + puzzleTop6.length
 		$("#totalAction").text(totalAction)
-		$("#ppLink").addClass("blueUnder")
+		
 		$("#ppLink").removeClass("hover-underline-animation")
 } else if (pathname == "/mobile/racing-games") {
 		addGamesAllPC("racing")
 		totalAction = racingTop8.length + racingTop7.length + racingTop6.length
 		$("#totalAction").text(totalAction)
-		$("#rrLink").addClass("blueUnder")
+		
 		$("#rrLink").removeClass("hover-underline-animation")
 } else if (pathname == "/mobile/simulation-games") {
 		addGamesAllPC("simulation")
 		totalAction = simulationTop8.length + simulationTop7.length + simulationTop6.length
 		$("#totalAction").text(totalAction)
-		$("#ssLink").addClass("blueUnder")
+		
 		$("#ssLink").removeClass("hover-underline-animation")
 }  else if (pathname == "/mobile/sports-games") {
 		addGamesAllPC("sports")
 		totalAction = sportsTop8.length + sportsTop7.length + sportsTop6.length
 		$("#totalAction").text(totalAction)
-		$("#sssLink").addClass("blueUnder")
+	
 		$("#sssLink").removeClass("hover-underline-animation")
 }  else if (pathname == "/mobile/tower-defense-games") {
 		addGamesAllPC("td")
 		totalAction = tdTop8.length + tdTop7.length + tdTop6.length
 		$("#totalAction").text(totalAction)
-		$("#tLink").addClass("blueUnder")
+		
 		$("#tLink").removeClass("hover-underline-animation")
 }
 
