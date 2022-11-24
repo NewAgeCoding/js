@@ -32,6 +32,7 @@ $( window ).ready(function() {
 });
 dontgo = 0
 dontgopre = 0
+is_nav_bar_up = false
 //##################################################
 	// Recently viewed
 	//##################################################
@@ -1400,20 +1401,20 @@ function showGames(genre, thisb){
     $(".ratingblock").css("display", "none")
 
     // $(".pregaimz").css("display", "none")
-	$(".profile").css("display", "none")
-	$(".the-profile-page").css("display", "none")
-	$('.dropdowngames').css('display', "none")
-	$('.latest-games-drop').css("display", "none")
-	$(".news-dropdown").css("display", "none")
-	$("#mobileMenuBar222").css("overflow-y", "auto")
+	// $(".profile").css("display", "none")
+	// $(".the-profile-page").css("display", "none")
+	// $('.dropdowngames').css('display', "none")
+	// $('.latest-games-drop').css("display", "none")
+	// $(".news-dropdown").css("display", "none")
+	// $("#mobileMenuBar222").css("overflow-y", "auto")
 
 	if ($(window).width() < 1100) {
 		$("html").css("overflow-y", "hidden")
 	 }
 
 	
-	$(".div-block-305").find("a").removeClass("blueFontz")
-	$(".pre-reg").find("a").removeClass("blueFontz")
+	// $(".div-block-305").find("a").removeClass("blueFontz")
+	// $(".pre-reg").find("a").removeClass("blueFontz")
 
 
 
@@ -5073,7 +5074,7 @@ function newsAndAnnouncementsReveal(){
 //########################################################
 //	Click Nav bar for pc
 //########################################################
-is_nav_bar_up = false
+
 $(document).on("click", ".nav-linkz", function(){
 
 	// If nav bar is showing like genre or pre reg or news close
