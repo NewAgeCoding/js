@@ -22,6 +22,7 @@ var pre_reg_pc = "off"
 // }
 $( window ).ready(function() {
 	$(".welcome111").addClass("flyin1")
+	$(".welcome222").addClass("flyin2")
 	// setTimeout(function(){
 	// 	// $(".thecurrentdate").fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1).fadeOut(50).fadeIn(1);
 	// 	// $(".thecurrentdate").addClass("blinky1")
