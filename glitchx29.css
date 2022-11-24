@@ -401,12 +401,13 @@
   left:-500px;
   animation: myfirst 2s 1;
   animation-fill-mode: forwards;
-display:block!important;
+display:none;
 
 }
 
 @keyframes myfirst {
-  0%   {left: -500px; display:block}
+  0%   {left: -500px; display:none}
+  80%   {display:block}
   100% {left: 0px; display:block}
 }
 
@@ -415,12 +416,13 @@ display:block!important;
   left:500px;
   animation: myfirst2 2s 1;
   animation-fill-mode: forwards;
-display:block!important;
+display:none;
 
 }
 
 @keyframes myfirst2 {
-  0%   {left: 500px; display:block}
+  0%   {left: 500px; display:none}
+  80%   {display:block}
   100% {left: 0px; display:block}
 }
 
