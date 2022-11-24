@@ -4983,26 +4983,7 @@ $("#pre-reg-pc").hover(function(){
 
 
  
-//########################################################
-//	div-block-199
-//########################################################
-  $(".div-block-199").hover(function(){
-	goz = $(this).hasClass( "blueUnder" )
-	if(goz == false){
-		$(this).addClass("blueUnder")
-	}
-	}, function(){
-	goz2 = $(this).hasClass( "dont-blue" )
-	if(goz2 == false) {
-		$(this).removeClass("blueUnder")
-	}
-	
-  });
 
-  $(document).on("click", ".div-block-199", function(){
-	$(".div-block-199").removeClass("dont-blue")
-	$(this).addClass("dont-blue")
-  })
 
 
 //########################################################
@@ -5101,12 +5082,17 @@ $(document).on("click", ".nav-linkz", function(){
 	if(is_nav_bar_up == true) {
 		is_nav_bar_up = false
 		$(".pcdropdown45").css("display", "none")
+		$(".nav-linkz").removeClass( "dont-remove-blue" )
 		return
 	}
 
 	is_nav_bar_up = true
 	$(".pcdropdown45").css("display", "none")
 	namez = $(this).text()
+
+	// When clicked it tells it that blue under is not
+	// to be removed when hovered over again
+	$(this).addClass( "dont-remove-blue" )
 
 	if(namez == "News and Announcements") {
 		$('.news-dropdown').css('display','block')
@@ -5117,3 +5103,25 @@ $(document).on("click", ".nav-linkz", function(){
 	}
 	console.log(namez)
 })
+
+
+//########################################################
+//	div-block-199
+//########################################################
+$(".nav-linkz").hover(function(){
+	goz = $(this).hasClass( "blueUnder" )
+	if(goz == false){
+		$(this).addClass("blueUnder")
+	}
+	}, function(){
+	goz2 = $(this).hasClass( "dont-remove-blue" )
+	if(goz2 == false) {
+		$(this).removeClass("blueUnder")
+	}
+	
+  });
+
+//   $(document).on("click", ".div-block-199", function(){
+// 	$(".div-block-199").removeClass("dont-blue")
+// 	$(this).addClass("dont-blue")
+//   })
