@@ -4475,7 +4475,7 @@ $(document).on("click", ".latest-gamez", function(){
 	if(stoper == 0) {
 		stoper = 1
 		$(".gominus").css("margin-top", "-12px")
-		$("._3blockzz1").attr('style', 'margin-top: -33px !important');
+		$("._3blockzz1").attr('style', 'margin-top: 0px !important');
 		divy = $(this)
 		get_texty = $(this).find(".special1").text()
 		$('.phase-btn').css("display", "block")
