@@ -396,4 +396,15 @@
 
 
 
+.welcome111 {
+  position: relative;
+  left:-100px;
+  animation: myfirst 5s 1;
+
+}
+
+@-webkit-keyframes run {
+  0%   {left: -100px;}
+  100% left: 200px;}
+}
 
