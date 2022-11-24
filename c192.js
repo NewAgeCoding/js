@@ -2204,6 +2204,8 @@ $(document).on("click", ".tdlink", function(){
 })
 
 $(document).on("click", ".pre-reg", function(){
+	setTimeout( function() {$(".dropdowngames").scrollTop(0)}, 20 );
+	mobileMenuBar222
 	clearallz()
 	$('.genrestuff').css("display", "block")
 	showGames("pre", this)
