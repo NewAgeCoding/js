@@ -1949,7 +1949,8 @@ $(document).on("click", ".news-announcements", function(){
 	$(".dropdowngames").css("display", "none")
 	$(".div-block-199").removeClass("blueUnder")
 	$(".navbar-pc").css("padding-right", "0px")
-	$(this).addClass("blueUnder")
+	$(".news-announcements").find("lfeed").addClass("blueUnder")
+	
 })
 
 
@@ -4959,10 +4960,7 @@ $(".news-announcements").hover(function(){
   });
 
 
-  $(document).on("click", ".news-announcements", function(){
-	$(this).find(".lfeed").addClass("blueUnder")
-  })
-
+ 
 //########################################################
 //	div-block-199
 //########################################################
