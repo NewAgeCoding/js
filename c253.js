@@ -5103,7 +5103,7 @@ $(document).on("click", ".nav-linkz", function(){
 		console.log("GENREZ")
 	}
 	$(".nav-linkz").removeClass( "blueUnder" )
-	$(".nav-linkz").addClass( "blueUnder" )
+	$(this).addClass( "blueUnder" )
 })
 
 
