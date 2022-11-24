@@ -4937,18 +4937,18 @@ $(document).on("click", "#pre-reg-pc", function(){
 //########################################################
 //	News hover
 //########################################################
-$(".news-announcements").hover(function(){
-	goz = $(this).find(".lfeed").hasClass( "blueUnder" )
-	if(goz == false){
-		$(this).find(".lfeed").addClass("blueUnder")
-	}
-	}, function(){
-		goz3 = $(this).hasClass( "dont-blue" )
-		if(goz3 == false) {
-			$(this).find(".lfeed").removeClass("blueUnder")
-		}
+// $(".news-announcements").hover(function(){
+// 	goz = $(this).find(".lfeed").hasClass( "blueUnder" )
+// 	if(goz == false){
+// 		$(this).find(".lfeed").addClass("blueUnder")
+// 	}
+// 	}, function(){
+// 		goz3 = $(this).hasClass( "dont-blue" )
+// 		if(goz3 == false) {
+// 			$(this).find(".lfeed").removeClass("blueUnder")
+// 		}
 	
-  });
+//   });
 
 
  
