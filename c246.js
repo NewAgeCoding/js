@@ -4952,32 +4952,32 @@ $(document).on("click", "#suggest-game", function(){
 //########################################################
 //	News hover
 //########################################################
-$(".news-announcements").hover(function(){
-	goz = $(this).find(".lfeed").hasClass( "blueUnder" )
-	if(goz == false && dontgo == 0){
-		$(this).find(".lfeed").addClass("blueUnder")
-	}
-	}, function(){
-		goz3 = $(this).hasClass( "dont-blue" )
-		if(goz3 == false && dontgo == 0) {
-			$(this).find(".lfeed").removeClass("blueUnder")
-	}	
-});
+// $(".news-announcements").hover(function(){
+// 	goz = $(this).find(".lfeed").hasClass( "blueUnder" )
+// 	if(goz == false && dontgo == 0){
+// 		$(this).find(".lfeed").addClass("blueUnder")
+// 	}
+// 	}, function(){
+// 		goz3 = $(this).hasClass( "dont-blue" )
+// 		if(goz3 == false && dontgo == 0) {
+// 			$(this).find(".lfeed").removeClass("blueUnder")
+// 	}	
+// });
 
 //########################################################
 //	Pre reg hover
 //########################################################
-$("#pre-reg-pc").hover(function(){
-	goz = $(this).find(".nav-linkz").hasClass( "blueUnder" )
-	if(goz == false && dontgopre == 0){
-		$(this).find(".nav-linkz").addClass("blueUnder")
-	}
-	}, function(){
-		goz3 = $(this).hasClass( "dont-blue" )
-		if(goz3 == false && dontgopre == 0) {
-			$(this).find(".nav-linkz").removeClass("blueUnder")
-	}	
-});
+// $("#pre-reg-pc").hover(function(){
+// 	goz = $(this).find(".nav-linkz").hasClass( "blueUnder" )
+// 	if(goz == false && dontgopre == 0){
+// 		$(this).find(".nav-linkz").addClass("blueUnder")
+// 	}
+// 	}, function(){
+// 		goz3 = $(this).hasClass( "dont-blue" )
+// 		if(goz3 == false && dontgopre == 0) {
+// 			$(this).find(".nav-linkz").removeClass("blueUnder")
+// 	}	
+// });
 
 
 
