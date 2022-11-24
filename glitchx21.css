@@ -401,11 +401,11 @@
   left:-500px;
   animation: myfirst 2s 1;
   animation-fill-mode: forwards;
-
+display:block!important;
 
 }
 
 @keyframes myfirst {
   0%   {left: -500px; display:block}
-  100% {left: 100px;}
+  100% {left: 100px; display:block}
 }
