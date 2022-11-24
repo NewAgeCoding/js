@@ -4921,6 +4921,7 @@ $(document).on("click", "#suggest-game", function(){
 //########################################################
 $(document).on("click", "#pre-reg-pc", function(){
 	//pre_reg_nav_bar("true")
+	$(".news-dropdown").css("display", "none")
 	console.log("YO")
 	if(pre_reg_pc == "off"){
 		console.log("TURN ON")
