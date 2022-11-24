@@ -5068,13 +5068,53 @@ function newsAndAnnouncementsReveal(){
 
 }
 
+//########################################################
+//	Latest Pc drop down showing all games 
+//########################################################
+function addPcGames(gaim) {
+	$(".greenGames").html(``)
+	$(".redGames").html(``)
 
+	// Append green games
+	genre_type = gaim.toLowerCase();
+	genre_type = genre_type + "Top7"
 
+	$(eval(genre_type)).each(function(index, value){
+		$(".greenGames").append(
+			`
+			<div class="menuGameBoxes">
+				<a href=${value.aLink}  style="position:relative; z-index:5">
+					<div><img src=${value.img}></div>
+				</a>
+				<div class="menuGamesBoxP">${value.name}</div>
+			</div>
+			`
+		)
+
+	})
+
+	// Append red games
+	genre_type_low = gaim.toLowerCase();
+	genre_type_low = genre_type_low + "Top6"
+
+	$(eval(genre_type_low)).each(function(index, value){
+		$(".redGames").append(
+			`
+			<div class="menuGameBoxes">
+				<a href=${value.aLink}  style="position:relative; z-index:5">
+					<div><img src=${value.img}></div>
+				</a>
+				<div class="menuGamesBoxP">${value.name}</div>
+			</div>
+			`
+		)
+
+	})
+}
 
 //########################################################
 //	Click Nav bar for pc
 //########################################################
-
 $(document).on("click", ".nav-linkz", function(){
 
 	// If nav bar is showing like genre or pre reg or news close
@@ -5100,9 +5140,7 @@ $(document).on("click", ".nav-linkz", function(){
 	} else if(namez == "Pre-Reg") {
 		$('.pre-gaimz-pc').css("display", "block")
 	} else {
-		clearallz()
-		showGames("casual", this)
-		addIntro("casual")
+		addPcGames(namez)
 	}
 	$(".nav-linkz").removeClass( "blueUnder" )
 	$(this).addClass( "blueUnder" )
