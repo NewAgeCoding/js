@@ -4912,41 +4912,41 @@ $(document).on("click", "#suggest-game", function(){
 //########################################################
 //	pre-reg-pc
 //########################################################
-$(document).on("click", "#pre-reg-pc", function(){
-	//pre_reg_nav_bar("true")
-	if(dontgopre == 1){
-		dontgopre = 0
-		$(".div-block-199").removeClass("blueUnder")
-		$(".pcgenregames").css("display", "none")
-		$('.pre-gaimz-pc').css("display", "none")
-		$('.pre-gaimz-pc').css("display", "none")
-		$('.pregaimz').css("display", 'none')
-		$(this).removeClass("blueUnder")
-		$(".news-announcements").find(".lfeed").removeClass("blueUnder")
-		$("#click-news12").removeClass("blueUnder")
-		return
-	}
+// $(document).on("click", "#pre-reg-pc", function(){
+// 	//pre_reg_nav_bar("true")
+// 	if(dontgopre == 1){
+// 		dontgopre = 0
+// 		$(".div-block-199").removeClass("blueUnder")
+// 		$(".pcgenregames").css("display", "none")
+// 		$('.pre-gaimz-pc').css("display", "none")
+// 		$('.pre-gaimz-pc').css("display", "none")
+// 		$('.pregaimz').css("display", 'none')
+// 		$(this).removeClass("blueUnder")
+// 		$(".news-announcements").find(".lfeed").removeClass("blueUnder")
+// 		$("#click-news12").removeClass("blueUnder")
+// 		return
+// 	}
 
 
-	$(".news-dropdown").css("display", "none")
-	console.log("YO")
-	if(pre_reg_pc == "off"){
-		console.log("TURN ON")
-		$(".div-block-199").removeClass("blueUnder")
-		$(".pcgenregames").css("display", "none")
-		$('.pre-gaimz-pc').css("display", "block")
-		$('.pregaimz').css("display", 'block')
-		pre_reg_pc = "on"
-		$(this).addClass("blueUnder")
-		$("#click-news12").removeClass("blueUnder")
-	} else {
-		console.log("TURN OFF")
-		$('.pre-gaimz-pc').css("display", "none")
-		$('.pregaimz').css("display", 'none')
-		pre_reg_pc = "off"
-		$(this).removeClass("blueUnder")
-	}
-})
+// 	$(".news-dropdown").css("display", "none")
+// 	console.log("YO")
+// 	if(pre_reg_pc == "off"){
+// 		console.log("TURN ON")
+// 		$(".div-block-199").removeClass("blueUnder")
+// 		$(".pcgenregames").css("display", "none")
+// 		$('.pre-gaimz-pc').css("display", "block")
+// 		$('.pregaimz').css("display", 'block')
+// 		pre_reg_pc = "on"
+// 		$(this).addClass("blueUnder")
+// 		$("#click-news12").removeClass("blueUnder")
+// 	} else {
+// 		console.log("TURN OFF")
+// 		$('.pre-gaimz-pc').css("display", "none")
+// 		$('.pregaimz').css("display", 'none')
+// 		pre_reg_pc = "off"
+// 		$(this).removeClass("blueUnder")
+// 	}
+// })
 
 
 //########################################################
@@ -5093,14 +5093,19 @@ function newsAndAnnouncementsReveal(){
 //########################################################
 //	Click Nav bar for pc
 //########################################################
+is_nav_bar_up = false
 $(document).on("click", ".nav-linkz", function(){
+	if(is_nav_bar_up == true) {
+		$(".pcdropdown45").css("display", "none")
+		return
+	}
 	$(".pcdropdown45").css("display", "none")
 	namez = $(this).text()
 
 	if(namez == "News and Announcements") {
 		$('.news-dropdown').css('display','block')
 	} else if(namez == "Pre-Reg") {
-		$('.pre-gaimz').css("display", "block")
+		$('.pre-gaimz-pc').css("display", "block")
 	} else {
 		console.log("GENREZ")
 	}
