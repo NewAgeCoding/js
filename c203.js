@@ -1943,7 +1943,7 @@ $(document).on("click", ".android-tabz", function(){
 // })
 
 
-$(document).on("click", "#click-news12", function(){
+$(document).on("click", ".news-announcements", function(){
 	$('.news-dropdown').css('display','block')
 	$(".pcgenregames").css("display", "none")
 	$(".dropdowngames").css("display", "none")
