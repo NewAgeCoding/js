@@ -399,12 +399,14 @@
 .welcome111 {
   position: relative;
   left:-100px;
-  animation: myfirst 5s 1;
+  animation: myfirst 2s 1;
+  animation-fill-mode: forwards;
+
 
 }
 
 @-webkit-keyframes run {
   0%   {left: -100px;}
-  100% left: 200px;}
+  100% left: 500px;}
 }
 
