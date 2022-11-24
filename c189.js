@@ -4489,7 +4489,7 @@ $(document).on("click", ".latest-gamez", function(){
 		changesplash(get_texty, divy)		
 		setTimeout(function(){
 			stoper = 0
-		}, 1000);
+		}, 500);
 	} 
 
 })
@@ -4497,6 +4497,8 @@ $(document).on("click", ".latest-gamez", function(){
 //	click back button to go to splash video
 //#######################################
 $(document).on("click", ".backzy", function(){
+		$(".blackshadow1").css("display", "block")
+		$(".blackshadow1").fadeOut();
 		$(".dark-description").css("display", "none")
 		get_texty = "splashy"
 		$('.phase-btn').css("display", "block")
