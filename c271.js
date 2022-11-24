@@ -5098,7 +5098,7 @@ function addPcGames(gaim) {
 	genre_type_low = genre_type_low + "Top6"
 
 	$(eval(genre_type_low)).each(function(index, value){
-		$(".redz").append(
+		$(".redz999").append(
 			`
 			<div class="menuGameBoxes">
 				<a href=${value.aLink}  style="position:relative; z-index:5">
