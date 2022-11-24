@@ -5050,16 +5050,7 @@ if(array_of_news_items){
 //########################################################
 //	News-announcements
 //########################################################
-$(document).on("click", ".news-announcements", function(){
-
-	if(dontgo == 1){
-		dontgo = 0
-		$('.news-dropdown').css('display','none')
-		$(".pcgenregames").css("display", "none")
-		$(".dropdowngames").css("display", "none")
-		$(".news-announcements").find(".lfeed").removeClass("blueUnder")
-		return
-	}
+function newsAndAnnouncementsReveal(){
 	a = localStorage.getItem("latest-news-items")
 	obj = JSON.parse(a)
 
@@ -5088,16 +5079,13 @@ $(document).on("click", ".news-announcements", function(){
 		$(".noti-circle").css("display", "none")
 	}
 
-	$('.news-dropdown').css('display','block')
-	$(".pcgenregames").css("display", "none")
-	$(".dropdowngames").css("display", "none")
-	$(".div-block-199").removeClass("blueUnder")
-	$(".navbar-pc").css("padding-right", "0px")
-	console.log("ADD BLUEUNDER")
-	dontgo = 1
-	$(".news-announcements").find(".lfeed").addClass("blueUnder")
+	// $('.news-dropdown').css('display','block')
+	// $(".pcgenregames").css("display", "none")
+	// $(".dropdowngames").css("display", "none")
+	// $(".div-block-199").removeClass("blueUnder")
+	// $(".navbar-pc").css("padding-right", "0px")
 
-})
+}
 
 
 
@@ -5106,6 +5094,15 @@ $(document).on("click", ".news-announcements", function(){
 //	Click Nav bar for pc
 //########################################################
 $(document).on("click", ".nav-linkz", function(){
+	$(".pcdropdown").css("display", "none")
 	namez = $(this).text()
+
+	if(namez == "News and Announcements") {
+		$('.news-dropdown').css('display','block')
+	} else if(namez == "Pre-Reg") {
+		console.log("PRE REG CLICKED")
+	} else {
+		console.log("GENREZ")
+	}
 	console.log(namez)
 })
