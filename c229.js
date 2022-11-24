@@ -5098,3 +5098,14 @@ $(document).on("click", ".news-announcements", function(){
 	$(".news-announcements").find(".lfeed").addClass("blueUnder")
 
 })
+
+
+
+
+//########################################################
+//	Click Nav bar for pc
+//########################################################
+$(document).on("click", ".nav-linkz", function(){
+	namez = $(this).text()
+	console.log(namez)
+})
