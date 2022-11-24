@@ -5022,6 +5022,15 @@ if(array_of_news_items){
 //	News-announcements
 //########################################################
 $(document).on("click", ".news-announcements", function(){
+
+	if(dontgo == 1){
+		dontgo = 0
+		$('.news-dropdown').css('display','none')
+		$(".pcgenregames").css("display", "none")
+		$(".dropdowngames").css("display", "none")
+		$(".news-announcements").find(".lfeed").removeClass("blueUnder")
+		return
+	}
 	a = localStorage.getItem("latest-news-items")
 	obj = JSON.parse(a)
 
