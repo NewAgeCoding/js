@@ -5102,7 +5102,8 @@ $(document).on("click", ".nav-linkz", function(){
 	} else {
 		console.log("GENREZ")
 	}
-	console.log(namez)
+	$(".nav-linkz").removeClass( "blueUnder" )
+	$(".nav-linkz").addClass( "blueUnder" )
 })
 
 
