@@ -1396,25 +1396,25 @@ countdownlatestgames()
 //############################################
 mobileRemoveDropDown = 0 //div-block-305
 function showGames(genre, thisb){
-
+	
 	console.log("4)", mobileRemoveDropDown)
     $(".ratingblock").css("display", "none")
 
     // $(".pregaimz").css("display", "none")
-	// $(".profile").css("display", "none")
-	// $(".the-profile-page").css("display", "none")
-	// $('.dropdowngames').css('display', "none")
-	// $('.latest-games-drop').css("display", "none")
-	// $(".news-dropdown").css("display", "none")
-	// $("#mobileMenuBar222").css("overflow-y", "auto")
+	$(".profile").css("display", "none")
+	$(".the-profile-page").css("display", "none")
+	$('.dropdowngames').css('display', "none")
+	$('.latest-games-drop').css("display", "none")
+	$(".news-dropdown").css("display", "none")
+	$("#mobileMenuBar222").css("overflow-y", "auto")
 
 	if ($(window).width() < 1100) {
 		$("html").css("overflow-y", "hidden")
 	 }
 
 	
-	// $(".div-block-305").find("a").removeClass("blueFontz")
-	// $(".pre-reg").find("a").removeClass("blueFontz")
+	$(".div-block-305").find("a").removeClass("blueFontz")
+	$(".pre-reg").find("a").removeClass("blueFontz")
 
 
 
@@ -5100,7 +5100,8 @@ $(document).on("click", ".nav-linkz", function(){
 	} else if(namez == "Pre-Reg") {
 		$('.pre-gaimz-pc').css("display", "block")
 	} else {
-		console.log("GENREZ")
+		showGames("casual", this)
+		addIntro("casual")
 	}
 	$(".nav-linkz").removeClass( "blueUnder" )
 	$(this).addClass( "blueUnder" )
