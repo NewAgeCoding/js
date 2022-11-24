@@ -1037,9 +1037,9 @@ countdownlatestgames()
 
 
 	// ADDING TO FIGHTING ARRAY
-	fightTop8 = [fight3a, action5a, action18a]
-	fightTop7 = [powerrangers, fight3c, fight1a, action5a, fight3a, fight4a]
-	fightTop6 = [smashlegends, fight1c, fight2c, fight4c]
+	fightingTop8 = [fight3a, action5a, action18a]
+	fightingTop7 = [powerrangers, fight3c, fight1a, action5a, fight3a, fight4a]
+	fightingTop6 = [smashlegends, fight1c, fight2c, fight4c]
 
 
 	
@@ -1070,9 +1070,9 @@ countdownlatestgames()
 
 	
 	// ADDING TO PUZZLE ARRAY
-	simulationTop8 = [mekorama, puzzle4a, puzzle7a, puzzle4a]
-	simulationTop7 = [hexio, mekorama, thegirlinthewindow, pipelineshexa, puzzle1a, casual9b, casual10b, puzzle7a, puzzle4a ]
-	simulationTop6 = [zhed, adventureescapemysteries, casual4c]
+	puzzleTop8 = [mekorama, puzzle4a, puzzle7a, puzzle4a]
+	puzzleTop7 = [hexio, mekorama, thegirlinthewindow, pipelineshexa, puzzle1a, casual9b, casual10b, puzzle7a, puzzle4a ]
+	puzzleTop6 = [zhed, adventureescapemysteries, casual4c]
 
 
 	// ADDING TO racing ARRAY
@@ -5074,7 +5074,11 @@ function newsAndAnnouncementsReveal(){
 function addPcGames(gaim) {
 	$(".greenz").html(``)
 	$(".redz999").html(``)
-	console.log(">>>", gaim)
+
+	// Special case
+	if(gaim == "3D"){
+		gaim = "adventure"
+	}
 
 	// Append green games
 	genre_type = gaim.toLowerCase();
