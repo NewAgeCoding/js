@@ -1943,15 +1943,6 @@ $(document).on("click", ".android-tabz", function(){
 // })
 
 
-$(document).on("click", ".news-announcements", function(){
-	$('.news-dropdown').css('display','block')
-	$(".pcgenregames").css("display", "none")
-	$(".dropdowngames").css("display", "none")
-	$(".div-block-199").removeClass("blueUnder")
-	$(".navbar-pc").css("padding-right", "0px")
-	$(".news-announcements").find(".lfeed").addClass("blueUnder")
-
-})
 
 
 $(document).on("click", "#closeGenre", function(){
@@ -5056,5 +5047,13 @@ $(document).on("click", ".news-announcements", function(){
 		localStorage.setItem("latest-news-items", stringz)
 		$(".noti-circle").css("display", "none")
 	}
+
+	$('.news-dropdown').css('display','block')
+	$(".pcgenregames").css("display", "none")
+	$(".dropdowngames").css("display", "none")
+	$(".div-block-199").removeClass("blueUnder")
+	$(".navbar-pc").css("padding-right", "0px")
+	console.log("ADD BLUEUNDER")
+	$(".news-announcements").find(".lfeed").addClass("blueUnder")
 
 })
