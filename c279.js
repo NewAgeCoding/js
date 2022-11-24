@@ -5169,6 +5169,7 @@ $(document).on("click", ".nav-linkz", function(){
 	} else if(namez == "Pre-Reg") {
 		$('.pre-gaimz-pc').css("display", "block")
 	} else {
+		$('.pc-games-only').css("display", "block")
 		addPcGames(namez)
 	}
 	$(".nav-linkz").removeClass( "blueUnder" )
