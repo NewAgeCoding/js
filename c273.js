@@ -5105,6 +5105,7 @@ function addPcGames(gaim) {
 					<div><img src=${value.img}></div>
 				</a>
 				<div class="menuGamesBoxP">${value.name}</div>
+				<div class="menuGamesBoxP" style="color:grey;">${value.mini}</div>
 			</div>
 			`
 		)
