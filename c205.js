@@ -4960,8 +4960,6 @@ $(".news-announcements").hover(function(){
 
 
   $(document).on("click", ".news-announcements", function(){
-	$(".news-announcements").removeClass("dont-blue2")
-	$(this).addClass("dont-blue2")
 	$(this).find(".lfeed").addClass("blueUnder")
   })
 
