@@ -5100,6 +5100,7 @@ $(document).on("click", ".nav-linkz", function(){
 	} else if(namez == "Pre-Reg") {
 		$('.pre-gaimz-pc').css("display", "block")
 	} else {
+		clearallz()
 		showGames("casual", this)
 		addIntro("casual")
 	}
