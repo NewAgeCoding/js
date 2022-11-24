@@ -1029,11 +1029,11 @@ countdownlatestgames()
 
 
 	// ADDING TO ACTION ARRAY
-	actionTop8 = [action12a, action3a, action8a, action9b]
+	arcadeTop8 = [action12a, action3a, action8a, action9b]
 
-	actionTop7 = [smashhit, action9b, action12a, action9a, action11a, action3a, action17a, action8a, action13a, action1a, action7a, puzzle3a, action2a, action4a, action1b, action4b, action5b, action8b, action11b, action15a]
+	arcadeTop7 = [smashhit, action9b, action12a, action9a, action11a, action3a, action17a, action8a, action13a, action1a, action7a, puzzle3a, action2a, action4a, action1b, action4b, action5b, action8b, action11b, action15a]
 
-	actionTop6 = [overdrive2, action1c, action2c, action3c, action4c, action5c, action7c, puzzle2c]
+	arcadeTop6 = [overdrive2, action1c, action2c, action3c, action4c, action5c, action7c, puzzle2c]
 
 
 	// ADDING TO FIGHTING ARRAY
@@ -5073,7 +5073,7 @@ function newsAndAnnouncementsReveal(){
 //########################################################
 function addPcGames(gaim) {
 	$(".greenz").html(``)
-	$(".redz").html(``)
+	$(".redz999").html(``)
 	console.log(">>>", gaim)
 
 	// Append green games
