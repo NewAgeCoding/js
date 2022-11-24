@@ -409,3 +409,18 @@ display:block!important;
   0%   {left: -500px; display:block}
   100% {left: 0px; display:block}
 }
+
+.flyin2 {
+  position: relative;
+  left:500px;
+  animation: myfirst2 2s 1;
+  animation-fill-mode: forwards;
+display:block!important;
+
+}
+
+@keyframes myfirst2 {
+  0%   {left: 500px; display:block}
+  100% {left: 0px; display:block}
+}
+
