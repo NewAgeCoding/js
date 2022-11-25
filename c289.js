@@ -1024,7 +1024,66 @@ countdownlatestgames()
 	// ######################################################################
   	dysmantle = new addGame("https://play.google.com/store/apps/details?id=com.the10tons.dysmantle&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63809df2f0ef34e84b248000_dysmantle-icon.png", "Dysmantle", "Survival")
 
+	StreetsofRage4 = new addGame("https://play.google.com/store/apps/details?id=com.playdigious.sor4&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380a08bf0ef34cb1224ae9e_streets-of-rage-4-icon.png", "Streets of Rage 4", " Beat Em Up")
 
+	GunfireReborn = new addGame("https://play.google.com/store/apps/details?id=com.duoyihk.m2m1&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380a2481484f1f6c80fa187_GunfireReborn-icon.png", "Gunfire Reborn", "Fps Shooter")
+
+	MarvelSnap = new addGame("https://play.google.com/store/apps/details?id=com.nvsgames.snap&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380a7ea37ad315b220edc9e_marvel-snap-icon.png", "Marvel Snap", "Card Battler")
+
+	DawnCaster = new addGame("https://play.google.com/store/apps/details?id=games.WanderlostInteractive.Dawncaster&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380a8d54d9c4eb4b9de214e_dawncaster-icon.png", "Dawn Caster", "Deck Builder")
+
+	StarTradersFrontiers = new addGame("https://play.google.com/store/apps/details?id=com.tresebrothers.games.startraders2&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380aa4cac1a9e2a73507db6_StarTradersFrontiers-icon.png", "Star Traders Frontiers", "")
+
+	SliceDice = new addGame("https://play.google.com/store/apps/details?id=com.com.tann.dice&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380cf322a3378e311b1ff64_slicedice-icon.png", "Slice & Dice", "turn based")
+
+	Deadcells = new addGame("https://play.google.com/store/apps/details?id=com.playdigious.deadcells.mobile&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380cfa5992feca9044d663b_deadcells-icon.png", "Deadcells", "hack and slash")
+	
+	GRIDAutosport = new addGame("https://play.google.com/store/apps/details?id=com.feralinteractive.gridas&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380d03506267a520d9548c8_grid-sport-icon.png", "GRID™ Autosport", "")
+	
+	SlaytheSpire = new addGame("https://play.google.com/store/apps/details?id=com.humble.SlayTheSpire&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380d10137ad310a5f1208df_slay-the-spire-icon.png", "Slay the Spire", "Card Battler")
+
+
+	TheBannerSaga = new addGame("https://play.google.com/store/apps/details?id=air.com.stoicstudio.BannerSaga&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380d1a1f0ef34fcd328bd73_bannersaga-icon.png", "The Banner Saga", "")
+
+
+	PascalsWager = new addGame("https://play.google.com/store/apps/details?id=com.tipsworks.android.pascalswager.google&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380da836760ce2c27c27362_PascalsWager-icon.png", "Pascal's Wager", "")
+
+	TickettoEarth = new addGame("https://play.google.com/store/apps/details?id=com.robot_circus.TTE&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380dc234d9c4e74e5e2477e_TickettoEarth-icon.png", "Ticket to Earth", "Tactics")
+
+	SoulKnight = new addGame("https://play.google.com/store/apps/details?id=com.ChillyRoom.DungeonShooter&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380dce15af6afca7971dc3f_soulknight-icon.png", "Soul Knight", "Roguelike")
+	
+	TitanQuest = new addGame("https://play.google.com/store/apps/details?id=com.dotemu.titanquest&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380dd7642b3014ee0d06ced_titan-quest-icon.png", "Titan Quest", "Hack and Slash")
+
+	KnightsoftheOldRepublic = new addGame("https://play.google.com/store/apps/details?id=com.aspyr.swkotor&hl=en_US&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380de9eac1a9e2002548f3d_starwars-icon.png", "Knights of the Old Republic", "")
+
+	KnightsoftheOldRepublic2 = new addGame("https://play.google.com/store/apps/details?id=com.aspyr.swkotorii&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380dfcf37ad3136021331f0_starwars2-icon.png", "Knights of the Old Republic 2", "")
+
+	SiralimUltimate = new addGame("https://play.google.com/store/apps/details?id=com.thylacinestudios.siralimultimate&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380e08506267a0ad3967951_SiralimUltimate-icon.png", "Siralim Ultimate", "RogueLike")
+
+	DontStarvePocketEdition = new addGame("https://play.google.com/store/apps/details?id=com.kleientertainment.doNotStarvePocket&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380e37b06267a667296daed_DonStarvePocketEdition-icon.png", "Don't Starve Pocket Edition", "Survival")
+
+	Wreckfest = new addGame("https://play.google.com/store/apps/details?id=com.hg.wreckfest&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380e45d37ad318492139a49_wreckfest-icon.png", "Wreckfest", "")
+
+	Terraria = new addGame("https://play.google.com/store/apps/details?id=com.and.games505.TerrariaPaid&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380e83d992fece65e4f3b95_terria-icon.png", "Terraria", "Survival")
+
+	MonumentValley = new addGame("https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380e92f7e60d65552ab2cde_monument-valley-icon.png", "Monument Valley", "")
+
+	MonumentValley2 = new addGame("https://play.google.com/store/apps/details?id=com.ustwo.monumentvalley2", baseLinkImg+"6262a56df551ed5332d9048e/6380e9acf0ef340fe92a9160_mon-vall2-icon.png", "Monument Valley 2", "")
+
+	TotalWarMEDIEVAL2 = new addGame("https://play.google.com/store/apps/details?id=com.feralinteractive.medieval2_android&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380eb27bd1402ac7db294db_total-war2.png", "Total War MEDIEVAL II", "")
+	
+	RushRally3 = new addGame("https://play.google.com/store/apps/details?id=brownmonster.app.game.rushrally3&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380eba5f0ef3470652ac289_rush-rally-3-icon.png", "Rush Rally 3", "")
+
+	MiniMetro = new addGame("https://play.google.com/store/apps/details?id=nz.co.codepoint.minimetro&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380ec22a4fc880e69bdce51_metro-icon.png", "Mini Metro", "Simulation")
+
+
+	JetpackJoyride = new addGame("https://play.google.com/store/apps/details?id=com.halfbrick.jetpackjoyride&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380ec952a93aa9e5467482f_jetpack-icon.png", "Jetpack Joyride", "")
+
+	LeagueofLegendsWildRift = new addGame("https://play.google.com/store/apps/details?id=com.riotgames.league.wildrift&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380ed1df493396f6cccb7f9_legends-icon.png", "League of Legends Wild Rift", "MOBA")
+
+	KingdomTwoCrowns  = new addGame("https://play.google.com/store/apps/details?id=com.rawfury.kingdom2crowns", baseLinkImg+"6262a56df551ed5332d9048e/6380eda37c07545c6534c5a0_crowns-icon.png", "Kingdom Two Crowns ", "Strategy")
+
+	Arknights  = new addGame("https://play.google.com/store/apps/details?id=com.YoStarEN.Arknights&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380ee6d6760ceec20c42932_arknight-icon.png", "Arknights", "Tactics")
 	// ######################################################################
     // All game arrays 
 	// ######################################################################
@@ -1036,7 +1095,7 @@ countdownlatestgames()
 	casualTop7 = [casual5a, casual8b, casual2a, casual5b, simulation2a, casual12b, casual2b, puzzle2a, casual4b, casual6b]
 	casualTop6 = [hangman, merge_fables, farmville3, gordonramsaychefblast, simulation5c, casual5c, casual1c, casual2c, casual3c]
 
-	casualCommunity = []
+	casualCommunity = [KingdomTwoCrowns, MiniMetro]
 
 
 	// ADDING TO ACTION ARRAY
@@ -1046,6 +1105,7 @@ countdownlatestgames()
 
 	arcadeTop6 = [overdrive2, action1c, action2c, action3c, action4c, action5c, action7c, puzzle2c]
 
+	arcadeCommunity = [StreetsofRage4]
 
 	// ADDING TO FIGHTING ARRAY
 	fightingTop8 = [fight3a, action5a, action18a]
@@ -1059,25 +1119,28 @@ countdownlatestgames()
 	adventureTop7 = [simulation4a, adventure1a, action16a, adventure8a, action3b, adventure6a, adventure2a, adventure1b, action7b, action10b]
 	adventureTop6 = [apexlegendsmobile, coverfire, adventure1c, adventure2c, adventure3c]
 	
-
+  	adventureCommunity = [GunfireReborn]
 
 	// ADDING TO RPG ARRAY
 	rpgTop8 = [simulation3a, rpg4a, rpg5a, rpg8a, rpg10a]
 	rpgTop7 = [dislyte, simulation3a, rpg5b, rpg9a, rpg4a, rpg5a, rpg6a, rpg8a, rpg3a, rpg10a, rpg2a, rpg1a, rpg1b, rpg2b,  rpg4b]
 	rpgTop6 = [rpg2c, rpg4c, rpg3c,rpg1c]
 
-  	rpgCommunity = [dysmantle]
+  	rpgCommunity = [SiralimUltimate, KnightsoftheOldRepublic2, TitanQuest, SoulKnight, TickettoEarth, PascalsWager, TheBannerSaga, SliceDice, dysmantle, DawnCaster, StarTradersFrontiers, KnightsoftheOldRepublic]
 		
 	// ADDING TO PLATFORM ARRAY
 	platformTop8 = [MagicRampage, sonicthehedgehog2classic, huntdown, dadish3, platform3a, platform4a, platform6a, platform8a]
 	platformTop7 = [MagicRampage, sonicthehedgehog2classic, huntdown, dadish3, platform5a, platform3a, platform2a, platform1a, platform4a, platform6a, platform8a, platform4b, platform6b]
 	platformTop6 = [platform7c, platform2c, platform3c, platform4c, platform5c, platform6c, platform3b]
 
+	platformCommunity = [JetpackJoyride, Terraria, Deadcells]
+
 	// ADDING TO STRATEGY ARRAY
 	strategyTop8 = [enyo, simulation5a, strategy7a, strategy5a, strategy1a, strategy2a]
 	strategyTop7 = [enyo, simulation5a, simulation3b, simulation2b, strategy7b, strategy6a, strategy7a, strategy4a, strategy1b, strategy5a, strategy2b, strategy1a, strategy3b, strategy2a]
 	strategyTop6 = [stateofsurvival, strategy1c, simulation2c, strat9, strat8, strat7, strat6, strat4, strategy2c]
 
+	strategyCommunity = [Arknights, LeagueofLegendsWildRift, TotalWarMEDIEVAL2, DontStarvePocketEdition, SlaytheSpire, MarvelSnap]
 
 	
 	// ADDING TO PUZZLE ARRAY
@@ -1085,13 +1148,14 @@ countdownlatestgames()
 	puzzleTop7 = [hexio, mekorama, thegirlinthewindow, pipelineshexa, puzzle1a, casual9b, casual10b, puzzle7a, puzzle4a ]
 	puzzleTop6 = [zhed, adventureescapemysteries, casual4c]
 
+  	puzzleCommunity = [MonumentValley2, MonumentValley]
 
 	// ADDING TO racing ARRAY
 	racingTop8 = [racing2a, racing7a]
 	racingTop7 = [racing2b, racing4a, racing2a, racing6a, racing1a, racing3a, racing1b, racing7a, racing3b, racing4b]
 	racingTop6 = [racethesunchallengeedition, NeedforSpeedNoLimits, racing1c, racing2c, racing3c]
 
-
+  	racingCommunity = [RushRally3, Wreckfest, GRIDAutosport]
 	
 	// ADDING TO sports ARRAY
 	sportsTop8 = [touchgrindbmx2, grandmountainadventure, sports4a]
@@ -5164,7 +5228,7 @@ function addPcGames(gaim) {
 		$(".blue-gaimz").append(
 			`
 			<div class="menuGameBoxes">
-				<a href=${value.aLink}  style="position:relative; z-index:5">
+				<a href=${value.aLink}  style="position:relative; z-index:5" target="_blank">
 					<div><img src=${value.img}></div>
 				</a>
 				<div class="menuGamesBoxP">${value.name}</div>
