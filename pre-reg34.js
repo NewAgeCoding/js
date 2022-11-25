@@ -69,7 +69,7 @@ function add_all_games(gaimz){
             <div class="click-gamez itemz1 flexy-item" style="margin-bottom:15px;">
             
               <div class="myname">
-                  ${v.iconz}
+                  <img src="${v.iconz}">
               </div>
             
                 <div class="myname">
