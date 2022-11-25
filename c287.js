@@ -2042,7 +2042,7 @@ function clearallz() {
 	
 	
 
-	
+	$(".pregaimz").css("display", "none")	
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "none")
 	$('.communitytabz').css("display", "none")
