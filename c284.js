@@ -2256,13 +2256,13 @@ if(pathname == "/mobile/casual-games") {
 		$("#cLink").removeClass("hover-underline-animation")
 } else if (pathname == "/mobile/arcade-games") {
 		addGamesAllPC("action")
-		totalAction = actionTop8.length + actionTop7.length + actionTop6.length
+		totalAction = arcadeTop8.length + arcadeTop7.length + arcadeTop6.length
 		$("#totalAction").text(totalAction)
 
 		$("#aLink").removeClass("hover-underline-animation")
 } else if (pathname == "/mobile/fighting-games") {
 		addGamesAllPC("fight")
-		totalAction = fightTop8.length + fightTop7.length  + fightTop6.length
+		totalAction = fightingTop8.length + fightingTop7.length  + fightingTop6.length
 		$("#totalAction").text(totalAction)
 	
 		$("#fLink").removeClass("hover-underline-animation")
