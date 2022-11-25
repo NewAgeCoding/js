@@ -103,6 +103,10 @@
     display: inline-block;
 }
 
+.redz999 {
+ margin-top:0px;   
+}
+
 /* MOBILE */
 @media only screen and (max-width: 991px) {
   .starzy img{
