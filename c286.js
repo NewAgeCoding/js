@@ -2123,8 +2123,8 @@ $(document).on("click", ".adventurelink", function(){
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
-	showGames("3d", this)
-    addIntro("3d")
+	showGames("adventure", this)
+    addIntro("adventure")
 })
 
 $(document).on("click", ".rpglink", function(){
