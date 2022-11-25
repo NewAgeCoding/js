@@ -5149,6 +5149,7 @@ function newsAndAnnouncementsReveal(){
 function addPcGames(gaim) {
 	$(".greenz").html(``)
 	$(".redz999").html(``)
+	$(".blue-gaimz").html(``)
 
 	// Special case
 	if(gaim == "3D"){
