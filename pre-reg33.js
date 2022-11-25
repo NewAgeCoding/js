@@ -68,6 +68,10 @@ function add_all_games(gaimz){
         blocky = `
             <div class="click-gamez itemz1 flexy-item" style="margin-bottom:15px;">
             
+              <div class="myname">
+                  ${v.iconz}
+              </div>
+            
                 <div class="myname">
                     ${v.name}
                 </div>
