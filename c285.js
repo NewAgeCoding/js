@@ -2105,8 +2105,8 @@ $(document).on("click", ".actionlink", function(){
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
-	showGames("action", this)
-    addIntro("action")
+	showGames("arcade", this)
+    addIntro("arcade")
 })
 
 $(document).on("click", ".fightlink", function(){
@@ -2114,8 +2114,8 @@ $(document).on("click", ".fightlink", function(){
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
-	showGames("fight", this)
-    addIntro("fight")
+	showGames("fighting", this)
+    addIntro("fighting")
 })
 
 $(document).on("click", ".adventurelink", function(){
@@ -2123,8 +2123,8 @@ $(document).on("click", ".adventurelink", function(){
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
-	showGames("adventure", this)
-    addIntro("adventure")
+	showGames("3d", this)
+    addIntro("3d")
 })
 
 $(document).on("click", ".rpglink", function(){
@@ -2178,8 +2178,8 @@ $(document).on("click", ".simulationlink", function(){
 	$('.newmobile2quick').css("display", "none")
 	$('.genrestuff').css("display", "block")
 	$('.communitytabz').css("display", "none")
-	showGames("simulation", this)
-    addIntro("simulation")
+	showGames("puzzle", this)
+    addIntro("puzzle")
 })
 
 $(document).on("click", ".sportslink", function(){
