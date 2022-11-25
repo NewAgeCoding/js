@@ -1016,6 +1016,15 @@ countdownlatestgames()
 
 	hangman = new addGame(baseLinkReview+"hangman", baseLinkImg+"6262a56df551ed5332d9048e/637bb2daabca8e43fadfb7b8_hangman-icon.png", "Hangman", "")
 	
+
+
+
+	// ######################################################################
+    // Community games
+	// ######################################################################
+  	dysmantle = new addGame("https://play.google.com/store/apps/details?id=com.the10tons.dysmantle&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63809df2f0ef34e84b248000_dysmantle-icon.png", "Dysmantle", "Survival")
+
+
 	// ######################################################################
     // All game arrays 
 	// ######################################################################
@@ -1026,6 +1035,8 @@ countdownlatestgames()
 	casualTop8 = [casual5a, casual2a, simulation2a]
 	casualTop7 = [casual5a, casual8b, casual2a, casual5b, simulation2a, casual12b, casual2b, puzzle2a, casual4b, casual6b]
 	casualTop6 = [hangman, merge_fables, farmville3, gordonramsaychefblast, simulation5c, casual5c, casual1c, casual2c, casual3c]
+
+	casualCommunity = []
 
 
 	// ADDING TO ACTION ARRAY
@@ -1055,7 +1066,7 @@ countdownlatestgames()
 	rpgTop7 = [dislyte, simulation3a, rpg5b, rpg9a, rpg4a, rpg5a, rpg6a, rpg8a, rpg3a, rpg10a, rpg2a, rpg1a, rpg1b, rpg2b,  rpg4b]
 	rpgTop6 = [rpg2c, rpg4c, rpg3c,rpg1c]
 
-
+  	rpgCommunity = [dysmantle]
 		
 	// ADDING TO PLATFORM ARRAY
 	platformTop8 = [MagicRampage, sonicthehedgehog2classic, huntdown, dadish3, platform3a, platform4a, platform6a, platform8a]
@@ -5143,6 +5154,28 @@ function addPcGames(gaim) {
 		)
 
 	})
+
+
+	// Append Community games
+	genre_type_community = gaim.toLowerCase();
+	genre_type_community = genre_type_community + "Community"
+
+	$(eval(genre_type_community)).each(function(index, value){
+		$(".blue-gaimz").append(
+			`
+			<div class="menuGameBoxes">
+				<a href=${value.aLink}  style="position:relative; z-index:5">
+					<div><img src=${value.img}></div>
+				</a>
+				<div class="menuGamesBoxP">${value.name}</div>
+				<div class="menuGamesBoxP" style="color:grey; margin-top: -10px;">${value.mini}</div>
+			</div>
+			`
+		)
+
+	})
+
+
 }
 
 //########################################################
