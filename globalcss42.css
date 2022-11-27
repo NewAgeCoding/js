@@ -116,5 +116,9 @@
     .profile {
     top: 80px !important;
     display: block;
-}
+    }
+    
+    .pc-games-only {
+     height: 100vh;   
+    }
 }
