@@ -5332,7 +5332,7 @@ $(document).on("click", ".nav-linkz", function(){
 	// Is it pc or mobile to disable html scroll
 	get_div_width = $(".wrappy").width()
 	if(get_div_width <= 310){
-
+		console.log("width:", get_div_width)
 		// first time clicked?
 		if(nav_linkz_clicked == 0) {
 			nav_linkz_clicked = 1
