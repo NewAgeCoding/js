@@ -5336,9 +5336,11 @@ $(document).on("click", ".nav-linkz", function(){
 		// first time clicked?
 		if(nav_linkz_clicked == 0) {
 			nav_linkz_clicked = 1
+			console.log("hide it")
 			$("html").css("overflow-y", "hidden")
 		} else {
 			nav_linkz_clicked = 0
+			console.log("show it")
 			$("html").css("overflow-y", "visible")
 		}
 	}
