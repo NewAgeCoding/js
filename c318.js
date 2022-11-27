@@ -5329,7 +5329,7 @@ function addPcGames(gaim) {
 
 
 function displayHello() {
-	console.log("HIDE IT")
+
 	$("html").css("overflow-y", "hidden")
 }
 
@@ -5345,7 +5345,7 @@ $(document).on("click", ".nav-linkz", function(){
 			nav_linkz_clicked = 1
 			console.log("hide it")
 			$(".pc-games-only").css("overflow-y", "auto")
-			myInterval = setInterval(displayHello, 1000);
+			myInterval = setInterval(displayHello, 55);
 		} else {
 			nav_linkz_clicked = 0
 			console.log("show it")
