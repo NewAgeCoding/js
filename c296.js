@@ -5326,7 +5326,22 @@ function addPcGames(gaim) {
 //########################################################
 //	Click Nav bar for pc
 //########################################################
+nav_linkz_clicked = 0
 $(document).on("click", ".nav-linkz", function(){
+
+	// Is it pc or mobile to disable html scroll
+	get_div_width = $(".wrappy").width()
+	if(get_div_width <= 310){
+
+		// first time clicked?
+		if(nav_linkz_clicked == 0) {
+			nav_linkz_clicked = 1
+			$("html").css("overflow-y", "hidden")
+		} else {
+			nav_linkz_clicked = 0
+			$("html").css("overflow-y", "visible")
+		}
+	}
 
 	// If nav bar is showing like genre or pre reg or news close
 	// it all display all to none
