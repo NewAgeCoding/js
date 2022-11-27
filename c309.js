@@ -5326,21 +5326,6 @@ function addPcGames(gaim) {
 //########################################################
 //	Click Nav bar for pc
 //########################################################
-function disableScroll() {
-    // Get the current page scroll position
-    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-  
-        // if any scroll is attempted, set this to the previous value
-        window.onscroll = function() {
-            window.scrollTo(scrollLeft, scrollTop);
-        };
-}
-  
-function enableScroll() {
-    window.onscroll = function() {};
-}
-
 nav_linkz_clicked = 0
 $(document).on("click", ".nav-linkz", function(){
 
@@ -5353,12 +5338,12 @@ $(document).on("click", ".nav-linkz", function(){
 			nav_linkz_clicked = 1
 			console.log("hide it")
 			$(".pc-games-only").css("overflow-y", "auto")
-			disableScroll()
+			$("html").css("overflow-y", "hidden")
 		} else {
 			nav_linkz_clicked = 0
 			console.log("show it")
 			$(".pc-games-only").css("overflow-y", "hidden")
-			enableScroll()
+			$("html").css("overflow-y", "hidden")
 		}
 	}
 
