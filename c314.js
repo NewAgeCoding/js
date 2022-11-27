@@ -5326,7 +5326,7 @@ function addPcGames(gaim) {
 //########################################################
 //	Click Nav bar for pc
 //########################################################
-setInterval(displayHello, 1000);
+
 
 function displayHello() {
 	console.log("HIDE IT")
@@ -5345,12 +5345,12 @@ $(document).on("click", ".nav-linkz", function(){
 			nav_linkz_clicked = 1
 			console.log("hide it")
 			$(".pc-games-only").css("overflow-y", "auto")
-			$("html").css("overflow-y", "hidden")
+			myInterval = setInterval(displayHello, 1000);
 		} else {
 			nav_linkz_clicked = 0
 			console.log("show it")
 			$(".pc-games-only").css("overflow-y", "hidden")
-			$("html").css("overflow-y", "hidden")
+			clearInterval(myInterval );
 		}
 	}
 
