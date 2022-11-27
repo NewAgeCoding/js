@@ -5331,6 +5331,7 @@ function addPcGames(gaim) {
 function displayHello() {
 
 	$("html").css("overflow-y", "hidden")
+	$(".wrappy").css("overflow-y", "hidden")
 }
 
 nav_linkz_clicked = 0
