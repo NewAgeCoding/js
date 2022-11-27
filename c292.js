@@ -1084,6 +1084,60 @@ countdownlatestgames()
 	KingdomTwoCrowns  = new addGame("https://play.google.com/store/apps/details?id=com.rawfury.kingdom2crowns", baseLinkImg+"6262a56df551ed5332d9048e/6380eda37c07545c6534c5a0_crowns-icon.png", "Kingdom Two Crowns ", "Strategy")
 
 	Arknights  = new addGame("https://play.google.com/store/apps/details?id=com.YoStarEN.Arknights&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6380ee6d6760ceec20c42932_arknight-icon.png", "Arknights", "Tactics")
+
+	DeathRoadtoCanada  = new addGame("https://play.google.com/store/apps/details?id=com.noodlecake.drtc&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6383148238bb0d4d46e2110b_death-road-icon.png", "Death Road to Canada", "action")
+
+	CastlevaniaSotN  = new addGame("https://play.google.com/store/apps/details?id=jp.konami.epjCastlevania2&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638315bb9f78ed64ebd97b77_castle-sym-icon.png", "Castlevania: SotN", "")
+ 
+	TemplarBattleforceRPG = new addGame("https://play.google.com/store/apps/details?id=com.tresebrothers.games.battlefrontelite&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638316d676687c5153e87fdf_templar-battle-force-icon.png", "Templar Battleforce RPG", "Tactics")
+
+
+	ShatteredPixelDungeon = new addGame("https://play.google.com/store/apps/details?id=com.shatteredpixel.shatteredpixeldungeon&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638318da73b91e5c9385d799_shattered-pixel-icon.png", "Shattered Pixel Dungeon", "Roguelike")
+
+	ExiledKingdoms = new addGame("https://play.google.com/store/apps/details?id=net.fdgames.ek.android&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638319c2abf2824a46f5dc62_ExiledKingdoms-icon.png", "Exiled Kingdoms", "Hack and Slash")
+
+	Arcadium = new addGame("https://play.google.com/store/apps/details?id=com.ihgyug.arcadium&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63831b7c41973c5e766e508f_Arcadium-icon.png", "Arcadium", "Space Shooter")
+
+	DataWing = new addGame("https://play.google.com/store/apps/details?id=com.DanVogt.DATAWING&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63831e2bdac77cabd675ccca_data-wing.png", "Data Wing", "Abstract")
+
+	Crashlands = new addGame("https://play.google.com/store/apps/details?id=com.bscotch.crashlands&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63831eb538bb0d663ee28aa6_crashlands-icon.png", "Crashlands", "Adventure")
+
+	BattleheartLegacy = new addGame("https://play.google.com/store/apps/details?id=com.MikaMobile.BattleheartLegacy&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63831f4af12be1d8928d97cc_Battleheart-Legacy-icon.png", "Battleheart Legacy", "")
+
+	BabaIsYou = new addGame("https://play.google.com/store/apps/details?id=org.hempuli.baba&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6383218cb12502e42b192872_baba-is-you-icon.png", "Baba Is You", "")
+
+	SuperMomboQuest = new addGame("https://play.google.com/store/apps/details?id=com.orube.supermomboquest&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63832237e66361a85c29bd10_supermomboquest-icon.png", "Super Mombo Quest", "")
+
+	DungeonsofDreadrock = new addGame("https://play.google.com/store/apps/details?id=com.goongames.DungeonsofDreadrock&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638322ee8ae82dfeee5e60f0_DungeonsofDreadrock-icon.png", "Dungeons of Dreadrock", "Adventure")
+
+	PapersPlease = new addGame("https://play.google.com/store/apps/details?id=com.llc3909.papersplease&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6383245a76687c4971e95c90_papersplease-icon.png", "Papers, Please", "")
+
+	OtherworldLegends = new addGame("https://play.google.com/store/apps/details?id=com.chillyroom.zhmr.gp&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63832afaf875b154a46c8393_OtherworldLegends-icon.png", "Otherworld Legends", "Roguelike")
+
+	IsleofArrows = new addGame("https://play.google.com/store/apps/details?id=com.gridpop.isleofarrowsandroid&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63832bb63a69e96226dd9fc1_IsleofArrows-icon.png", "Isle of Arrows", "")
+
+	Pako2 = new addGame("https://play.google.com/store/apps/details?id=com.treemengames.pako2&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63832cccc50a5118378ef8a9_pako2-icon.png", "Pako 2", "Arcade")
+
+	Duet = new addGame("https://play.google.com/store/apps/details?id=com.kumobius.android.duet&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63832e1b15bbb6b3ef870349_duet-icon.png", "Duet", "Abstract")
+
+	Hoplite = new addGame("https://play.google.com/store/apps/details?id=com.magmafortress.hoplite&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63832ebee52e4408b8a66120_hoplite-icon.png", "Hoplite", "Turn based")
+
+	BattlePrime = new addGame("https://play.google.com/store/apps/details?id=com.blitzteam.battleprime&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63833090f12be167958e6d86_battleprime-icon.png", "Battle Prime", "Multiplayer")
+
+	RetroBowl = new addGame("https://play.google.com/store/apps/details?id=com.newstargames.retrobowl&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638330c6bfe7471dcd875710_retro-icon.png", "Retro Bowl", "")
+
+	CryingSuns = new addGame("https://play.google.com/store/apps/details?id=com.altshift.cryingsuns&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638331df3b3c2ea0b609a36b_crying-sons-icon.png", "Crying Suns", "Tactical")
+
+	RustedWarfare = new addGame("https://play.google.com/store/apps/details?id=com.corrodinggames.rts&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63833300c50a51844a8f66ea_RustedWarfare-icon.png", "Rusted Warfare", "")
+
+	Unciv = new addGame("https://play.google.com/store/apps/details?id=com.unciv.app&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638333d283c0cd064a642bc8_unciv-icon.png", "Unciv", "")
+
+	DeadTrigger = new addGame("https://play.google.com/store/apps/details?id=com.madfingergames.deadtrigger&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638335bd210b9545ff8d5d2c_dead-trigger-icon.png", "Dead Trigger", "Shooter")
+
+	DeadTrigger2 = new addGame("https://play.google.com/store/apps/details?id=com.madfingergames.deadtrigger2", baseLinkImg+"6262a56df551ed5332d9048e/638336b9bfe7472094879c59_dead-trigger2-icon.png", "Dead Trigger 2", "Shooter")
+
+	BrawlStars = new addGame("https://play.google.com/store/apps/details?id=com.supercell.brawlstars&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638337ce9f78edebd4db3d9b_BrawlStars-icon.png", "Brawl Stars", "3v3 Multiplayer")
+
 	// ######################################################################
     // All game arrays 
 	// ######################################################################
@@ -1105,7 +1159,7 @@ countdownlatestgames()
 
 	arcadeTop6 = [overdrive2, action1c, action2c, action3c, action4c, action5c, action7c, puzzle2c]
 
-	arcadeCommunity = [StreetsofRage4]
+	arcadeCommunity = [BrawlStars, Duet, Arcadium, StreetsofRage4]
 
 	// ADDING TO FIGHTING ARRAY
 	fightingTop8 = [fight3a, action5a, action18a]
@@ -1119,28 +1173,28 @@ countdownlatestgames()
 	adventureTop7 = [simulation4a, adventure1a, action16a, adventure8a, action3b, adventure6a, adventure2a, adventure1b, action7b, action10b]
 	adventureTop6 = [apexlegendsmobile, coverfire, adventure1c, adventure2c, adventure3c]
 	
-  	adventureCommunity = [GunfireReborn]
+  	adventureCommunity = [DeadTrigger, BattlePrime, GunfireReborn, DeadTrigger2]
 
 	// ADDING TO RPG ARRAY
 	rpgTop8 = [simulation3a, rpg4a, rpg5a, rpg8a, rpg10a]
 	rpgTop7 = [dislyte, simulation3a, rpg5b, rpg9a, rpg4a, rpg5a, rpg6a, rpg8a, rpg3a, rpg10a, rpg2a, rpg1a, rpg1b, rpg2b,  rpg4b]
 	rpgTop6 = [rpg2c, rpg4c, rpg3c,rpg1c]
 
-  	rpgCommunity = [SiralimUltimate, KnightsoftheOldRepublic2, TitanQuest, SoulKnight, TickettoEarth, PascalsWager, TheBannerSaga, SliceDice, dysmantle, DawnCaster, StarTradersFrontiers, KnightsoftheOldRepublic]
+  	rpgCommunity = [OtherworldLegends, PapersPlease, DungeonsofDreadrock, BattleheartLegacy, Crashlands, ExiledKingdoms, ShatteredPixelDungeon, DeathRoadtoCanada, SiralimUltimate, KnightsoftheOldRepublic2, TitanQuest, SoulKnight, TickettoEarth, PascalsWager, TheBannerSaga, SliceDice, dysmantle, DawnCaster, StarTradersFrontiers, KnightsoftheOldRepublic]
 		
 	// ADDING TO PLATFORM ARRAY
 	platformTop8 = [MagicRampage, sonicthehedgehog2classic, huntdown, dadish3, platform3a, platform4a, platform6a, platform8a]
 	platformTop7 = [MagicRampage, sonicthehedgehog2classic, huntdown, dadish3, platform5a, platform3a, platform2a, platform1a, platform4a, platform6a, platform8a, platform4b, platform6b]
 	platformTop6 = [platform7c, platform2c, platform3c, platform4c, platform5c, platform6c, platform3b]
 
-	platformCommunity = [JetpackJoyride, Terraria, Deadcells]
+	platformCommunity = [SuperMomboQuest, CastlevaniaSotN, JetpackJoyride, Terraria, Deadcells]
 
 	// ADDING TO STRATEGY ARRAY
 	strategyTop8 = [enyo, simulation5a, strategy7a, strategy5a, strategy1a, strategy2a]
 	strategyTop7 = [enyo, simulation5a, simulation3b, simulation2b, strategy7b, strategy6a, strategy7a, strategy4a, strategy1b, strategy5a, strategy2b, strategy1a, strategy3b, strategy2a]
 	strategyTop6 = [stateofsurvival, strategy1c, simulation2c, strat9, strat8, strat7, strat6, strat4, strategy2c]
 
-	strategyCommunity = [Arknights, LeagueofLegendsWildRift, TotalWarMEDIEVAL2, DontStarvePocketEdition, SlaytheSpire, MarvelSnap]
+	strategyCommunity = [Unciv, RustedWarfare, CryingSuns, Hoplite, IsleofArrows, TemplarBattleforceRPG, Arknights, LeagueofLegendsWildRift, TotalWarMEDIEVAL2, DontStarvePocketEdition, SlaytheSpire, MarvelSnap]
 
 	
 	// ADDING TO PUZZLE ARRAY
@@ -1148,19 +1202,21 @@ countdownlatestgames()
 	puzzleTop7 = [hexio, mekorama, thegirlinthewindow, pipelineshexa, puzzle1a, casual9b, casual10b, puzzle7a, puzzle4a ]
 	puzzleTop6 = [zhed, adventureescapemysteries, casual4c]
 
-  	puzzleCommunity = [MonumentValley2, MonumentValley]
+  	puzzleCommunity = [BabaIsYou, MonumentValley2, MonumentValley]
 
 	// ADDING TO racing ARRAY
 	racingTop8 = [racing2a, racing7a]
 	racingTop7 = [racing2b, racing4a, racing2a, racing6a, racing1a, racing3a, racing1b, racing7a, racing3b, racing4b]
 	racingTop6 = [racethesunchallengeedition, NeedforSpeedNoLimits, racing1c, racing2c, racing3c]
 
-  	racingCommunity = [RushRally3, Wreckfest, GRIDAutosport]
+  	racingCommunity = [Pako2, DataWing, RushRally3, Wreckfest, GRIDAutosport]
 	
 	// ADDING TO sports ARRAY
 	sportsTop8 = [touchgrindbmx2, grandmountainadventure, sports4a]
 	sportsTop7 = [touchgrindbmx2, grandmountainadventure, sports5b, sports1a, sports2a, sports3a, sports4a, sports1b, sports3b, sports4b]
 	sportsTop6 = [ultimatetennis3d, sports1c, sports2c, sports3c, sports4c]
+
+	sportsCommunity = [RetroBowl]
 
 	// ADDING TO td ARRAY
 	tdTop8 = [defensezone3, mindustry, td4a, td1a, td2a]
