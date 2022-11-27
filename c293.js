@@ -1108,7 +1108,7 @@ countdownlatestgames()
 
 	SuperMomboQuest = new addGame("https://play.google.com/store/apps/details?id=com.orube.supermomboquest&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63832237e66361a85c29bd10_supermomboquest-icon.png", "Super Mombo Quest", "")
 
-	DungeonsofDreadrock = new addGame("https://play.google.com/store/apps/details?id=com.goongames.DungeonsofDreadrock&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638322ee8ae82dfeee5e60f0_DungeonsofDreadrock-icon.png", "Dungeons of Dreadrock", "Adventure")
+	DungeonsofDreadrock = new addGame("https://play.google.com/store/apps/details?id=com.goongames.DungeonsofDreadrock&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638322ee8ae82dfeee5e60f0_DungeonsofDreadrock-icon.png", "Dungeons of Dreadrock", "")
 
 	PapersPlease = new addGame("https://play.google.com/store/apps/details?id=com.llc3909.papersplease&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6383245a76687c4971e95c90_papersplease-icon.png", "Papers, Please", "")
 
@@ -1159,7 +1159,7 @@ countdownlatestgames()
 
 	arcadeTop6 = [overdrive2, action1c, action2c, action3c, action4c, action5c, action7c, puzzle2c]
 
-	arcadeCommunity = [BrawlStars, Duet, Arcadium, StreetsofRage4]
+	arcadeCommunity = [DungeonsofDreadrock, BrawlStars, Duet, Arcadium, StreetsofRage4]
 
 	// ADDING TO FIGHTING ARRAY
 	fightingTop8 = [fight3a, action5a, action18a]
@@ -1180,7 +1180,7 @@ countdownlatestgames()
 	rpgTop7 = [dislyte, simulation3a, rpg5b, rpg9a, rpg4a, rpg5a, rpg6a, rpg8a, rpg3a, rpg10a, rpg2a, rpg1a, rpg1b, rpg2b,  rpg4b]
 	rpgTop6 = [rpg2c, rpg4c, rpg3c,rpg1c]
 
-  	rpgCommunity = [OtherworldLegends, PapersPlease, DungeonsofDreadrock, BattleheartLegacy, Crashlands, ExiledKingdoms, ShatteredPixelDungeon, DeathRoadtoCanada, SiralimUltimate, KnightsoftheOldRepublic2, TitanQuest, SoulKnight, TickettoEarth, PascalsWager, TheBannerSaga, SliceDice, dysmantle, DawnCaster, StarTradersFrontiers, KnightsoftheOldRepublic]
+  	rpgCommunity = [OtherworldLegends, PapersPlease, BattleheartLegacy, Crashlands, ExiledKingdoms, ShatteredPixelDungeon, DeathRoadtoCanada, SiralimUltimate, KnightsoftheOldRepublic2, TitanQuest, SoulKnight, TickettoEarth, PascalsWager, TheBannerSaga, SliceDice, dysmantle, DawnCaster, StarTradersFrontiers, KnightsoftheOldRepublic]
 		
 	// ADDING TO PLATFORM ARRAY
 	platformTop8 = [MagicRampage, sonicthehedgehog2classic, huntdown, dadish3, platform3a, platform4a, platform6a, platform8a]
