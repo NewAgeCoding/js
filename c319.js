@@ -5350,6 +5350,7 @@ $(document).on("click", ".nav-linkz", function(){
 			nav_linkz_clicked = 0
 			console.log("show it")
 			$(".pc-games-only").css("overflow-y", "hidden")
+			$(".pc-games-only").animate({ scrollTop: 0 }, "fast");
 			clearInterval(myInterval );
 		}
 	}
