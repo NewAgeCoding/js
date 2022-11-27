@@ -1120,7 +1120,7 @@ countdownlatestgames()
 
 	Duet = new addGame("https://play.google.com/store/apps/details?id=com.kumobius.android.duet&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63832e1b15bbb6b3ef870349_duet-icon.png", "Duet", "Abstract")
 
-	Hoplite = new addGame("https://play.google.com/store/apps/details?id=com.magmafortress.hoplite&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63832ebee52e4408b8a66120_hoplite-icon.png", "Hoplite", "Turn based")
+	Hoplite = new addGame("https://play.google.com/store/apps/details?id=com.magmafortress.hoplite&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63832ebee52e4408b8a66120_hoplite-icon.png", "Hoplite", "Turn Based")
 
 	BattlePrime = new addGame("https://play.google.com/store/apps/details?id=com.blitzteam.battleprime&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63833090f12be167958e6d86_battleprime-icon.png", "Battle Prime", "Multiplayer")
 
@@ -1782,6 +1782,30 @@ function showGames(genre, thisb){
 				margin-bottom: 20px; display:inline-block;"></div>
 			</div>
 		`
+
+		bluez = `
+		<div class="redBlock777" style="width: 100%;
+		margin-top: -65px;
+		text-align: left;
+		align-items: left;">
+
+		<h4 class= "ff1 r3">Community</h4>
+
+			<div class="redRating8" style="width: 165px;
+			border-radius: 1px;
+			background-color: #0081ff;
+			color: #fff;
+			font-size: 13px;
+			height: 20px;
+			position: relative;
+			transform: skew(344deg, 360deg);
+			text-align: center;
+			font-family: 'Lato';"></div>
+
+			<div class="blue-gaimz" style="margin-top: 10px;
+			margin-bottom: 20px; display:inline-block;"></div>
+		</div>
+		`
 	
 		mobileTop6 = `
 			<div class="redBlock777" style="width: 100%;
@@ -1811,7 +1835,7 @@ function showGames(genre, thisb){
 			console.log("7)", mobileRemoveDropDown)
 			$(".pcgenregames").css("display", "block")
 			$(".dropdowngames").css("display", "block")
-			$(".ratingblock").append(markasread + mobileTop8 + mobileTop7 + mobileTop6)
+			$(".ratingblock").append(markasread + mobileTop8 + mobileTop7 + bluez + mobileTop6)
 			addGamesAll(genre)
 
 			aa = $(thisb).attr("class").split(/\s+/);
