@@ -119,6 +119,9 @@
     }
     
     .pc-games-only {
-     height: 100vh;   
+     height: 100vh; 
+        border:0px;
     }
+    
+    
 }
