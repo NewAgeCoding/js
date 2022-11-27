@@ -5338,16 +5338,12 @@ $(document).on("click", ".nav-linkz", function(){
 			nav_linkz_clicked = 1
 			console.log("hide it")
 			$(".pc-games-only").css("overflow-y", "auto")
-			$('html, body').css({
-				'overflow-y': 'hidden',
-			});
+			$('html').css('style', 'overflow-y: hidden !important');
 		} else {
 			nav_linkz_clicked = 0
 			console.log("show it")
 			$(".pc-games-only").css("overflow-y", "hidden")
-			$('html, body').css({
-				'overflow-y': 'hidden',
-			});
+			$('html').css('style', 'overflow-y: auto !important');
 		}
 	}
 
