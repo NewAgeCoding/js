@@ -5326,6 +5326,13 @@ function addPcGames(gaim) {
 //########################################################
 //	Click Nav bar for pc
 //########################################################
+setInterval(displayHello, 1000);
+
+function displayHello() {
+	console.log("HIDE IT")
+	$("html").css("overflow-y", "hidden")
+}
+
 nav_linkz_clicked = 0
 $(document).on("click", ".nav-linkz", function(){
 
