@@ -2251,7 +2251,7 @@ function clearallz() {
 }
 
 $(document).on("click", "#communitylink", function(){
-
+	$(".nav-linkz").removeClass( "blueUnder" )
 	if(is_nav_bar_up == false){
 		console.log("TURN IT ON")
 		is_nav_bar_up = true
