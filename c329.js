@@ -2253,14 +2253,17 @@ function clearallz() {
 $(document).on("click", "#communitylink", function(){
 
 	if(is_nav_bar_up == false){
+		console.log("TURN IT ON")
 		is_nav_bar_up = true
 		$('.dropdowngames').css('display', "block")
 		$('.communitytabz').css("display", "block")
 		$(".newzzz").css("display", "block")
 	} else {	
+		console.log("TURN IT OFF")
+		is_nav_bar_up = false
 		$('.dropdowngames').css('display', "none")
 		$('.pcdropdown45').css("dislay", "none")
-		is_nav_bar_up = false
+		$(".pc-games-only ").css("display", "none")
 	}
 	
 
