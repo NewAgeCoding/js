@@ -2254,21 +2254,23 @@ $(document).on("click", "#communitylink", function(){
 
 	if(is_nav_bar_up == false){
 		is_nav_bar_up = true
+		$('.dropdowngames').css('display', "block")
+		$('.communitytabz').css("display", "block")
+		$(".newzzz").css("display", "block")
 	} else {	
 		$('.dropdowngames').css('display', "none")
 		$('.pcdropdown45').css("dislay", "none")
 		is_nav_bar_up = false
-		return
 	}
 	
 
-	clearallz()
-	$('.dropdowngames').css('display', "block")
-	$('.newmobile2quick').css("display", "none")
-	$('.community1').css('display', "none")
-	$('.communitytabz').css("display", "block")
-	$(".newzzz").css("display", "block")
-	$('.genrestuff').css("display", "none")
+	// clearallz()
+	// $('.dropdowngames').css('display', "block")
+	// $('.newmobile2quick').css("display", "none")
+	// $('.community1').css('display', "none")
+	// $('.communitytabz').css("display", "block")
+	// $(".newzzz").css("display", "block")
+	// $('.genrestuff').css("display", "none")
 })
 
 $(document).on("click", ".revz", function(){
