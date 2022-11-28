@@ -5429,7 +5429,7 @@ $(document).on("click", ".nav-linkz", function(){
 	// to be removed when hovered over again
 	$(this).addClass( "dont-remove-blue" )
 
-	if(namez == "News and Announcements") {
+	if(namez == "News and Updates") {
 		$('.news-dropdown').css('display','block')
 	} else if(namez == "Pre-Reg") {
 		$('.pre-gaimz-pc').css("display", "block")
