@@ -101,6 +101,10 @@
     display: inline-block;
 }
 
+form {
+ background-color: transparent !important;   
+}
+
 #searchDiv{width: 421px;position: relative;top: -20px;border: 0px;}
 
 .blue-gaimz {
