@@ -101,6 +101,8 @@
     display: inline-block;
 }
 
+#searchDiv{width: 421px;position: relative;top: -20px;border: 0px;}
+
 .blue-gaimz {
  margin-top:0px;   
 }
