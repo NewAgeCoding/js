@@ -2256,6 +2256,7 @@ $(document).on("click", "#communitylink", function(){
 		is_nav_bar_up = true
 	} else {	
 		$('.dropdowngames').css('display', "none")
+		$('.pcdropdown45').css("dislay", "none")
 		is_nav_bar_up = false
 		return
 	}
@@ -5411,6 +5412,7 @@ $(document).on("click", ".nav-linkz", function(){
 		$(".pcdropdown45").css("display", "none")
 		$(".nav-linkz").removeClass( "dont-remove-blue" )
 		$(".nav-linkz").removeClass( "blueUnder" )
+		$('.dropdowngames').css("display", "none")
 		return
 	}
 
