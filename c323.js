@@ -33,6 +33,7 @@ $( window ).ready(function() {
 dontgo = 0
 dontgopre = 0
 is_nav_bar_up = false
+
 //##################################################
 	// Recently viewed
 	//##################################################
@@ -1138,6 +1139,41 @@ countdownlatestgames()
 
 	BrawlStars = new addGame("https://play.google.com/store/apps/details?id=com.supercell.brawlstars&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638337ce9f78edebd4db3d9b_BrawlStars-icon.png", "Brawl Stars", "3v3 Multiplayer")
 
+
+	VitaFighter = new addGame("https://play.google.com/store/apps/details?id=com.Angrydevs.VitaFighters&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63848fc1b014ad18a25c95c3_vita-icon.png", "Vita Fighter", "")
+
+	RumbleArena = new addGame("https://play.google.com/store/apps/details?id=org.rekallgames.rumblearena", baseLinkImg+"6262a56df551ed5332d9048e/63849064abfbf461a4235b42_rumble-arena-icon.png", "Rumble Arena", "")
+	
+	Garou  = new addGame("https://play.google.com/store/apps/details?id=com.snkplaymore.android013&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638490ddc8042bae00bdcd25_garou-icon.png", "Garou", "")
+
+	MetalRevolution  = new addGame("https://play.google.com/store/apps/details?id=com.gtarcade.next.mrglo&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/638492f9b014ad27b85cc66b_metal-revolution-icon.png", "Metal Revolution", "")
+
+	IsleofArrows = new addGame("https://play.google.com/store/apps/details?id=com.gridpop.isleofarrowsandroid", baseLinkImg+"6262a56df551ed5332d9048e/63832bb63a69e96226dd9fc1_IsleofArrows-icon.png", "Isle of Arrows", "")
+
+	Mazebert = new addGame("https://play.google.com/store/apps/details?id=air.com.mazebert.MazebertTD&hl=nl&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63849425d54e4296a66199b0_Mazebert-icon.png", "Mazebert", "")
+
+	DungeonWarfare2 = new addGame("https://play.google.com/store/apps/details?id=valsar.dungeonwarfare2&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63849552b12502763933fe03_DungeonWarfare2-icon.png", "Dungeon Warfare 2", "")
+
+	DataDefense = new addGame("https://play.google.com/store/apps/details?id=com.IIBlocks.DataDefense&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/6384987f759e4dac826a6998_data-defense-icon.png", "Data Defense", "")
+
+	GolfPeaks = new addGame("https://play.google.com/store/apps/details?id=com.Afterburn.GolfPeaks", baseLinkImg+"6262a56df551ed5332d9048e/63849a041fb6ae04046dd7b4_golf-peaks-icon.png", "Golf Peaks", "")
+
+	TinyGuardians = new addGame("https://play.google.com/store/apps/details?id=com.kurechii.tinyguardians&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63849aa0759e4d6f646a89a9_tiny-guardians-icon.png", "Tiny Guardians", "")
+
+	CrossyRoad = new addGame("https://play.google.com/store/apps/details?id=com.yodo1.crossyroad", baseLinkImg+"6262a56df551ed5332d9048e/63849b1d854d4839a8a8ac92_crossy-road-icon.png", "Crossy Road", "")
+
+	PocketCity  = new addGame("https://play.google.com/store/apps/details?id=com.codebrewgames.pocketcitygame", baseLinkImg+"6262a56df551ed5332d9048e/63849b73b12502403b344d78_pocket-city-icon.png", "Pocket City", "Simulation")
+
+	HoopLeague = new addGame("https://play.google.com/store/apps/details?id=com.koalitygame.hoopleaguetactics&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63849c0d8c4856c47ab02346_hoopleague-icon.png", "Hoop League", "")
+
+	StreetballAllstar = new addGame("https://play.google.com/store/apps/details?id=com.racoondigi.jqhw&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63849c942fb3c6865f55a19a_Streetball-Allstar-icon.png", "Streetball Allstar", "")
+
+	MotorsportManagerMobile3 = new addGame("https://play.google.com/store/apps/details?id=com.playsportgames.mmm3&hl=en&gl=us&q=motorsport%2Bmanager%2B3&c=apps", baseLinkImg+"6262a56df551ed5332d9048e/63849d33759e4d765e6ac397_MotorsportManagerMobile3-icon.png", "Motorsport Manager Mobile 3", "")
+
+	Leather = new addGame("https://play.google.com/store/apps/details?id=leather.full&hl=en&gl=US", baseLinkImg+"6262a56df551ed5332d9048e/63849db69528818b17740f46_leather-icon.png", "Leather", "Boxing Simulator")
+
+	FootballManager2021 = new addGame("https://play.google.com/store/apps/details?id=com.sega.score&hl=en&gl=IR", baseLinkImg+"6262a56df551ed5332d9048e/63849e4ac8042b5533bee264_FootballManager2021-icon.png", "Football Manager 2021", "")
+
 	// ######################################################################
     // All game arrays 
 	// ######################################################################
@@ -1149,7 +1185,7 @@ countdownlatestgames()
 	casualTop7 = [casual5a, casual8b, casual2a, casual5b, simulation2a, casual12b, casual2b, puzzle2a, casual4b, casual6b]
 	casualTop6 = [hangman, merge_fables, farmville3, gordonramsaychefblast, simulation5c, casual5c, casual1c, casual2c, casual3c]
 
-	casualCommunity = [KingdomTwoCrowns, MiniMetro]
+	casualCommunity = [CrossyRoad, KingdomTwoCrowns, MiniMetro]
 
 
 	// ADDING TO ACTION ARRAY
@@ -1166,6 +1202,7 @@ countdownlatestgames()
 	fightingTop7 = [powerrangers, fight3c, fight1a, action5a, fight3a, fight4a]
 	fightingTop6 = [smashlegends, fight1c, fight2c, fight4c]
 
+	fightingCommunity = [MetalRevolution, Garou, RumbleArena, VitaFighter]
 
 	
 	// ADDING TO ADVENTURE ARRAY / 3D
@@ -1194,7 +1231,7 @@ countdownlatestgames()
 	strategyTop7 = [enyo, simulation5a, simulation3b, simulation2b, strategy7b, strategy6a, strategy7a, strategy4a, strategy1b, strategy5a, strategy2b, strategy1a, strategy3b, strategy2a]
 	strategyTop6 = [stateofsurvival, strategy1c, simulation2c, strat9, strat8, strat7, strat6, strat4, strategy2c]
 
-	strategyCommunity = [Unciv, RustedWarfare, CryingSuns, Hoplite, IsleofArrows, TemplarBattleforceRPG, Arknights, LeagueofLegendsWildRift, TotalWarMEDIEVAL2, DontStarvePocketEdition, SlaytheSpire, MarvelSnap]
+	strategyCommunity = [PocketCity, Unciv, RustedWarfare, CryingSuns, Hoplite,  TemplarBattleforceRPG, Arknights, LeagueofLegendsWildRift, TotalWarMEDIEVAL2, DontStarvePocketEdition, SlaytheSpire, MarvelSnap]
 
 	
 	// ADDING TO PUZZLE ARRAY
@@ -1202,7 +1239,7 @@ countdownlatestgames()
 	puzzleTop7 = [hexio, mekorama, thegirlinthewindow, pipelineshexa, puzzle1a, casual9b, casual10b, puzzle7a, puzzle4a ]
 	puzzleTop6 = [zhed, adventureescapemysteries, casual4c]
 
-  	puzzleCommunity = [BabaIsYou, MonumentValley2, MonumentValley]
+  	puzzleCommunity = [GolfPeaks, BabaIsYou, MonumentValley2, MonumentValley]
 
 	// ADDING TO racing ARRAY
 	racingTop8 = [racing2a, racing7a]
@@ -1216,14 +1253,14 @@ countdownlatestgames()
 	sportsTop7 = [touchgrindbmx2, grandmountainadventure, sports5b, sports1a, sports2a, sports3a, sports4a, sports1b, sports3b, sports4b]
 	sportsTop6 = [ultimatetennis3d, sports1c, sports2c, sports3c, sports4c]
 
-	sportsCommunity = [RetroBowl]
+	sportsCommunity = [FootballManager2021, Leather, MotorsportManagerMobile3, StreetballAllstar, HoopLeague, RetroBowl]
 
 	// ADDING TO td ARRAY
 	tdTop8 = [defensezone3, mindustry, td4a, td1a, td2a]
 	tdTop7 = [defensezone3, mindustry, td2b, td1b, td4a, td1a, td3a, td2a]
 	tdTop6 = [plantsvszombies2, lasthopetd, td5c, td1c, td2c, td6c]
 	
-
+  	tdCommunity = [TinyGuardians, DataDefense, DungeonWarfare2, Mazebert, IsleofArrows]
   //#######################################################################
   //#######################################################################
   //#######################################################################
@@ -2214,6 +2251,16 @@ function clearallz() {
 }
 
 $(document).on("click", "#communitylink", function(){
+
+	if(is_nav_bar_up == false){
+		is_nav_bar_up = true
+	} else {	
+		$('.dropdowngames').css('display', "none")
+		is_nav_bar_up = false
+		return
+	}
+	
+
 	clearallz()
 	$('.dropdowngames').css('display', "block")
 	$('.newmobile2quick').css("display", "none")
@@ -4608,7 +4655,8 @@ function changesplash(get_texty, divy) {
 			  width: 100%;
 			  object-fit: cover;
 			}
-		  }</style><img data-wf-bgvideo-fallback-img="true" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-poster-00001.jpg" alt=""/></noscript><div aria-live="polite" style="display:none;"><button aria-controls="76dbfba7-d967-e5fa-70ad-4774d7673e4a-video" type="button" data-w-bg-video-control="true" class="w-backgroundvideo-backgroundvideoplaypausebutton w-background-video--control"><span hidden=""><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628299f8aa233b83918e24fd_Pause.svg" alt="Pause video"></span><span><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628298b20ae0236682d4b87f_Play-24.svg" alt="Play video"></span></button></div></div>
+		  }</style><img data-wf-bgvideo-fallback-img="true" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-poster-00001.jpg" alt=""/></noscript>
+		  <div aria-live="polite" style="display:none;"><button aria-controls="76dbfba7-d967-e5fa-70ad-4774d7673e4a-video" type="button" data-w-bg-video-control="true" class="w-backgroundvideo-backgroundvideoplaypausebutton w-background-video--control"><span hidden=""><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628299f8aa233b83918e24fd_Pause.svg" alt="Pause video"></span><span><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628298b20ae0236682d4b87f_Play-24.svg" alt="Play video"></span></button></div></div>
 			`)
 	
 			$('.cta').attr("href", "https://www.androidshark.com")
