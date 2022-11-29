@@ -2056,42 +2056,59 @@ if($(".dropdowngames").css("display") == "none"){
 
 
 is_android = 'true'
-$(document).on("click", ".android-tabz", function(){
+function showAndroid() {
+	$(".master-switch").text("iOS")
+	$('#aa1').css("display", "none")
+	$('#bb1').css("display", "none")
+	$('#aa2').css("display", "block")
+	$('#bb2').css("display", "block")
 
+	$(".gp-ios").attr("src", "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6266734263b9173f39b2d726_fal2.png")
+	$("#best1").attr("href", "https://apps.apple.com/us/app/baseball-9/id1340866223")
+	$("#best2").attr("href", "https://apps.apple.com/us/app/good-pizza-great-pizza/id911121200")
+	$("#best3").attr("href", "https://apps.apple.com/us/app/hill-climb-racing/id564540143")
+	$("#best4").attr("href", "https://apps.apple.com/us/app/guardian-tales/id1485526957")
+}
 
+function showiOS() {
+	$(".master-switch").text("Android")
+	$('#aa1').css("display", "block")
+	$('#bb1').css("display", "block")
+	$('#aa2').css("display", "none")
+	$('#bb2').css("display", "none")
 
+	$(".gp-ios").attr("src", "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6266733e23e5268675832380_fal1.png")
+	$("#best1").attr("href", "https://play.google.com/store/apps/details?id=us.kr.baseballnine&hl=en_ZA&gl=US")
+	$("#best2").attr("href", "https://play.google.com/store/apps/details?id=com.tapblaze.pizzabusiness&hl=en_ZA&gl=US")
+	$("#best3").attr("href", "https://play.google.com/store/apps/details?id=com.fingersoft.hcr2&hl=en_ZA&gl=US")
+	$("#best4").attr("href", "https://play.google.com/store/apps/details?id=com.kakaogames.gdts&hl=en&gl=US")
+}
+
+$(document).on("click", ".master-switch", function(){
   	// check to see if android or ios
 	if(is_android == 'true'){
 		is_android = 'false'
-		$(".android-tabz").text("Switch to Android")
-		$('#aa1').css("display", "none")
-		$('#bb1').css("display", "none")
-		$('#aa2').css("display", "block")
-		$('#bb2').css("display", "block")
+		localStorage.setItem("master", "Android")
+		showAndroid()
 
-		$(".gp-ios").attr("src", "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6266734263b9173f39b2d726_fal2.png")
-		$("#best1").attr("href", "https://apps.apple.com/us/app/baseball-9/id1340866223")
-		$("#best2").attr("href", "https://apps.apple.com/us/app/good-pizza-great-pizza/id911121200")
-		$("#best3").attr("href", "https://apps.apple.com/us/app/hill-climb-racing/id564540143")
-		$("#best4").attr("href", "https://apps.apple.com/us/app/guardian-tales/id1485526957")
 
 	} else {
 		is_android = 'true'
-		$(".android-tabz").text("Switch to iOS")
-		$('#aa1').css("display", "block")
-		$('#bb1').css("display", "block")
-		$('#aa2').css("display", "none")
-		$('#bb2').css("display", "none")
-
-		$(".gp-ios").attr("src", "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6266733e23e5268675832380_fal1.png")
-		$("#best1").attr("href", "https://play.google.com/store/apps/details?id=us.kr.baseballnine&hl=en_ZA&gl=US")
-		$("#best2").attr("href", "https://play.google.com/store/apps/details?id=com.tapblaze.pizzabusiness&hl=en_ZA&gl=US")
-		$("#best3").attr("href", "https://play.google.com/store/apps/details?id=com.fingersoft.hcr2&hl=en_ZA&gl=US")
-		$("#best4").attr("href", "https://play.google.com/store/apps/details?id=com.kakaogames.gdts&hl=en&gl=US")
+		localStorage.setItem("master", "iOS")
+		showiOS()
 	}
-
 })
 
+is_android_or_ios = localStorage.getItem("master")
+if(is_android_or_ios){
+	if(is_android_or_ios == "Android"){
+		showAndroid()
+	} else {
+		showiOS()
+	}
+} else {
+	showAndroid()
+}
 
 // old code
 // $(document).on("click", ".ios-tabz", function(){
