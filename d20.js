@@ -2443,9 +2443,10 @@ $(document).on("click", ".profile-page", function(){
 
 $(document).on("click", ".click-latest", function(){
 	clearallz()
-	$('.genrestuff').css("display", "block")
-	showGames("latestz", this)
-    addIntro("latestz")
+	$(".latest-games-drop").css("display", "block")
+	// $('.genrestuff').css("display", "block")
+	// showGames("latestz", this)
+    // addIntro("latestz")
 })
 
 
@@ -5438,6 +5439,7 @@ $(document).on("click", ".nav-linkz", function(){
 		$('.dropdowngames').css("display", "none")
 		$(".pregaimz").css("display", "none")
 		$(".newzzz").css("display", "none")
+		$(".latest-games-drop").css("display", "none")
 		return
 	}
 
