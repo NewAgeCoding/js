@@ -5486,11 +5486,10 @@ $(".nav-linkz").hover(function(){
 $(document).on("click", function(event){
 	namez = event.target.className
 	yas = namez.includes('nav-linkz') 
-	yas2 = namez.includes('click-latest')
-	console.log(namez)
-	console.log(yas)
-	console.log(yas2)
-	if(yas == true || yas2 == true){
+	yas2 = namez.includes('tata')
+	yas3 = namez.includes('gasdasgasd')
+
+	if(yas == true || yas2 == true || yas3 == true){
 		console.log("NAVBAR")
 	} else {
 		$('.dropdowngames').css('display', "none")
