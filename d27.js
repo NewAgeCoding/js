@@ -5487,6 +5487,9 @@ $(document).on("click", function(event){
 	namez = event.target.className
 	yas = namez.includes('nav-linkz') 
 	yas2 = namez.includes('click-latest')
+	console.log(namez)
+	console.log(yas)
+	console.log(yas2)
 	if(yas == true || yas2 == true){
 		console.log("NAVBAR")
 	} else {
