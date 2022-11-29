@@ -5413,7 +5413,6 @@ $(document).on("click", ".nav-linkz", function(){
 			$(".pc-games-only").css("overflow-y", "auto")
 			$(".newzzz").css("overflow-y", "auto")
 			$(".latest-games-drop").css("overflow-y", "auto")
-			latest-games-drop
 			myInterval = setInterval(displayHello, 55);
 		} else {
 			nav_linkz_clicked = 0
@@ -5421,7 +5420,6 @@ $(document).on("click", ".nav-linkz", function(){
 			$(".pc-games-only").css("overflow-y", "hidden")
 			$(".newzzz").css("overflow-y", "hidden")
 			$(".latest-games-drop").css("overflow-y", "hidden")
-			latest-games-drop
 			$(".pc-games-only").animate({ scrollTop: 0 }, "fast");
 			clearInterval(myInterval );
 		}
@@ -5550,7 +5548,6 @@ $(document).on("click", ".click-latest", function(){
 			$(".pc-games-only").css("overflow-y", "auto")
 			$(".newzzz").css("overflow-y", "auto")
 			$(".latest-games-drop").css("overflow-y", "auto")
-			latest-games-drop
 			myInterval = setInterval(displayHello, 55);
 		} else {
 			nav_linkz_clicked = 0
@@ -5558,7 +5555,6 @@ $(document).on("click", ".click-latest", function(){
 			$(".pc-games-only").css("overflow-y", "hidden")
 			$(".newzzz").css("overflow-y", "hidden")
 			$(".latest-games-drop").css("overflow-y", "hidden")
-			latest-games-drop
 			$(".pc-games-only").animate({ scrollTop: 0 }, "fast");
 			clearInterval(myInterval );
 		}
