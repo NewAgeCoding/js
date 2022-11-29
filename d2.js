@@ -5463,13 +5463,13 @@ $(".nav-linkz").hover(function(){
 //########################################################
 //	Click anywhere to remove dropdowns
 //########################################################
-instant_off99 = false
+instant_off99 = "false"
 console.log("instant_off99", instant_off99)
 startz = 0 // to remove first time click weird
 $(document.body).click( function(e) {
-	if(is_nav_bar_up == true && instant_off99 == true && startz >= 1){
+	if(is_nav_bar_up == true && instant_off99 == "true" && startz >= 1){
 		is_nav_bar_up = false
-		instant_off99 = false
+		instant_off99 = "false"
 		$('.dropdowngames').css('display', "none")
 		$('.communitytabz').css("display", "none")
 		$(".newzzz").css("display", "none")
@@ -5479,7 +5479,7 @@ $(document.body).click( function(e) {
 		$(".nav-linkz").removeClass( "dont-remove-blue" )
 		$(".nav-linkz").removeClass( "blueUnder" )
 	} else {
-		instant_off99 = true
+		instant_off99 = "true"
 	}
 	
 	if(startz <= 5) {
