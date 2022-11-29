@@ -5531,7 +5531,9 @@ $(document).on("click", ".click-latest", function(){
 
 		// If nav bar is showing like genre or pre reg or news close
 	// it all display all to none
+	console.log(is_nav_bar_up)
 	if(is_nav_bar_up == true) {
+		console.log("DISABLE ALL")
 		is_nav_bar_up = false
 		console.log("turn off pregaimz")
 		$(".pcdropdown45").css("display", "none")
@@ -5544,6 +5546,7 @@ $(document).on("click", ".click-latest", function(){
 		return
 	}
 	
+	console.log("ENABLE latest-games-drop")
 	$(".latest-games-drop").css("display", "block")
 	is_nav_bar_up = true
 	// $('.genrestuff').css("display", "block")
