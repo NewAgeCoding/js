@@ -5469,7 +5469,14 @@ $(document).on("click", function(event){
 	if(yas == true){
 		console.log("NAVBAR")
 	} else {
-		console.log("Turn off")
+		$('.dropdowngames').css('display', "none")
+		$('.communitytabz').css("display", "none")
+		$(".newzzz").css("display", "none")
+		$('.dropdowngames').css('display', "none")
+		$('.pcdropdown45').css("dislay", "none")
+		$(".pc-games-only ").css("display", "none")
+		$(".nav-linkz").removeClass( "dont-remove-blue" )
+		$(".nav-linkz").removeClass( "blueUnder" )
 	}
 
 })
