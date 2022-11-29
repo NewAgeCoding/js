@@ -5411,11 +5411,17 @@ $(document).on("click", ".nav-linkz", function(){
 			nav_linkz_clicked = 1
 			console.log("hide it")
 			$(".pc-games-only").css("overflow-y", "auto")
+			$(".newzzz").css("overflow-y", "auto")
+			$(".latest-games-drop").css("overflow-y", "auto")
+			latest-games-drop
 			myInterval = setInterval(displayHello, 55);
 		} else {
 			nav_linkz_clicked = 0
 			console.log("show it")
 			$(".pc-games-only").css("overflow-y", "hidden")
+			$(".newzzz").css("overflow-y", "hidden")
+			$(".latest-games-drop").css("overflow-y", "hidden")
+			latest-games-drop
 			$(".pc-games-only").animate({ scrollTop: 0 }, "fast");
 			clearInterval(myInterval );
 		}
@@ -5532,6 +5538,31 @@ $(document).on("click", function(event){
 // });
 
 $(document).on("click", ".click-latest", function(){
+
+		// Is it pc or mobile to disable html scroll
+		get_div_width = $(".wrappy").width()
+	if(get_div_width <= 310){
+		console.log("width:", get_div_width)
+		// first time clicked?
+		if(nav_linkz_clicked == 0) {
+			nav_linkz_clicked = 1
+			console.log("hide it")
+			$(".pc-games-only").css("overflow-y", "auto")
+			$(".newzzz").css("overflow-y", "auto")
+			$(".latest-games-drop").css("overflow-y", "auto")
+			latest-games-drop
+			myInterval = setInterval(displayHello, 55);
+		} else {
+			nav_linkz_clicked = 0
+			console.log("show it")
+			$(".pc-games-only").css("overflow-y", "hidden")
+			$(".newzzz").css("overflow-y", "hidden")
+			$(".latest-games-drop").css("overflow-y", "hidden")
+			latest-games-drop
+			$(".pc-games-only").animate({ scrollTop: 0 }, "fast");
+			clearInterval(myInterval );
+		}
+	}
 
 		// If nav bar is showing like genre or pre reg or news close
 	// it all display all to none
