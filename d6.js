@@ -5465,7 +5465,13 @@ $(".nav-linkz").hover(function(){
 //########################################################
 $(document).on("click", function(event){
 	namez = event.target.className
-	console.log("NAMEZ", namez)
+	yas = str.includes('nav-linkz') 
+	if(yas == true){
+		console.log("NAVBAR")
+	} else {
+		console.log("Turn off")
+	}
+
 })
 
 // instant_off99 = "false"
