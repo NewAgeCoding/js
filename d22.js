@@ -2441,13 +2441,6 @@ $(document).on("click", ".profile-page", function(){
 })
 
 
-$(document).on("click", ".click-latest", function(){
-	clearallz()
-	$(".latest-games-drop").css("display", "block")
-	// $('.genrestuff').css("display", "block")
-	// showGames("latestz", this)
-    // addIntro("latestz")
-})
 
 
 $(document).on("click", "#open-profile", function(){
@@ -5534,6 +5527,29 @@ $(document).on("click", function(event){
 	
 // });
 
+$(document).on("click", ".click-latest", function(){
+	clearallz()
+		// If nav bar is showing like genre or pre reg or news close
+	// it all display all to none
+	if(is_nav_bar_up == true) {
+		is_nav_bar_up = false
+		console.log("turn off pregaimz")
+		$(".pcdropdown45").css("display", "none")
+		$(".nav-linkz").removeClass( "dont-remove-blue" )
+		$(".nav-linkz").removeClass( "blueUnder" )
+		$('.dropdowngames').css("display", "none")
+		$(".pregaimz").css("display", "none")
+		$(".newzzz").css("display", "none")
+		$(".latest-games-drop").css("display", "none")
+		return
+	}
+	
+	$(".latest-games-drop").css("display", "block")
+	is_nav_bar_up = true
+	// $('.genrestuff').css("display", "block")
+	// showGames("latestz", this)
+    // addIntro("latestz")
+})
 
 
 
