@@ -4793,7 +4793,7 @@ $(document).on("click", ".open-vid", function(){
 	$(".vid-be").css("display", "none")
 	$(".open-vid").find("h3").css("font-weight", "normal")
 	$(this).find(".vid-be").slideDown(250);
-	$(this).find("h3").css("font-weight", "bold")
+	//$(this).find("h3").css("font-weight", "bold")
 })
 
 //########################################################
