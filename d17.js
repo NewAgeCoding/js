@@ -5436,10 +5436,14 @@ $(document).on("click", ".nav-linkz", function(){
 	} else if(namez == "Pre-Reg") {
 		$('.pre-gaimz-pc').css("display", "block")
 		$('.pregaimz').css("display", "block")
+	}  else if(namez == "News") {
+		$('.newzzz').css("display", "block")
 	} else {
 		$('.pc-games-only').css("display", "block")
 		addPcGames(namez)
 	}
+
+
 	$(".nav-linkz").removeClass( "blueUnder" )
 	$(this).addClass( "blueUnder" )
 })
