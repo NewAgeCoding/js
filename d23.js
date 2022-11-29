@@ -5528,7 +5528,7 @@ $(document).on("click", function(event){
 // });
 
 $(document).on("click", ".click-latest", function(){
-	clearallz()
+
 		// If nav bar is showing like genre or pre reg or news close
 	// it all display all to none
 	if(is_nav_bar_up == true) {
