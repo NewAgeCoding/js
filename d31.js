@@ -2058,6 +2058,7 @@ if($(".dropdowngames").css("display") == "none"){
 is_android = 'true'
 function showAndroid() {
 	$(".master-switch").text("iOS")
+	$(".master-switch").css("background-color", "black")
 	$('#aa1').css("display", "none")
 	$('#bb1').css("display", "none")
 	$('#aa2').css("display", "block")
@@ -2072,6 +2073,7 @@ function showAndroid() {
 
 function showiOS() {
 	$(".master-switch").text("Android")
+	$(".master-switch").css("background-color", "green")
 	$('#aa1').css("display", "block")
 	$('#bb1').css("display", "block")
 	$('#aa2').css("display", "none")
