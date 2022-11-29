@@ -5420,6 +5420,7 @@ $(document).on("click", ".nav-linkz", function(){
 		$(".nav-linkz").removeClass( "blueUnder" )
 		$('.dropdowngames').css("display", "none")
 		$(".pregaimz").css("display", "none")
+		$(".newzzz").css("display", "none")
 		return
 	}
 
