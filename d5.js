@@ -5463,10 +5463,11 @@ $(".nav-linkz").hover(function(){
 //########################################################
 //	Click anywhere to remove dropdowns
 //########################################################
-$(document).on("click", function(){
-	namez = $(this).attr('class')
+$(document).on("click", function(event){
+	namez = event.target.className
 	console.log("NAMEZ", namez)
 })
+
 // instant_off99 = "false"
 // console.log("instant_off99", instant_off99)
 // startz = 0 // to remove first time click weird
