@@ -5465,7 +5465,7 @@ $(".nav-linkz").hover(function(){
 //########################################################
 $(document).on("click", function(event){
 	namez = event.target.className
-	yas = str.includes('nav-linkz') 
+	yas = namez.includes('nav-linkz') 
 	if(yas == true){
 		console.log("NAVBAR")
 	} else {
