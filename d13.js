@@ -5414,10 +5414,12 @@ $(document).on("click", ".nav-linkz", function(){
 	// it all display all to none
 	if(is_nav_bar_up == true) {
 		is_nav_bar_up = false
+		console.log("turn off pregaimz")
 		$(".pcdropdown45").css("display", "none")
 		$(".nav-linkz").removeClass( "dont-remove-blue" )
 		$(".nav-linkz").removeClass( "blueUnder" )
 		$('.dropdowngames').css("display", "none")
+		$(".pregaimz").css("display", "none")
 		return
 	}
 
