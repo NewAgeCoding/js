@@ -2409,11 +2409,11 @@ $(document).on("click", ".tdlink", function(){
 
 $(document).on("click", ".pre-reg", function(){
 	setTimeout( function() {$(".dropdowngames").scrollTop(0)}, 20 );
-	mobileMenuBar222
 	clearallz()
-	$('.genrestuff').css("display", "block")
-	showGames("pre", this)
-    addIntro("pre")
+	$(".pregaimz").css("display", "block")
+	// $('.genrestuff').css("display", "block")
+	// showGames("pre", this)
+    // addIntro("pre")
 })
 
 $(document).on("click", ".profile-page", function(){
