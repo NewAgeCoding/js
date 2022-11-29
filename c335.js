@@ -5463,9 +5463,11 @@ $(".nav-linkz").hover(function(){
 //########################################################
 //	Click anywhere to remove dropdowns
 //########################################################
+instant_off = false
 $(document).on("click", function(){
-	if(is_nav_bar_up == true){
+	if(is_nav_bar_up == true && instant_off == true){
 		is_nav_bar_up = false
+		instant_off = false
 		$('.dropdowngames').css('display', "none")
 		$('.communitytabz').css("display", "none")
 		$(".newzzz").css("display", "none")
@@ -5474,7 +5476,11 @@ $(document).on("click", function(){
 		$(".pc-games-only ").css("display", "none")
 		$(".nav-linkz").removeClass( "dont-remove-blue" )
 		$(".nav-linkz").removeClass( "blueUnder" )
-	} 
+	} else {
+		instant_off = true
+	}
+	
+
 	
 })
 
