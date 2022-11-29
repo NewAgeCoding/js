@@ -127,7 +127,10 @@ form {
     .pc-games-only {
      height: 100vh; 
         border:0px !important;
+        padding-left: 25px;
     }
+    
+    
     
     
 }
