@@ -5464,8 +5464,10 @@ $(".nav-linkz").hover(function(){
 //	Click anywhere to remove dropdowns
 //########################################################
 instant_off = false
+startz = 0 // to remove first time click weird
 $(document).on("click", function(){
-	if(is_nav_bar_up == true && instant_off == true){
+
+	if(is_nav_bar_up == true && instant_off == true && startz >= 1){
 		is_nav_bar_up = false
 		instant_off = false
 		$('.dropdowngames').css('display', "none")
@@ -5480,7 +5482,10 @@ $(document).on("click", function(){
 		instant_off = true
 	}
 	
-
+	if(startz <= 5) {
+		startz = startz + 1
+	}
+	
 	
 })
 
