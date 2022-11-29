@@ -5486,7 +5486,8 @@ $(".nav-linkz").hover(function(){
 $(document).on("click", function(event){
 	namez = event.target.className
 	yas = namez.includes('nav-linkz') 
-	if(yas == true){
+	yas2 = namez.includes('click-latest')
+	if(yas == true || yas2 == true){
 		console.log("NAVBAR")
 	} else {
 		$('.dropdowngames').css('display', "none")
@@ -5497,6 +5498,7 @@ $(document).on("click", function(event){
 		$(".pc-games-only ").css("display", "none")
 		$(".nav-linkz").removeClass( "dont-remove-blue" )
 		$(".nav-linkz").removeClass( "blueUnder" )
+		$('.latest-games-drop').css("display", "none")
 		is_nav_bar_up = false
 	}
 
