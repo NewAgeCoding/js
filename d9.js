@@ -5477,6 +5477,7 @@ $(document).on("click", function(event){
 		$(".pc-games-only ").css("display", "none")
 		$(".nav-linkz").removeClass( "dont-remove-blue" )
 		$(".nav-linkz").removeClass( "blueUnder" )
+		is_nav_bar_up = false
 	}
 
 })
