@@ -5594,3 +5594,10 @@ $(document).on("click", ".click-latest", function(){
 // 	$(".div-block-199").removeClass("dont-blue")
 // 	$(this).addClass("dont-blue")
 //   })
+
+
+$(".gamez-boxy").hover(function(){
+	$(this).find("img").css("transform", "scale(1.05)")
+}, function(){
+	$(this).find("img").css("transform", "scale(1.0)")
+});
