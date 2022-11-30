@@ -5495,9 +5495,55 @@ function displayHello2() {
 
 }
 
+// Remove all mobile dropdowns
+function clearallzstuffz() {
+	$(".pcdropdown45").css("display", "none")
+	$(".nav-linkz").removeClass( "dont-remove-blue" )
+	$(".nav-linkz").removeClass( "blueUnder" )
+	$('.dropdowngames').css("display", "none")
+	$(".pregaimz").css("display", "none")
+	$(".newzzz").css("display", "none")
+	$(".latest-games-drop").css("display", "none")
+}
+
 nav_linkz_clicked = 0
+
+//#################################################
+//	Click drop down menus
+//#################################################
+mobile_dropdowns_up = false
 $(document).on("click", ".nav-linkz", function(){
 
+	// Get name of the div its text
+	namez = $(this).text()
+
+	// Check to see if a dropdown is up or not
+	if(mobile_dropdowns_up == false){
+		mobile_dropdowns_up = true
+		if(namez == "News and Updates") {
+			$('.news-dropdown').css('display','block')
+		} else if(namez == "Pre-Reg") {
+			$('.pre-gaimz-pc').css("display", "block")
+			$('.pregaimz').css("display", "block")
+		}  else if(namez == "News") {
+			$('.newzzz').css("display", "block")
+		} else if(namez == "What's Next?"){
+			$(".latest-games-drop").css("display", "block")
+		} else {
+			$('.pc-games-only').css("display", "block")
+			addPcGames(namez)
+		}
+
+
+	} else {
+		mobile_dropdowns_up = false
+		clearallzstuffz()
+	}	
+
+
+
+
+	return
 	// Is it pc or mobile to disable html scroll
 	get_div_width = $(".wrappy").width()
 	if(get_div_width <= 340){
