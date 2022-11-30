@@ -1180,6 +1180,8 @@ countdownlatestgames()
 	alltop8s = ["Sonic 2 Classic", "Huntdown", "Dadish", "Orbia", "Archero", "Grimvalor" , "Brawlhalla", "Alien Isolation", "Eternium", "Guardian Tales", "Sky Children", "Another Eden", "Nihilumbra", "Oddmar", "Sword of Xolan", "Forgotton Anne", "Teamfight Tactics", "Mekorama", "Magic Rampage",
 	"Mobile Legends", "Art of War 3", "Battle of Polytopia", "Not Not", "Real Racing 3", "Good Pizza", "Stardew Valley", "World of Tennis", "Kingdom Rush", "Ancient Planet", "Bloons TD 6", "Mindustry", "Sonic 2 Classic"]
 
+	allcontroller = ["Oddmar", "Sonic 2 Classic"]
+
 	// ADDING TO CASUAL ARRAY
 	casualTop8 = [casual5a, casual2a, simulation2a]
 	casualTop7 = [casual5a, casual8b, casual2a, casual5b, simulation2a, casual12b, casual2b, puzzle2a, casual4b, casual6b]
@@ -5303,16 +5305,20 @@ function addPcGames(gaim) {
 		gaim = "adventure"
 	}
 
-	// Append green games
+	// 1) Append green games
 	genre_type = gaim.toLowerCase();
 	genre_type = genre_type + "Top7"
-
+	counter_class_number = 0
 	$(eval(genre_type)).each(function(index, value){
 		// Check to see if star exists
+		isStar = false
+		counter_class_number = counter_class_number + 1
+		classNamez = "kol" + counter_class_number
 		if(jQuery.inArray(value.name, alltop8s) != -1) {
+			isStar = true
 			$(".greenz").append(
 				`
-			<div class="menuGameBoxes">
+			<div class="menuGameBoxes ${classNamez}">
 			<a href=${value.aLink}  style="position:relative; z-index:5">
 			<div>
 			<img src=${value.img} loading="lazy">
@@ -5330,10 +5336,15 @@ function addPcGames(gaim) {
 			  </div>
 			  `
 			)
+
+
+
+			
 		} else {
+			isStar = false
 			$(".greenz").append(
 				`
-				<div class="menuGameBoxes">
+				<div class="menuGameBoxes ${classNamez}">
 					<a href=${value.aLink}  style="position:relative; z-index:5">
 						<div><img src=${value.img}></div>
 					</a>
@@ -5344,9 +5355,48 @@ function addPcGames(gaim) {
 			)
 		}
 
+
+		
+		// 2) Check to see if controller exists
+		if(isStar == true){
+		
+			if(jQuery.inArray(value.name, allcontroller) != -1) {
+				$("."+classNamez).append(
+					`
+		
+				<div class="starzy2">
+					<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63871e539273992b5cdabd67_controller.png">
+				</div>
+		
+			
+					`
+				)
+			} 	
+		
+		} else {
+				
+			if(jQuery.inArray(value.name, allcontroller) != -1) {
+				$("."+classNamez).append(
+					`
+		
+				<div class="starzy">
+					<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63871e539273992b5cdabd67_controller.png">
+				</div>
+		
+			
+					`
+				)
+			} 	
+		
+
+		}
+	
 		
 
 	})
+
+
+
 
 	// Append red games
 	genre_type_low = gaim.toLowerCase();
