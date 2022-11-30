@@ -2169,14 +2169,14 @@ $(document).on("click", "#closeGenre", function(){
 })
 
 
-$(".menuGameBoxes").hover(function () {
-    theImg ="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62862e4ac81b7f141c19e118_radius-block.png"
-    $(this).append('<div class="leBorder" style="position: relative; top: -137px; left: -5px; width: 101px;"> <img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62862e4ac81b7f141c19e118_radius-block.png"> </div>');
-  }, 
-  function () {
-    $(".leBorder").css("display", "none")
-    $(".leBorder").remove();
-  });
+// $(".menuGameBoxes").hover(function () {
+//     theImg ="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62862e4ac81b7f141c19e118_radius-block.png"
+//     $(this).append('<div class="leBorder" style="position: relative; top: -137px; left: -5px; width: 101px;"> <img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62862e4ac81b7f141c19e118_radius-block.png"> </div>');
+//   }, 
+//   function () {
+//     $(".leBorder").css("display", "none")
+//     $(".leBorder").remove();
+//   });
   
 
 function addIntro(theGamez) {
