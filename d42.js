@@ -5379,7 +5379,7 @@ function addPcGames(gaim) {
 				$("."+classNamez).append(
 					`
 		
-				<div class="starzy">
+				<div class="starzy3">
 					<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63871e539273992b5cdabd67_controller.png">
 				</div>
 		
