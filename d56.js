@@ -5525,7 +5525,6 @@ $(document).on("click", ".nav-linkz", function(){
 	// it all display all to none
 	if(is_nav_bar_up == true) {
 		is_nav_bar_up = false
-		console.log("turn off pregaimz")
 		$(".pcdropdown45").css("display", "none")
 		$(".nav-linkz").removeClass( "dont-remove-blue" )
 		$(".nav-linkz").removeClass( "blueUnder" )
@@ -5551,6 +5550,8 @@ $(document).on("click", ".nav-linkz", function(){
 		$('.pregaimz').css("display", "block")
 	}  else if(namez == "News") {
 		$('.newzzz').css("display", "block")
+	} else if(namez == "What's Next?"){
+		$(".latest-games-drop").css("display", "block")
 	} else {
 		$('.pc-games-only').css("display", "block")
 		addPcGames(namez)
@@ -5584,30 +5585,26 @@ $(".nav-linkz").hover(function(){
 //	Click anywhere to remove dropdowns
 //########################################################
 $(document).on("click", function(event){
-	get_div_width = $(".wrappy").width()
-	if(get_div_width >= 991){
-		namez = event.target.className
-		yas = namez.includes('nav-linkz') 
-		yas2 = namez.includes('tata')
-		yas3 = namez.includes('gasdasgasd')
-	
-		if(yas == true || yas2 == true || yas3 == true){
-			console.log("NAVBAR")
-		} else {
-			$('.dropdowngames').css('display', "none")
-			$('.communitytabz').css("display", "none")
-			$(".pre-gaimz-pc").css("display", "none")
-			$(".newzzz").css("display", "none")
-			$('.dropdowngames').css('display', "none")
-			$('.pcdropdown45').css("dislay", "none")
-			$(".pc-games-only ").css("display", "none")
-			$(".nav-linkz").removeClass( "dont-remove-blue" )
-			$(".nav-linkz").removeClass( "blueUnder" )
-			$('.latest-games-drop').css("display", "none")
-			is_nav_bar_up = false
-		}
-	}
+	namez = event.target.className
+	yas = namez.includes('nav-linkz') 
+	yas2 = namez.includes('tata')
+	yas3 = namez.includes('gasdasgasd')
 
+	if(yas == true || yas2 == true || yas3 == true){
+		console.log("NAVBAR")
+	} else {
+		$('.dropdowngames').css('display', "none")
+		$('.communitytabz').css("display", "none")
+		$(".pre-gaimz-pc").css("display", "none")
+		$(".newzzz").css("display", "none")
+		$('.dropdowngames').css('display', "none")
+		$('.pcdropdown45').css("dislay", "none")
+		$(".pc-games-only ").css("display", "none")
+		$(".nav-linkz").removeClass( "dont-remove-blue" )
+		$(".nav-linkz").removeClass( "blueUnder" )
+		$('.latest-games-drop').css("display", "none")
+		is_nav_bar_up = false
+	}
 
 })
 
@@ -5636,62 +5633,57 @@ $(document).on("click", function(event){
 	
 // });
 
-$(document).on("click", ".click-latest", function(){
-
-		// Is it pc or mobile to disable html scroll
-		get_div_width = $(".wrappy").width()
-	if(get_div_width <= 340){
-		console.log("width:", get_div_width)
-		// first time clicked?
-		if(nav_linkz_clicked == 0) {
-			nav_linkz_clicked = 1
-			console.log("hide it")
-			$(".pc-games-only").css("overflow-y", "auto")
-			$(".newzzz").css("overflow-y", "auto")
-			$(".latest-games-drop").css("overflow-y", "auto")
-			myInterval = setTimeout(displayHello, 10);
-		} else {
-			nav_linkz_clicked = 0
-			console.log("show it")
-			$(".pc-games-only").css("overflow-y", "hidden")
-			$(".newzzz").css("overflow-y", "hidden")
-			$(".latest-games-drop").css("overflow-y", "hidden")
-			$(".pc-games-only").animate({ scrollTop: 0 }, "fast");
-			myInterval = setTimeout(displayHello2, 10);
-		}
-	}
-
-		// If nav bar is showing like genre or pre reg or news close
-	// it all display all to none
-	console.log(is_nav_bar_up)
-	if(is_nav_bar_up == true) {
-		console.log("DISABLE ALL")
-		is_nav_bar_up = false
-		console.log("turn off pregaimz")
-		$(".pcdropdown45").css("display", "none")
-		$(".nav-linkz").removeClass( "dont-remove-blue" )
-		$(".nav-linkz").removeClass( "blueUnder" )
-		$('.dropdowngames').css("display", "none")
-		$(".pregaimz").css("display", "none")
-		$(".newzzz").css("display", "none")
-		$(".latest-games-drop").css("display", "none")
-		return
-	}
+// $(document).on("click", ".click-latest", function(){
 	
-	console.log("ENABLE latest-games-drop")
-	$(".latest-games-drop").css("display", "block")
-	is_nav_bar_up = true
-	// $('.genrestuff').css("display", "block")
-	// showGames("latestz", this)
-    // addIntro("latestz")
-})
+// 		// Is it pc or mobile to disable html scroll
+// 		get_div_width = $(".wrappy").width()
+// 	if(get_div_width <= 340){
+// 		console.log("width:", get_div_width)
+// 		// first time clicked?
+// 		if(nav_linkz_clicked == 0) {
+// 			nav_linkz_clicked = 1
+// 			console.log("hide it")
+// 			$(".pc-games-only").css("overflow-y", "auto")
+// 			$(".newzzz").css("overflow-y", "auto")
+// 			$(".latest-games-drop").css("overflow-y", "auto")
+// 			myInterval = setTimeout(displayHello, 10);
+// 		} else {
+// 			nav_linkz_clicked = 0
+// 			console.log("show it")
+// 			$(".pc-games-only").css("overflow-y", "hidden")
+// 			$(".newzzz").css("overflow-y", "hidden")
+// 			$(".latest-games-drop").css("overflow-y", "hidden")
+// 			$(".pc-games-only").animate({ scrollTop: 0 }, "fast");
+// 			myInterval = setTimeout(displayHello2, 10);
+// 		}
+// 	}
+
+// 		// If nav bar is showing like genre or pre reg or news close
+// 	// it all display all to none
+// 	console.log(is_nav_bar_up)
+// 	if(is_nav_bar_up == true) {
+// 		console.log("DISABLE ALL")
+// 		is_nav_bar_up = false
+// 		console.log("turn off pregaimz")
+// 		$(".pcdropdown45").css("display", "none")
+// 		$(".nav-linkz").removeClass( "dont-remove-blue" )
+// 		$(".nav-linkz").removeClass( "blueUnder" )
+// 		$('.dropdowngames').css("display", "none")
+// 		$(".pregaimz").css("display", "none")
+// 		$(".newzzz").css("display", "none")
+// 		$(".latest-games-drop").css("display", "none")
+// 		return
+// 	}
+	
+// 	console.log("ENABLE latest-games-drop")
+// 	$(".latest-games-drop").css("display", "block")
+// 	is_nav_bar_up = true
+
+// })
 
 
 
-//   $(document).on("click", ".div-block-199", function(){
-// 	$(".div-block-199").removeClass("dont-blue")
-// 	$(this).addClass("dont-blue")
-//   })
+
 
 
 $(".gamez-boxy").hover(function(){
