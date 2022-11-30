@@ -21,6 +21,7 @@
   background: #b30000; 
 }
 }
+/* PC ONLY END*/
 
 
 .starzy img{
@@ -101,6 +102,9 @@
     display: inline-block;
 }
 
+.gamez-boxy {
+ cursor:pointer;   
+}
 form {
  background-color: transparent !important;   
 }
@@ -139,3 +143,4 @@ form {
     
     
 }
+/* MOBILE ONLY END*/
