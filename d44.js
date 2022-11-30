@@ -1180,7 +1180,7 @@ countdownlatestgames()
 	alltop8s = ["Sonic 2 Classic", "Huntdown", "Dadish", "Orbia", "Archero", "Grimvalor" , "Brawlhalla", "Alien Isolation", "Eternium", "Guardian Tales", "Sky Children", "Another Eden", "Nihilumbra", "Oddmar", "Sword of Xolan", "Forgotton Anne", "Teamfight Tactics", "Mekorama", "Magic Rampage",
 	"Mobile Legends", "Art of War 3", "Battle of Polytopia", "Not Not", "Real Racing 3", "Good Pizza", "Stardew Valley", "World of Tennis", "Kingdom Rush", "Ancient Planet", "Bloons TD 6", "Mindustry", "Sonic 2 Classic"]
 
-	allcontroller = ["Oddmar", "Sonic 2 Classic", "Snail Bob 3"]
+	allcontroller = ["Oddmar", "Sonic 2 Classic", "Snail Bob 3", "Apple Knight", "Super Mombo Quest"]
 
 	// ADDING TO CASUAL ARRAY
 	casualTop8 = [casual5a, casual2a, simulation2a]
@@ -5401,11 +5401,15 @@ function addPcGames(gaim) {
 	// Append red games
 	genre_type_low = gaim.toLowerCase();
 	genre_type_low = genre_type_low + "Top6"
-
+	counter_class_number = 0
+	
+	// 3) add red games
 	$(eval(genre_type_low)).each(function(index, value){
+		counter_class_number = counter_class_number + 1
+		classNamez = "tol" + counter_class_number
 		$(".redz999").append(
 			`
-			<div class="menuGameBoxes">
+			<div class="menuGameBoxes ${classNamez}">
 				<a href=${value.aLink}  style="position:relative; z-index:5">
 					<div><img src=${value.img}></div>
 				</a>
@@ -5415,14 +5419,34 @@ function addPcGames(gaim) {
 			`
 		)
 
+
+		// 4) Add controller to red games
+		if(jQuery.inArray(value.name, allcontroller) != -1) {
+			$("."+classNamez).append(
+				`
+
+			<div class="starzy3">
+				<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63871e539273992b5cdabd67_controller.png">
+			</div>
+
+		
+				`
+			)
+		} 	
+
 	})
+
+
 
 
 	// Append Community games
 	genre_type_community = gaim.toLowerCase();
 	genre_type_community = genre_type_community + "Community"
+	counter_class_number = 0
 
 	$(eval(genre_type_community)).each(function(index, value){
+		counter_class_number = counter_class_number + 1
+		classNamez = "sol" + counter_class_number
 		$(".blue-gaimz").append(
 			`
 			<div class="menuGameBoxes">
@@ -5434,6 +5458,20 @@ function addPcGames(gaim) {
 			</div>
 			`
 		)
+
+			// 6) Add controller to red games
+			if(jQuery.inArray(value.name, allcontroller) != -1) {
+				$("."+classNamez).append(
+					`
+	
+				<div class="starzy3">
+					<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63871e539273992b5cdabd67_controller.png">
+				</div>
+	
+			
+					`
+				)
+			} 	
 
 	})
 
