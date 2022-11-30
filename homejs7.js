@@ -234,7 +234,7 @@ imageUrl1 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822
 
 imageUrl2 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg"
 
-imageUrl3 = "https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/62a1d7b1bd16fe33d8a1f8ee_plague-g1.jpg"
+imageUrl3 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63874e8dc5d6d0ab37dbed8d_huntdown-home-page.jpg"
 
 imageUrl4 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637643199eebde614e6124c0_oddmar-hd1.jpg"
 
