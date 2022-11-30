@@ -5449,7 +5449,7 @@ function addPcGames(gaim) {
 		classNamez = "sol" + counter_class_number
 		$(".blue-gaimz").append(
 			`
-			<div class="menuGameBoxes">
+			<div class="menuGameBoxes ${classNamez}">
 				<a href=${value.aLink}  style="position:relative; z-index:5" target="_blank">
 					<div><img src=${value.img}></div>
 				</a>
