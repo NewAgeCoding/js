@@ -22,7 +22,7 @@ class RegGames {
 function add_glitch(namez){
   $(".big-screen-real").html( ` 
   <div class="glitch" style="height: 175px;
-  border: 2px solid;">
+  border: 2px solid; border-radius:10px;">
       <div class="glitch__item ${namez}"></div>
       <div class="glitch__item ${namez}"></div>
       <div class="glitch__item ${namez}"></div>
