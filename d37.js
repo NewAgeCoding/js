@@ -5500,6 +5500,7 @@ $(document).on("click", function(event){
 	} else {
 		$('.dropdowngames').css('display', "none")
 		$('.communitytabz').css("display", "none")
+		$(".pre-gaimz-pc").css("display", "none")
 		$(".newzzz").css("display", "none")
 		$('.dropdowngames').css('display', "none")
 		$('.pcdropdown45').css("dislay", "none")
