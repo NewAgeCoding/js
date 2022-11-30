@@ -78,7 +78,7 @@ function add_all_games(gaimz){
             
                 <div style="
                 color: grey;
-                font-size: 10px;
+                font-size: 9px;
                 font-family: exo;
                 width: 130px;
                 margin-top:-8px;
