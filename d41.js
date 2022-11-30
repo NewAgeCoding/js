@@ -1180,7 +1180,7 @@ countdownlatestgames()
 	alltop8s = ["Sonic 2 Classic", "Huntdown", "Dadish", "Orbia", "Archero", "Grimvalor" , "Brawlhalla", "Alien Isolation", "Eternium", "Guardian Tales", "Sky Children", "Another Eden", "Nihilumbra", "Oddmar", "Sword of Xolan", "Forgotton Anne", "Teamfight Tactics", "Mekorama", "Magic Rampage",
 	"Mobile Legends", "Art of War 3", "Battle of Polytopia", "Not Not", "Real Racing 3", "Good Pizza", "Stardew Valley", "World of Tennis", "Kingdom Rush", "Ancient Planet", "Bloons TD 6", "Mindustry", "Sonic 2 Classic"]
 
-	allcontroller = ["Oddmar", "Sonic 2 Classic"]
+	allcontroller = ["Oddmar", "Sonic 2 Classic", "Snail Bob 3"]
 
 	// ADDING TO CASUAL ARRAY
 	casualTop8 = [casual5a, casual2a, simulation2a]
