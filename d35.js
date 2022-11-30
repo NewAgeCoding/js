@@ -202,17 +202,17 @@ $(document).on("click", ".link-22", function(){
   }
   
 
-    $(".menuGameBoxes").hover(function () {
-      $(this).find("img").css("transform", "scale(1.05)")
+//     $(".menuGameBoxes").hover(function () {
+//       $(this).find("img").css("transform", "scale(1.05)")
 
-    theImg ="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62862e4ac81b7f141c19e118_radius-block.png"
-    $(this).append('<div class="leBorder" style="position: absolute; top: -7px; left: -5px; width: 101px;"> <img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62862e4ac81b7f141c19e118_radius-block.png"> </div>');
-  }, 
-  function () {
-      	$(this).find("img").css("transform", "scale(1.00)")
-		$(".leBorder").css("display", "none")
-		$(".leBorder").remove();
-  });
+//     theImg ="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62862e4ac81b7f141c19e118_radius-block.png"
+//     $(this).append('<div class="leBorder" style="position: absolute; top: -7px; left: -5px; width: 101px;"> <img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62862e4ac81b7f141c19e118_radius-block.png"> </div>');
+//   }, 
+//   function () {
+//       	$(this).find("img").css("transform", "scale(1.00)")
+// 		$(".leBorder").css("display", "none")
+// 		$(".leBorder").remove();
+//   });
  
   })
 
