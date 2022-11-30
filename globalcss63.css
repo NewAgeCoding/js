@@ -145,6 +145,10 @@ form {
 
   }
     
+    #longNav {
+        z-index: 90 !important;
+    }
+    
     .starzy2 img {
     position: absolute;
     width: 18px;
