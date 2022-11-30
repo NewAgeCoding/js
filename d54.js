@@ -5584,26 +5584,30 @@ $(".nav-linkz").hover(function(){
 //	Click anywhere to remove dropdowns
 //########################################################
 $(document).on("click", function(event){
-	namez = event.target.className
-	yas = namez.includes('nav-linkz') 
-	yas2 = namez.includes('tata')
-	yas3 = namez.includes('gasdasgasd')
-
-	if(yas == true || yas2 == true || yas3 == true){
-		console.log("NAVBAR")
-	} else {
-		$('.dropdowngames').css('display', "none")
-		$('.communitytabz').css("display", "none")
-		$(".pre-gaimz-pc").css("display", "none")
-		$(".newzzz").css("display", "none")
-		$('.dropdowngames').css('display', "none")
-		$('.pcdropdown45').css("dislay", "none")
-		$(".pc-games-only ").css("display", "none")
-		$(".nav-linkz").removeClass( "dont-remove-blue" )
-		$(".nav-linkz").removeClass( "blueUnder" )
-		$('.latest-games-drop').css("display", "none")
-		is_nav_bar_up = false
+	get_div_width = $(".wrappy").width()
+	if(get_div_width >= 991){
+		namez = event.target.className
+		yas = namez.includes('nav-linkz') 
+		yas2 = namez.includes('tata')
+		yas3 = namez.includes('gasdasgasd')
+	
+		if(yas == true || yas2 == true || yas3 == true){
+			console.log("NAVBAR")
+		} else {
+			$('.dropdowngames').css('display', "none")
+			$('.communitytabz').css("display", "none")
+			$(".pre-gaimz-pc").css("display", "none")
+			$(".newzzz").css("display", "none")
+			$('.dropdowngames').css('display', "none")
+			$('.pcdropdown45').css("dislay", "none")
+			$(".pc-games-only ").css("display", "none")
+			$(".nav-linkz").removeClass( "dont-remove-blue" )
+			$(".nav-linkz").removeClass( "blueUnder" )
+			$('.latest-games-drop').css("display", "none")
+			is_nav_bar_up = false
+		}
 	}
+
 
 })
 
