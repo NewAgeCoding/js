@@ -4595,7 +4595,7 @@ function changesplash(get_texty, divy) {
 		// Score
 		changeScore('#7716ff', 'Platform')
 
-	} else if(get_texty == "Plague Inc"){
+	} else if(get_texty == "Huntdown"){
 
 		// Change background color depending on score
 		$(divy).find(".special1").css("background", "white")
