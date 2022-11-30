@@ -5516,10 +5516,11 @@ $(document).on("click", ".nav-linkz", function(){
 
 	// Get name of the div its text
 	namez = $(this).text()
-
+	console.log("#YO1#")
 	// Check to see if a dropdown is up or not
 	if(mobile_dropdowns_up == false){
 		mobile_dropdowns_up = true
+		displayHello()
 		if(namez == "News and Updates") {
 			$('.news-dropdown').css('display','block')
 		} else if(namez == "Pre-Reg") {
@@ -5538,6 +5539,7 @@ $(document).on("click", ".nav-linkz", function(){
 	} else {
 		mobile_dropdowns_up = false
 		clearallzstuffz()
+		displayHello2()
 	}	
 
 
