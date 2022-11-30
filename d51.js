@@ -5486,7 +5486,13 @@ function addPcGames(gaim) {
 function displayHello() {
 
 	$("html").css("overflow-y", "hidden")
-	$(".wrappy").css("overflow-y", "hidden")
+
+}
+
+function displayHello2() {
+
+	$("html").css("overflow-y", "auto")
+
 }
 
 nav_linkz_clicked = 0
@@ -5503,7 +5509,7 @@ $(document).on("click", ".nav-linkz", function(){
 			$(".pc-games-only").css("overflow-y", "auto")
 			$(".newzzz").css("overflow-y", "auto")
 			$(".latest-games-drop").css("overflow-y", "auto")
-			myInterval = setInterval(displayHello, 55);
+			myInterval = setTimeout(displayHello, 10);
 		} else {
 			nav_linkz_clicked = 0
 			console.log("show it")
@@ -5511,7 +5517,7 @@ $(document).on("click", ".nav-linkz", function(){
 			$(".newzzz").css("overflow-y", "hidden")
 			$(".latest-games-drop").css("overflow-y", "hidden")
 			$(".pc-games-only").animate({ scrollTop: 0 }, "fast");
-			clearInterval(myInterval );
+			myInterval = setTimeout2(displayHello2, 10);
 		}
 	}
 
@@ -5639,7 +5645,7 @@ $(document).on("click", ".click-latest", function(){
 			$(".pc-games-only").css("overflow-y", "auto")
 			$(".newzzz").css("overflow-y", "auto")
 			$(".latest-games-drop").css("overflow-y", "auto")
-			myInterval = setInterval(displayHello, 55);
+			myInterval = setTimeout(displayHello, 10);
 		} else {
 			nav_linkz_clicked = 0
 			console.log("show it")
@@ -5647,7 +5653,7 @@ $(document).on("click", ".click-latest", function(){
 			$(".newzzz").css("overflow-y", "hidden")
 			$(".latest-games-drop").css("overflow-y", "hidden")
 			$(".pc-games-only").animate({ scrollTop: 0 }, "fast");
-			clearInterval(myInterval );
+			myInterval = setTimeout(displayHello2, 10);
 		}
 	}
 
