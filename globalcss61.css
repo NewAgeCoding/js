@@ -145,6 +145,18 @@ form {
 
   }
     
+    .starzy2 img {
+    position: absolute;
+    width: 18px;
+    left: 2px;
+    top: 20px;
+    z-index: 5;
+}
+    
+ .starzy3 img {
+    width: 18px;
+}
+    
     .profile {
     top: 80px !important;
     display: block;
