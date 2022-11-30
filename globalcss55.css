@@ -24,11 +24,18 @@
 /* PC ONLY END*/
 
 
-.starzy img{
+.starzy img {
     position: absolute;
     width: 21px;
     left: -40px;
     top: 3px;
+}
+
+.starzy2 img{
+    position: absolute;
+    width: 21px;
+    left: -40px;
+    top: 27px;
 }
 
 .zigzag-top {
