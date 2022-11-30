@@ -39,6 +39,15 @@
     z-index: 5;
 }
 
+.starzy3 img {
+    position: absolute;
+    transform: scale(1);
+    left: 3px;
+    z-index: 5;
+    width: 26px;
+    top: 3px;   
+}
+
 .zigzag-top {
      width: 1020px !important;
     position: absolute;
