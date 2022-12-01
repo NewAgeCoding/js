@@ -5511,11 +5511,12 @@ nav_linkz_clicked = 0
 //#################################################
 mobile_dropdowns_up = false
 $(document).on("click", ".nav-linkz", function(){
-
+	$(".nav-linkz").removeClass("blueUnder")
 	// Get name of the div its text
 	namez = $(this).text()
 	console.log("#YO1#")
 	// Check to see if a dropdown is up or not
+	// If not show it then
 	if(mobile_dropdowns_up == false){
 		mobile_dropdowns_up = true
 		displayHello()
@@ -5532,7 +5533,7 @@ $(document).on("click", ".nav-linkz", function(){
 			$('.pc-games-only').css("display", "block")
 			addPcGames(namez)
 		}
-
+		$(this).addClass("blueUnder")
 
 	} else {
 		mobile_dropdowns_up = false
