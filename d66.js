@@ -5484,15 +5484,13 @@ function addPcGames(gaim) {
 
 
 function displayHello() {
-
-	$("html").css("overflow-y", "hidden")
-
+	$(".container5fullwidth").css("height", "1px")
+	//$("html").css("overflow-y", "hidden")
 }
 
 function displayHello2() {
-
-	$("html").css("overflow-y", "auto")
-
+	$(".container5fullwidth").css("height", "auto")
+	//$("html").css("overflow-y", "auto")
 }
 
 // Remove all mobile dropdowns
