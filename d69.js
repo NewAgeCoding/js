@@ -5533,7 +5533,11 @@ $(document).on("click", ".nav-linkz", function(){
 			$('.pc-games-only').css("display", "block")
 			addPcGames(namez)
 		}
-		$(this).addClass("blueUnder")
+		
+		if(namez != "What's Next?") {
+			$(this).addClass("blueUnder")
+		}
+		
 
 	} else {
 		mobile_dropdowns_up = false
