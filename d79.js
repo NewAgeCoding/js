@@ -455,7 +455,7 @@ $("input.fname-mobile[type='text']").on('input', function () {
 
 function countdownTimeStart(){
 
-var countDownDate = new Date("November 30, 2022 21:00:00").getTime();
+var countDownDate = new Date("December 05, 2022 21:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -476,9 +476,9 @@ var x = setInterval(function() {
     // + minutes + "m " + seconds + "s ";
     
 
-	$("#hourzzz99").text(hours)
-	$("#minzzz99").text(minutes)
-	$("#sec199").text(seconds)
+	$(".real-hrz").text(hours)
+	$(".real-minz").text(minutes)
+	$(".real-sec").text(seconds)
     
     // If the count down is over, write some text 
     if (distance < 0) {
