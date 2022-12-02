@@ -4814,6 +4814,12 @@ $(document).on("click", ".open-vid", function(){
 	$(".vid-be").css("display", "none")
 	$(".open-vid").find("h3").css("font-weight", "normal")
 	$(this).find(".vid-be").slideDown(250);
+
+	$(this).find(".zing").css("display", "block")
+	$(this).find(".zingzong").css("display", "none")
+
+	$(this).find(".zing").css("display", "none")
+	$(this).find(".zingzong").css("display", "block")
 	//$(this).find("h3").css("font-weight", "bold")
 })
 
