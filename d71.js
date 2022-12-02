@@ -5490,12 +5490,14 @@ function addPcGames(gaim) {
 
 
 function displayHello() {
-	$(".container5fullwidth").css("height", "1px")
+	console.log("1")
+	//$(".container5fullwidth").css("height", "1px")
 	//$("html").css("overflow-y", "hidden")
 }
 
 function displayHello2() {
-	$(".container5fullwidth").css("height", "auto")
+	console.log("2")
+	//$(".container5fullwidth").css("height", "auto")
 	//$("html").css("overflow-y", "auto")
 }
 
