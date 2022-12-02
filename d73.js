@@ -5490,14 +5490,12 @@ function addPcGames(gaim) {
 
 
 function displayHello() {
-	console.log("1")
-	//$(".container5fullwidth").css("height", "1px")
+	$(".container5fullwidth").css("height", "1px")
 	//$("html").css("overflow-y", "hidden")
 }
 
 function displayHello2() {
-	console.log("2")
-	//$(".container5fullwidth").css("height", "auto")
+	$(".container5fullwidth").css("height", "auto")
 	//$("html").css("overflow-y", "auto")
 }
 
@@ -5644,6 +5642,10 @@ $(".nav-linkz").hover(function(){
 //	Click anywhere to remove dropdowns
 //########################################################
 $(document).on("click", function(event){
+
+	console.log("CLICKY")
+	return
+	console.log("CLICKY44")
 	namez = event.target.className
 	yas = namez.includes('nav-linkz') 
 	yas2 = namez.includes('tata')
