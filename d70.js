@@ -2071,6 +2071,9 @@ function showAndroid() {
 	$("#best2").attr("href", "https://apps.apple.com/us/app/good-pizza-great-pizza/id911121200")
 	$("#best3").attr("href", "https://apps.apple.com/us/app/hill-climb-racing/id564540143")
 	$("#best4").attr("href", "https://apps.apple.com/us/app/guardian-tales/id1485526957")
+
+	$(".android-set").css("display", "none")
+	$(".ios-set").css("display", "block")
 }
 
 function showiOS() {
@@ -2086,6 +2089,9 @@ function showiOS() {
 	$("#best2").attr("href", "https://play.google.com/store/apps/details?id=com.tapblaze.pizzabusiness&hl=en_ZA&gl=US")
 	$("#best3").attr("href", "https://play.google.com/store/apps/details?id=com.fingersoft.hcr2&hl=en_ZA&gl=US")
 	$("#best4").attr("href", "https://play.google.com/store/apps/details?id=com.kakaogames.gdts&hl=en&gl=US")
+
+	$(".android-set").css("display", "block")
+	$(".ios-set").css("display", "none")
 }
 
 $(document).on("click", ".master-switch", function(){
