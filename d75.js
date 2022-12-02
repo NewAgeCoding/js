@@ -5642,15 +5642,12 @@ $(".nav-linkz").hover(function(){
 //	Click anywhere to remove dropdowns
 //########################################################
 $(document).on("click", function(event){
-
-	console.log("CLICKY")
-	return
-	console.log("CLICKY44")
+	
 	namez = event.target.className
 	yas = namez.includes('nav-linkz') 
 	yas2 = namez.includes('tata')
 	yas3 = namez.includes('gasdasgasd')
-
+	console.log(namez)
 	if(yas == true || yas2 == true || yas3 == true){
 		console.log("NAVBAR")
 	} else {
