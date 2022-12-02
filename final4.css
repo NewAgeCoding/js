@@ -2519,7 +2519,6 @@ button:hover::after {
 .pc-games-only {
     width: 926px;
     border: 1px solid grey;
-    border-radius: 20px;
     position: relative;
     top: -40px;
     left: -10px;
