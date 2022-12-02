@@ -2326,7 +2326,7 @@ overflow-x: hidden;
   }
 
   
-  button, button::after {
+  /* button, button::after {
     width: 141px;
     height: 35px;
     font-size: 14px;
@@ -2365,7 +2365,7 @@ button::after {
 button:hover::after {
   animation: 1s glitch;
   animation-timing-function: steps(2, end);
-}
+} */
 
 @keyframes glitch {
   0% {
