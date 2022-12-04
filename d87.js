@@ -4823,6 +4823,13 @@ $(document).on("click", ".open-vid", function(){
 	//$(this).find("h3").css("font-weight", "bold")
 })
 
+$(".open-vid").hover(function(){
+	$(this).find(".zing").addClass("gouppy")
+}, function(){
+	$(this).find(".zing").removeClass("gouppy")
+});
+
+
 //########################################################
 //	Hover over splash to change color of youtube button
 //########################################################
