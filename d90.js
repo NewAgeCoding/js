@@ -5674,6 +5674,7 @@ $(document).on("click", function(event){
 		$(".nav-linkz").removeClass( "dont-remove-blue" )
 		$(".nav-linkz").removeClass( "blueUnder" )
 		$('.latest-games-drop').css("display", "none")
+		mobile_dropdowns_up = false
 		clearallzstuffz()
 		displayHello2()
 		is_nav_bar_up = false
