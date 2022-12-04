@@ -2556,12 +2556,12 @@ form {
 }
 
 @-webkit-keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-20px); }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-20px); }
 }
 @keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-20px); }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-20px); }
 }
 
 
