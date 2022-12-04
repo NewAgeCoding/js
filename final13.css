@@ -2517,7 +2517,7 @@ button:hover::after {
     width: 926px;
     border: 1px solid grey;
     position: relative;
-    top: -40px;
+    /* top: -40px; */
     left: -10px;
     height: 500px;
     padding-top: 40px;
