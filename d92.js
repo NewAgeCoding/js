@@ -5509,6 +5509,8 @@ function displayHello() {
 
 function displayHello2() {
 	$(".container5fullwidth").css("height", "auto")
+	$(".newmobile--novid").css("visibility", "visible")
+	$(".allfooter").css("visibility", "visible")
 	//$("html").css("overflow-y", "auto")
 }
 
@@ -5556,6 +5558,12 @@ $(document).on("click", ".nav-linkz", function(){
 		if(namez != "What's Next?") {
 			$(this).addClass("blueUnder")
 		}
+
+		if ($(window).width() < 991) {
+			$(".newmobile--novid").css("visibility", "hidden")
+			$(".allfooter").css("visibility", "hidden")
+		}
+	
 		
 
 	} else {
