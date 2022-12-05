@@ -1229,6 +1229,11 @@ figure:hover+span {
 	transform: scale(1.15);
 }
 
+.fullhovered {
+  -webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
 .blinky1 {
   animation: blinker 0.15s step-start; animation-iteration-count: 5;
 }
