@@ -1927,6 +1927,29 @@ overflow-x: hidden;
 	-webkit-transform: rotate(0) scale(1);
 	transform: rotate(0) scale(1);
 }
+
+/* Flashing */
+.hover13 {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
   
 .grey-r1 {
   margin-top: 2px;
