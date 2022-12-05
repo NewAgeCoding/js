@@ -4714,7 +4714,7 @@ $(document).on("click", ".latest-gamez", function(){
 		$('.ytubebtn').css("display", "none")
 		$(".blackshadow1").css("display", "block")
 		$(".blackshadow1").fadeOut();
-		$(this).addClass("fullhovered")
+		$(this).find("img").addClass("fullhovered")
 		$(this).find(".magic1").addClass("hover13")
 
 		changesplash(get_texty, divy)		
