@@ -2591,17 +2591,17 @@ form {
 
 
 .gouppy {
-  -webkit-animation: mover 1s infinite  alternate;
-  animation: mover 1s infinite  alternate;
+  -webkit-animation: mover 0.5s infinite  alternate;
+  animation: mover 0.5s infinite  alternate;
 }
 
 @-webkit-keyframes mover {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-15px); }
+  100% { transform: translateX(-13px); }
 }
 @keyframes mover {
   0% { transform: translateX(0); }
-  100% { transform: translateX(-15px); }
+  100% { transform: translateX(-13px); }
 }
 
 
