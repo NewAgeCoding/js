@@ -4700,6 +4700,7 @@ function changesplash(get_texty, divy) {
 
 stoper = 0
 $(document).on("click", ".latest-gamez", function(){
+	$(".latest-gamez").find("img").removeClass("fullhovered")	
 	if(stoper == 0) {
 		stoper = 1
 		$(".gominus").css("margin-top", "-12px")
@@ -4714,7 +4715,7 @@ $(document).on("click", ".latest-gamez", function(){
 		$('.ytubebtn').css("display", "none")
 		$(".blackshadow1").css("display", "block")
 		$(".blackshadow1").fadeOut();
-		$(this).find("img").addClass("fullhovered")
+		$(this).find("img").addClass("fullhovered")		
 		$(this).find(".magic1").addClass("hover13")
 
 		changesplash(get_texty, divy)		
