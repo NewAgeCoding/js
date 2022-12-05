@@ -1979,11 +1979,11 @@ overflow-x: hidden;
   }
   
   .fname-mobile{
-        position: relative;
+    position: relative;
     top: 36px;
     z-index: 5;
-    width: 310px;
-    margin-left: -76px;
+    width: 353px;
+    margin-left: -47px;
     height: 34px;
     border-style: solid;
     border-width: 1px;
@@ -1995,7 +1995,7 @@ overflow-x: hidden;
     color: #070707;
     font-size: 11px !important;
     font-family: 'Open Sans', sans-serif;
-    box-shadow:rgba(0, 0, 0, 0.10) 0px 5px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px 0px;
   }
   
 #longNav{
