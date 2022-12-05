@@ -1931,23 +1931,24 @@ overflow-x: hidden;
 /* Flashing */
 .hover13 {
 	opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 1.5s;
+	-webkit-animation: flash 0.8s;
+	animation: flash 0.8s;
+  visibility: visible;
 }
 @-webkit-keyframes flash {
 	0% {
-		opacity: .4;
+		opacity: 1;
 	}
 	100% {
-		opacity: 1;
+		opacity: 0;
 	}
 }
 @keyframes flash {
 	0% {
-		opacity: .4;
+		opacity: 1;
 	}
 	100% {
-		opacity: 1;
+		opacity: 0;
 	}
 }
   
