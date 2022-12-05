@@ -1230,7 +1230,7 @@ figure:hover+span {
 }
 
 .fullhovered {
-  transform: scale(1.2);
+  transform: scale(1.2) !important;
 }
 
 .blinky1 {
