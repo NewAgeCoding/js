@@ -2243,8 +2243,8 @@ overflow-x: hidden;
   
     @media only screen and (min-width: 991px) {
 	.dropdownsearch {
-      width: 309px !important;
-      margin-left: -42px;
+      width: 345px !important;
+      margin-left: -62px;
       margin-top: -8px;
 	}
       
