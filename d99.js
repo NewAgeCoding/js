@@ -4813,8 +4813,20 @@ $(".latest-gamez").hover(function(){
   });
 
 
+function activateredblock(thisy){
+	$(".bigredz").css("display", "none")
+	$(".sidewhite1").css("display", "none")
+	$(".white").css("color", "black")
+	$(".hhyyy").css("color", "black")
+
+	$(thisy).find(".bigredz").css("display", "block")
+	$(thisy).find(".sidewhite1").css("display", "block")
+	$(thisy).find(".white").css("color", "white")
+	$(thisy).find(".hhyyy").css("color", "white")
+}
 
 $(document).on("click", ".open-vid", function(){
+	activateredblock(this)
 	$(".vid-be").css("display", "none")
 	$(".open-vid").find("h3").css("font-weight", "normal")
 	$(this).find(".vid-be").slideDown(250);
