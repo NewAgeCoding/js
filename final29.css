@@ -2204,6 +2204,15 @@ overflow-x: hidden;
   position: relative;
 }
 
+.center-content span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+  transform: skewX(0deg) !important;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
 .hover-underline-animation:after {
   content: '';
   position: absolute;
