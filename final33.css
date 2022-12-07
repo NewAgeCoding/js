@@ -2639,7 +2639,9 @@ form {
 
 
 
-
+.review-mobile-container p{
+    margin-top:0px !important;
+}
 
 
 /* MOBILE */
