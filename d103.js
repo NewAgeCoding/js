@@ -5555,6 +5555,7 @@ $(document).on("click", ".nav-linkz", function(){
 	// If not show it then
 	if(mobile_dropdowns_up == false){
 		$(this).addClass( "blueUnder" )
+		$(this).addClass( "dont-remove-blue" )
 		mobile_dropdowns_up = true
 		displayHello()
 		if(namez == "News and Updates") {
