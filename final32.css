@@ -2619,26 +2619,22 @@ form {
 .faded-line-left {
   margin: 0 auto;
   display: block;
-  width: 500px;
+  width: 540px;
   height: 1px;
-  background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(34,183,67,0.98) 50%, rgba(38,184,70,1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%);
-  background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%,rgba(34,183,67,0.98) 50%,rgba(38,184,70,1) 51%,rgba(225,228,226,0) 99%,rgba(229,229,229,0) 100%);
-  background: linear-gradient(to right, rgb(0 0 0) 0%,rgb(0 0 0 / 98%) 50%,rgb(0 0 0) 51%,rgba(225,228,226,0) 99%,rgba(229,229,229,0) 100%);
+  background: linear-gradient(to left, rgb(0 0 0) 0%,rgb(0 0 0 / 98%) 50%,rgb(0 0 0) 51%,rgba(225,228,226,0) 99%,rgba(229,229,229,0) 100%);
   left: 50%;
-  margin-left: -628px;
+  margin-left: -500px;
 }
 
 
 .faded-line-right {
   margin: 0 auto;
   display: block;
-  width: 400px;
+  width: 492px;
   height: 1px;
-  background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(34,183,67,0.98) 50%, rgba(38,184,70,1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%);
-  background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%,rgba(34,183,67,0.98) 50%,rgba(38,184,70,1) 51%,rgba(225,228,226,0) 99%,rgba(229,229,229,0) 100%);
-  background: linear-gradient(to right, rgb(255 255 255 / 10%) 0%,rgb(0 0 0 / 98%) 50%,rgb(0 0 0) 51%,rgb(0 0 0) 99%,rgb(0 0 0) 100%);
+  background: linear-gradient(to left, rgb(255 255 255 / 10%) 0%,rgb(0 0 0 / 98%) 50%,rgb(0 0 0) 51%,rgb(0 0 0) 99%,rgb(0 0 0) 100%);
   left: 50%;
-  margin-left: 275px;
+  margin-left: 34px;
 }
 
 
