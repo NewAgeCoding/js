@@ -1508,7 +1508,7 @@ a:active { text-decoration: none; }
     width: 331px;
     position: relative;
     left: -56px;
-    background: white;
+    background: transparent;
     z-index: 5;
   }
   .picz1 {
