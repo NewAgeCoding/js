@@ -4826,7 +4826,7 @@ function activateredblock(thisy){
 }
 
 $(document).on("click", ".open-vid", function(){
-	activateredblock(this)
+	//activateredblock(this)
 	$(".vid-be").css("display", "none")
 	$(".open-vid").find("h3").css("font-weight", "normal")
 	$(this).find(".vid-be").slideDown(250);
