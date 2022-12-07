@@ -5551,10 +5551,10 @@ $(document).on("click", ".nav-linkz", function(){
 	$(".nav-linkz").removeClass("blueUnder")
 	// Get name of the div its text
 	namez = $(this).text()
-	console.log("#YO1#")
 	// Check to see if a dropdown is up or not
 	// If not show it then
 	if(mobile_dropdowns_up == false){
+		$(this).addClass( "blueUnder" )
 		mobile_dropdowns_up = true
 		displayHello()
 		if(namez == "News and Updates") {
