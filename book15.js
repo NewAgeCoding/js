@@ -106,7 +106,7 @@ if(get_books){
     
         .entirebox1 p {
           margin-top: 2px;
-          font-size: 13px;
+         
         }
     
         .entirebox1 {
