@@ -5678,7 +5678,22 @@ $(".nav-linkz").hover(function(){
 	
   });
 
-
+function disappearall() {
+	$('.dropdowngames').css('display', "none")
+	$('.communitytabz').css("display", "none")
+	$(".pre-gaimz-pc").css("display", "none")
+	$(".newzzz").css("display", "none")
+	$('.dropdowngames').css('display', "none")
+	$('.pcdropdown45').css("dislay", "none")
+	$(".pc-games-only ").css("display", "none")
+	$(".nav-linkz").removeClass( "dont-remove-blue" )
+	$(".nav-linkz").removeClass( "blueUnder" )
+	$('.latest-games-drop').css("display", "none")
+	mobile_dropdowns_up = false
+	clearallzstuffz()
+	displayHello2()
+	is_nav_bar_up = false
+}
 
 //########################################################
 //	Click anywhere to remove dropdowns
@@ -5692,25 +5707,16 @@ $(document).on("click", function(event){
 	yas2 = namez.includes('tata')
 	yas3 = namez.includes('gasdasgasd')
 	yas4 = namez.includes('slider200__prev-next-btn slider200__prev-next-btn_next')
-	yas5 = namez.includes('right-side999')
-	console.log(namez)
+	yas5 = namez.includes('body')
+	if(yas5 == true){
+		disappearall()
+		return
+	}
+	
 	if(yas == true || yas2 == true || yas3 == true || yas4 == true){
 		console.log("NAVBAR")
 	} else {
-		$('.dropdowngames').css('display', "none")
-		$('.communitytabz').css("display", "none")
-		$(".pre-gaimz-pc").css("display", "none")
-		$(".newzzz").css("display", "none")
-		$('.dropdowngames').css('display', "none")
-		$('.pcdropdown45').css("dislay", "none")
-		$(".pc-games-only ").css("display", "none")
-		$(".nav-linkz").removeClass( "dont-remove-blue" )
-		$(".nav-linkz").removeClass( "blueUnder" )
-		$('.latest-games-drop').css("display", "none")
-		mobile_dropdowns_up = false
-		clearallzstuffz()
-		displayHello2()
-		is_nav_bar_up = false
+		disappearall()
 	}
 
 })
