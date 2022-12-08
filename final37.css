@@ -2679,7 +2679,9 @@ form {
         padding-left: 25px;
     }
     
-    
+    .leBorder {
+      display: none !important;
+    }
     
     
 }
