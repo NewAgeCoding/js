@@ -5684,14 +5684,16 @@ $(".nav-linkz").hover(function(){
 //	Click anywhere to remove dropdowns
 //########################################################
 $(document).on("click", function(event){
-	if(never_close == true){
-		return
-	}
+	// if(never_close == true){
+	// 	return
+	// }
 	namez = event.target.className
 	yas = namez.includes('nav-linkz') 
 	yas2 = namez.includes('tata')
 	yas3 = namez.includes('gasdasgasd')
 	yas4 = namez.includes('slider200__prev-next-btn slider200__prev-next-btn_next')
+	yas5 = namez.includes('pre-gaimz-pc')
+	console.log(namez)
 	if(yas == true || yas2 == true || yas3 == true || yas4 == true){
 		console.log("NAVBAR")
 	} else {
