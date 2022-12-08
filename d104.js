@@ -103,6 +103,8 @@ piccc = {
     1: "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/62b067cecb2d9a517f6cf19f_Spike.png"
   }
 
+var never_close = false
+
 games = ["among us", "archero", "ancient planet tower defense", "art of war 3 global conflict", "cardinal quest 2", "baseball9", "altos adventure", "forge of empires", "mobile legends bang bang", "mushroom wars 2", "zhed",
 "skullgirls", "alien isolation", "infinitode2", "nba 2k", "scary horror 2", "bloons td 6", "moonshades", "prison empire tycoon", "bloody bastards", "plague inc", "mini td 2", "defense legend 4", 'grand mountain adventure', "sonic the hedgehog 2 classic", "state of survival", "the girl in the window", "smash legends", "race the sun challenge edition", "mekorama",
     "badland", "battle of polytopia", "bee brilliant", "castle crush",  "exploding kittens", "raid shadow legends", "another eden", "naval storm", "rts siege up", "uniwar", "galaxy reavers", "dadish 3", "huntdown", "overdrive 2", "merge fables",
@@ -5549,6 +5551,7 @@ nav_linkz_clicked = 0
 mobile_dropdowns_up = false
 $(document).on("click", ".nav-linkz", function(){
 	$(".nav-linkz").removeClass("blueUnder")
+	never_close = false
 	// Get name of the div its text
 	namez = $(this).text()
 	// Check to see if a dropdown is up or not
@@ -5561,6 +5564,7 @@ $(document).on("click", ".nav-linkz", function(){
 		if(namez == "News and Updates") {
 			$('.news-dropdown').css('display','block')
 		} else if(namez == "Pre-Reg") {
+			never_close = true
 			$('.pre-gaimz-pc').css("display", "block")
 			$('.pregaimz').css("display", "block")
 		}  else if(namez == "News") {
@@ -5680,7 +5684,9 @@ $(".nav-linkz").hover(function(){
 //	Click anywhere to remove dropdowns
 //########################################################
 $(document).on("click", function(event){
-	
+	if(never_close == true){
+		return
+	}
 	namez = event.target.className
 	yas = namez.includes('nav-linkz') 
 	yas2 = namez.includes('tata')
@@ -5785,6 +5791,30 @@ $(document).on("click", function(event){
 
 
 
+$(".gamez-boxy").hover(function(){
+	$(this).find("img").css("transform", "scale(1.05)")
+}, function(){
+	$(this).find("img").css("transform", "scale(1.0)")
+});
+
+
+function changeprereg(dasimg, dasheading, daspara) {
+	$('.p-big-image').find("img").attr("src", `${dasimg}`)
+	$(".p-big-desc").find("h4").text(dasheading)
+	$(".p-big-desc").find("p").text(daspara)
+}
+
+$(document).on("click", ".gamez-boxy", function(){
+	game_name = $(this).find(".game-namez").text()
+	if(game_name == "Minion Masters"){
+		changeprereg("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6391cde9c8c8ea4562b7379c_minion-masters-g1.jpg", "Minion Masters", `Engage in epic 1v1 or 2v2 battles, in this fast-paced strategic minion brawler that's easy to learn but hard to master.
+		In Minion Masters you choose among many Masters with unique abilities and collect fierce demons, cute creatures, devastating spells and much more.`)
+	} else if(game_name == "Gunstars") {
+		changeprereg("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6391cf7fa0b732ef09574b3a_gunstars-g1.jpg", "Minion Masters", `Engage in epic 1v1 or 2v2 battles, in this fast-paced strategic minion brawler that's easy to learn but hard to master.
+		In Minion Masters you choose among many Masters with unique abilities and collect fierce demons, cute creatures, devastating spells and much more.`)
+	}
+
+})
 $(".gamez-boxy").hover(function(){
 	$(this).find("img").css("transform", "scale(1.05)")
 }, function(){
