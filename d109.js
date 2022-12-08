@@ -5692,7 +5692,7 @@ $(document).on("click", function(event){
 	yas2 = namez.includes('tata')
 	yas3 = namez.includes('gasdasgasd')
 	yas4 = namez.includes('slider200__prev-next-btn slider200__prev-next-btn_next')
-	yas5 = namez.includes('pre-gaimz-pc')
+	yas5 = namez.includes('right-side999')
 	console.log(namez)
 	if(yas == true || yas2 == true || yas3 == true || yas4 == true){
 		console.log("NAVBAR")
