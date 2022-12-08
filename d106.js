@@ -5799,7 +5799,7 @@ $(".gamez-boxy").hover(function(){
 
 
 function changeprereg(dasimg, dasheading, daspara) {
-	$('.p-big-image').find("img").html(`
+	$('.p-big-image').html(`
 	<img src="${dasimg}" loading="lazy" sizes="100vw"class="image-630">
 	`)
 	$(".p-big-desc").find("h4").text(dasheading)
