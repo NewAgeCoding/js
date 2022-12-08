@@ -5810,10 +5810,9 @@ $(document).on("click", ".gamez-boxy", function(){
 	game_name = $(this).find(".game-namez").text()
 	if(game_name == "Minion Masters"){
 		changeprereg("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6391cde9c8c8ea4562b7379c_minion-masters-g1.jpg", "Minion Masters", `Engage in epic 1v1 or 2v2 battles, in this fast-paced strategic minion brawler that's easy to learn but hard to master.
-		In Minion Masters you choose among many Masters with unique abilities and collect fierce demons, cute creatures, devastating spells and much more.`)
+		In Minion Masters you choose among many Masters `)
 	} else if(game_name == "Gunstars") {
-		changeprereg("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6391cf7fa0b732ef09574b3a_gunstars-g1.jpg", "Minion Masters", `Engage in epic 1v1 or 2v2 battles, in this fast-paced strategic minion brawler that's easy to learn but hard to master.
-		In Minion Masters you choose among many Masters with unique abilities and collect fierce demons, cute creatures, devastating spells and much more.`)
+		changeprereg("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6391cf7fa0b732ef09574b3a_gunstars-g1.jpg", "Gunstars", `A multiplayer Battle-Royale made for mobile! Play solo or invite friends and live epic experiences within the battle arenas of the Gunstars universe.`)
 	}
 
 })
