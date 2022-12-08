@@ -34,7 +34,20 @@ dontgo = 0
 dontgopre = 0
 is_nav_bar_up = false
 
+
 //##################################################
+// Load all stuff after site loads
+//##################################################
+function loadAll() {
+	console.log("ALL LOADED MON!")
+}
+
+$(window).on('load', function() {
+	loadAll()
+})
+
+
+	//##################################################
 	// Recently viewed
 	//##################################################
 	var str1  = window.location.href; 
