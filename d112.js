@@ -5708,15 +5708,12 @@ $(document).on("click", function(event){
 	yas3 = namez.includes('gasdasgasd')
 	yas4 = namez.includes('slider200__prev-next-btn slider200__prev-next-btn_next')
 	yas5 = namez.includes('body')
-	if(yas5 == true){
-		disappearall()
-		return
-	}
 	
-	if(yas == true || yas2 == true || yas3 == true || yas4 == true){
-		console.log("NAVBAR")
-	} else {
+	if(yas5 == true ){
 		disappearall()
+		console.log("CLOSE ALL")
+	} else {
+		console.log("NAVBAR")
 	}
 
 })
