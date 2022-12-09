@@ -39,7 +39,26 @@ is_nav_bar_up = false
 // Load all stuff after site loads
 //##################################################
 function loadAll() {
-	console.log("ALL LOADED MON!")
+	
+	$("#best-a1").html(`
+	<a href="https://www.androidshark.com/review/baseball-9" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6283bcc77cd6ba9b10af1b39_baseball-9.jpg" loading="lazy" alt="" class="image-103 toy extremeshadow"></a>
+	`)
+	
+	$("#latest-a1").html(`
+	<img class="img-responsive dist" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6384f2e3b371c84e4b4f0d35_diablo-oct.jpg" style="width:300px; height:190px; object-fit:cover;">
+	`)
+
+
+	$("#latest-a2").html(`
+	<img class="img-responsive dist" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6384f9dcb497a156020976f1_sonic-octa.jpg" style="width:300px; height:190px; object-fit:cover;">
+	`)
+
+	
+	$("#latest-a3").html(`
+	<img class="img-responsive dist" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6384fb1f535570f7e4c8bb3a_huntdown-octa.jpg" style="width:300px; height:190px; object-fit:cover;">
+	`)
+
+	
 	$(".iframey1").html(`
 	<iframe width="100%" height="415" src="https://www.youtube.com/embed/u16GRS2hYnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	`)
