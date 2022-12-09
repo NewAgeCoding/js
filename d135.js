@@ -164,24 +164,7 @@ function loadAll() {
 		<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		`)
 
-		imageUrl1 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg"
 
-		imageUrl2 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg"
-
-		imageUrl3 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63874e8dc5d6d0ab37dbed8d_huntdown-home-page.jpg"
-
-		imageUrl4 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637643199eebde614e6124c0_oddmar-hd1.jpg"
-
-		$(".abc1").css("background-image", "url(" + imageUrl1 + ")");
-		$(".abc2").css("background-image", "url(" + imageUrl2 + ")");
-		$(".abc3").css("background-image", "url(" + imageUrl3 + ")");
-		$(".abc4").css("background-image", "url(" + imageUrl4 + ")");
-
-		   // Change background image of a div by clicking on the button
-		   $(".tor1").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg">`)
-		   $(".tor2").html(`<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/635142753f2a3cd1988b8de8_sonic-g1.jpg">`)
-					 $(".tor3").html(`<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/62a1d7b1bd16fe33d8a1f8ee_plague-g1.jpg">`)
-							   $(".tor4").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637643199eebde614e6124c0_oddmar-hd1.jpg">`)
 	}, 7000)
 
 }
@@ -4706,11 +4689,11 @@ function changesplash(get_texty, divy) {
 		$("#createVid").html("");
 		$("#createVid").html(`
 		<div class="glitch33 dasSize">
-			<div class="glitch33__item abc1" style="background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg; background-size: 100%;");"></div>
-			<div class="glitch33__item abc1" style="  background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg; background-size: 100%;");"></div>
-			<div class="glitch33__item abc1" style="  background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg; background-size: 100%;");"></div>
-			<div class="glitch33__item abc1" style="  background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg; background-size: 100%;");"></div>
-			<div class="glitch33__item abc1" style="  background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg; background-size: 100%;");"></div>
+			<div class="glitch33__item abc1"></div>
+			<div class="glitch33__item abc1"></div>
+			<div class="glitch33__item abc1"></div>
+			<div class="glitch33__item abc1"></div>
+			<div class="glitch33__item abc1"></div>
 		</div>
 		
 		`)
