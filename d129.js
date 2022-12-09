@@ -58,7 +58,7 @@ function loadAll() {
 		`)
 	
 	
-	}, 2000)
+	}, 1000)
 
 
 	// Best mobile games
@@ -110,7 +110,7 @@ function loadAll() {
 		$("#best-a4").html(`
 		<a href="https://www.androidshark.com/review/guardian-tales" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/628286bf97d4ec21f8429556_guardian-tales-icon.jpg" loading="lazy" alt="" class="image-101 toy extremeshadow"></a>
 		`)
-	}, 5000)
+	}, 3000)
 
 
 
@@ -172,17 +172,17 @@ function loadAll() {
 
 		imageUrl4 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637643199eebde614e6124c0_oddmar-hd1.jpg"
 
-		// $(".abc1").css("background-image", "url(" + imageUrl1 + ")");
-		// $(".abc2").css("background-image", "url(" + imageUrl2 + ")");
-		// $(".abc3").css("background-image", "url(" + imageUrl3 + ")");
-		// $(".abc4").css("background-image", "url(" + imageUrl4 + ")");
+		$(".abc1").css("background-image", "url(" + imageUrl1 + ")");
+		$(".abc2").css("background-image", "url(" + imageUrl2 + ")");
+		$(".abc3").css("background-image", "url(" + imageUrl3 + ")");
+		$(".abc4").css("background-image", "url(" + imageUrl4 + ")");
 
 		   // Change background image of a div by clicking on the button
 		   $(".tor1").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg">`)
 		   $(".tor2").html(`<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/635142753f2a3cd1988b8de8_sonic-g1.jpg">`)
 					 $(".tor3").html(`<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/62a1d7b1bd16fe33d8a1f8ee_plague-g1.jpg">`)
 							   $(".tor4").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637643199eebde614e6124c0_oddmar-hd1.jpg">`)
-	}, 12000)
+	}, 7000)
 
 }
 
