@@ -40,6 +40,52 @@ is_nav_bar_up = false
 //##################################################
 function loadAll() {
 	console.log("ALL LOADED MON!")
+	$(".iframey1").html(`
+	<iframe width="100%" height="415" src="https://www.youtube.com/embed/u16GRS2hYnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	`)
+
+	$(".iframey2").html(`
+	<iframe width="100%" height="415" src="https://www.youtube.com/embed/8rLMP-TpjRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	`)
+
+	$(".iframey3").html(`
+	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	`)
+
+
+	$(".iframey4").html(`
+	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	`)
+
+
+	$(".iframey5").html(`
+	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	`)
+
+
+	$(".iframey6").html(`
+	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	`)
+
+	$(".iframey7").html(`
+	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	`)
+
+
+	$(".iframey8").html(`
+	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	`)
+
+
+	$(".iframey9").html(`
+	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	`)
+
+	
+	$(".iframey10").html(`
+	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	`)
+
 }
 
 $(window).on('load', function() {
