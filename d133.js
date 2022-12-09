@@ -4706,11 +4706,11 @@ function changesplash(get_texty, divy) {
 		$("#createVid").html("");
 		$("#createVid").html(`
 		<div class="glitch33 dasSize">
-			<div class="glitch33__item abc1" style="  background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg");"></div>
-			<div class="glitch33__item abc1" style="  background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg");"></div>
-			<div class="glitch33__item abc1" style="  background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg");"></div>
-			<div class="glitch33__item abc1" style="  background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg");"></div>
-			<div class="glitch33__item abc1" style="  background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg");"></div>
+			<div class="glitch33__item abc1" style="background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg; background-size: 100%;");"></div>
+			<div class="glitch33__item abc1" style="  background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg; background-size: 100%;");"></div>
+			<div class="glitch33__item abc1" style="  background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg; background-size: 100%;");"></div>
+			<div class="glitch33__item abc1" style="  background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg; background-size: 100%;");"></div>
+			<div class="glitch33__item abc1" style="  background-image: url("https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg; background-size: 100%;");"></div>
 		</div>
 		
 		`)
