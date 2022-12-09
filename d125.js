@@ -64,35 +64,6 @@ function loadAll() {
 	// Best mobile games
 	setTimeout(function(){
 
-		if ($(window).width() > 1000) {
-			console.log("CREATE VID", $(window).width())
-			$("#createVid").html(`
-			<div data-poster-url="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-transcode.mp4,https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="w-background-video w-background-video-atom" style="
-			width: 1016px;
-		"><video id="76dbfba7-d967-e5fa-70ad-4774d7673e4a-video" autoplay="" loop="" style="background-image: url(&quot;https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-poster-00001.jpg&quot;); width: 90%; height: 90%; right: -90%; " muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-transcode.mp4" data-wf-ignore="true"><source src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-transcode.webm" data-wf-ignore="true"></video><noscript><style>
-		  [data-wf-bgvideo-fallback-img] {
-			display: none;
-		  }
-		  @media (prefers-reduced-motion: reduce) {
-			[data-wf-bgvideo-fallback-img] {
-			  position: absolute;
-			  z-index: -100;
-			  display: inline-block;
-			  height: 100%;
-			  width: 100%;
-			  object-fit: cover;
-			}
-		  }</style><img data-wf-bgvideo-fallback-img="true" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-poster-00001.jpg" alt=""/></noscript>
-		  <div aria-live="polite" style="display:none;"><button aria-controls="76dbfba7-d967-e5fa-70ad-4774d7673e4a-video" type="button" data-w-bg-video-control="true" class="w-backgroundvideo-backgroundvideoplaypausebutton w-background-video--control"><span hidden=""><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628299f8aa233b83918e24fd_Pause.svg" alt="Pause video"></span><span><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628298b20ae0236682d4b87f_Play-24.svg" alt="Play video"></span></button></div></div>
-			`)
-	
-			$('.cta').attr("href", "https://www.androidshark.com")
-	
-			// Score
-			changeScore('#7716ff', 'Platform')
-		} else {
-			console.log("NO VID")
-		}
 		
 		$("#best-a1").html(`
 		<a href="https://www.androidshark.com/review/baseball-9" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6283bcc77cd6ba9b10af1b39_baseball-9.jpg" loading="lazy" alt="" class="image-103 toy extremeshadow"></a>
