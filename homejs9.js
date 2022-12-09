@@ -229,21 +229,7 @@ localStorage.removeItem("ivote");
 localStorage.removeItem("commentPending");
 })
 
- $(document).ready(function() {
-imageUrl1 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg"
 
-imageUrl2 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg"
-
-imageUrl3 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63874e8dc5d6d0ab37dbed8d_huntdown-home-page.jpg"
-
-imageUrl4 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637643199eebde614e6124c0_oddmar-hd1.jpg"
-
-  $(".abc1").css("background-image", "url(" + imageUrl1 + ")");
-  $(".abc2").css("background-image", "url(" + imageUrl2 + ")");
-  $(".abc3").css("background-image", "url(" + imageUrl3 + ")");
-  $(".abc4").css("background-image", "url(" + imageUrl4 + ")");
-
- });
 //$(".newmobile").addClass("animate__animated")
 //$(".newmobile").addClass("animate__slideInRight")
 
