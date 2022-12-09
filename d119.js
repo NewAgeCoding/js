@@ -40,70 +40,99 @@ is_nav_bar_up = false
 //##################################################
 function loadAll() {
 	
-	$("#best-a1").html(`
-	<a href="https://www.androidshark.com/review/baseball-9" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6283bcc77cd6ba9b10af1b39_baseball-9.jpg" loading="lazy" alt="" class="image-103 toy extremeshadow"></a>
-	`)
+
+	// Latest games
+	setTimeout(function(){
+		$("#latest-a1").html(`
+		<img class="img-responsive dist" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6384f2e3b371c84e4b4f0d35_diablo-oct.jpg" style="width:300px; height:190px; object-fit:cover;">
+		`)
 	
-	$("#latest-a1").html(`
-	<img class="img-responsive dist" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6384f2e3b371c84e4b4f0d35_diablo-oct.jpg" style="width:300px; height:190px; object-fit:cover;">
-	`)
-
-
-	$("#latest-a2").html(`
-	<img class="img-responsive dist" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6384f9dcb497a156020976f1_sonic-octa.jpg" style="width:300px; height:190px; object-fit:cover;">
-	`)
-
 	
-	$("#latest-a3").html(`
-	<img class="img-responsive dist" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6384fb1f535570f7e4c8bb3a_huntdown-octa.jpg" style="width:300px; height:190px; object-fit:cover;">
-	`)
-
+		$("#latest-a2").html(`
+		<img class="img-responsive dist" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6384f9dcb497a156020976f1_sonic-octa.jpg" style="width:300px; height:190px; object-fit:cover;">
+		`)
 	
-	$(".iframey1").html(`
-	<iframe width="100%" height="415" src="https://www.youtube.com/embed/u16GRS2hYnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	`)
-
-	$(".iframey2").html(`
-	<iframe width="100%" height="415" src="https://www.youtube.com/embed/8rLMP-TpjRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	`)
-
-	$(".iframey3").html(`
-	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	`)
-
-
-	$(".iframey4").html(`
-	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	`)
-
-
-	$(".iframey5").html(`
-	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	`)
-
-
-	$(".iframey6").html(`
-	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	`)
-
-	$(".iframey7").html(`
-	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	`)
-
-
-	$(".iframey8").html(`
-	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	`)
-
-
-	$(".iframey9").html(`
-	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	`)
-
+		
+		$("#latest-a3").html(`
+		<img class="img-responsive dist" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6384fb1f535570f7e4c8bb3a_huntdown-octa.jpg" style="width:300px; height:190px; object-fit:cover;">
+		`)
 	
-	$(".iframey10").html(`
-	<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	`)
+	
+	}, 1000)
+
+
+	// Best mobile games
+	setTimeout(function(){
+		$("#best-a1").html(`
+		<a href="https://www.androidshark.com/review/baseball-9" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6283bcc77cd6ba9b10af1b39_baseball-9.jpg" loading="lazy" alt="" class="image-103 toy extremeshadow"></a>
+		`)
+	
+		$("#best-a2").html(`
+		<a href="https://www.androidshark.com/review/good-pizza-great-pizza" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/628394c93aea7120be76e6f8_good-pizza-great-pizza-icon.jpg" loading="lazy" alt="" class="image-102 toy extremeshadow"></a>
+		`)
+	
+		$("#best-a3").html(`
+		<a href="https://www.androidshark.com/review/hill-climb-racing-2" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6283924e64d42c63bbc707ee_hill-climb-racing-2.jpg" loading="lazy" alt="" class="image-104 toy extremeshadow"></a>
+		`)
+	
+	
+		$("#best-a4").html(`
+		<a href="https://www.androidshark.com/review/guardian-tales" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/628286bf97d4ec21f8429556_guardian-tales-icon.jpg" loading="lazy" alt="" class="image-101 toy extremeshadow"></a>
+		`)
+	}, 3000)
+
+
+
+		
+
+	// Iframe
+	setTimeout(function(){
+		$(".iframey1").html(`
+		<iframe width="100%" height="415" src="https://www.youtube.com/embed/u16GRS2hYnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		`)
+
+		$(".iframey2").html(`
+		<iframe width="100%" height="415" src="https://www.youtube.com/embed/8rLMP-TpjRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		`)
+
+		$(".iframey3").html(`
+		<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		`)
+
+
+		$(".iframey4").html(`
+		<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		`)
+
+
+		$(".iframey5").html(`
+		<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		`)
+
+
+		$(".iframey6").html(`
+		<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		`)
+
+		$(".iframey7").html(`
+		<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		`)
+
+
+		$(".iframey8").html(`
+		<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		`)
+
+
+		$(".iframey9").html(`
+		<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		`)
+
+		
+		$(".iframey10").html(`
+		<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		`)
+	}, 5000)
 
 }
 
