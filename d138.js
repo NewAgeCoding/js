@@ -110,17 +110,14 @@ function loadAll() {
 		$("#best-a4").html(`
 		<a href="https://www.androidshark.com/review/guardian-tales" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/628286bf97d4ec21f8429556_guardian-tales-icon.jpg" loading="lazy" alt="" class="image-101 toy extremeshadow"></a>
 		`)
-	}, 3000)
+	}, 4000)
 
 
 
-		
 
-	// Iframe
+	// Sales
 	setTimeout(function(){
 
-
-		// Sales
 		$("#android-sale-1").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6388749e65306f703bb27ed9_The-Enchanted-Worlds.jpg" loading="lazy" alt="" class="saleimg1 glowshadow">`)
 
 		$("#android-sale-2").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887704cb240c5400465808_galaxy-genome.jpg" loading="lazy" sizes="(max-width: 991px) 100vw, 275px" srcset="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887704cb240c5400465808_galaxy-genome-p-500.jpg 500w, https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887704cb240c5400465808_galaxy-genome.jpg 526w" alt="" class="saleimg2 glowshadow">`)
@@ -132,6 +129,15 @@ function loadAll() {
 		$("#android-sale-5").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887f5f65306f10b6b358ac_MechaNika.jpg" loading="lazy" sizes="(max-width: 991px) 100vw, 275px" srcset="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887f5f65306f10b6b358ac_MechaNika-p-500.jpg 500w, https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887f5f65306f10b6b358ac_MechaNika.jpg 526w" alt="" class="saleimg5 glowshadow">`)
 
 		$("#android-sale-6").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6388887be20a482c991a75fd_QuestofWizard.jpg" loading="lazy" sizes="(max-width: 991px) 100vw, 275px" srcset="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6388887be20a482c991a75fd_QuestofWizard-p-500.jpg 500w, https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6388887be20a482c991a75fd_QuestofWizard.jpg 526w" alt="" class="saleimg6 glowshadow">`)
+
+	}, 7000)
+		
+
+	// Iframe
+	setTimeout(function(){
+
+
+		
 
 
 		// New android games iframe
@@ -182,7 +188,7 @@ function loadAll() {
 		`)
 
 
-	}, 7000)
+	}, 9000)
 
 }
 
