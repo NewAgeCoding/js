@@ -5702,9 +5702,9 @@ $(document).on("click", ".nav-linkz", function(){
 			never_close = true
 			$('.pre-gaimz-pc').css("display", "block")
 			$('.pregaimz').css("display", "block")
-		}  else if(namez == "News") {
+		}  else if(namez == "News & Updates") {
 			$('.newzzz').css("display", "block")
-		} else if(namez == "What's Next?"){
+		} else if(namez == "Latest"){
 			$(".latest-games-drop").css("display", "block")
 		} else {
 			$('.pc-games-only').css("display", "block")
