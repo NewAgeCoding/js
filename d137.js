@@ -118,6 +118,23 @@ function loadAll() {
 
 	// Iframe
 	setTimeout(function(){
+
+
+		// Sales
+		$("#android-sale-1").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6388749e65306f703bb27ed9_The-Enchanted-Worlds.jpg" loading="lazy" alt="" class="saleimg1 glowshadow">`)
+
+		$("#android-sale-2").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887704cb240c5400465808_galaxy-genome.jpg" loading="lazy" sizes="(max-width: 991px) 100vw, 275px" srcset="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887704cb240c5400465808_galaxy-genome-p-500.jpg 500w, https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887704cb240c5400465808_galaxy-genome.jpg 526w" alt="" class="saleimg2 glowshadow">`)
+
+		$("#android-sale-3").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/638878b3e20a48d41219827d_dungeon-warfare-gameplay.jpg" loading="lazy" sizes="(max-width: 991px) 100vw, 275px" srcset="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/638878b3e20a48d41219827d_dungeon-warfare-gameplay-p-500.jpg 500w, https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/638878b3e20a48d41219827d_dungeon-warfare-gameplay.jpg 526w" alt="" class="saleimg3 glowshadow">`)
+
+		$("#android-sale-4").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887c86e56bea58cb7586d6_Dark-Rage-g1.jpg" loading="lazy" sizes="(max-width: 991px) 100vw, 275px" srcset="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887c86e56bea58cb7586d6_Dark-Rage-g1-p-500.jpg 500w, https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887c86e56bea58cb7586d6_Dark-Rage-g1.jpg 526w" alt="" class="saleimg4 glowshadow">`)
+
+		$("#android-sale-5").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887f5f65306f10b6b358ac_MechaNika.jpg" loading="lazy" sizes="(max-width: 991px) 100vw, 275px" srcset="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887f5f65306f10b6b358ac_MechaNika-p-500.jpg 500w, https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63887f5f65306f10b6b358ac_MechaNika.jpg 526w" alt="" class="saleimg5 glowshadow">`)
+
+		$("#android-sale-6").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6388887be20a482c991a75fd_QuestofWizard.jpg" loading="lazy" sizes="(max-width: 991px) 100vw, 275px" srcset="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6388887be20a482c991a75fd_QuestofWizard-p-500.jpg 500w, https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6388887be20a482c991a75fd_QuestofWizard.jpg 526w" alt="" class="saleimg6 glowshadow">`)
+
+
+		// New android games iframe
 		$(".iframey1").html(`
 		<iframe width="100%" height="415" src="https://www.youtube.com/embed/u16GRS2hYnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		`)
