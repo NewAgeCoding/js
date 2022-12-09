@@ -58,12 +58,41 @@ function loadAll() {
 		`)
 	
 	
-	}, 1000)
+	}, 2000)
 
 
 	// Best mobile games
 	setTimeout(function(){
 
+		if ($(window).width() > 1000) {
+			console.log("CREATE VID", $(window).width())
+			$("#createVid").html(`
+			<div data-poster-url="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-transcode.mp4,https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="w-background-video w-background-video-atom" style="
+			width: 1016px;
+		"><video id="76dbfba7-d967-e5fa-70ad-4774d7673e4a-video" autoplay="" loop="" style="background-image: url(&quot;https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-poster-00001.jpg&quot;); width: 90%; height: 90%; right: -90%; " muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-transcode.mp4" data-wf-ignore="true"><source src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-transcode.webm" data-wf-ignore="true"></video><noscript><style>
+		  [data-wf-bgvideo-fallback-img] {
+			display: none;
+		  }
+		  @media (prefers-reduced-motion: reduce) {
+			[data-wf-bgvideo-fallback-img] {
+			  position: absolute;
+			  z-index: -100;
+			  display: inline-block;
+			  height: 100%;
+			  width: 100%;
+			  object-fit: cover;
+			}
+		  }</style><img data-wf-bgvideo-fallback-img="true" src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637787af24da19234b82410b_android-shark-splash_87659-poster-00001.jpg" alt=""/></noscript>
+		  <div aria-live="polite" style="display:none;"><button aria-controls="76dbfba7-d967-e5fa-70ad-4774d7673e4a-video" type="button" data-w-bg-video-control="true" class="w-backgroundvideo-backgroundvideoplaypausebutton w-background-video--control"><span hidden=""><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628299f8aa233b83918e24fd_Pause.svg" alt="Pause video"></span><span><img src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628298b20ae0236682d4b87f_Play-24.svg" alt="Play video"></span></button></div></div>
+			`)
+	
+			$('.cta').attr("href", "https://www.androidshark.com")
+	
+			// Score
+			changeScore('#7716ff', 'Platform')
+		} else {
+			console.log("NO VID")
+		}
 		
 		$("#best-a1").html(`
 		<a href="https://www.androidshark.com/review/baseball-9" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6283bcc77cd6ba9b10af1b39_baseball-9.jpg" loading="lazy" alt="" class="image-103 toy extremeshadow"></a>
@@ -81,7 +110,7 @@ function loadAll() {
 		$("#best-a4").html(`
 		<a href="https://www.androidshark.com/review/guardian-tales" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/628286bf97d4ec21f8429556_guardian-tales-icon.jpg" loading="lazy" alt="" class="image-101 toy extremeshadow"></a>
 		`)
-	}, 3000)
+	}, 5000)
 
 
 
@@ -134,7 +163,26 @@ function loadAll() {
 		$(".iframey10").html(`
 		<iframe width="100%" height="415" src="https://www.youtube.com/embed/5LtpihMN-2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		`)
-	}, 5000)
+
+		imageUrl1 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg"
+
+		imageUrl2 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg"
+
+		imageUrl3 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/63874e8dc5d6d0ab37dbed8d_huntdown-home-page.jpg"
+
+		imageUrl4 = "https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637643199eebde614e6124c0_oddmar-hd1.jpg"
+
+		// $(".abc1").css("background-image", "url(" + imageUrl1 + ")");
+		// $(".abc2").css("background-image", "url(" + imageUrl2 + ")");
+		// $(".abc3").css("background-image", "url(" + imageUrl3 + ")");
+		// $(".abc4").css("background-image", "url(" + imageUrl4 + ")");
+
+		   // Change background image of a div by clicking on the button
+		   $(".tor1").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/6376447822f586c553b34d46_diablo-immortal-hd.jpg">`)
+		   $(".tor2").html(`<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/635142753f2a3cd1988b8de8_sonic-g1.jpg">`)
+					 $(".tor3").html(`<img src="https://uploads-ssl.webflow.com/626305d92309c16f65ff1358/62a1d7b1bd16fe33d8a1f8ee_plague-g1.jpg">`)
+							   $(".tor4").html(`<img src="https://uploads-ssl.webflow.com/6262a56df551ed5332d9048e/637643199eebde614e6124c0_oddmar-hd1.jpg">`)
+	}, 12000)
 
 }
 
