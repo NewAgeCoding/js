@@ -1,9 +1,9 @@
 name,country,age,win
-jake,usa,22,12
-janne,korea,16,42
-ola,usa,32,15
-bobby,usa,38,5
-taka,korea,19,33
-chingtok,korea,22,43
-xiny,korea,17,34
-frodo,usa,32,18
+jake,usa,22,0
+janne,korea,16,1
+ola,usa,32,0
+bobby,usa,38,1
+taka,korea,19,1
+chingtok,korea,22,1
+xiny,korea,17,1
+frodo,usa,32,0
