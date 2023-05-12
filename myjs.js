@@ -1741,7 +1741,7 @@ magicsurvival = new Searchg (
     "Story",
     "9",
     "ai",
-    "Free",
+    "Paid",
     fullpath + 'alien-isolation',
     purpzy
   )
