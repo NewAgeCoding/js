@@ -11,7 +11,8 @@ class Searchg {
     this.colorz = colorz;
   }
 }
-fullpath = 'https://www.androidshark.com/review/'
+//fullpath = 'https://www.androidshark.com/review/'
+fullpath = ''
 redzy = "red"
 greenzy = "#00fe00"
 purpzy = "#7716ff"
