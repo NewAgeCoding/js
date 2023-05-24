@@ -2439,3 +2439,166 @@ games = ["t3 arena", "ronin the last samurai", "catalyst black", "brawl stars", 
 "stardew valley",  "tank battle heroes", "vampires fall origins", "oddmar", "pubg mobile",  "mars mars", "kingdom rush", 'cube escape paradox', "call of duty mobile", "ea sports ufc", "day r survival", "snail bob 3", "shadow hunter lost world", "mega tower", "me is king", "defense zone 3", "candy crush soda saga", "space marshals 2", "snow bros classic", "golf king world tour", "hockey all stars","rival gears racing",  "grumpy dwarf", "hello yogurt", "air attack", "air attack 2","age of magic", "basketball battle",  "g switch 3", "johnny trigger", "touchgrind bmx 2", "ski safari 2", "mrbean special delivery", "guardian tales",
 "transmute galaxy battle", "demolition derby 3", "sword of xolan", "horizon chase world tour", "smash hit", "fin ancient mystery", "sea invaders", "apple knight", "real racing 3", "constellation eleven", "xenowerk", "super cat tales 2", "lightning duru", "subway surfers", "orbia", "carx highway racing",  "dragon mania legends", "snake arena", "hill climb racing 2", "jurassic monster world", "tsuki adventure", "walk master", "flaming-core", "simcity buildit",  "leps world 3",  "megabots battle arena", "sky force reloaded", "earn 2 die", "not not", "rail rush", "fancy pants adventures", "kung fu fight arena", "payback 2", "plank", "sky fighters 3d", "stick war legacy", "the frostrune", "real boxing 2", "world of tennis roaring 20s", "bowmasters",  "module td", "32 secs", "traffic racer", "pba bowling challenge", "gunspell 2", "mortal crusade", "angry birds 2", "election year knockout", "rocket league sideswipe", "sugar game", "that level again", "adventure beaks", "dino bash", "forest island", "hidden journey", "mad bullets", "diablo immortal", "clash royale", "legends of runeterra", "teamfight tactics", "clash of clans", "city island 5", "the witchs isle", "1945 air force", "cats are liquid", "space expedition", "sugar game", "onebit adventure", "island empire", "shadowgun legends", "shadowmatic", "tiny bubbles", "tiny robots recharged", "vector", "almora darkosen", "csr racing 2", "doors paradox", "the fishercat", "mystery manor"
 ]
+
+
+!(function (t, e, s, i) {
+  "use strict";
+  function n(e, s) {
+    (this.element = e),
+      (this.settings = t.extend({}, a, s)),
+      (this._defaults = a),
+      (this._name = r),
+      this.init();
+  }
+  var r = "mgGlitch",
+    a = {
+      destroy: !1,
+      glitch: !0,
+      scale: !0,
+      blend: !0,
+      blendModeType: "hue",
+      glitch1TimeMin: 600,
+      glitch1TimeMax: 900,
+      glitch2TimeMin: 10,
+      glitch2TimeMax: 115,
+      zIndexStart: 5
+    };
+  t.extend(n.prototype, {
+    init: function () {
+      this.glitch();
+    },
+    glitch: function () {
+      function e(t, e) {
+        return Math.floor(Math.random() * (e - t + 1)) + t;
+      }
+      function s() {
+        var i = e(10, 1900),
+          n = 9999,
+          a = e(10, 1300),
+          o = 0,
+          h = e(0, 16),
+          f = e(0, 16),
+          d = e(c, l);
+        t(r).css({
+          clip: "rect(" + i + "px, " + n + "px, " + a + "px," + o + "px)",
+          right: f,
+          left: h
+        }),
+          setTimeout(s, d);
+      }
+      function i() {
+        var s = e(10, 1900),
+          n = 9999,
+          c = e(10, 1300),
+          l = 0,
+          f = e(0, 40),
+          d = e(0, 40),
+          m = e(o, h);
+        if (a === !0) var x = (Math.random() * (1.1 - 0.9) + 0.9).toFixed(2);
+        else if (a === !1) var x = 1;
+        t(r)
+          .next()
+          .css({
+            clip: "rect(" + s + "px, " + n + "px, " + c + "px," + l + "px)",
+            left: f,
+            right: d,
+            "-webkit-transform": "scale(" + x + ")",
+            "-ms-transform": "scale(" + x + ")",
+            transform: "scale(" + x + ")"
+          }),
+          setTimeout(i, m);
+      }
+      function n() {
+        var s = e(10, 1900),
+          i = 9999,
+          c = e(10, 1300),
+          l = 0,
+          f = e(0, 40),
+          d = e(0, 40),
+          m = e(o, h);
+        if (a === !0) var x = (Math.random() * (1.1 - 0.9) + 0.9).toFixed(2);
+        else if (a === !1) var x = 1;
+        t(r)
+          .next()
+          .next()
+          .css({
+            clip: "rect(" + s + "px, " + i + "px, " + c + "px," + l + "px)",
+            left: f,
+            right: d,
+            "-webkit-transform": "scale(" + x + ")",
+            "-ms-transform": "scale(" + x + ")",
+            transform: "scale(" + x + ")"
+          }),
+          setTimeout(n, m);
+      }
+      var r = this.element,
+        a = this.settings.scale,
+        c = this.settings.glitch1TimeMin,
+        l = this.settings.glitch1TimeMax,
+        o = this.settings.glitch2TimeMin,
+        h = this.settings.glitch2TimeMax,
+        f = this.settings.zIndexStart;
+      if (this.settings.destroy === !0)
+        (t(r).hasClass("el-front-1") ||
+          t(r).hasClass("front-3") ||
+          t(r).hasClass("front-2")) &&
+          t(".front-1, .front-2, .front-3").remove(),
+          t(".back").removeClass("back");
+      else if (this.settings.destroy === !1) {
+        var d = t(r).clone();
+        if (
+          (d.insertBefore(r).addClass("back").css({ "z-index": f }),
+          this.settings.blend === !0)
+        ) {
+          var d = t(r).clone();
+          d
+            .insertAfter(r)
+            .addClass("front-3")
+            .css({
+              "z-index": f + 3,
+              "mix-blend-mode": this.settings.blendModeType
+            }),
+            n();
+        }
+        if (this.settings.glitch === !0) {
+          var d = t(r).clone();
+          d
+            .insertAfter(r)
+            .addClass("front-2")
+            .css({ "z-index": f + 2 }),
+            t(".back")
+              .next()
+              .addClass("front-1")
+              .css({ "z-index": f + 1 }),
+            s(),
+            i();
+        }
+      }
+    }
+  }),
+    (t.fn[r] = function (t) {
+      return this.each(function () {
+        new n(this, t);
+      });
+    });
+})(jQuery, window, document);
+
+$(function () {
+  $(".glitch").mgGlitch({
+    destroy: false,
+    glitch: true,
+    scale: false,
+    blend: true,
+    blendModeType: "hue",
+    glitch1TimeMin: 40,
+    glitch1TimeMax: 300,
+    glitch2TimeMin: 80,
+    glitch2TimeMax: 100,
+    glitch3TimeMin: 500,
+    glitch3TimeMax: 1500,
+    glitch4TimeMin: 270,
+    glitch4TimeMax: 700,
+    zIndexStart: 2
+  });
+});
+
