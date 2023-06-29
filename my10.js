@@ -3018,6 +3018,7 @@ if(first_block_genre == true){
    // move margin right for 1nd phase
    $(".genre-tab-update1").css("margin-right", "33px")
    $(".strat123").css("visibility", "visible")
+   $(".special111").css("margin-right", "50px")
 
  //</BR> $(".genre-tab-update1").slice(0, 11).show()
  $(".scrolly12345").animate({scrollLeft: "-=1110"}, 200);
