@@ -2998,6 +2998,12 @@ if(first_block_genre == true){
   first_block_genre = false
   $(".move123").css("visibility", "visible")
  //</input> $(".genre-tab-update1").slice(0, 11).hide()
+
+ // move margin right for 2nd phase
+ $(".genre-tab-update1").css("margin-right", "29px")
+ $(".strat123").css("visibility", "hidden")
+
+
  $(".scrolly12345").animate({scrollLeft: "+=810"}, 200);
   $(".spec-hide").css("visibility", "hidden")
   $(".topz1").html(`
@@ -3008,6 +3014,11 @@ if(first_block_genre == true){
 } else {
   first_block_genre = true
   $(".move123").css("visibility", "hidden")
+
+   // move margin right for 1nd phase
+   $(".genre-tab-update1").css("margin-right", "33px")
+   $(".strat123").css("visibility", "visible")
+
  //</BR> $(".genre-tab-update1").slice(0, 11).show()
  $(".scrolly12345").animate({scrollLeft: "-=1110"}, 200);
   $(".spec-hide").css("visibility", "visible")
