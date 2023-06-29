@@ -2996,8 +2996,7 @@ first_block_genre = true
 $(document).on('click', '.goright12', function(){
 if(first_block_genre == true){
   first_block_genre = false
-  $(".moveitr").css("margin-right", "7px")
-  $(".moveitr").css("visibility", "hidden")
+  $(".move123").css("visibility", "visible")
  //</input> $(".genre-tab-update1").slice(0, 11).hide()
  $(".scrolly12345").animate({scrollLeft: "+=810"}, 200);
   $(".spec-hide").css("visibility", "hidden")
@@ -3008,8 +3007,7 @@ if(first_block_genre == true){
   `)
 } else {
   first_block_genre = true
-  $(".moveitr").css("margin-right", "140px")
-  $(".moveitr").css("visibility", "visible")
+  $(".move123").css("visibility", "hidden")
  //</BR> $(".genre-tab-update1").slice(0, 11).show()
  $(".scrolly12345").animate({scrollLeft: "-=1110"}, 200);
   $(".spec-hide").css("visibility", "visible")
@@ -3093,4 +3091,3 @@ $(document).on('click', '.moveupy123', function(){
  
 
 })
-
