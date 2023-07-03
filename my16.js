@@ -3110,11 +3110,6 @@ $(document).on('click', '.moveupy123', function(){
 // Click genre new bar drop down
 isdropdown = false
 
-// $(document).on("click", ".bbb", function(){
-//   $(".section-dropdown").css("display", "block")
-// })
-
-
 $(".section-dropdown").hover(function(){
     console.log("in")
     if(isdropdown == false) {
@@ -3128,4 +3123,15 @@ $(".section-dropdown").hover(function(){
       $('.bbb').trigger('click');
     }  
  
+});
+
+
+// Hover over ahref of section dropdown
+$(".whatg").hover(function(){
+  $(".drop-down-update111").css("display", "block")
+  get_texty = $(this).text()
+  get_texty_small = get_texty.toLowerCase();
+  $("."+get_texty_small+"-blocky").css("display","block")
+}, function(){
+  console.log("out1")
 });
