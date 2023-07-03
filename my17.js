@@ -3129,6 +3129,7 @@ $(".section-dropdown").hover(function(){
 // Hover over ahref of section dropdown
 $(".whatg").hover(function(){
   $(".drop-down-update111").css("display", "block")
+  $( ".content-drop-down" ).children().css( "display", "none" );
   get_texty = $(this).text()
   get_texty_small = get_texty.toLowerCase();
   $("."+get_texty_small+"-blocky").css("display","block")
