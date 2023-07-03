@@ -3105,3 +3105,21 @@ $(document).on('click', '.moveupy123', function(){
  
 
 })
+
+
+// Click genre new bar drop down
+isdropdown = false
+
+$(".section-dropdown").hover(function(){
+    console.log("in")
+    if(isdropdown == false) {
+      isdropdown = true
+    }  
+  }, function(){
+    console.log("out")
+    if(isdropdown == true) {
+      isdropdown = false
+      $(".section-dropdown").css("display", "none")
+    }  
+ 
+});
