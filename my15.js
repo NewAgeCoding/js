@@ -3110,9 +3110,9 @@ $(document).on('click', '.moveupy123', function(){
 // Click genre new bar drop down
 isdropdown = false
 
-$(document).on("click", ".bbb", function(){
-  $(".section-dropdown").css("display", "block")
-})
+// $(document).on("click", ".bbb", function(){
+//   $(".section-dropdown").css("display", "block")
+// })
 
 
 $(".section-dropdown").hover(function(){
@@ -3124,7 +3124,8 @@ $(".section-dropdown").hover(function(){
     console.log("out")
     if(isdropdown == true) {
       isdropdown = false
-      $(".section-dropdown").css("display", "none")
+      //$(".section-dropdown").css("display", "none")
+      $('.bbb').trigger('click');
     }  
  
 });
