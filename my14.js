@@ -3110,6 +3110,11 @@ $(document).on('click', '.moveupy123', function(){
 // Click genre new bar drop down
 isdropdown = false
 
+$(document).on("click", ".bbb", function(){
+  $(".section-dropdown").css("display", "block")
+})
+
+
 $(".section-dropdown").hover(function(){
     console.log("in")
     if(isdropdown == false) {
