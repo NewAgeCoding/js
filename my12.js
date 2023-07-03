@@ -2699,6 +2699,7 @@ $(".sss3").on("change keyup paste", function(){
     whole_char = whole_char.toLowerCase()
 		character_len = $(this).val().length
 		$(".search-resultz").html("")
+    $(".searchplaceholder").css("display", "none")
     if(character_len >= 1) {
     	$(".search-resultz").css("display", "block")
       indexy = character_len 
@@ -2873,6 +2874,7 @@ $(".sss3").on("change keyup paste", function(){
    	 })
     } else {
     	$(".search-resultz").css("display", "none")
+      $(".searchplaceholder").css("display", "block")
     } 
 })
 $("#search-resultz").hover(function(){
