@@ -3136,3 +3136,9 @@ $(".whatg").hover(function(){
 }, function(){
   console.log("out1")
 });
+
+
+$(document).on("click", ".closelisty", function(){
+  $(".drop-down-update111").css("display", "none")
+  $( ".content-drop-down" ).children().css( "display", "none" );
+})
