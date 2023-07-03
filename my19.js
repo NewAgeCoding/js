@@ -3132,13 +3132,14 @@ $(".whatg").hover(function(){
   $( ".content-drop-down" ).children().css( "display", "none" );
   get_texty = $(this).text()
   get_texty_small = get_texty.toLowerCase();
+  $(".closelisty45").css("display","block")
   $("."+get_texty_small+"-blocky").css("display","block")
 }, function(){
   console.log("out1")
 });
 
 
-$(document).on("click", ".closelisty", function(){
+$(document).on("click", ".closelisty45", function(){
   $(".drop-down-update111").css("display", "none")
   $( ".content-drop-down" ).children().css( "display", "none" );
 })
