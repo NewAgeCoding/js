@@ -3127,16 +3127,25 @@ $(".section-dropdown").hover(function(){
 
 
 // Hover over ahref of section dropdown
-$(".whatg").hover(function(){
+
+$(document).on("click", ".whatg", function(){
   $(".drop-down-update111").css("display", "block")
   $( ".content-drop-down" ).children().css( "display", "none" );
   get_texty = $(this).text()
   get_texty_small = get_texty.toLowerCase();
   $(".closelisty45").css("display","block")
   $("."+get_texty_small+"-blocky").css("display","block")
-}, function(){
-  console.log("out1")
-});
+})
+// $(".whatg").hover(function(){
+//   $(".drop-down-update111").css("display", "block")
+//   $( ".content-drop-down" ).children().css( "display", "none" );
+//   get_texty = $(this).text()
+//   get_texty_small = get_texty.toLowerCase();
+//   $(".closelisty45").css("display","block")
+//   $("."+get_texty_small+"-blocky").css("display","block")
+// }, function(){
+//   console.log("out1")
+// });
 
 
 $(document).on("click", ".closelisty45", function(){
