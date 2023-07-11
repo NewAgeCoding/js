@@ -2746,11 +2746,11 @@ $(".sss3").on("change keyup paste", function(){
           <div style="float:left; width: 500px;">
             
           
-            <span style="color: black; font-size: 14px; font-family: roboto;">${t_namez}</span> <BR>    
-            <span style="color: grey; font-size: 12px; font-family: roboto;">${t_genrez}</span> </div>
+            <span class="tNamez" style="color: black; font-size: 14px; font-family: roboto;">${t_namez}</span> <BR>    
+            <span class="tGenrez" style="color: grey; font-size: 12px; font-family: roboto;">${t_genrez}</span> </div>
           
 
-            <div style="float: left; font-size: 13px; color: grey; font-family: roboto; margin-top: 10px; position: relative;
+            <div class="tPaidz" style="float: left; font-size: 13px; color: grey; font-family: roboto; margin-top: 10px; position: relative;
           left: -70px;">${t_paidz}</div>
 
         
@@ -2787,12 +2787,11 @@ $(".sss3").on("change keyup paste", function(){
  <div style="float:left; width: 500px;">
    
  
-   <span style="color: black; font-size: 14px; font-family: roboto;">${t_namez}</span> <BR>    
-   <span style="color: grey; font-size: 12px; font-family: roboto;">${t_genrez}</span> </div>
+   <span class="tNamez">${t_namez}</span> <BR>    
+   <span class="tGenrez">${t_genrez}</span> </div>
  
 
-   <div style="float: left; font-size: 13px; color: grey; font-family: roboto; margin-top: 10px; position: relative;
- left: -70px;">${t_paidz}</div>
+   <div class="tPaidz">${t_paidz}</div>
 
 
  <div class="whatput" style="float:left; width:175px; padding-top:9px;">
@@ -2808,6 +2807,7 @@ $(".sss3").on("change keyup paste", function(){
  color: white;
  margin-right: 45px;
  font-size: 16px;
+ font-weight: bold;
  font-family: roboto;
  margin-top: 6px;">${t_ratingz}</div>
 
@@ -2831,12 +2831,11 @@ $(".sss3").on("change keyup paste", function(){
  <div style="float:left; width: 500px;">
    
  
-   <span style="color: black; font-size: 14px; font-family: roboto; font-weight: 400;">${t_namez}</span> <BR>    
-   <span style="color: grey; font-size: 12px; font-family: roboto; font-weight: 300;">${t_genrez}</span> </div>
- 
+ <span class="tNamez">${t_namez}</span> <BR>    
+ <span class="tGenrez">${t_genrez}</span> </div>
 
-   <div style="float: left; font-size: 13px; color: grey; font-family: roboto; margin-top: 10px; position: relative;
- left: -70px; font-weight: 300;">${t_paidz}</div>
+
+ <div class="tPaidz">${t_paidz}</div>
 
 
  <div class="whatput" style="float:left; width:175px; padding-top:9px;">
